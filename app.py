@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 app = Flask(__name__)
 
 cards = [
@@ -28,7 +28,7 @@ cards = [
     }
 ]
 
-@app.route('/get_cards', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_all_cards():
     return jsonify(cards)
 
