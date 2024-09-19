@@ -966,7 +966,6 @@ runes = [
     {
         "id": 0,
         "name": "Fehu",
-        "url": "https://i.ibb.co/NnrMs9s/pngwing-com-2.png",
         "description": "Reforça os poderes psíquicos; serve como canal de transferência ou projeção de poder; captação dos poderes dos astros para a esfera pessoal; promove a evolução pessoal social e o aumento dos bens.",
         "tree": "Sabugueiro",
         "rock": "Cornalina (boa sorte e fertilidade); Turmalina Verde (transferência de energia para a esfera pessoal); Âmbar (vitalidade)",
@@ -975,7 +974,6 @@ runes = [
     {
         "id": 1,
         "name": "Uruz",
-        "url": "https://i.ibb.co/5LyyBDB/pngwing-com-3.png",
         "description": "Serve para formar e moldar circunstâncias criativamente através da vontade e da inspiração; cura e manutenção da boa saúde física e mental; proporciona situações afortunadas (muito usada como talismã); indução das correntes magnéticas da Terra (as 'Veias do Dragão'); realização da causalidade; conhecimento e compreensão do Self.",
         "tree": "Bétula",
         "rock": "Olho-de-Tigre (traz coragem, confiança e força)",
@@ -1087,7 +1085,7 @@ runes = [
     },
     {
         "id": 15,
-        "name": "Berkano",
+        "name": "Berkana",
         "description": "Renascimento espiritual; fortalecimento dos poderes do segredo; trabalho de encobrimento e proteção; contenção e manutenção de outros poderes; realização da unidade, da harmonia do momento como mãe de todas as coisas; traz idéias à tona no processo criativo.",
         "tree": "Bétula",
         "rock": "Jet ou Azeviche (grande poder de absorção da energia negativa)",
