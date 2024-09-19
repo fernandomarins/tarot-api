@@ -962,9 +962,195 @@ cards = [
     }
 ]
 
+runes = [
+    {
+        "id": 0,
+        "name": "Fehu",
+        "url": "https://ibb.co/bRFkPsP",
+        "description": "Reforça os poderes psíquicos; serve como canal de transferência ou projeção de poder; captação dos poderes dos astros para a esfera pessoal; promove a evolução pessoal social e o aumento dos bens.",
+        "tree": "Sabugueiro",
+        "rock": "Cornalina (boa sorte e fertilidade); Turmalina Verde (transferência de energia para a esfera pessoal); Âmbar (vitalidade)",
+        "color": "Vermelho-claro"
+    },
+    {
+        "id": 1,
+        "name": "Uruz",
+        "description": "Serve para formar e moldar circunstâncias criativamente através da vontade e da inspiração; cura e manutenção da boa saúde física e mental; proporciona situações afortunadas (muito usada como talismã); indução das correntes magnéticas da Terra (as 'Veias do Dragão'); realização da causalidade; conhecimento e compreensão do Self.",
+        "tree": "Bétula",
+        "rock": "Olho-de-Tigre (traz coragem, confiança e força)",
+        "color": "Verde-escuro"
+    },
+    {
+        "id": 2,
+        "name": "Thurisaz",
+        "description": "Defesa ativa; destruição dos inimigos; maldição; o despertar da vontade de agir; preparo para a geração em todos os sentidos; magia para o amor; conhecimento da divisão e da unidade de todas as coisas.",
+        "tree": "Carvalho",
+        "rock": "Ágata (proteção); Hematita (força e coragem para o combate)",
+        "color": "Vermelho-forte"
+    }
+
+    {
+        "id": 3,
+        "name": "Ansuz",
+        "description": "Aumento dos poderes mágicos ativos e passivos; desenvolvimento das habilidades clarividentes, do dom da palavra magnética e convincente, do poder de sugestão e hipnose; aquisição de conhecimento criativo; inspiração e êxtase; comunicação divina; afastamento da morte e do temor através do conhecimento de Óðinn.",
+        "tree": "Freixo",
+        "rock": "Lápis-lázuli (estabelece uma ponte entre o humano e o Divino)",
+        "color": "Azul-escuro"
+    },
+    {
+        "id": 4,
+        "name": "Raidho",
+        "description": "Fortalece as habilidades rituais e sua experiência; acesso ao aviso interior; aumenta a consciência de processos naturais; atua na combinação de ritmos pessoais (internos) e exteriores; obtenção de justiça de acordo com o direito.",
+        "tree": "Carvalho",
+        "rock": "Turquesa (indica o melhor caminho rumo a um objetivo); Jacinto (assegura bons relacionamentos sociais/cooperação)",
+        "color": "Vermelho-claro forte"
+    },
+    {
+        "id": 5,
+        "name": "Kenaz",
+        "description": "Reforço das habilidades em todos os campos; inspiração criativa; maior polarização como instrumento de operações mágicas; operações de regeneração e cura; trabalho para o amor (principalmente sexual).",
+        "tree": "Pinheiro",
+        "rock": "Ágata de Fogo (ligação com as energias criativas da Terra); Quartzo Fumê (estimula e purifica o chacra base ou raiz)",
+        "color": "Vermelho-claro"
+    },
+    {
+        "id": 6,
+        "name": "Gebo",
+        "description": "Magia sexual; iniciação mágica sexual; união mística; aumento dos poderes mágicos; harmonia entre irmãos e amantes; influência mágica nos mundos humano e Divino; aquisição de sabedoria.",
+        "tree": "Freixo ou Olmo",
+        "rock": "Esmeralda (equilíbrio dos aspectos físico, mental e emocional); Jade (pureza e serenidade; desenvolve a capacidade de amar)",
+        "color": "Azul-profundo"
+    },
+    {
+        "id": 7,
+        "name": "Wunjo",
+        "description": "Reforça laços e coesões; invocação de amizade e harmonia; afasta a alienação; felicidade e bem-estar, relacionamento de laços e multiplicidade de relacionamentos de todos os tipos; 'acabamento' em rituais que envolvem runas de significado específico, reforçando-os.",
+        "tree": "Freixo",
+        "rock": "Topázio (traz alegria); Quartzo Rosa (abre o coração)",
+        "color": "Amarelo"
+    },
+    {
+        "id": 8,
+        "name": "Hagalaz",
+        "description": "Integração e balanço (= equilíbrio) de poder; experiência e sabedoria mística; proteção.",
+        "tree": "Teixo ou Freixo",
+        "rock": "Ponta de Quartzo Transparente (concentra a energia em um único ponto; ajuda a focalizar o melhor caminho para romper velhos hábitos ou estabelecer novos)",
+        "color": "Azul-claro"
+    },
+    {
+        "id": 9,
+        "name": "Nautiz",
+        "description": "Superação da angústia; desenvolvimento da vontade mágica; desenvolvimento de poderes espirituais; uso da força da resistência sobre a vontade com propósitos mágicos; inspiração; elimina o ódio e as disputas; ajuda a criar uma necessidade de ordem; proteção; adivinhação.",
+        "tree": "Faia",
+        "rock": "Obsidiana (mostra ao Ego de modo rude e muitas vezes grosseiro o seu devido lugar e o que precisa para mudar e avançar para o próximo passo de desenvolvimento evolutivo)",
+        "color": "Preto"
+    },
+    {
+        "id": 10,
+        "name": "Isa",
+        "description": "Desenvolvimento da concentração e da vontade; contração/redução/parada das forças dinâmicas não desejadas; integração do Ego com o sistema multiversal equilibrado; poder de controle sobre outras criaturas.",
+        "tree": "Amieiro",
+        "rock": "Gema de Sílica ou Diamante Herkimer (liberam tensões emocionais ou áreas congestionadas)",
+        "color": "Preto"
+    },
+    {
+        "id": 11,
+        "name": "Jera",
+        "description": "Fertilidade; criatividade; paz e harmonia; iluminação; realização da natureza cíclica do Multiverso; realização do mistério da circunferência onipresente (= a totalidade de um ciclo); trazer outros conceitos a uma realização material.",
+        "tree": "Carvalho",
+        "rock": "Ágata Musgosa (sintoniza quem a usa com as forças da natureza, ajudando o metódico a entrar em contato com seu lado intuitivo e o criativo a canalizar suas energias de modo mais prático).",
+        "color": "Azul-claro"
+    },
+    {
+        "id": 12,
+        "name": "Eihwaz",
+        "description": "Proteção; defesa; comunicação mística ou religiosa com seres não-humanos; comunicação com outros mundos (principalmente Asgarðr) e as fontes Cósmicas de Urðr, Minir e Hvergelmir; fortalecimento de hamingia (= sorte) e da força vital.",
+        "tree": "Teixo",
+        "rock": "Turmalina Negra (proteção)",
+        "color": "Ouro"
+    },
+    {
+        "id": 13,
+        "name": "Sowilo",
+        "description": "Fortalecimento dos centros psíquicos; aumento da vontade espiritual; orientação pelo caminho; iluminação; vitória e sucesso através da vontade própria.",
+        "tree": "Zimbro ou Junípero",
+        "rock": "Diamante (amplifica a presença da Luz)",
+        "color": "Branco ou Prata"
+    },
+    {
+        "id": 14,
+        "name": "Tiwaz",
+        "description": "A obtenção da justa vitória e sucesso; desenvolvimento da vontade espiritual; desenvolvimento do poder de auto-sacrifício positivo; desenvolvimento da fé em magia e religião.",
+        "tree": "Carvalho",
+        "rock": "Rubi (fornece suprimento extra de energia quando o desânimo ameaça o domínio de uma situação); Bloodstone ou Heliotrópio (aumenta a coragem)",
+        "color": "Vermelho Vibrante"
+    },
+    {
+        "id": 15,
+        "name": "Berkano",
+        "description": "Renascimento espiritual; fortalecimento dos poderes do segredo; trabalho de encobrimento e proteção; contenção e manutenção de outros poderes; realização da unidade, da harmonia do momento como mãe de todas as coisas; traz idéias à tona no processo criativo.",
+        "tree": "Bétula",
+        "rock": "Jet ou Azeviche (grande poder de absorção da energia negativa)",
+        "color": "Verde-escuro"
+    },
+    {
+        "id": 16,
+        "name": "Ehwaz",
+        "description": "Simplificação da viagem da alma através dos mundos e projeção da alma em Midgarðr; realização da unidade fundamental do complexo psicossomático; concede fé e lealdade; fonte de conhecimento profético; projeção do poder mágico; rapidez e velocidade em todos os aspectos.",
+        "tree": "Carvalho ou Freixo",
+        "rock": "Turquesa ou Sardonix (estimula a autoconfiança)",
+        "color": "Branco"
+    },
+    {
+        "id": 17,
+        "name": "Mannaz",
+        "description": "Realização da Estrutura Divina na humanidade; aumento da inteligência, da memória e dos poderes da mente; equilíbrio dos pólos da personalidade; liberação do hugauge – a terceira visão.",
+        "tree": "Azevinho",
+        "rock": "Ametista (realiza a integração do Eu Inferior com o Eu Superior propiciando a individuação)",
+        "color": "Vermelho-Escuro"
+    },
+    {
+        "id": 18,
+        "name": "Laguz",
+        "description": "Orientação em testes iniciatórios difíceis; aumento de vitalidade e força de vida; coleta e reunião de poder mágico amorfo para a formação e estruturação pela vontade; aumento de magnetismo; desenvolvimento da segunda visão.",
+        "tree": "Salgueiro",
+        "rock": "Malaquita (canaliza as forças superiores para finalidades humanitárias. Para os que se encontram em processo de purificação, age como expurgador e espelho para o subconsciente, refletindo na mente consciente o que requer depuração).",
+        "color": "Verde-Profundo"
+    },
+    {
+        "id": 19,
+        "name": "Ingwaz",
+        "description": "Armazenamento e contenção de poder para uso ritual; ritos de fertilidade; meditação passiva; centralização da energia e do pensamento; súbita liberação de energia.",
+        "tree": "Macieira",
+        "rock": "Marfim (afeta a maneira pela qual o indivíduo examina a sua existência, ajudando na concentração, na introspecção e na análise. Devido a sua origem animal, deve ser usado com muito critério – somente se for realmente necessário – ou sua energia se volta contra o mago).",
+        "color": "Amarelo"
+    },
+    {
+        "id": 20,
+        "name": "Dagaz",
+        "description": "Atingir o momento místico através da penetração do segredo do Paradoxo Odínico; recepção da inspiração mística.",
+        "tree": "Abeto Vermelho",
+        "rock": "Fluorita (sintoniza a mente com o espírito, desenvolvendo a compreensão intelectual da verdade, dos conceitos cósmicos da realidade e das leis que regem o universo).",
+        "color": "Azul-Claro"
+    },
+    {
+        "id": 21,
+        "name": "Othala",
+        "description": "Manter a ordem entre companheiros; concentração em interesses comuns em casa, na família e na sociedade; passagem de egocentricidade para clanocentricidade (relativo ao clã); recepção de Poder Divino e sabedoria de gerações passadas; aquisição de riqueza e prosperidade.",
+        "tree": "Espinheiro",
+        "rock": "Madeira Petrificada (traz memórias e talentos de vidas passadas que servirão para despertar o dragão ancestral do poder)",
+        "color": "Amarelo-Escuro"
+    }
+
+]
+
 @app.route('/', methods=['GET'])
 def get_all_cards():
     return jsonify(cards)
+
+@app.route('/runes', methods=['GET'])
+def get_all_cards():
+    return jsonify(runes)
 
 @app.route('/get_card/<int:card_id>', methods=['GET'])
 def get_card(card_id):
