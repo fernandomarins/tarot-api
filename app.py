@@ -298,8 +298,150 @@ cards = [
         "love": "Alegria, amor, magnetismo, empolgação, felicidade em conversar, deseja começar uma relação. Convite para namorar. Início de relacionamento.",
         "obstacle": "Começar algo. Dialogar, Colocar suas ideias em prática.",
         "advice": "Seguir em frente com os projetos, buscar novidades. Apostar em um novo começo."
+    },
+    {
+        "id": 23,
+        "name": "Dois de Paus",
+        "major": False,
+        "description": "Reflexão, adiamento, atraso, imprevistos, empecilhos, necessidade de melhor avaliação ou julgamento. Projetos, planos. Atraso, suspensão causadas por terceiros, não depende apenas do consulente. Tudo é superável. Promessa não cumprida, acordos desfeitos. Planos feitos, programados para futuro. É um símbolo da energia empreendedora e da exploração de novos horizontes. Ele representa a fase inicial de um projeto, onde você está avaliando suas opções e considerando os caminhos possíveis. Podendo necessitar a participação de terceiros (sejam coisas, empresas, ou pessoas). É uma carta que reflete a necessidade de planejar com sabedoria e tomar decisões estratégicas para alcançar seus objetivos, representa o poder da escolha. Na carta observamos o personagem com o 'mundo' nas mãos e buscando o horizonte, indicando que há possibilidades futuras, mas necessitam de tempo e de esforço.",
+        "work": "Imprevistos, atrasos, não apenas pelas atitudes do consulente, mas sim por fatores externos de força maior. Pode representar também um projeto em mente que necessita de empenho e tempo.",
+        "financial": "Obstáculos, demora, impasse, mas sem trazer grandes prejuízos. Planos para futuro.",
+        "love": "Demora para dar uma resposta, necessidade de buscar apoio de outras pessoas, dualidade, espera.",
+        "obstacle": "Demora, atraso, adiamento.",
+        "advice": "Analisar melhor antes de agir, repensar os próprios desejos e atitudes."
+    },
+    {
+        "id": 24,
+        "name": "Três de Paus",
+        "major": False,
+        "description": "Negociação, parceria, união, compreensão, cooperação, permuta, contrato, aliança, empreendimento bem sucedido, caminhos abertos, ajuda de terceiros, expansão, crescimento. Essa carta indica que você está estabelecendo bases sólidas para o futuro e que está tomando as medidas necessárias para garantir o sucesso a longo prazo. O Três de Paus também está relacionado à colaboração e à parceria. O que está ao redor neste momento (podendo ser uma pessoa, ou um trabalho, algo que o consulente se associa) pode servir como alicerce, trazendo segurança para dar os próximos passos. Pode indicar a necessidade de trabalhar em conjunto com outras pessoas para alcançar um objetivo comum. Essa carta representa a importância de compartilhar ideias, recursos e perspectivas para obter sucesso. Na carta observamos o personagem no alto da colina, indicando que já percorreu um bom caminho, e deseja conquistar mais terras. Os bastões simbolizam o apoio externo.",
+        "work": "Evolução, crescimento, sucesso, soluções, parcerias.",
+        "financial": "Influência de terceiros de forma positiva para uma melhoria.",
+        "love": "Parceria, reciprocidade, perdão, dedicação, solução dos obstáculos. Relacionamento podendo ajudar em outras áreas da vida.",
+        "obstacle": "Receber apoio, entrar em acordo.",
+        "advice": "Se organizar e cooperar com o meio social, usar o que se tem ao redor ao seu favor."
+    },
+    {
+        "id": 25,
+        "name": "Quatro de Paus",
+        "major": False,
+        "description": "Festa, casamento, reunião, celebração, união, aliança, descanso, férias, contratos, trocas, reciprocidade, uma boa associação, segurança, boa administração, estabilidade, conquistas, lealdade, confiança. É uma representação de eventos comemorativos, como casamentos, aniversários. Essa carta indica que você alcançou um marco importante em sua jornada e que é hora de comemorar seu progresso, isso lhe dará um maior gás para continuar a jornada. Também representa estabilidade e segurança. Ela sugere que você criou uma base sólida em sua vida e que está desfrutando de um período de harmonia e paz. Junto com cartas de fertilidade (Às de Paus, Imperatriz) pode indicar gravidez.",
+        "work": "Aprovação, conquista, resultado positivo, férias.",
+        "financial": "Segurança, administra bem o que possui. Sem grandes mudanças. Pode haver um episódio de conquista.",
+        "love": "Confiança, sorte, superação, dar um próximo passo no relacionamento, podendo juntar as escovas de dentes. Casamento, contrato.",
+        "obstacle": "Acordo, relacionamento/casamento.",
+        "advice": "Ter paciência e ser compreensivo. Ser leal e agir corretamente."
+    },
+    {
+        "id": 26,
+        "name": "Cinco de Paus",
+        "major": False,
+        "description": "Conflitos, discussões, brigas (que acabam por serem construtivas), divergências de opiniões e ideologias. Obstáculos causados por desentendimentos ou desgaste. Trabalho árduo, esforço, chances, reorganização. Tudo é superável. Simboliza uma situação em que diferentes perspectivas, ideias ou interesses se entrelaçam em conflito. Pode representar discordância, competição ou uma luta pelo poder. Essa carta indica que você pode encontrar resistência ou obstáculos no caminho enquanto busca alcançar seus objetivos. Pode sugerir a necessidade de se afirmar e defender suas opiniões ou posições diante de outros. Também pode representar conflitos internos, quando se deseja fazer algo, mas pelas circunstâncias é necessário fazer algo diferente, gerando resistência. Observamos na carta um ambiente onde cada personagem defende sua ideia, assim causando conflito com os demais. Existem momentos onde não adianta apenas falar, é necessário demonstrar em atitudes aquilo que é defendido.",
+        "work": "Brigas, competições, necessidade de empenho, esforço, precisar se posicionar.",
+        "financial": "Reorganização. Desentendimento com terceiros.",
+        "love": "Conflitos, diferenças, opiniões divergentes, rivalidade.",
+        "obstacle": "Brigas, conflitos, esforço.",
+        "advice": "Entrar em um consenso, ter disposição, se posicionar, expor sua opinião mas evitando discussões."
+    },
+    {
+        "id": 27,
+        "name": "Seis de Paus",
+        "major": False,
+        "description": "Conquista, orgulho, benefício, aprovação, destaque, reconhecimento, promoção, segurança, disciplina, recompensa pelo empenho, sucesso. O tempo de peleja acabou, já pode desfrutar o mel da vitória. Simboliza um período de triunfo e conquista. Indica que você superou desafios e obteve sucesso em seus empreendimentos. Traz uma sensação de orgulho, de reconhecimento, otimismo e está associada à autoconfiança e à liderança. Ela indica que seus esforços e talentos estão sendo reconhecidos e valorizados pelos outros, onde você alcançou um alto nível de competência e habilidade em sua carreira. Pode indicar no lado negativo dificuldade de reconhecer os próprios erros, de dar o braço a torcer, gerando orgulho ou arrogância.",
+        "work": "Conquista, reconhecimento, aplausos, liderança, promoção, aprovação.",
+        "financial": "Recompensa, melhoria financeira através do esforço do passado, conquista.",
+        "love": "Quer ser reconhecido, está confiante. Orgulho, no sentido de não querer dar o braço a torcer. Pode acontecer de se sentir realizado por ter conquistado algo na vida amorosa (uma relação, uma pessoa).",
+        "obstacle": "Orgulho, rigidez, arrogância.",
+        "advice": "Se manter confiante, analisar melhor seus objetivos. Elogiar, dar crédito."
+    },
+    {
+        "id": 28,
+        "name": "Sete de Paus",
+        "major": False,
+        "description": "Perseverança, luta, determinação, pressão vinda de terceiros, recuperação, chances, adversidades, desafios, concorrência, competição. O Sete de Paus simboliza a necessidade de defender suas posições, ideias ou princípios diante de oposição ou desafios. Essa carta indica que você está enfrentando obstáculos ou resistência em seu caminho, mas está disposto a lutar por aquilo em que acredita. Também está relacionada à coragem e à perseverança. Ela representa a força interior necessária para enfrentar os desafios e resistir às pressões externas. Sugere que você estabeleça limites saudáveis e mantenha-se fiel a si mesmo, mesmo que isso signifique se afastar de certas pessoas ou situações. Na carta observamos o personagem lutando, de defendendo as interferências externas, assim como no dia a dia lutamos contra os obstáculos (trânsito, chuva, uma terceira pessoa, uma competição profissional).",
+        "work": "Provas e desafios com resultados positivos. Esforço, pressão, competição, concorrência.",
+        "financial": "Obstáculos e dificuldades que serão superados.",
+        "love": "Adversidades, dificuldades que podem vir do externo ou de terceiros. Pode significar concorrência amorosa. Pode também retratar esforço, perseverança por um objetivo.",
+        "obstacle": "Dificuldades, pressão, concorrência.",
+        "advice": "Persistir nos objetivos, não perder tempo, ter determinação."
+    },
+    {
+        "id": 29,
+        "name": "Oito de Paus",
+        "major": False,
+        "description": "Mudança, conclusão, sucesso, imprevistos por meios diferentes e inusitados. Mudança na rotina trazendo renovação, vantagens, caminhos se abrem e tudo que estava travado flui, progride. Simboliza uma fase de mudança e transformação rápida em sua vida. Essa carta indica que você está experimentando um fluxo de energia intenso e que as coisas estão se movendo rapidamente ao seu redor. Pode representar novas oportunidades surgindo de repente, eventos emocionantes ou avanço significativo em seus projetos e objetivos. O Oito de Paus vem como um removedor de obstáculos. Podendo trazer também mudanças de planos rápidas, surgindo uma nova solução. Pode retratar uma conversa para resolver algo, ou uma mudança de planos que traz melhorias, até uma mudança física (casa, viagem, trabalho), sempre para renovar, melhorar.",
+        "work": "Mudanças repentinas com resultados positivos, soluções, boa comunicação.",
+        "financial": "Necessidade de economia para usar nos próximos meses.",
+        "love": "Conciliação, finalização em consenso, diálogo para trazer mudanças na relação, renovação. Novas oportunidades.",
+        "obstacle": "Mudanças repentinas.",
+        "advice": "Buscar a renovação, novos caminhos, novas soluções."
+    },
+    {
+        "id": 30,
+        "name": "Nove de Paus",
+        "major": False,
+        "description": "Obstáculos, burocracia, atrasos, dúvidas, pendências, hesitação, decepção (com situações, não com pessoas). Prorrogação causada por força maior (como causas naturais). Defensiva, pressão, opressão. Essa carta indica que você passou por situações difíceis e provações, mas conseguiu se manter firme e continuar avançando. Guardando ainda muita bagagem de experiências passadas, onde não deseja reviver. Além disso, o Nove de Paus representa a necessidade de descanso e recuperação após um período de luta. Ele lembra que é importante cuidar de si mesmo, tanto fisicamente quanto emocionalmente, para restaurar suas energias e fortalecer-se para os desafios futuros. Essa carta sugere que você reserve um tempo para descansar, recarregar e se preparar para a próxima etapa de sua jornada.",
+        "work": "Desafios causados por coisas ou pessoas, pendências, demora, opressão, derrota, dificuldades passageiras.",
+        "financial": "Desengano, problemas financeiros passageiros que precisam ser enfrentados.",
+        "love": "Opressão, medo de se entregar por causa de experiências passadas que foram negativas.",
+        "obstacle": "Demora, prorrogação, desafios.",
+        "advice": "Ter responsabilidade nas atitudes, agir com maturidade."
+    },
+    {
+        "id": 31,
+        "name": "Dez de Paus",
+        "major": False,
+        "description": "Sobrecarga, esgotamento, pressão externa (família, trabalho), luta em prol de um objetivo, finalização dos problemas trazendo progresso, dedicação que gera recompensa. O Dez de Paus simboliza a sensação de estar sobrecarregado com múltiplas responsabilidades e obrigações. Essa carta indica que você pode estar carregando um fardo pesado em sua vida, seja físico, emocional ou mental. Pode representar uma fase em que você se sente esgotado e sobrecarregado com tarefas, expectativas ou problemas. Pode indicar a importância de estabelecer limites saudáveis e aprender a dizer 'não' quando necessário. Essa carta lembra que você não precisa assumir todas as responsabilidades e encargos que lhe são impostos. Pode representar um período de finalização de um tempo difícil, cansativo, um período de renovação.",
+        "work": "Sobrecarga por assumir responsabilidades alheias. Reorganização para solucionar problemas.",
+        "financial": "Dívidas que se encerram. Melhorias por causa de uma nova fase. Problemas financeiros que podem ser resolvidos, embora cause desgaste.",
+        "love": "Pressão, necessidade de impor limites. Recomeçar, reestruturar o amor, necessidade de inovar. Independência.",
+        "obstacle": "Finalizar, superar. Situação que pesa, limita, sobrecarrega.",
+        "advice": "Permanecer firme, impor limites."
+    },
+    {
+        "id": 32,
+        "name": "Valete de Paus",
+        "major": False,
+        "description": "Impulso, empolgação, sinceridade, prenúncio de notícias, mensagem, ligação, conversa, chamado. O Valete de Paus representa juventude, entusiasmo, criatividade e potencial. Simboliza o início de uma jornada ou empreendimento criativo. Ele representa um período de energia juvenil, paixão por um novo projeto ou empreendimento. Ele representa a fase de descoberta, aprendizado e crescimento, onde você está experimentando novas ideias e buscando expressar sua criatividade com autoconfiança e autoestima. Esse Valete é o mais sincero e fiel, pode indicar sentimentos puros e verdadeiros. Como arquétipo, pode indicar uma pessoa mais jovem.",
+        "work": "Notícias, propostas, projetos, criatividade, boas ideias, boa comunicação.",
+        "financial": "Início de projetos, novidades, boa perspectiva de ganhos (através de esforço e dedicação).",
+        "love": "Conversas, lealdade, dedicação, sinceridade, empolgação, atração física, persistência, início de projetos, convites.",
+        "obstacle": "Conversar, ser sincero. Iniciar algo.",
+        "advice": "Ajudar, participar, falar. Colocar em práticas projetos, ter iniciativa."
+    },
+    {
+        "id": 33,
+        "name": "Cavaleiro de Paus",
+        "major": False,
+        "description": "Impulso, ousadia, sagacidade, diversão, sensualidade, desejo, renovação, novidade, ganhos inesperados (não apenas no financeiro), capacidade de superar qualquer obstáculo. Pode representar mudança de residência ou viagem (mais longa que precise de avião). O Cavaleiro de Paus representa a busca por aventura, ação e progresso. Ele personifica a energia ardente do fogo, trazendo consigo um senso de entusiasmo e motivação. Essa carta representa um espírito corajoso e empreendedor, chama atenção por onde passa, disposto a enfrentar desafios e buscar novas oportunidades. Ele é ousado, audacioso e não teme correr riscos em busca de suas ambições. Não gosta de ser controlado, gosta de ser livre. Tem dificuldades para assumir compromissos. Gosta da farra. Esta carta indica também popularidade e socialização.",
+        "work": "Destaque, sagacidade, mudanças positivas, soluções, força de vontade, criatividade, novas ideias.",
+        "financial": "Boa sorte nos empreendimentos, ganhos.",
+        "love": "Atração física, vontade, persistência, autoconfiança (cuidado com o excesso de autoconfiança), diversão, sensualidade.",
+        "obstacle": "Mudar, agir. Se divertir. (Pode representar uma pessoa com as características deste Cavaleiro).",
+        "advice": "Se abrir para o novo, não ter medo de nada. Arriscar, socializar, se divertir."
+    },
+    {
+        "id": 34,
+        "name": "Rainha de Paus",
+        "major": False,
+        "description": "Poder pessoal, beleza, autoestima, confiança, empolgação, acordo, troca, sucesso, lucros, amizade, união. Conclusão com sucesso. A Rainha de Paus representa liderança, paixão, criatividade, poder e autoconfiança. Representa a capacidade de manifestar sua visão criativa no mundo. Ela é inspirada, comunicativa, vibrante, gosta de chamar atenção, é percebida por onde passa. É engraçada e gosta de manter o bom humor, mesmo em dias mais tristes. É visionária e encoraja a expressar sua essência. Muito comunicativa e alto astral. Essa carta sugere que você confie em suas habilidades e assuma um papel de liderança. Indica um bom momento para cuidar da auto-estima, mudar aparência física, investir em novidades, inovar.",
+        "work": "Liderança natural, inteligência, boas ideias, êxito, conclusão, conquista.",
+        "financial": "Caminhos abertos, bom fluxo financeiro.",
+        "love": "Paixão, atração física, união feliz e conexão. Autoestima. Visibilidade.",
+        "obstacle": "Autoestima, autoconfiança. Arquétipo (pessoa) com as características desta Rainha.",
+        "advice": "Ser sincero, manter a palavra, não perder o foco. Socializar. Inovar. Cuidar da autoestima. Agir com poder."
+    },
+    {
+        "id": 35,
+        "name": "Rei de Paus",
+        "major": False,
+        "description": "Prosperidade, liderança, acordos, contrato, compromisso, negócios, determinação, autoconfiança, sucesso, nobreza, beleza, autoestima, produtividade, poder. O Rei de Paus personifica a figura do líder carismático e influente. Ele é um indivíduo confiante, corajoso e capaz de tomar decisões firmes. Sua presença é magnética e inspiradora, e ele é apreciado por aqueles ao seu redor. Gosta de chamar atenção e ser elogiado. Está associado à energia do fogo, simbolizando a paixão, a criatividade e a ação. É uma carta que simboliza a confiança em si mesmo, a capacidade de liderar com sabedoria e a habilidade de transformar ideias em realidade. Está associado também a fazer acordos, entrar em consenso com algo ou alguém. Assumir uma responsabilidade, firmar um compromisso.",
+        "work": "Acordos e contratos positivos, liderança, produção, avanço, desenvolvimento, crescimento.",
+        "financial": "Prosperidade, caminhos abertos através de bons negócios.",
+        "love": "Lealdade, amor, assumir compromissos, ideias para futuro, reconciliação, desejo. Desejo por poder e controle.",
+        "obstacle": "Assumir uma responsabilidade, entrar em acordo. Falta de autoconfiança. Pode indicar uma pessoa com as características deste Rei.",
+        "advice": "Seguir em frente, acreditar em si mesmo, nos próprios projetos, ser flexível."
     }
-
 ]
 
 @app.route('/', methods=['GET'])
