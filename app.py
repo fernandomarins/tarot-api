@@ -147,7 +147,7 @@ cards = [
     },
     {
         "id": 11,
-        "name": "Justiça",
+        "name": "A Justiça",
         "major": True,
         "description": "Prudência, cautela, ordem, disciplina, direito, razão. Racionalidade, frieza, decisão, seriedade. Lei, jurídico, regras, legalidade, processos. Representa a necessidade de tomar decisões justas e éticas, levando em consideração todos os aspectos relevantes de uma situação. Necessidade de equilibrar diferentes perspectivas, considerar os prós e contras, e avaliar as consequências de nossas ações. Ação e reação, tudo terá uma consequência. A balança que a Justiça segura simboliza a ponderação, a análise e a consideração de todos os aspectos antes de tomar uma decisão. A espada representa a força e o poder da verdade, que podem ser usados para promover a justiça. Traz a importância da lei kármica da ação e reação, toda ação tem uma consequência. O preto no branco, bateu levou do Universo, fez o certo? Vai levar o certo! Fez o errado? Vai levar o errado.",
         "work": "Cuidado com a conduta, com a postura profissional, e até mesmo a aparência, está sendo observado/avaliado, evite estar em contato com fofocas. Período delicado.",
@@ -186,7 +186,7 @@ cards = [
     },
     {
         "id": 14,
-        "name": "Temperança",
+        "name": "A Temperança",
         "major": True,
         "description": "Harmonia, equilíbrio, longevidade, paciência, autocontrole, adaptação, flexibilidade, nada se realiza a curto prazo, pois necessita calma, tempo e dedicação. A Temperança simboliza uma combinação harmoniosa de elementos opostos. Ela nos lembra da importância de encontrar um equilíbrio entre diferentes aspectos de nossa vida, como trabalho e lazer, razão e emoção, espiritualidade e materialidade. Simboliza a busca pelo equilíbrio e pela moderação em todas as áreas da vida. A importância de encontrar o ponto intermediário, de evitar extremos. Os vasos que o anjo segura representam uma necessidade de equilibrar as energias e emoções em nossa vida. A simbologia dos pés, um dentro d'água e o outro fora, representa o equilíbrio entre o emocional e o racional, como diz o ditado: \"Um pouco de droga e um pouco de salada\". A Temperança também carrega uma energia de renovação, depois da carta 13 da Morte, a Temperança vem como uma folha em branco, uma chance de adicionar coisas novas a uma nova energia. Também carrega a necessidade de ser flexível, moderado e cauteloso. No lado negativo pode trazer preguiça, enrolação, passividade.",
         "work": "Trabalho estável, sem mudanças à vista, cuidado em querer mudanças muito radicais no momento, tudo deve ser mantido como está, caso desejar mudanças, fazer isso aos poucos sem pressa, se planejando e se organizando.",
@@ -264,7 +264,7 @@ cards = [
     },
     {
     "id": 20,
-        "name": "Julgamento",
+        "name": "O Julgamento",
         "major": True,
         "description": "Refazer, curar, evoluir, transcender. Aceitação, libertação, acerto de contas, acerto com o passado, chance de renovação. Na carta do Julgamento, vemos figuras emergindo de caixões enquanto um anjo toca uma trombeta no céu. Isso representa a ideia de uma nova fase, um despertar para uma consciência mais elevada e a necessidade de avaliar nossas ações, escolhas e direcionamentos na vida. Os personagens estão despidos, trazendo a ideia da libertação, redenção. Simboliza a liberação de julgamentos e culpas, deixar de lado os ressentimentos e nos abrir para a cura e a transformação. O ideal é não se culpar e nem tentar achar um culpado, existem episódios que precisam acontecer por uma questão kármica de evolução. Essa carta representa a oportunidade de recomeçar, de se redimir e de buscar a evolução espiritual.",
         "work": "Mudança (podendo ser física, como o local de trabalho, cidade, estado) ou reclassificação profissional, melhoria na ocupação profissional, bom relacionamento com os demais no trabalho.",
@@ -277,7 +277,7 @@ cards = [
     },
     {
         "id": 21,
-        "name": "Mundo",
+        "name": "O Mundo",
         "major": True,
         "description": "Recomeços, realizações, um novo tempo, amadurecimento, momento de mudanças para o crescimento e evolução, conclusões positivas. Simboliza a integração e a harmonia de todas as áreas da vida. Na carta do Mundo, vemos uma figura central em uma mandala, associada ao Ouroboros (simbologia do ciclo da vida, do infinito, onde o início e o fim se conectam, da mudança, do tempo, da evolução) cercada por quatro figuras que representam os quatro elementos: fogo, água, ar e terra. A figura central está em equilíbrio, com uma fita em suas mãos, simbolizando a união e a conexão entre todos os aspectos da vida. Indica um momento da vida onde há um salto na sua evolução pessoal e espiritual. Ela representa a sensação de plenitude e de ter alcançado um estado de equilíbrio e maturidade. Simboliza também a conclusão de um ciclo e o início de um novo. Ela representa a culminação de nossos esforços e experiências, indicando um período de sucesso, reconhecimento e satisfação.",
         "work": "Melhoria profissional, conquista, mudança alcançada, tudo dentro do planejado. Questionamento sobre uma mudança de área para o futuro.",
@@ -287,6 +287,17 @@ cards = [
         "taken_person": "Questiona a relação para uma melhora, pensa em uma possível separação consensual, tem carinho, é sincero. Está muito confiante do que quer.",
         "obstacle": "Recomeçar, agir de forma madura, consciente.",
         "advice": "Ser independente, seja na vida amorosa, profissional ou financeira, focar mais em si mesmo, se importar mais com seus próprios objetivos."
+    },
+    {
+        "id": 22,
+        "name": "Ás de Paus",
+        "major": False,
+        "description": "Produtividade, oportunidades, propostas, fertilidade, vitalidade, união, bons acordos, reconciliação, inícios, criatividade, empolgação, planos que são colocados em prática que influenciam a longo prazo. Terreno fértil para novos projetos. O Ás de Paus indica uma oportunidade para canalizar sua criatividade, iniciar projetos aspirantes e buscar seus objetivos com entusiasmo renovado. Também pode ser interpretado como um sinal para aproveitar ao máximo suas habilidades e talentos únicos. É um momento para expressar-se autenticamente, confiar em sua intuição e seguir sua paixão. Essa carta sugere que você tem o poder criativo dentro de si para iniciar algo grandioso e impactante e está associado à coragem e à ação. Pode indicar convites, propostas, oportunidades.",
+        "work": "Início de projetos, oportunidade de emprego, novidades, melhorias, busca por novas habilidades.",
+        "financial": "Momentos favoráveis, de lucros e caminhos abertos para crescimento.",
+        "love": "Alegria, amor, magnetismo, empolgação, felicidade em conversar, deseja começar uma relação. Convite para namorar. Início de relacionamento.",
+        "obstacle": "Começar algo. Dialogar, Colocar suas ideias em prática.",
+        "advice": "Seguir em frente com os projetos, buscar novidades. Apostar em um novo começo."
     }
 
 ]
