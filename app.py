@@ -1192,6 +1192,15 @@ daemons = [
         "planet": "Vênus",
         "direction": "Norte",
         "pathworking": "Um cavalo correndo\nUm raio caindo\nUma caverna com diamantes nas paredes\nA sensação de Segurança"
+    },
+    {
+        "id": 2,
+        "name": "Vassago",
+        "enn": "Keyan vefa jedan tasa Vassago",
+        "description": "O Terceiro Espírito, chamado Vassago, é descrito como uma Princesa poderosa que compartilha da mesma natureza de Agares, ou seja, ela também responde ao Senhor do Oriente. Sua personalidade é gentil e benevolente, e sua habilidade é declarar tanto as coisas passadas quanto as futuras, além de ser capaz de descobrir todas as coisas ocultas ou perdidas. Vassago é mencionada no Livro do Ofício dos Espíritos como Usagoo, aparecendo como um anjo, \"justo e verdadeiro em tudo o que faz\". Vassago é conhecida por sua capacidade de desvendar segredos e mistérios, e muitos invocam sua ajuda para encontrar objetos perdidos, descobrir a verdade por trás de uma situação ou mesmo para prever o futuro. Seus poderes são particularmente úteis para aqueles que desejam explorar a sabedoria antiga ou investigar questões ocultas e esotéricas. Porém, temos que lembrar que, além de suas habilidades divinatórias e sua forma gentil, Vassago é uma líder forte e governa 26 legiões de espíritos. Aqueles que procuram sua ajuda devem fazê-lo com respeito. Vassago é considerada um espírito extremamente útil para tanto para aqueles que desejam se aprofundar nos mistérios da vida e do universo, como para os que buscam respostas para questões específicas. Seus poderes divinatórios e sua habilidade para descobrir coisas ocultas ou perdidas podem ajudar a esclarecer muitos mistérios e oferecer respostas valiosas para aqueles que a invocam com sinceridade e respeito.",
+        "planet": "Júpiter",
+        "direction": "Oeste",
+        "pathworking": "A beira de um mar calmo, sem ondas\nUm cavalo negro observando\nA noite estrelada\nA sensação de estar sendo avaliado/observado"
     }
 ]
 
@@ -1205,7 +1214,7 @@ def get_all_runes():
 
 @app.route('/daemons', methods=['GET'])
 def get_all_daemons():
-    return jsonify(runes)
+    return jsonify(daemons)
 
 @app.route('/get_card/<int:card_id>', methods=['GET'])
 def get_card(card_id):
