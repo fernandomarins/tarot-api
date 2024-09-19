@@ -1276,12 +1276,21 @@ daemons = [
     },
     {
         "id": 11,
-        "name": "Gusion",
-        "enn": "Secore vesa anet Gusion",
-        "description": "O Décimo Primeiro Espírito em ordem é Gusion, um Duque poderoso e forte. Quando se manifesta, assume a forma de um Xenopilus, uma criatura estranha e mística, parte homem, parte lobo.\n\nEste espírito é conhecido por sua habilidade em contar todas as coisas, sejam elas passadas, presentes ou futuras.\n\nAlém disso, ele é capaz de fornecer o significado e a resolução para todas as perguntas que o mago possa ter.\n\nGusion tem uma habilidade única de conciliar e reconciliar amizades que foram abaladas. Ele é muito respeitado por sua capacidade de trazer paz e harmonia onde antes havia conflito. Além disso, ele é capaz de conceder honra e dignidade àqueles que merecem.\n\nEste poderoso Duque governa sobre mais de 40 legiões de espíritos, o que o torna muito influente no mundo espiritual. Aqueles que desejam convocá-lo devem estar preparados para enfrentar sua imponente presença, ao mesmo tempo majestosa e intimidadora.",
-        "planet": "Mercúrio",
-        "direction": "Sul",
-        "pathworking": "Um cetro de ouro\nUm chicote de couro preto\nUma balança sobre uma mesa\nUma sensação de força"
+        "name": "Sitri",
+        "enn": "Lirach Alora vefa Sitri",
+        "description": "O Décimo Segundo Espírito na ordem é Sitri, um Grande Príncipe com habilidades intrigantes. Ele aparece inicialmente com uma cabeça de Leopardo e asas de um Grifo, mas após receber o comando do Mago, assume a forma humana, sendo muito bonito.\n\nEste Espírito tem o poder de inflamar o amor nos homens e mulheres, despertando paixões intensas e desejo sexual. Se o Mago assim o desejar, Sitri pode fazer com que homens e mulheres se mostrem nus, sendo capaz de influenciar tanto a mente quanto o corpo.\n\nSua capacidade de inspirar a luxúria tem sido frequentemente mencionada, e ele é considerado um especialista em assuntos relacionados ao amor. Ele pode fazer as pessoas sentirem-se atraídas uma pela outra, aumentar a sensualidade e desencadear desejos sexuais.\n\nSitri exerce seu comando sobre 60 legiões de espíritos, sendo um aliado valioso para aqueles que desejam alcançar o sucesso em assuntos amorosos e sensuais. Com a ajuda deste Príncipe, o Mago pode encontrar novos amores ou reacender a chama do relacionamento atual."
+        "planet": "Júpiter",
+        "direction": "Norte",
+        "pathworking": "Uma espada com cabo de ouro e rubis\nUma cama coberta com uma colcha vermelha e dourada\nUm jardim cheio de flores exuberantes\nUma sensação de alegria"
+    },
+    {
+        "id": 12,
+        "name": "Beleth",
+        "enn": "Lirach tasa vefa wehl Beleth",
+        "description": "O Décimo Terceiro Espírito, conhecido como Beleth (também referido como Bileth ou Bilet), é um rei poderoso e temido na hierarquia dos espíritos. Segundo o Ars Goetia, ele é frequentemente descrito como cavalgando em um cavalo de cor clara, acompanhado por trombetas e outros instrumentos musicais, que ecoam em sua presença.\n\nA primeira aparição de Beleth pode ser intimidante e desconcertante, pois sua fúria é perceptível. O Mago, porém, deve permanecer firme na sua intenção, até ele ficar calmo. No entanto, mesmo mostrando seu poder pessoal, o Mago não pode nunca esquecer que Beleth é um Grande Rei e deve ser tratado com cortesia e respeito, como qualquer outro rei ou príncipe que merece homenagens.\n\nA importância deste Senhor Antigo fica clara quando consideramos que, segundo o Pseudomonarchia Daemonum, já citado antes, o filho de Noé, Ham, foi o primeiro a invocá-lo após o dilúvio e, com a ajuda dele, escreveu um livro sobre matemática. Isto já nos indica que ele pode nos ajudar tanto no estudo de ciências exatas quanto no pensamento lógico.\n\nMas o poder principal de Beleth é o de influenciar e manipular o amor entre homens e mulheres, podendo fazer com que eles se apaixonem profundamente. Ele pode conceder os desejos dos magos e magas que o invocam, trazendo assim, felicidade e satisfação aos seus corações.\n\nDe acordo com a tradição, Beleth pertence à Ordem das Potências e tem o controle de 85 legiões de espíritos, o que indica seu status e grandeza na hierarquia espiritual."
+        "planet": "Sol",
+        "direction": "Norte",
+        "pathworking": "Uma espada com cabo de ouro e rubis\nUma cama coberta com uma colcha vermelha e dourada\nUm jardim cheio de flores exuberantes\nUma sensação de alegria"
     },
 ]
 
