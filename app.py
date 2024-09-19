@@ -1174,12 +1174,29 @@ runes = [
 
 ]
 
+daemons = [
+    {
+        "id": 0,
+        "name": "Baal/Bael",
+        "enn": "Ayer Secore On Ca Ba al",
+        "description": "O Primeiro Espírito Principal é um Rei que governa no Oriente, chamado Bael no Ars Goetia, mas aqui usaremos o nome real dele: Baal. Ele é o representante na Terra do Senhor Enki, e o primeiro entre os deuses antigos. Comanda um exército de 66 legiões de espíritos. Sendo poderoso, porém extremamente discreto, Baal pode usar diferentes formas para se comunicar com aqueles que o procuram. Essas aparências podem variar, estando entre elas a de um gato, um sapo ou, a mais clássica: um homem jovem, com características felinas. Quando se comunica, sua voz é grave e rouca. Segundo o Ars Goetia, a ele é atribuída a capacidade de tornar indivíduos invisíveis. \"Ficar invisível\" pode ter diferentes significados dependendo do contexto em que é utilizado. Por exemplo, na esfera espiritual ou sobrenatural, \"ficar invisível\" pode se referir à capacidade de Bael de fazer com que um indivíduo se torne imperceptível aos olhos dos outros seres, sejam eles humanos ou espíritos. Isto pode ser algo bem útil, porque a pessoa pode se camuflar ou se esconder fisicamente, tornando-se difícil de ser localizada. Assim a pessoa pode, por exemplo, transitar por lugares onde a sua presença não está permitida, sem chamar a atenção. Ou pode andar em meio a outras pessoas, sem ser percebida, mas vendo e ouvindo tudo, já que, como ninguém vai notar a sua presença, as pessoas vão falar livremente na sua frente. Baal era conhecido como o Senhor da Fertilidade e das Tormentas. Sendo assim, outra capacidade dele está referida ao bem-estar sexual e à fertilidade, e assim ele pode ser chamado para ajudar, em situações em que esses quesitos estejam com problemas. Finalmente, a capacidade dele de “controlar o clima” pode ser usada para “criar tormentas” e \"calmarias\" na vida das pessoas. Baal é capaz de criar verdadeiro caos na vida de alguém, fazendo com que essa pessoa se sinta dentro de uma tormenta. Ou pode acalmar a realidade de uma pessoa. Isso é um poder e tanto, já que podemos conturbar a vida de alguém, fazendo-o perder o foco, ou podemos criar passividade, fazendo com que a pessoa perca a “garra” competitiva. Baal trabalha muito bem com outros Senhores Antigos, mas tem um vínculo especial com dois deles, Agares e Vassago, dos quais falaremos a continuação.",
+        "planet": "Sol",
+        "direction": "Sul",
+        "pathworking": "O deserto\nO interior de um templo antigo\nUma fonte de água fresca\nA sensação de Segurança"
+
+    }
+]
+
 @app.route('/', methods=['GET'])
 def get_all_cards():
     return jsonify(cards)
 
 @app.route('/runes', methods=['GET'])
 def get_all_runes():
+    return jsonify(runes)
+
+@app.route('/daemons', methods=['GET'])
+def get_all_daemons():
     return jsonify(runes)
 
 @app.route('/get_card/<int:card_id>', methods=['GET'])
