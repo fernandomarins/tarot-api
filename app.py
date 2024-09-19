@@ -1201,7 +1201,88 @@ daemons = [
         "planet": "Júpiter",
         "direction": "Oeste",
         "pathworking": "A beira de um mar calmo, sem ondas\nUm cavalo negro observando\nA noite estrelada\nA sensação de estar sendo avaliado/observado"
-    }
+    },
+    {
+        "id": 3,
+        "name": "Samigina",
+        "enn": "Esta ta et tasa Gamigin",
+        "description": "Samigina é o Quarto Espírito, um Grande Marquês. Ele é conhecido por aparecer em duas formas: inicialmente, como um pequeno cavalo ou asno, e, em seguida, transformando-se em uma forma humana, a pedido do invocador. Sua voz é rouca e imponente.\n\nSamigina governa mais de 30 legiões de inferiores, sendo um líder forte e poderoso. Seu poder é especialmente útil para aqueles que desejam explorar as artes liberais e as ciências. Como um espírito experiente e sábio, ele tem a capacidade de ensinar todas as ciências liberais, tornando-se um guia valioso para aqueles que procuram aprender.\n\nAlém disso, Samigina tem a capacidade de lidar com as almas das pessoas que morreram em pecado, uma habilidade única e poderosa que pode trazer alívio para aqueles que sofrem pela perda de um ente querido. Sua capacidade de ajudar as almas a encontrar a paz e a redenção é altamente valorizada entre aqueles que o invocam.\n\nEmbora seja um espírito poderoso, Samigina também é gentil e benevolente, buscando sempre ajudar aqueles que o invocam com sinceridade e respeito. Aqueles que desejam invocar Samigina devem fazê-lo com a mente clara e a intenção pura, para que possam receber suas bênçãos e orientação em seu caminho.\n\nEm resumo, Samigina é capaz de ensinar todas as ciências liberais e lidar com as almas das pessoas que morreram em pecado. Sua presença pode trazer conforto e orientação para aqueles que buscam sua ajuda, tornando-se um valioso guia em suas jornadas.",
+        "planet": "Lua",
+        "direction": "Oeste",
+        "pathworking": "Um lago sob a luz do luar\nUma casa, com as janelas iluminadas por luz amarela\nUma lareira acesa, com duas cadeiras frente a ela\nUma sensação de tranquilidade"
+    },
+    {
+        "id": 4,
+        "name": "Marbas",
+        "enn": "Renach tasa uberace biasa icar Marbas",
+        "description": "Marbas é o quinto Espírito, um Grande Presidente. Quando invocado, ele aparece inicialmente na forma de um grande leão, mas, a pedido do invocador, pode assumir uma forma humana. Sua aparência é majestosa e intimidadora, refletindo seu poder e autoridade.\n\nMarbas é conhecido por sua habilidade em responder a questões sobre coisas ocultas ou secretas, revelando informações que muitas vezes são desconhecidas. Além disso, ele tem a habilidade de causar doenças e, paradoxalmente, também tem a capacidade de curá-las, sendo um espírito ambivalente que pode ser tanto benéfico quanto maléfico.\n\nAlém disso, Marbas é um espírito altamente habilidoso nas artes mecânicas, dando aos seus invocadores um grande conhecimento e sabedoria em tais áreas. Ele pode ensinar técnicas avançadas e habilidades que podem ajudar a aprimorar a engenharia e outras áreas técnicas.\n\nUma habilidade única de Marbas é a capacidade de transformar homens em outras formas, uma capacidade poderosa que pode ser usada para uma variedade de fins. Ele pode conceder a habilidade de se transformar em outras criaturas, ou mesmo em objetos, abrindo uma ampla gama de possibilidades para seus invocadores. Temos que entender aqui que Marbas não vai mudar o corpo físico da pessoa que o invoca, mas a forma como os outros a veem. Ele pode fazer com que uma pessoa tímida projete a energia de um tigre, e assim seja sentida por aqueles que a rodeiam, impondo medo e respeito. De igual forma pode fazer com que uma pessoa perigosa pareça inofensiva e pacífica.\n\nMarbas governa 36 legiões de espíritos, o que o torna um líder poderoso. Ele é altamente respeitado e sua presença pode trazer grande proteção e orientação para aqueles que o invocam.",
+        "planet": "Mercúrio",
+        "direction": "Leste",
+        "pathworking": "As ruínas de uma cidade no deserto\nPalmeiras que se agitam com o vento\nUm obelisco de pedra dourada, numa praça abandonada\nA sensação de estar alerta"
+    },
+    {
+        "id": 5,
+        "name": "Valefor",
+        "enn": "Keyman vefa tasa Valefor",
+        "description": "O sexto Espírito é Valefor, um Duque Grande e Poderoso que aparece como uma mistura de um leão com um burro. Ele é de natureza alegre e bondosa, e tem a habilidade de incitar paixões e desejos, especialmente em relação ao amor e à luxúria. Ele é capaz de fazer com que as pessoas se apaixonem, mesmo que isso pareça impossível, e é especialmente hábil em influenciar aqueles que estão distantes.\n\nValefar é um espírito altamente habilidoso em todas as formas de arte, incluindo música, dança e poesia, e pode ensinar a seus invocadores as técnicas avançadas nessas áreas. Ele também tem a habilidade de criar músicas e poemas em tempo real, trazendo à vida performances únicas e impressionantes.\n\nAlém disso, Valefar é um espírito muito versátil, capaz de ajudar em muitas tarefas diferentes. Ele é um mestre em lidar com o comércio, e pode ajudar em assuntos relacionados a finanças e negócios. Ele também tem conhecimento em artes mágicas, como a invocação de espíritos e a criação de amuletos e talismãs.\n\nValefar governa 10 legiões de espíritos, o que o torna um líder influente na hierarquia demoníaca. Sua personalidade alegre e habilidades versáteis fazem dele um espírito altamente valorizado por aqueles que o invocam.",
+        "planet": "Vênus",
+        "direction": "Norte",
+        "pathworking": "Uma praia no entardecer\nUma bela mulher passa caminhando e se perde na distância\nAs ondas rompem suavemente na areia dourada\nUma sensação de alegria"
+    },
+    {
+        "id": 6,
+        "name": "Amon",
+        "enn": "Avage Secore Amon ninan",
+        "description": "O Sétimo Espírito é conhecido como Amon, um Marquês poderoso e extremamente severo. Sua aparição é aterrorizante, na forma de um lobo com cauda de serpente, cuja boca é capaz de exalar chamas ardentes. No entanto, sob o comando do Mago, ele pode assumir outras formas, como a de um Homem com grandes e afiados dentes de cão, ou simplesmente um homem com cabeça de corvo.\n\nAmon é capaz de revelar todas as coisas passadas e futuras, fornecendo informações precisas e detalhadas sobre qualquer questão. Ele é especialista em solucionar desentendimentos e reconciliar amizades rompidas.\n\nAmon governa sobre 40 legiões de espíritos, demonstrando sua liderança forte e habilidades para organizar e comandar outras entidades espirituais.\n\nAmon pode ser um aliado extremamente poderoso, tanto pelo seu conhecimento profundo sobre o passado, presente e futuro, assim como pela sua capacidade de resolver conflitos interpessoais.",
+        "planet": "Lua",
+        "direction": "Oeste",
+        "pathworking": "Uma espada com empunhadura brilhante\nUm castelo antigo, de pedra cinza\nUm salão com armaduras nas paredes e uma mesa no centro\nUma sensação de calma"
+    },
+    {
+        "id": 7,
+        "name": "Barbatos",
+        "enn": "Eveta fubin Barbatos",
+        "description": "O Oitavo Espírito é Barbatos, um Grande Duque poderoso e sábio. Ele chega acompanhado por quatro Reis, que realçam seu poder.\n\nEle conhece todos os segredos da natureza e é capaz de conceder poder sobre os animais, fazendo com que eles obedeçam ao comando do invocador. Ele pode ensinar a arte da caça e revelar tesouros escondidos.\n\nBarbatos é também capaz de prever o futuro e revelar as coisas ocultas e secretas. Ele é capaz de reconciliar amigos e inimigos e pode proteger aqueles que o invocam de seus inimigos.\n\nEle é da ordem das Virtudes, e ainda mantém poder sobre uma parte dela. Governa 30 legiões de espíritos. Com sua grande sabedoria e poder, Barbatos é um espírito altamente respeitado e pode ser um aliado muito útil.",
+        "planet": "Vênus",
+        "direction": "Sul",
+        "pathworking": "Uma mesa coberta de planos antigos e uma grande bússola\nPelas janelas abertas entra a luz do sol e dá para ver os telhados\nUma jarra de água fresca com dois copos de vidro\nUma sensação de calma"
+    },
+    {
+        "id": 8,
+        "name": "Paimon",
+        "enn": "Linan tasa jedan Paimon",
+        "description": "O Nono Espírito na hierarquia é Paimon, um Grande Rei. Quando invocado, ele aparece sentado em um dromedário com uma coroa gloriosa em sua cabeça. Acompanhando-o, há uma multidão de espíritos. No primeiro encontro Paimon pode ter uma voz poderosa e ressonante, e a comunicação pode ser difícil. O mago deve então pedir para ele se expressar de forma clara. Ele é realmente um anjo e, antes da queda, seu nome era Umbriel.\n\nPaimon é capaz de ensinar todas as Artes e Ciências, bem como outras coisas secretas e misteriosas. Ele tem o poder de revelar a verdade sobre o mundo material (a Terra), sobre o mundo de emoções que a sustenta e define o mundo anterior (as Águas), bem como muitas coisas sobre o mundo mental (os Ventos). Ele pode também responder qualquer outra coisa que você deseje saber.\n\nPaimon também tem a habilidade de conceder Dignidade e confirmá-la. Ele pode amarrar ou tornar qualquer homem sujeito ao mago, se este assim o desejar.\n\nEle pode dar bons familiares que possuem o conhecimento de todas as artes.\n\nPaimon é da Ordem das Potências e governa sobre 200 legiões de espíritos, sendo alguns deles da Ordem dos Anjos e a outra parte das Potências. No entanto, segundo o Ars Goetia, os espíritos subordinados nem sempre estão presentes, a menos que o mago os chame.",
+        "planet": "Sol/Saturno",
+        "direction": "Leste",
+        "pathworking": "Uma caverna iluminada com tochas\nUm tesouro cheio de ouro e pedras preciosas\nUm lago coberto por uma cúpula com diamantes\nUma sensação de força"
+    },
+    {
+        "id": 9,
+        "name": "Buer",
+        "enn": "Erato on ca Buer anon",
+        "description": "O Nono Espírito na hierarquia é Paimon, um Grande Rei. Quando invocado, ele aparece sentado em um dromedário com uma coroa gloriosa em sua cabeça. Acompanhando-o, há uma multidão de espíritos. No primeiro encontro Paimon pode ter uma voz poderosa e ressonante, e a comunicação pode ser difícil. O mago deve então pedir para ele se expressar de forma clara. Ele é realmente um anjo e, antes da queda, seu nome era Umbriel.\n\nPaimon é capaz de ensinar todas as Artes e Ciências, bem como outras coisas secretas e misteriosas. Ele tem o poder de revelar a verdade sobre o mundo material (a Terra), sobre o mundo de emoções que a sustenta e define o mundo anterior (as Águas), bem como muitas coisas sobre o mundo mental (os Ventos). Ele pode também responder qualquer outra coisa que você deseje saber.\n\nPaimon também tem a habilidade de conceder Dignidade e confirmá-la. Ele pode amarrar ou tornar qualquer homem sujeito ao mago, se este assim o desejar.\n\nEle pode dar bons familiares que possuem o conhecimento de todas as artes.\n\nPaimon é da Ordem das Potências e governa sobre 200 legiões de espíritos, sendo alguns deles da Ordem dos Anjos e a outra parte das Potências. No entanto, segundo o Ars Goetia, os espíritos subordinados nem sempre estão presentes, a menos que o mago os chame.",
+        "planet": "Mercúrio",
+        "direction": "Sul",
+        "pathworking": "Um jardim cheio de plantas e flores\nUma fonte de água cristalina\nUm gazebo de madeira, com trepadeiras, no centro do jardim\nUma sensação de expectativa"
+    },
+    {
+        "id": 10,
+        "name": "Gusion",
+        "enn": "Secore vesa anet Gusion",
+        "description": "O Décimo Primeiro Espírito em ordem é Gusion, um Duque poderoso e forte. Quando se manifesta, assume a forma de um Xenopilus, uma criatura estranha e mística, parte homem, parte lobo.\n\nEste espírito é conhecido por sua habilidade em contar todas as coisas, sejam elas passadas, presentes ou futuras.\n\nAlém disso, ele é capaz de fornecer o significado e a resolução para todas as perguntas que o mago possa ter.\n\nGusion tem uma habilidade única de conciliar e reconciliar amizades que foram abaladas. Ele é muito respeitado por sua capacidade de trazer paz e harmonia onde antes havia conflito. Além disso, ele é capaz de conceder honra e dignidade àqueles que merecem.\n\nEste poderoso Duque governa sobre mais de 40 legiões de espíritos, o que o torna muito influente no mundo espiritual. Aqueles que desejam convocá-lo devem estar preparados para enfrentar sua imponente presença, ao mesmo tempo majestosa e intimidadora.",
+        "planet": "Mercúrio",
+        "direction": "Sul",
+        "pathworking": "Um cetro de ouro\nUm chicote de couro preto\nUma balança sobre uma mesa\nUma sensação de força"
+    },
+    {
+        "id": 11,
+        "name": "Gusion",
+        "enn": "Secore vesa anet Gusion",
+        "description": "O Décimo Primeiro Espírito em ordem é Gusion, um Duque poderoso e forte. Quando se manifesta, assume a forma de um Xenopilus, uma criatura estranha e mística, parte homem, parte lobo.\n\nEste espírito é conhecido por sua habilidade em contar todas as coisas, sejam elas passadas, presentes ou futuras.\n\nAlém disso, ele é capaz de fornecer o significado e a resolução para todas as perguntas que o mago possa ter.\n\nGusion tem uma habilidade única de conciliar e reconciliar amizades que foram abaladas. Ele é muito respeitado por sua capacidade de trazer paz e harmonia onde antes havia conflito. Além disso, ele é capaz de conceder honra e dignidade àqueles que merecem.\n\nEste poderoso Duque governa sobre mais de 40 legiões de espíritos, o que o torna muito influente no mundo espiritual. Aqueles que desejam convocá-lo devem estar preparados para enfrentar sua imponente presença, ao mesmo tempo majestosa e intimidadora.",
+        "planet": "Mercúrio",
+        "direction": "Sul",
+        "pathworking": "Um cetro de ouro\nUm chicote de couro preto\nUma balança sobre uma mesa\nUma sensação de força"
+    },
 ]
 
 @app.route('/', methods=['GET'])
