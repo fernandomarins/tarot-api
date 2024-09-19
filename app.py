@@ -976,7 +976,7 @@ runes = [
         "id": 1,
         "name": "Uruz",
         "power": "Força, persistência, adaptabilidade, mesmo sofrendo ou estando em uma posição não favorável, me mantenho firme e forte. Ligada, também, à saúde física e psíquica, estimulando persistência, coragem, agressividade com sabedoria e discernimento, na hora certa, inteligência e controle da impulsividade/fúria. Ao lidar com alguém indeciso, a Uruz faz com que a pessoa tenha um poder maior de decisão, impulsionando-a a agir e sair da lentidão. Trabalha com a ideia de correr risco para ter mudança. Tira do medo e leva até a sabedoria. Na saúde, trabalha músculos, força, vigor, energia e movimentação geral.",
-        "description": "Serve para formar e moldar circunstâncias criativamente através da vontade e da inspiração; cura e manutenção da boa saúde física e mental; proporciona situações afortunadas (muito usada como talismã); indução das correntes magnéticas da Terra (as 'Veias do Dragão'); realização da causalidade; conhecimento e compreensão do Self.",
+        "magic": "Serve para formar e moldar circunstâncias criativamente através da vontade e da inspiração; cura e manutenção da boa saúde física e mental; proporciona situações afortunadas (muito usada como talismã); indução das correntes magnéticas da Terra (as 'Veias do Dragão'); realização da causalidade; conhecimento e compreensão do Self.",
         "tree": "Bétula",
         "rock": "Olho-de-Tigre (traz coragem, confiança e força)",
         "color": "Verde-escuro"
@@ -985,7 +985,7 @@ runes = [
         "id": 2,
         "name": "Thurisaz",
         "power": "Representa os conflitos, adversidades voltadas à natureza agressiva, problemas internos, psicológicos. Ótima para problemas 'reativos', como ídolo, esquizofrenia, pois possui uma força que retira do interno para o externo, expurgando. É vista como uma runa defesa-ataque, como um contra-feitiço. Lembra um porco-espinho, que seu maior ataque é sua própria defesa. Rompe todas as barreiras, todas as defesas e limpa o crescimento, como um renascimento. Abre o caminho para a pessoa, como uma fênix. Limpa excessos. A mente se submete, se abre e permite a entrada da sua intenção e ação, do consciente ao subconsciente.",
-        "description": "Defesa ativa; destruição dos inimigos; maldição; o despertar da vontade de agir; preparo para a geração em todos os sentidos; magia para o amor; conhecimento da divisão e da unidade de todas as coisas.",
+        "magic": "Defesa ativa; destruição dos inimigos; maldição; o despertar da vontade de agir; preparo para a geração em todos os sentidos; magia para o amor; conhecimento da divisão e da unidade de todas as coisas.",
         "tree": "Carvalho",
         "rock": "Ágata (proteção); Hematita (força e coragem para o combate)",
         "color": "Vermelho-forte"
@@ -994,7 +994,7 @@ runes = [
         "id": 3,
         "name": "Ansuz",
         "power": "Significando boca, representa a comunicação inteligente, efetiva e com qualidade, regida por Mercúrio. Traz a mensagem com mais entonação, mais força e capta a atenção dos ouvintes, prestando atenção. Passa confiança de alguém com autoridade, gerando entrosamento e embasamento no que é dito, com ótima oratória, inteligência, congruência e poder. Ótimo uso para líderes, comunicadores, influenciadores e vendedores. Trabalha a espontaneidade.",
-        "description": "Aumento dos poderes mágicos ativos e passivos; desenvolvimento das habilidades clarividentes, do dom da palavra magnética e convincente, do poder de sugestão e hipnose; aquisição de conhecimento criativo; inspiração e êxtase; comunicação divina; afastamento da morte e do temor através do conhecimento de Óðinn.",
+        "magic": "Aumento dos poderes mágicos ativos e passivos; desenvolvimento das habilidades clarividentes, do dom da palavra magnética e convincente, do poder de sugestão e hipnose; aquisição de conhecimento criativo; inspiração e êxtase; comunicação divina; afastamento da morte e do temor através do conhecimento de Óðinn.",
         "tree": "Freixo",
         "rock": "Lápis-lázuli (estabelece uma ponte entre o humano e o Divino)",
         "color": "Azul-escuro"
@@ -1003,7 +1003,7 @@ runes = [
         "id": 4,
         "name": "Raidho",
         "power": "Representa a roda, o movimento, o correto equilíbrio entre a linha tênue do respeito e até onde podemos ir por alguém, ou seja, sinalizando os limites. A ideia da Raido é termos pleno controle da direção da nossa vida, e não o contrário. É estar no comando e de acordo com nossa vontade. Eu movimento meu destino! Ajuda muito na viagem astral, pois nos impulsiona até o destino. Raido fala sobre movimentação, deslocamento e irmos atrás, sobre o real desejo de atingirmos nossos objetivos através das nossas próprias ações, tendo constância.",
-        "description": "Fortalece as habilidades rituais e sua experiência; acesso ao aviso interior; aumenta a consciência de processos naturais; atua na combinação de ritmos pessoais (internos) e exteriores; obtenção de justiça de acordo com o direito.",
+        "magic": "Fortalece as habilidades rituais e sua experiência; acesso ao aviso interior; aumenta a consciência de processos naturais; atua na combinação de ritmos pessoais (internos) e exteriores; obtenção de justiça de acordo com o direito.",
         "tree": "Carvalho",
         "rock": "Turquesa (indica o melhor caminho rumo a um objetivo); Jacinto (assegura bons relacionamentos sociais/cooperação)",
         "color": "Vermelho-claro forte"
@@ -1012,7 +1012,7 @@ runes = [
         "id": 5,
         "name": "Kenaz",
         "power": "Significa saber. Vinculada ao processo de ensino e aprendizado. Se refere à aproximação, união de membros de uma mesma equipe e mesmo fim. Ajuda também na conexão. Trás congruência e autoridade caso eu a utilize com o intuito de convencer, trás exclusividade e valor, como algo precioso. Também trás clareza, por ser fogo, trás energia, entusiasmo, êxtase, gera emoção e conexão, sendo vista como a melhor opção. Boa também para fascinação. O fogo abre o caminho, queimando obstáculos, ajuda na regeneração do corpo e na resiliência. No campo sexual, traz excitação, tesão e energia alta, liberando os hormônios com maior força (vasodilatação).",
-        "description": "Reforço das habilidades em todos os campos; inspiração criativa; maior polarização como instrumento de operações mágicas; operações de regeneração e cura; trabalho para o amor (principalmente sexual).",
+        "magic": "Reforço das habilidades em todos os campos; inspiração criativa; maior polarização como instrumento de operações mágicas; operações de regeneração e cura; trabalho para o amor (principalmente sexual).",
         "tree": "Pinheiro",
         "rock": "Ágata de Fogo (ligação com as energias criativas da Terra); Quartzo Fumê (estimula e purifica o chacra base ou raiz)",
         "color": "Vermelho-claro"
@@ -1021,7 +1021,7 @@ runes = [
         "id": 6,
         "name": "Gebo",
         "power": "Representa troca, relações harmoniosas e recíprocas, gera conexão verdadeira, empatia e amplia o foco no momento agora, gerando presença e atenção plena. Por ter a energia da reciprocidade, é considerada uma runa de 'pagar o preço', pois eu preciso entregar algo para também receber. Ao ser utilizada em outra pessoa, gera uma boa impressão e interesse, podendo fortalecer o laço já existente ou dando início a um possível relacionamento, não necessariamente amoroso.",
-        "description": "Magia sexual; iniciação mágica sexual; união mística; aumento dos poderes mágicos; harmonia entre irmãos e amantes; influência mágica nos mundos humano e Divino; aquisição de sabedoria.",
+        "magic": "Magia sexual; iniciação mágica sexual; união mística; aumento dos poderes mágicos; harmonia entre irmãos e amantes; influência mágica nos mundos humano e Divino; aquisição de sabedoria.",
         "tree": "Freixo ou Olmo",
         "rock": "Esmeralda (equilíbrio dos aspectos físico, mental e emocional); Jade (pureza e serenidade; desenvolve a capacidade de amar)",
         "color": "Azul-profundo"
@@ -1030,7 +1030,7 @@ runes = [
         "id": 7,
         "name": "Wunjo",
         "power": "Representa o ar, catavento. A ideia de buscar a perfeição, buscar a completude das coisas. Trabalha no sentido da realização, buscando até mesmo, se intencionado, gerar desejos nas pessoas. Sucesso nos planos e metas. Também age no sentido de fazer as coisas acontecerem. Triunfo, vitória, celebração, tranquilidade, alívio e fluidez. Transformação. Na saúde, trabalha a respiração.",
-        "description": "Reforça laços e coesões; invocação de amizade e harmonia; afasta a alienação; felicidade e bem-estar, relacionamento de laços e multiplicidade de relacionamentos de todos os tipos; 'acabamento' em rituais que envolvem runas de significado específico, reforçando-os.",
+        "magic": "Reforça laços e coesões; invocação de amizade e harmonia; afasta a alienação; felicidade e bem-estar, relacionamento de laços e multiplicidade de relacionamentos de todos os tipos; 'acabamento' em rituais que envolvem runas de significado específico, reforçando-os.",
         "tree": "Freixo",
         "rock": "Topázio (traz alegria); Quartzo Rosa (abre o coração)",
         "color": "Amarelo"
@@ -1039,7 +1039,7 @@ runes = [
         "id": 8,
         "name": "Hagalaz",
         "power": "Representa as forças do passado. Lições que não foram bem finalizadas e aprendidas. Experiências de vida das quais não aprendemos a mensagem, problemas e memórias mal resolvidos e pendentes. Problemas familiares, amorosos e de qualquer teor, que de alguma forma seguem ainda presos em nós, comprometendo nossa realidade atual, como crenças, comportamentos e situações que se repetem, gerando caos e 'distúrbios'. É aquela destruição que temos que enfrentar para 'nascermos' novamente, renovados e amadurecidos. Ela trás uma nova consciência, limpando o passado e nos tirando da dor e paralisia. Na saúde: sangue, cortes, ferimentos, pois ameniza a dor. É como, também, uma tocha que ilumina o local, iluminando as sombras.",
-        "description": "Integração e balanço (= equilíbrio) de poder; experiência e sabedoria mística; proteção.",
+        "magic": "Integração e balanço (= equilíbrio) de poder; experiência e sabedoria mística; proteção.",
         "tree": "Teixo ou Freixo",
         "rock": "Ponta de Quartzo Transparente (concentra a energia em um único ponto; ajuda a focalizar o melhor caminho para romper velhos hábitos ou estabelecer novos)",
         "color": "Azul-claro"
@@ -1048,7 +1048,7 @@ runes = [
         "id": 9,
         "name": "Nautiz",
         "power": "Necessidade de autoperdão em relação a alguma experiência que gerou culpa, que hoje nos paralisa, como se fosse uma pendência a se resolver, travando um pouco de dar o passo adiante. Nos mostra que somente com trabalho duro conquistaremos nossos objetivos, fazendo com que valorizemos nossos esforços honestos. Ela remove limitações, desbloqueia e ajuda a desvincular com os erros do passado. Auxilia a nos colocar na frequência gamma, relacionada a clareza mental, insights, ideias e visões de soluções, mas não só em meio a problemas, ela ajuda também a como trabalharmos nossos objetivos, descobrindo novos meios. Relacionada a braços, estresse, obsessões, vícios, questões compulsivas e bloqueios mentais.",
-        "description": "Superação da angústia; desenvolvimento da vontade mágica; desenvolvimento de poderes espirituais; uso da força da resistência sobre a vontade com propósitos mágicos; inspiração; elimina o ódio e as disputas; ajuda a criar uma necessidade de ordem; proteção; adivinhação.",
+        "magic": "Superação da angústia; desenvolvimento da vontade mágica; desenvolvimento de poderes espirituais; uso da força da resistência sobre a vontade com propósitos mágicos; inspiração; elimina o ódio e as disputas; ajuda a criar uma necessidade de ordem; proteção; adivinhação.",
         "tree": "Faia",
         "rock": "Obsidiana (mostra ao Ego de modo rude e muitas vezes grosseiro o seu devido lugar e o que precisa para mudar e avançar para o próximo passo de desenvolvimento evolutivo)",
         "color": "Preto"
@@ -1057,7 +1057,7 @@ runes = [
         "id": 10,
         "name": "Isa",
         "power": "Gelo, congela, acalma. Representa a paralisação, a pausa, cristalização. Tem a ideia de quebrar a resistência para que possamos mudar. É uma runa estática, faz com que algo seja paralisado e concentrado. Ótima para ser usada em bindrunes. Ajuda no foco, concentração e atenção. Ela, utilizada sozinha, nos deixa lerdos. Ajuda a mudar o padrão de comportamento, como por exemplo os pensamentos repetitivos destrutivos que temos no dia a dia, pois os mesmos ficam retornando a todo momento, nos atordoando e estressando. Ajuda na saúde em úlceras, gastrites, ansiedades, crises, nervosismos. Exemplo de combinação: Isa + Inguz = Prende a energia sexual, mantendo-a ativa.",
-        "description": "Desenvolvimento da concentração e da vontade; contração/redução/parada das forças dinâmicas não desejadas; integração do Ego com o sistema multiversal equilibrado; poder de controle sobre outras criaturas.",
+        "magic": "Desenvolvimento da concentração e da vontade; contração/redução/parada das forças dinâmicas não desejadas; integração do Ego com o sistema multiversal equilibrado; poder de controle sobre outras criaturas.",
         "tree": "Amieiro",
         "rock": "Gema de Sílica ou Diamante Herkimer (liberam tensões emocionais ou áreas congestionadas)",
         "color": "Preto"
@@ -1066,7 +1066,7 @@ runes = [
         "id": 11,
         "name": "Jera",
         "power": "Plantio e colheita. Justiça, recompensa pelos feitos. Indica que tudo são ciclos, fluxos e etapas, movimentos. Ligada à fertilidade da colheita, relacionada ao que fiz pela vida, recebendo meu 'karma' pelas minhas ações. Lembra que minhas ações possuem consequências e ninguém foge disso. Ótimo uso para quando precisamos que a justiça seja feita e com mais velocidade, precisão. Também é finalizações de etapas e ciclos, mas ao mesmo tempo, abre uma nova etapa para o '2° round'.",
-        "description": "Fertilidade; criatividade; paz e harmonia; iluminação; realização da natureza cíclica do Multiverso; realização do mistério da circunferência onipresente (= a totalidade de um ciclo); trazer outros conceitos a uma realização material.",
+        "magic": "Fertilidade; criatividade; paz e harmonia; iluminação; realização da natureza cíclica do Multiverso; realização do mistério da circunferência onipresente (= a totalidade de um ciclo); trazer outros conceitos a uma realização material.",
         "tree": "Carvalho",
         "rock": "Ágata Musgosa (sintoniza quem a usa com as forças da natureza, ajudando o metódico a entrar em contato com seu lado intuitivo e o criativo a canalizar suas energias de modo mais prático).",
         "color": "Azul-claro"
@@ -1075,7 +1075,7 @@ runes = [
         "id": 12,
         "name": "Eihwaz",
         "power": "Indica uma necessidade de pausa em prol de um conflito emocional que precisa ser resolvido. Nos faz entender que devemos correr o risco, nos posicionarmos assertivamente sem ficarmos mornos, paralisados na dúvida, em cima do muro. Além disso, ótimo símbolo para que resolvamos uma situação complicada estagnada. Proporciona sabedoria, clareza e reconhecer o caminho certo, sem ilusões e distrações. De volta ao centro.",
-        "description": "Proteção; defesa; comunicação mística ou religiosa com seres não-humanos; comunicação com outros mundos (principalmente Asgarðr) e as fontes Cósmicas de Urðr, Minir e Hvergelmir; fortalecimento de hamingia (= sorte) e da força vital.",
+        "magic": "Proteção; defesa; comunicação mística ou religiosa com seres não-humanos; comunicação com outros mundos (principalmente Asgarðr) e as fontes Cósmicas de Urðr, Minir e Hvergelmir; fortalecimento de hamingia (= sorte) e da força vital.",
         "tree": "Teixo",
         "rock": "Turmalina Negra (proteção)",
         "color": "Ouro"
@@ -1084,7 +1084,7 @@ runes = [
         "id": 13,
         "name": "Sowilo",
         "power": "Símbolo do Sol, da energia. Fala sobre a luz, a verdade, o divino, o sucesso. Intenção elevada, poder, reconhecimento do eu interior no processo de evolução. Ilumina muito em momentos de busca do desenvolvimento pessoal. Passa insights, orientações, clarezas. Vigor, saúde e disposição. Empodera nossas qualidades e personalidade, mas também ilumina o oculto, logo, nossos problemas e sombras. Tira fora toda dúvida, sombra, mentiras, enganações e autosabotagem.",
-        "description": "Fortalecimento dos centros psíquicos; aumento da vontade espiritual; orientação pelo caminho; iluminação; vitória e sucesso através da vontade própria.",
+        "magic": "Fortalecimento dos centros psíquicos; aumento da vontade espiritual; orientação pelo caminho; iluminação; vitória e sucesso através da vontade própria.",
         "tree": "Zimbro ou Junípero",
         "rock": "Diamante (amplifica a presença da Luz)",
         "color": "Branco ou Prata"
@@ -1093,7 +1093,7 @@ runes = [
         "id": 14,
         "name": "Tiwaz",
         "power": "Runa do Guerreiro. Usada muito pelos vikings nas espadas e em suas guerras para conquistar uma vitória justa, honesta e merecida. Ela fala muito sobre uma atitude, uma força mais impulsiva, 'obrigando' a sair da energia da inércia e passividade. Coragem, determinação, correr riscos e enfrentar seus maiores medos. 'Sem dúvida, terei minha vitória! Botarei a cara à tapa'. Faz ir além, mesmo cansado, sem forças, dando 101% de esforço. Como é de essência espiritual, nos faz ir além do material. A 'guerra' tem que ser grandiosa e não superficial. A Tiwaz pode ser vista como um anjo espiritual, fortalecendo e evitando a queda dos seus protegidos. No comportamento, passa a imagem de alguém imponente, com poder, respeito e até certo temor. Autoridade, hierarquia, importância. Alfa. Saúde: mãos, dedos, articulações, ossos, força no passe magnético e energia.",
-        "description": "A obtenção da justa vitória e sucesso; desenvolvimento da vontade espiritual; desenvolvimento do poder de auto-sacrifício positivo; desenvolvimento da fé em magia e religião.",
+        "magic": "A obtenção da justa vitória e sucesso; desenvolvimento da vontade espiritual; desenvolvimento do poder de auto-sacrifício positivo; desenvolvimento da fé em magia e religião.",
         "tree": "Carvalho",
         "rock": "Rubi (fornece suprimento extra de energia quando o desânimo ameaça o domínio de uma situação); Bloodstone ou Heliotrópio (aumenta a coragem)",
         "color": "Vermelho Vibrante"
@@ -1102,7 +1102,7 @@ runes = [
         "id": 15,
         "name": "Berkana",
         "power": "Energia feminina, emotiva, sensitiva, acolhedora e introspectiva. Nutre, zela, abraça e acolhe, lembrando muito uma mãe. Possui a energia da fertilidade, sendo ótima para projetos, manter a constância, gerar novas ideias e levar adiante, dando atenção aos detalhes. Diminui preocupações, ansiedades, ajuda na sensibilidade, traz acolhimento, emotividade e influencia muito no início e fim de ciclos, pois entende a hora certa de tudo. Na saúde, ótima em uso geral.",
-        "description": "Renascimento espiritual; fortalecimento dos poderes do segredo; trabalho de encobrimento e proteção; contenção e manutenção de outros poderes; realização da unidade, da harmonia do momento como mãe de todas as coisas; traz idéias à tona no processo criativo.",
+        "magic": "Renascimento espiritual; fortalecimento dos poderes do segredo; trabalho de encobrimento e proteção; contenção e manutenção de outros poderes; realização da unidade, da harmonia do momento como mãe de todas as coisas; traz idéias à tona no processo criativo.",
         "tree": "Bétula",
         "rock": "Jet ou Azeviche (grande poder de absorção da energia negativa)",
         "color": "Verde-escuro"
@@ -1111,7 +1111,7 @@ runes = [
         "id": 16,
         "name": "Ehwaz",
         "power": "Cavalo de asas de Odin. Potência, velocidade e astúcia. Representa a força da inspiração para ir além, ultrapassando a dificuldade de uma maneira de cima, pelas asas representando a consciência elevada divina. Mais do que tudo, é movimento, então nos ajuda em todos os sentidos. O cavalo é transporte e o único animal capaz de nos fazer alcançar todos os planos, logo, ótima para viagem astral. Muito usada para visitar o passado e limpar aquilo que está pendente, nos paralisando aqui no hoje. Na saúde, ótima para costas e pernas.",
-        "description": "Simplificação da viagem da alma através dos mundos e projeção da alma em Midgarðr; realização da unidade fundamental do complexo psicossomático; concede fé e lealdade; fonte de conhecimento profético; projeção do poder mágico; rapidez e velocidade em todos os aspectos.",
+        "magic": "Simplificação da viagem da alma através dos mundos e projeção da alma em Midgarðr; realização da unidade fundamental do complexo psicossomático; concede fé e lealdade; fonte de conhecimento profético; projeção do poder mágico; rapidez e velocidade em todos os aspectos.",
         "tree": "Carvalho ou Freixo",
         "rock": "Turquesa ou Sardonix (estimula a autoconfiança)",
         "color": "Branco"
@@ -1120,7 +1120,7 @@ runes = [
         "id": 17,
         "name": "Mannaz",
         "power": "Humanidade. Empatia, compaixão, conexão verdadeira, persuasão e humildade. Corta o ego, a arrogância e a mentira da superioridade. Traz a humildade e simplicidade de volta, olhando 'reto' para as pessoas. Equilibra a empatia, nos amadurece e ajuda nas curas e desenvolvimento pessoal. Por ser uma runa voltada ao convívio social, à humanidade, ela é ótima para o verdadeiro rapport, gerando uma ótima impressão e aumentando nosso valor social, tendo mais influência, presença e persuasão.",
-        "description": "Realização da Estrutura Divina na humanidade; aumento da inteligência, da memória e dos poderes da mente; equilíbrio dos pólos da personalidade; liberação do hugauge – a terceira visão.",
+        "magic": "Realização da Estrutura Divina na humanidade; aumento da inteligência, da memória e dos poderes da mente; equilíbrio dos pólos da personalidade; liberação do hugauge – a terceira visão.",
         "tree": "Azevinho",
         "rock": "Ametista (realiza a integração do Eu Inferior com o Eu Superior propiciando a individuação)",
         "color": "Vermelho-Escuro"
@@ -1129,7 +1129,7 @@ runes = [
         "id": 18,
         "name": "Laguz",
         "power": "Água, emoção, abertura e vulnerabilidade. Purificação, limpeza, sensibilidade e ampliação de magnetismo e intuição, ajudando a 'digerir' as situações dolorosas que paralisam. Comunica a ideia de movimentação, ir a algum lugar, fazendo com que as coisas fluam para estarem onde devem. Também é símbolo de flexibilidade, pois a água se adapta a qualquer ambiente. Está conectada, também, à lua, que a mesma é água, nos ajudando a passar por todas as fases da vida, inclusive nossa parte sombria, acessando nossos sentimentos e emoções, soltando tudo que é tóxico.",
-        "description": "Orientação em testes iniciatórios difíceis; aumento de vitalidade e força de vida; coleta e reunião de poder mágico amorfo para a formação e estruturação pela vontade; aumento de magnetismo; desenvolvimento da segunda visão.",
+        "magic": "Orientação em testes iniciatórios difíceis; aumento de vitalidade e força de vida; coleta e reunião de poder mágico amorfo para a formação e estruturação pela vontade; aumento de magnetismo; desenvolvimento da segunda visão.",
         "tree": "Salgueiro",
         "rock": "Malaquita (canaliza as forças superiores para finalidades humanitárias. Para os que se encontram em processo de purificação, age como expurgador e espelho para o subconsciente, refletindo na mente consciente o que requer depuração).",
         "color": "Verde-Profundo"
@@ -1138,7 +1138,7 @@ runes = [
         "id": 19,
         "name": "Ingwaz",
         "power": "Energia masculina da fertilidade, voltada ao masculino. Ajuda com impulsionamento das coisas, dando mais força, potência e velocidade, ajudando a fazer acontecer através da energia sexual. Tesão, excitação, libido, vontade, auto confiança, poder dominante, fogo, expansão e iniciar. Gera muito movimento e é excelente também para o campo sexual/amoro.",
-        "description": "Armazenamento e contenção de poder para uso ritual; ritos de fertilidade; meditação passiva; centralização da energia e do pensamento; súbita liberação de energia.",
+        "magic": "Armazenamento e contenção de poder para uso ritual; ritos de fertilidade; meditação passiva; centralização da energia e do pensamento; súbita liberação de energia.",
         "tree": "Macieira",
         "rock": "Marfim (afeta a maneira pela qual o indivíduo examina a sua existência, ajudando na concentração, na introspecção e na análise. Devido a sua origem animal, deve ser usado com muito critério – somente se for realmente necessário – ou sua energia se volta contra o mago).",
         "color": "Amarelo"
@@ -1147,7 +1147,7 @@ runes = [
         "id": 20,
         "name": "Dagaz",
         "power": "Representa o novo dia, o amanhecer, a renovação e a transição para o novo início. Associada ao elemento Ar, trás ideias e insights, organizando nosso mental para termos clareza. Tudo aquilo que precisa ser finalizado, será; a Dagaz trás a força que não temos, o impulso que precisamos para passar por uma dificuldade que nos paralisa. Representa a luz do fim do túnel, a mudança drástica e nos devolve o controle da própria vida. Fim do negativo para o positivo tomar conta.",
-        "description": "Atingir o momento místico através da penetração do segredo do Paradoxo Odínico; recepção da inspiração mística.",
+        "magic": "Atingir o momento místico através da penetração do segredo do Paradoxo Odínico; recepção da inspiração mística.",
         "tree": "Abeto Vermelho",
         "rock": "Fluorita (sintoniza a mente com o espírito, desenvolvendo a compreensão intelectual da verdade, dos conceitos cósmicos da realidade e das leis que regem o universo).",
         "color": "Azul-Claro"
@@ -1156,7 +1156,7 @@ runes = [
         "id": 21,
         "name": "Othala",
         "power": "Busca contato direto com a ancestralidade, como padrões de herança, com o intuito de fazer a mudança nas pessoas. Trabalha muito com os traços genéticos e familiares, ajudando a reconhecer o que de fato é nosso e o que herdamos da linhagem ancestral, como padrões e sistemas, nos dando consciência, discernimento e libertação para vivermos nossa individualidade no hoje. Autenticidade, personalidade, consciência, ressignificação, lembranças e memórias. Conexão com o tempo passado. Muitas vezes, essa ruptura precisa acontecer, mesmo que de forma drástica. A morte (renovação) vem e o novo toma espaço. Sacrifícios. Ótima, também, para resgatarmos traços positivos de herança emocional familiar, conhecendo mais sobre nossa família e aperfeiçoando o autoconhecimento, nos proporcionando maturidade e evolução.",
-        "description": "Manter a ordem entre companheiros; concentração em interesses comuns em casa, na família e na sociedade; passagem de egocentricidade para clanocentricidade (relativo ao clã); recepção de Poder Divino e sabedoria de gerações passadas; aquisição de riqueza e prosperidade.",
+        "magic": "Manter a ordem entre companheiros; concentração em interesses comuns em casa, na família e na sociedade; passagem de egocentricidade para clanocentricidade (relativo ao clã); recepção de Poder Divino e sabedoria de gerações passadas; aquisição de riqueza e prosperidade.",
         "tree": "Espinheiro",
         "rock": "Madeira Petrificada (traz memórias e talentos de vidas passadas que servirão para despertar o dragão ancestral do poder)",
         "color": "Amarelo-Escuro"
