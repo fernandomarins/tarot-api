@@ -987,8 +987,7 @@ runes = [
         "tree": "Carvalho",
         "rock": "Ágata (proteção); Hematita (força e coragem para o combate)",
         "color": "Vermelho-forte"
-    }
-
+    },
     {
         "id": 3,
         "name": "Ansuz",
@@ -1149,7 +1148,7 @@ def get_all_cards():
     return jsonify(cards)
 
 @app.route('/runes', methods=['GET'])
-def get_all_cards():
+def get_all_runes():
     return jsonify(runes)
 
 @app.route('/get_card/<int:card_id>', methods=['GET'])
