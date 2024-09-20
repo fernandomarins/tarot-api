@@ -1779,22 +1779,22 @@ daemons = [
         "pathworking": "Uma redoma de vidro, cheia de um líquido brilhante\nUm circuito montado numa placa, sobre uma mesa\nUm grande laboratório, cheio de coisas novas e antigas\nUma sensação de conhecimento"
     },
     {
-          "id": 67,
-          "name": "Belial",
-          "enn": "Lirach Tasa Vefa Wehl Belial",
-          "description": "O sexagésimo oitavo espírito é Belial, um poderoso e majestoso Rei que governa sobre 50 legiões de espíritos. Ele é uma entidade impressionante, que aparece na forma de dois anjos deslumbrantes sentados em uma carruagem flamejante. Sua voz graciosa e sedutora pode atrair até mesmo os mais desconfiados. Belial tem uma reputação de ter sido um dos mais dignos anjos antes de sua queda, mesmo acima de Miguel e outras figuras celestiais. Ele aparece no Antigo Testamento de várias formas, e uma das mais interessantes é a referência aos 'filhos de Belial', o que o coloca imediatamente numa posição de destaque entre os Shedim. Tanto pelas aparições no Antigo Testamento quanto pela descrição dada no Ars Goetia da sua forma física, ele pertence claramente ao terceiro grupo dos Shedim, os Anjos Caídos. Entre suas habilidades, Belial é capaz de facilitar o contato com pessoas importantes, o que pode ser muito útil para aqueles que buscam avançar em suas carreiras ou influenciar figuras poderosas. Além disso, ele é capaz de conseguir o favor de amigos e inimigos, ajudando aqueles que o convocam a resolver conflitos e alcançar seus objetivos de maneira mais eficaz. Belial também é conhecido por conceder excelentes familiares, companheiros mágicos que ajudam e protegem o mago em sua jornada. Ao se unir a um familiar concedido por Belial, o mago pode esperar ajuda e orientação em seus empreendimentos mágicos.",
-          "planet": "Sol",
-          "direction": "Sul",
-          "pathworking": "Um soldado com armadura prateada, com um chicote na mão\nUma muralha com altas torres\nA porta da fortaleza, aberta para nós\nUma sensação de força"
+        "id": 67,
+        "name": "Belial",
+        "enn": "Lirach Tasa Vefa Wehl Belial",
+        "description": "O sexagésimo oitavo espírito é Belial, um poderoso e majestoso Rei que governa sobre 50 legiões de espíritos. Ele é uma entidade impressionante, que aparece na forma de dois anjos deslumbrantes sentados em uma carruagem flamejante. Sua voz graciosa e sedutora pode atrair até mesmo os mais desconfiados. Belial tem uma reputação de ter sido um dos mais dignos anjos antes de sua queda, mesmo acima de Miguel e outras figuras celestiais. Ele aparece no Antigo Testamento de várias formas, e uma das mais interessantes é a referência aos 'filhos de Belial', o que o coloca imediatamente numa posição de destaque entre os Shedim. Tanto pelas aparições no Antigo Testamento quanto pela descrição dada no Ars Goetia da sua forma física, ele pertence claramente ao terceiro grupo dos Shedim, os Anjos Caídos. Entre suas habilidades, Belial é capaz de facilitar o contato com pessoas importantes, o que pode ser muito útil para aqueles que buscam avançar em suas carreiras ou influenciar figuras poderosas. Além disso, ele é capaz de conseguir o favor de amigos e inimigos, ajudando aqueles que o convocam a resolver conflitos e alcançar seus objetivos de maneira mais eficaz. Belial também é conhecido por conceder excelentes familiares, companheiros mágicos que ajudam e protegem o mago em sua jornada. Ao se unir a um familiar concedido por Belial, o mago pode esperar ajuda e orientação em seus empreendimentos mágicos.",
+        "planet": "Sol",
+        "direction": "Sul",
+        "pathworking": "Um soldado com armadura prateada, com um chicote na mão\nUma muralha com altas torres\nA porta da fortaleza, aberta para nós\nUma sensação de força"
     },
     {
-          "id": 68,
-          "name": "Decarabia",
-          "enn": "Hoesta noc ra Decarabia secore",
-          "description": "O sexagésimo nono Espírito é Decarabia, um Grande Marquês que aparece inicialmente na forma de uma estrela em um pentagrama. No entanto, após a ordem do exorcista, ele assume uma forma humana para atender às necessidades do invocador. Seu poder reside em sua capacidade de desvendar informações sigilosas, podendo ver coisas que passam despercebidas para as pessoas, assim como as aves que voam alto e enxergam tudo o que se passa na Terra, Decarabia é capaz de vislumbrar o interior dos corações e ações das pessoas e fornecer essas informações ao mago que o convoca. Ele também pode reconhecer e avisar o mago sobre as 'pedras preciosas', ou seja, os elementos únicos e muito importantes na vida de alguém, ou na vida do próprio mago. Além disso, Decarabia é hábil em indicar quais elementos da vida do mago são importantes e merecem ser reforçados ou projetados, para que o mago possa seguir o caminho mais adequado em sua jornada. Com sua sabedoria e visão apurada, ele pode ajudar o mago a tomar decisões importantes e alcançar seus objetivos de maneira mais eficaz.",
-          "planet": "Lua",
-          "direction": "Leste",
-          "pathworking": "Uma luz intensa\nA escuridão profunda do céu numa noite sem lua\nUma clareira no bosque, iluminada por uma fogueira\nA sensação de ser observado"
+        "id": 68,
+        "name": "Decarabia",
+        "enn": "Hoesta noc ra Decarabia secore",
+        "description": "O sexagésimo nono Espírito é Decarabia, um Grande Marquês que aparece inicialmente na forma de uma estrela em um pentagrama. No entanto, após a ordem do exorcista, ele assume uma forma humana para atender às necessidades do invocador. Seu poder reside em sua capacidade de desvendar informações sigilosas, podendo ver coisas que passam despercebidas para as pessoas, assim como as aves que voam alto e enxergam tudo o que se passa na Terra, Decarabia é capaz de vislumbrar o interior dos corações e ações das pessoas e fornecer essas informações ao mago que o convoca. Ele também pode reconhecer e avisar o mago sobre as 'pedras preciosas', ou seja, os elementos únicos e muito importantes na vida de alguém, ou na vida do próprio mago. Além disso, Decarabia é hábil em indicar quais elementos da vida do mago são importantes e merecem ser reforçados ou projetados, para que o mago possa seguir o caminho mais adequado em sua jornada. Com sua sabedoria e visão apurada, ele pode ajudar o mago a tomar decisões importantes e alcançar seus objetivos de maneira mais eficaz.",
+        "planet": "Lua",
+        "direction": "Leste",
+        "pathworking": "Uma luz intensa\nA escuridão profunda do céu numa noite sem lua\nUma clareira no bosque, iluminada por uma fogueira\nA sensação de ser observado"
     },
     {
         "id": 69,
@@ -1825,6 +1825,78 @@ daemons = [
     }
 ]
 
+sangoma = {
+    "bones": [
+        {
+            "name": "Aliança",
+            "description": "Relações amorosas"
+        },
+        {
+            "name": "Botão",
+            "description": "Todo tipo de relação, seja de negócios, amizades, se estiver junto da aliança é relação muito forte"
+        },
+        {
+            "name": "Crucifixo",
+            "description": "Espiritualidade, caminhos, impedimentos na vida, sofrimentos, tudo depende de qual parte que cai ou qual osso tá junto"
+        },
+        {
+            "name": "Concha",
+            "description": "Estado emocional, relações amorosas, mas na pessoa em si, não o casal"
+        },
+        {
+            "name": "Chave",
+            "description": "Projetos, negócios, casas, carro, tudo que tange o comércio, caminhos, possiblidade, oportunidades"
+        },
+        {
+            "name": "Moeda",
+            "description": "Prosperidade, negócios, comércio, dívidas que precisam ser pagas (se cai moeda, crucifixo e caveira, é dívida pra espírito)"
+        },
+        {
+            "name": "Dado",
+            "description": "Mundo dos prazeres, noitadas, bares, da sorte. Tem também o simbolismo numerológico. Pode falar de tempo"
+        },
+        {
+            "name": "Fícula da sorte",
+            "description": "Família, estrutura, boa sorte, riquezas, heranças, tudo o que cai sobre os ombros de uma pessoa"
+        },
+        {
+            "name": "4 búzios",
+            "description": "Para fazer confirmações"
+        },
+        {
+            "name": "Prego",
+            "description": "Ataques mágicos e etc"
+        },
+        {
+            "name": "Dente de cavalo",
+            "description": "Soberania, proteção, liberdade financeira"
+        },
+    ],
+    "buzios": [
+        {
+            "name": "4 abertos",
+            "description": "Aláfia"
+        },
+        {
+            "name": "3 abertos e 1 fechado",
+            "description": "Não"
+        },
+        {
+            "name": "2 abertos e 2 fechados",
+            "description": "Sim"
+        },
+        {
+            "name": "1 aberto e 3 fechados",
+            "description": "Sim, mas falta algo"
+        },
+        {
+            "name": "4 fechados",
+            "description": "Perigo, negativo ou algo que Exú quer dizer como alerta"
+        }
+    ]
+}
+
+
 @app.route('/', methods=['GET'])
 def get_all_cards():
     return jsonify(cards)
@@ -1836,6 +1908,10 @@ def get_all_runes():
 @app.route('/daemons', methods=['GET'])
 def get_all_daemons():
     return jsonify(daemons)
+
+@app.route('/sangoma', methods=['GET'])
+def get_all_bones():
+    return jsonify(sangoma)
 
 @app.route('/get_card/<int:card_id>', methods=['GET'])
 def get_card(card_id):
