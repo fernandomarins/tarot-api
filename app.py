@@ -1381,6 +1381,96 @@ daemons = [
         "planet": "Vênus",
         "direction": "Sul",
         "pathworking": "Uma grande fogueira, com chamas laranjas e amarelas\nUm castelo, iluminado pelas labaredas\nA sala de armas do castelo, com uma lareira onde arde um fogo azul\nUma sensação de agitação"
+    },
+    {
+        "id": 23,
+        "name": "Naberius",
+        "enn": "Eyan tasa volocur Naberius",
+        "description": "O Vigésimo Quarto Espírito é Naberius, um Marquês extremamente valente. Ele costuma se manifestar na forma de uma garça negra, e quando fala, sua voz é rouca. Ele tem um talento especial para tornar os homens astutos em todas as artes e ciências, principalmente na arte da retórica. Isto faz com que a pessoa que o chama termine desenvolvendo astúcia e perspicácia, sabendo como usar o conhecimento ao seu favor, e ganhando a capacidade de persuadir e influenciar aqueles ao seu redor.\n\nAlém disso, Naberius é capaz de restaurar dignidades e honras que foram perdidas, trazendo de volta a reputação e prestígio que uma pessoa possa ter perdido ao longo do tempo. Seu conhecimento é vasto e sua sabedoria é profunda, permitindo que ele forneça informações precisas e úteis sobre diversos assuntos.\n\nNaberius governa 19 legiões de espíritos, cada um sob seu comando. Esses espíritos são poderosos e são capazes de realizar tarefas incríveis, desde a realização de feitiços até a execução de ordens específicas. Eles são leais a Naberius e trabalham incansavelmente para cumprir seus desejos.",
+        "planet": "Lua",
+        "direction": "Leste",
+        "pathworking": "A vista desde o alto de uma montanha\nUm céu azul claro, com uma águia voando\nUm lugar com grama para sentar-se e observar a paisagem\nUma sensação de dignidade"
+    },
+    {
+        "id": 24,
+        "name": "Glasya-Labolas",
+        "enn": "Elan tepar secore on ca Glasya-Lobolas",
+        "description": "O Vigésimo Quinto Espírito é conhecido como Glasya-Labolas, e é considerado um dos mais poderosos Presidentes e Condes dentre todos os espíritos no Ars Goetia. Sua aparência é descrita como sendo a de um cão com asas de grifo, o que lhe confere uma presença intimidadora e imponente.\n\nEste espírito é conhecido por sua habilidade excepcional em facilitar o aprendizado de todas as artes e ciências com grande rapidez, o que o torna um guia valioso para aqueles que buscam conhecimento e sabedoria. Entretanto, é importante destacar que ele também é conhecido por incitar à violência, ao derramamento de sangue e ser o instigador de todos os assassinatos.\n\nAlém disso, Glasya-Labolas é capaz de ensinar coisas passadas, presentes e futuras, o que o torna um aliado poderoso para aqueles que buscam respostas sobre o passado, o presente ou o futuro. Se desejado, ele também pode causar amor entre amigos e inimigos, e conceder invisibilidade (um poder semelhante ao de Baal).\n\nEle exerce o controle sobre 36 legiões de espíritos. É importante ter em conta que Glasya-Labolas é um dos demônios goéticos mais perigosos, e seu poder só deve ser invocado com extrema cautela e respeito. Sua natureza violenta e suas habilidades únicas o tornam um espírito temido, mas também muito respeitado.",
+        "planet": "Mercúrio/Marte",
+        "direction": "Sul",
+        "pathworking": "A noite escura, com estrelas\nUma árvore enorme, com galhos frondosos na altura da cabeça de um homem\nUma lâmpada acesa, iluminando sob a árvore\nUma sensação de agressividade"
+    },
+    {
+        "id": 25,
+        "name": "Bune",
+        "enn": "Wehl melan avage Bune Tasa",
+        "description": "O vigésimo sexto espírito da demonologia é Bune, também conhecido como Bim. Este Duque é considerado forte, grande e poderoso, e sua aparência é descrita, no Ars Goetia, como a de um dragão com três cabeças. Sua voz é alta e graciosa, o que produz respeito e admiração.\n\nMas segundo o ocultista Carroll Runyon, o nome Bune está associado à cidade de Buto, que estava dedicada ao culto da deusa Wadget. Ela costumava ser representada, entre outras formas, por uma cobra com asas, uma bela mulher usando uma toca de serpente com asas, ou uraeus (o que daria a impressão de ser uma serpente com 3 cabeças), ou uma mulher com cabeça de serpente. Pela sua capacidade metamórfica, aqui a representamos como uma princesa com um dragão nas suas costas.\n\nBune tem comando sobre os espíritos dos mortos, fazendo com que esses espíritos se reúnam em seus sepulcros ou se desloquem até o lugar que ela indicar, o que a transforma numa aliada espetacular para magos e magas que trabalhem com necromancia. Além disso, ela tem o poder de conceder riquezas a um homem ou mulher, e de torná-lo sábio e eloquente. Se invocada corretamente, Bune é capaz de fornecer respostas verdadeiras às demandas e perguntas de seus invocadores.\n\nBune governa 30 legiões de espíritos, o que significa que ela tem um grande exército sob seu comando e pode ser uma poderosa aliada para aqueles que buscam sua ajuda. Em resumo, Bune é uma Duquesa muito respeitada, principalmente pelas suas capacidades necromânticas, e é capaz de conceder muitos benefícios para aqueles que buscam sua ajuda. No entanto, é importante lembrar que sua natureza é feroz e seu poder é inigualável, pois tem a força de um dragão.",
+        "planet": "Vênus",
+        "direction": "Terra",
+        "pathworking": "Um cetro de ouro com esmeraldas\nUm chicote de couro\nUm cômodo antigo, com poltronas na beira de uma piscina\nUma sensação de realeza e altivez"
+    },
+    {
+        "id": 26,
+        "name": "Ronove",
+        "enn": "Wehl melan avage Bune Tasa",
+        "description": "Ronove é o vigésimo sétimo espírito do Ars Goetia, e é considerado um Marquês e Grande Conde. Sua aparência é descrita como a de um monstro, mas não se deixe enganar pela sua aparência aterrorizante, Ronove é um espírito que pode ser extremamente útil para aqueles que o invocam.\n\nUma das habilidades de Ronove é o seu conhecimento da Arte da Retórica, que ele ensina de forma excepcional. Ou seja, pode fazer com que quem o invoca termine tendo uma habilidade muito grande de convencer outras pessoas. Além disso, ele tem o poder de conceder bons servidores aos seus invocadores, o que pode ser muito útil para aqueles que precisam de assistência em suas tarefas diárias.\n\nRonove também é capaz de facilitar o aprendizado de línguas, tornando-o uma escolha popular entre aqueles que procuram se comunicar melhor com pessoas de outras culturas. Além disso, ele tem a habilidade de conseguir favores com amigos ou inimigos, o que pode ser extremamente útil em situações políticas ou comerciais.\n\nEste Marquês tem sob seu comando 19 legiões de espíritos, o que significa que ele tem uma grande quantidade de poder sob seu controle. Ronove é um espírito com muitas habilidades e pode ser útil em uma variedade de situações. Sua capacidade de ensinar a Arte da retórica, conceder bons servidores e facilitar o aprendizado de línguas, bem como conseguir favores com amigos ou inimigos, faz dele uma escolha popular entre aqueles que buscam seus poderes.",
+        "planet": "Vênus",
+        "direction": "Terra",
+        "pathworking": "Uma grande biblioteca, com prateleiras de madeira escura\nUma mesa com uma bússola\nVárias cadeiras de madeira com assento de veludo vermelho\nUma sensação de sabedoria"
+    },
+    {
+        "id": 27,
+        "name": "Berith",
+        "enn": "Hoath redar ganabal Berith",
+        "description": "O Vigésimo Oitavo Espírito em Ordem é Berith, um Duque poderoso, grande e terrível. Berith, ou Baal Berith, o 'Senhor da Aliança' como era conhecido antigamente, foi o Elohim de Sechem, no reino de Canaã. Quando aparece, ele assume a forma de um soldado vestindo roupas vermelhas, montado em um cavalo vermelho e usando uma coroa de ouro em sua cabeça.\n\nSua voz é clara e sutil, e ele é capaz de dar respostas verdadeiras sobre o Passado, Presente e Futuro. Ou seja, ele pode nos dar informação sobre o que aconteceu, para entender por que estamos na situação atual, pode analisar essa situação atual e pode nos indicar os possíveis futuros a partir do presente.\n\nBerith é um especialista em finanças e é capaz de ensinar como ter sucesso em qualquer empreendimento financeiro. Ele é conhecido por ter o 'toque de Midas', o que significa que ele pode transformar tudo em ouro. Se alguém estiver procurando por sucesso financeiro, Berith é o espírito a invocar.\n\nAlém disso, Berith é capaz de dar dignidades e confirmá-las. Isso é especialmente útil para aqueles que procuram uma promoção ou algum tipo de reconhecimento, tanto público como privado.\n\nBerith é capaz de comandar 26 legiões de espíritos e é conhecido por ser um Duque Poderoso, Grande e Terrível. Se você precisar de ajuda financeira ou busca por reconhecimento, Berith é um espírito poderoso e capaz de ajudar.",
+        "planet": "Vênus",
+        "direction": "Sul",
+        "pathworking": "Uma caverna cheia de objetos de ouro\nUma mesa com uma jarra com água e um copo\nUma fala com cabo dourado\nA sensação de ser esperto"
+    },
+    {
+        "id": 29,
+        "name": "Forneus",
+        "enn": "Senan okat ena Forneus ayer",
+        "description": "Forneus é um dos poderosos espíritos que compõem a hierarquia da Goetia, ocupando a posição de trigésimo espírito. Ele é descrito como um grande Marquês, que aparece na forma de um monstro marinho, capaz de infundir temor em qualquer um que o veja. Uma das habilidades mais notáveis de Forneus é seu poder de ensinar e tornar os homens incrivelmente sábios na arte da retórica. Ele é capaz de conceder aos seus invocadores a habilidade de falar com confiança e persuasão, tornando-os capazes de convencer outras pessoas e fazer valer seus pontos de vista. Isso os torna eficazes em debates e discursos, podendo levá-los a uma posição de destaque em qualquer ambiente social ou profissional.\n\nAlém disso, Forneus também é conhecido por facilitar o aprendizado e a compreensão de línguas e culturas estrangeiras. Ele pode ajudar seus invocadores a dominar idiomas e conhecer melhor outras culturas, o que pode ser útil em negócios internacionais e viagens para o exterior. Outra habilidade impressionante de Forneus é a de fazer com que alguém seja amado por seus inimigos, bem como por seus amigos. Isso pode ser muito útil em situações de conflito, ajudando a evitar brigas desnecessárias e alcançar acordos pacíficos.\n\nPor fim, Forneus governa sobre 29 legiões de espíritos, sendo parte da Ordem dos Tronos e parte da Ordem dos Anjos. Isso significa que ele é capaz de convocar uma grande quantidade de entidades espirituais para ajudar em suas tarefas e conceder seus poderes e habilidades aos seus invocadores. Em resumo, Forneus é um espírito poderoso e sábio que pode conceder aos seus invocadores habilidades valiosas na arte da retórica, línguas e cultura estrangeira, além de ser capaz de gerar empatia e amor entre amigos e inimigos. Se você está procurando aprimorar suas habilidades de comunicação ou buscando harmonia em relacionamentos pessoais ou profissionais, Forneus pode ser o espírito certo para invocar.",
+        "planet": "Lua",
+        "direction": "Oeste",
+        "pathworking": "Uma biblioteca antiga\nDuas xícaras com chá quente sobre uma mesa\nUm vaso de flores com uma rosa preta\nUma sensação de calma"
+    },
+    {
+        "id": 30,
+        "name": "Foras",
+        "enn": "Kaymen vefa Foras",
+        "description": "O Trigésimo Primeiro Espírito é Foras, um Presidente poderoso e impressionante que aparece na forma de um homem forte e imponente. Seus poderes são vastos e variados, incluindo a capacidade de ensinar aos homens como conhecer as virtudes de todas as ervas e pedras preciosas. Além disso, Foras é um mestre das artes da lógica e da ética, oferecendo ensinamentos valiosos sobre esses temas em todas as suas partes.\n\nMas as habilidades de Foras não param por aí. Se desejado, ele pode tornar uma pessoa 'invisível' (ou seja, que outras pessoas não reparem na presença dela), permitindo que vivam por muito tempo e sejam eloquentes. Essa habilidade é extremamente útil em situações de conflito, pois permite à pessoa evitar seus inimigos e passar despercebida. Além disso, a 'invisibilidade' pode ser usada para obter informações valiosas e circular entre outras pessoas sem ser notado.\n\nForas também é capaz de descobrir tesouros e recuperar coisas perdidas. Se você perdeu algo valioso ou deseja encontrar algo que está escondido, invocar Foras pode ser a solução. Ele governa sobre 29 legiões de espíritos, tornando-se um líder poderoso e capaz de realizar feitos incríveis.\n\nSe você deseja aprender as artes da lógica e da ética, obter conhecimento sobre ervas e pedras preciosas, recuperar tesouros perdidos ou simplesmente se tornar invisível e obter vantagens táticas, Foras é o espírito que deve invocar.",
+        "planet": "Mercúrio",
+        "direction": "Norte",
+        "pathworking": "Uma espada de ferro\nUm barco antigo navegando entre as ondas\nO camarote do capitão, com duas xícaras de café numa mesa\nUma sensação de força"
+    },
+    {
+        "id": 31,
+        "name": "Asmoday",
+        "enn": "Ayer avage Aloren Asmoday aken",
+        "description": "O Trigésimo Segundo Espírito é conhecido como Asmoday ou Asmodai, e é um poderoso e grande Rei Goético. Sua aparência é impressionante, com três cabeças - uma de touro, uma de homem e outra de carneiro. Além disso, ele tem a cauda de uma serpente e seus pés são como os de um réptil. Asmoday aparece montado em um dragão infernal e empunha uma lança com um estandarte.\n\nAsmoday é a versão moderna do Shedim Asmodeus, que faz várias aparições nos textos bíblicos. Segundo textos cabalísticos antigos, ele é filho do Rei Davi com a Shedim Agrat. Entre as mais conhecidas está a sua atuação como adversário no Livro de Tobias e sua aparição no Talmud, quando substitui Salomão durante um tempo, sem que ninguém perceba. Algumas fontes ligam Asmoday a Aeshma, o antigo Senhor da Ira do panteão persa.\n\nAsmoday é um espírito muito sábio e conhecedor, capaz de ensinar diversas áreas de conhecimento humano. Ele é especialmente habilidoso na Aritmética, Astronomia, Geometria e outros trabalhos manuais. Além disso, ele é capaz de responder com veracidade e precisão a qualquer demanda.\n\nOutro grande poder de Asmoday é sua capacidade de conceder invencibilidade. Isso é especialmente útil para aqueles que enfrentam situações difíceis ou perigosas, pois ele pode oferecer proteção e segurança. Asmoday é também um guardião de tesouros, e é capaz de mostrar onde esses tesouros estão escondidos. Isso é especialmente útil quando se depara com algo que se considera valioso, mas que não se pode tomar posse imediatamente. Com a ajuda de Asmoday, é possível manter esses tesouros seguros e protegidos.\n\nPor fim, Asmoday governa 72 legiões de espíritos inferiores. Sua grande sabedoria e poder são muito respeitados pelos espíritos que ele comanda, e aqueles que invocam seu nome podem esperar obter sua ajuda e orientação em muitas áreas da vida.",
+        "planet": "Sol",
+        "direction": "Leste",
+        "pathworking": "Um escudo e uma lança\nUma mesa e dois bancos\nUm deserto de areias douradas, com grandes palmeiras\nUma sensação de alegria"
+    }
+    {
+        "id": 32,
+        "name": "Gaap",
+        "enn": "Deyan Anay Tasa Gaap",
+        "description": "O trigésimo terceiro espírito é conhecido como Gaap, um grande presidente e um príncipe poderoso entre os espíritos. Este ser místico tem a capacidade de se manifestar quando o sol está em algum dos signos do sul, assumindo uma forma humana. Em suas aparições, ele precede quatro grandes e poderosos reis, como um guia para conduzi-los em seus caminhos.\n\nO ofício de Gaap é tornar as pessoas insensíveis ou ignorantes, mas ele também pode ensinar filosofia para torná-las conhecedoras de diferentes temas. Essa habilidade se aplica a todas as ciências, o que faz dele um espírito de grande sabedoria e conhecimento.\n\nGaap tem o poder de causar amor ou ódio, mas esses sentimentos não são estáveis, já que ele é um Shedim (demônio antigo) de extremos opostos. Uma forma de aplicar esse poder seria fazer com que uma pessoa se apaixonasse loucamente por alguém que não a corresponderá ou que odeie alguém sem motivo aparente.\n\nAlém disso, Gaap tem a capacidade de libertar familiares da custódia de outros magos. Este é um poder muito forte, já que estaríamos retirando servidores do controle de outro mago, o que pode ser perigoso, por vários motivos.\n\nGaap pode também responder com veracidade e precisão sobre as coisas passadas, presentes e futuras. Isso faz dele um espírito de grande utilidade para aqueles que buscam conhecimento e orientação.\n\nEm sua hierarquia, Gaap governa 66 legiões de espíritos e era da Ordem das Potências.",
+        "planet": "Mercúrio/Júpiter",
+        "direction": "Leste",
+        "pathworking": "Um tornado avança pelo deserto\nUma caverna, fresca e segura\nUm lago, iluminado só pela luz de duas tochas\nA sensação de ser observado"
+    },
+    {
+        "id": 33,
+        "name": "Furfur",
+        "enn": "Ganen menach tasa Furfur",
+        "description": "O trigésimo quarto espírito do Ars Goetia é Furfur, uma grande e poderosa condessa que se manifesta na forma de um cervo com uma cauda de fogo. No entanto, se o mago pedir, ela assume a forma de um belo anjo escuro, e fala com uma voz rouca.\n\nEsta Shedim tem o poder de incitar, de forma prazerosa, o amor entre duas pessoas. Além disso, de Furfur se diz que ela é capaz de criar relâmpagos, trovões, explosões e grandes tempestades. Isso, na época atual, pode ser entendido como a habilidade de criar caos nos sentimentos das pessoas, provocando conflitos entre elas. Também pode se referir à habilidade de atacar os dispositivos elétricos ou eletrônicos de alguém. Numa época em que todos usamos tecnologia, atacar essa base é um poder e tanto.\n\nNo entanto, se você busca seu auxílio, ela pode dar respostas verdadeiras tanto para as coisas secretas quanto para as divinas, mas só se isso for solicitado. Em sua hierarquia, Furfur governa 26 legiões de espíritos, o que a torna uma líder forte e respeitada entre seus pares.",
+        "planet": "Marte",
+        "direction": "Sul",
+        "pathworking": "Um fogo que devora bosques\nUm rio desbordado, alagando tudo à medida que avança\nUma pedra alta, onde observamos tudo, seguros\nUma sensação de poder"
     }
 ]
 
