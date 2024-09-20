@@ -1176,7 +1176,7 @@ runes = [
 
 daemons = [
     {
-        "id": 0,
+        "id": 1,
         "name": "Baal",
         "enn": "Ayer Secore On Ca Ba al",
         "description": 'O Primeiro Espírito Principal é um Rei que governa no Oriente, chamado Bael no Ars Goetia, mas aqui usaremos o nome real dele: Baal. Ele é o representante na Terra do Senhor Enki, e o primeiro entre os deuses antigos. Comanda um exército de 66 legiões de espíritos. Sendo poderoso, porém extremamente discreto, Baal pode usar diferentes formas para se comunicar com aqueles que o procuram. Essas aparências podem variar, estando entre elas a de um gato, um sapo ou, a mais clássica: um homem jovem, com características felinas. Quando se comunica, sua voz é grave e rouca.\n\nSegundo o Ars Goetia, a ele é atribuída a capacidade de tornar indivíduos invisíveis. "Ficar invisível" pode ter diferentes significados dependendo do contexto em que é utilizado. Por exemplo, na esfera espiritual ou sobrenatural, "ficar invisível" pode se referir à capacidade de Bael de fazer com que um indivíduo se torne imperceptível aos olhos dos outros seres, sejam eles humanos ou espíritos. Isto pode ser algo bem útil, porque a pessoa pode se camuflar ou se esconder fisicamente, tornando-se difícil de ser localizada. Assim a pessoa pode, por exemplo, transitar por lugares onde a sua presença não está permitida, sem chamar a atenção. Ou pode andar em meio a outras pessoas, sem ser percebida, mas vendo e ouvindo tudo, já que, como ninguém vai notar a sua presença, as pessoas vão falar livremente na sua frente.\n\nBaal era conhecido como o Senhor da Fertilidade e das Tormentas. Sendo assim, outra capacidade dele está referida ao bem-estar sexual e à fertilidade, e assim ele pode ser chamado para ajudar, em situações em que esses quesitos estejam com problemas.\n\nFinalmente, a capacidade dele de “controlar o clima” pode ser usada para “criar tormentas” e "calmarias" na vida das pessoas. Baal é capaz de criar verdadeiro caos na vida de alguém, fazendo com que essa pessoa se sinta dentro de uma tormenta. Ou pode acalmar a realidade de uma pessoa. Isso é um poder e tanto, já que podemos conturbar a vida de alguém, fazendo-o perder o foco, ou podemos criar passividade, fazendo com que a pessoa perca a “garra” competitiva.\n\nBaal trabalha muito bem com outros Senhores Antigos, mas tem um vínculo especial com dois deles, Agares e Vassago, dos quais falaremos a continuação.',
@@ -1185,7 +1185,7 @@ daemons = [
         "pathworking": "O deserto\nO interior de um templo antigo\nUma fonte de água fresca\nA sensação de Segurança",
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Agares",
         "enn": "Rean ganen ayar da Agares",
         "description": "O Duque Agreas, também conhecido como Agares, é o Segundo Espírito e está subordinado ao poder do Oriente. Quando se manifesta, assume a forma de um homem de meia-idade, atraente, montado em um dragão e segurando um açor em sua mão, apesar do qual, a sua aparência é tranquila.\n\nAgares é descrito como tendo a habilidade de dar um impulso poderoso àqueles que estão estagnados ou parados, concedendo-lhes a energia necessária para que possam avançar em suas metas e objetivos. Sua influência também se estende àqueles que fugiram, permitindo que ele possa ajudar no retorno de indivíduos que, por algum motivo, tenham ido embora.\n\nAlém de sua capacidade de motivar e encorajar, Agares possui outra habilidade surpreendente: ele é capaz de facilitar o aprendizado de qualquer língua ou idioma existente. Isso não está limitado só a parte do aprendizado de idiomas, já que com sua vasta compreensão das linguagens e do mundo, Agares é capaz de conceder aos indivíduos a capacidade de se comunicar e se entender com pessoas de outras culturas e nacionalidades, que poderiam ter sido inacessíveis de outra forma. Essa habilidade é valiosa para aqueles que viajam para o exterior, estudantes de línguas ou profissionais que precisam se comunicar e entender a cultura de pessoas de outras nacionalidades.\n\nAqueles que invocam Agares também podem contar com seu poder para destruir dignidades espirituais e temporais e até mesmo causar destruição (o que no texto é chamado de “terremotos”). No entanto, essa influência pode ser perigosa e deve ser utilizada com cuidado e responsabilidade, pelos possíveis retornos que pode ter.\n\nAnteriormente, fazia parte da Ordem das Virtudes. Agora governa 31 legiões de espíritos, o que o torna um líder poderoso e influente dentro da hierarquia dos senhores antigos, tanto pelo número de subordinados quanto pela sua origem angelical.",
@@ -1194,7 +1194,7 @@ daemons = [
         "pathworking": "Um cavalo correndo\nUm raio caindo\nUma caverna com diamantes nas paredes\nA sensação de Segurança",
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Vassago",
         "enn": "Keyan vefa jedan tasa Vassago",
         "description": 'O Terceiro Espírito, chamado Vassago, é descrito como uma Princesa poderosa que compartilha da mesma natureza de Agares, ou seja, ela também responde ao Senhor do Oriente. Sua personalidade é gentil e benevolente, e sua habilidade é declarar tanto as coisas passadas quanto as futuras, além de ser capaz de descobrir todas as coisas ocultas ou perdidas. Vassago é mencionada no Livro do Ofício dos Espíritos como Usagoo, aparecendo como um anjo, "justo e verdadeiro em tudo o que faz".\n\nVassago é conhecida por sua capacidade de desvendar segredos e mistérios, e muitos invocam sua ajuda para encontrar objetos perdidos, descobrir a verdade por trás de uma situação ou mesmo para prever o futuro. Seus poderes são particularmente úteis para aqueles que desejam explorar a sabedoria antiga ou investigar questões ocultas e esotéricas.\n\nPorém, temos que lembrar que, além de suas habilidades divinatórias e sua forma gentil, Vassago é uma líder forte e governa 26 legiões de espíritos. Aqueles que procuram sua ajuda devem fazê-lo com respeito.\n\nVassago é considerada um espírito extremamente útil para tanto para aqueles que desejam se aprofundar nos mistérios da vida e do universo, como para os que buscam respostas para questões específicas. Seus poderes divinatórios e sua habilidade para descobrir coisas ocultas ou perdidas podem ajudar a esclarecer muitos mistérios e oferecer respostas valiosas para aqueles que a invocam com sinceridade e respeito.',
@@ -1203,7 +1203,7 @@ daemons = [
         "pathworking": "A beira de um mar calmo, sem ondas\nUm cavalo negro observando\nA noite estrelada\nA sensação de estar sendo avaliado/observado",
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Samigina",
         "enn": "Esta ta et tasa Gamigin",
         "description": "Samigina é o Quarto Espírito, um Grande Marquês. Ele é conhecido por aparecer em duas formas: inicialmente, como um pequeno cavalo ou asno, e, em seguida, transformando-se em uma forma humana, a pedido do invocador. Sua voz é rouca e imponente.\n\nSamigina governa mais de 30 legiões de inferiores, sendo um líder forte e poderoso. Seu poder é especialmente útil para aqueles que desejam explorar as artes liberais e as ciências. Como um espírito experiente e sábio, ele tem a capacidade de ensinar todas as ciências liberais, tornando-se um guia valioso para aqueles que procuram aprender.\n\nAlém disso, Samigina tem a capacidade de lidar com as almas das pessoas que morreram em pecado, uma habilidade única e poderosa que pode trazer alívio para aqueles que sofrem pela perda de um ente querido. Sua capacidade de ajudar as almas a encontrar a paz e a redenção é altamente valorizada entre aqueles que o invocam.\n\nEmbora seja um espírito poderoso, Samigina também é gentil e benevolente, buscando sempre ajudar aqueles que o invocam com sinceridade e respeito. Aqueles que desejam invocar Samigina devem fazê-lo com a mente clara e a intenção pura, para que possam receber suas bênçãos e orientação em seu caminho.\n\nEm resumo, Samigina é capaz de ensinar todas as ciências liberais e lidar com as almas das pessoas que morreram em pecado. Sua presença pode trazer conforto e orientação para aqueles que buscam sua ajuda, tornando-se um valioso guia em suas jornadas.",
@@ -1212,7 +1212,7 @@ daemons = [
         "pathworking": "Um lago sob a luz do luar\nUma casa, com as janelas iluminadas por luz amarela\nUma lareira acesa, com duas cadeiras frente a ela\nUma sensação de tranquilidade",
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Marbas",
         "enn": "Renach tasa uberace biasa icar Marbas",
         "description": "Marbas é o quinto Espírito, um Grande Presidente. Quando invocado, ele aparece inicialmente na forma de um grande leão, mas, a pedido do invocador, pode assumir uma forma humana. Sua aparência é majestosa e intimidadora, refletindo seu poder e autoridade.\n\nMarbas é conhecido por sua habilidade em responder a questões sobre coisas ocultas ou secretas, revelando informações que muitas vezes são desconhecidas. Além disso, ele tem a habilidade de causar doenças e, paradoxalmente, também tem a capacidade de curá-las, sendo um espírito ambivalente que pode ser tanto benéfico quanto maléfico.\n\nAlém disso, Marbas é um espírito altamente habilidoso nas artes mecânicas, dando aos seus invocadores um grande conhecimento e sabedoria em tais áreas. Ele pode ensinar técnicas avançadas e habilidades que podem ajudar a aprimorar a engenharia e outras áreas técnicas.\n\nUma habilidade única de Marbas é a capacidade de transformar homens em outras formas, uma capacidade poderosa que pode ser usada para uma variedade de fins. Ele pode conceder a habilidade de se transformar em outras criaturas, ou mesmo em objetos, abrindo uma ampla gama de possibilidades para seus invocadores. Temos que entender aqui que Marbas não vai mudar o corpo físico da pessoa que o invoca, mas a forma como os outros a veem. Ele pode fazer com que uma pessoa tímida projete a energia de um tigre, e assim seja sentida por aqueles que a rodeiam, impondo medo e respeito. De igual forma pode fazer com que uma pessoa perigosa pareça inofensiva e pacífica.\n\nMarbas governa 36 legiões de espíritos, o que o torna um líder poderoso. Ele é altamente respeitado e sua presença pode trazer grande proteção e orientação para aqueles que o invocam.",
@@ -1221,7 +1221,7 @@ daemons = [
         "pathworking": "As ruínas de uma cidade no deserto\nPalmeiras que se agitam com o vento\nUm obelisco de pedra dourada, numa praça abandonada\nA sensação de estar alerta",
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Valefor",
         "enn": "Keyman vefa tasa Valefor",
         "description": "O sexto Espírito é Valefor, um Duque Grande e Poderoso que aparece como uma mistura de um leão com um burro. Ele é de natureza alegre e bondosa, e tem a habilidade de incitar paixões e desejos, especialmente em relação ao amor e à luxúria. Ele é capaz de fazer com que as pessoas se apaixonem, mesmo que isso pareça impossível, e é especialmente hábil em influenciar aqueles que estão distantes.\n\nValefar é um espírito altamente habilidoso em todas as formas de arte, incluindo música, dança e poesia, e pode ensinar a seus invocadores as técnicas avançadas nessas áreas. Ele também tem a habilidade de criar músicas e poemas em tempo real, trazendo à vida performances únicas e impressionantes.\n\nAlém disso, Valefar é um espírito muito versátil, capaz de ajudar em muitas tarefas diferentes. Ele é um mestre em lidar com o comércio, e pode ajudar em assuntos relacionados a finanças e negócios. Ele também tem conhecimento em artes mágicas, como a invocação de espíritos e a criação de amuletos e talismãs.\n\nValefar governa 10 legiões de espíritos, o que o torna um líder influente na hierarquia demoníaca. Sua personalidade alegre e habilidades versáteis fazem dele um espírito altamente valorizado por aqueles que o invocam.",
@@ -1230,7 +1230,7 @@ daemons = [
         "pathworking": "Uma praia no entardecer\nUma bela mulher passa caminhando e se perde na distância\nAs ondas rompem suavemente na areia dourada\nUma sensação de alegria",
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Amon",
         "enn": "Avage Secore Amon ninan",
         "description": "O Sétimo Espírito é conhecido como Amon, um Marquês poderoso e extremamente severo. Sua aparição é aterrorizante, na forma de um lobo com cauda de serpente, cuja boca é capaz de exalar chamas ardentes. No entanto, sob o comando do Mago, ele pode assumir outras formas, como a de um Homem com grandes e afiados dentes de cão, ou simplesmente um homem com cabeça de corvo.\n\nAmon é capaz de revelar todas as coisas passadas e futuras, fornecendo informações precisas e detalhadas sobre qualquer questão. Ele é especialista em solucionar desentendimentos e reconciliar amizades rompidas.\n\nAmon governa sobre 40 legiões de espíritos, demonstrando sua liderança forte e habilidades para organizar e comandar outras entidades espirituais.\n\nAmon pode ser um aliado extremamente poderoso, tanto pelo seu conhecimento profundo sobre o passado, presente e futuro, assim como pela sua capacidade de resolver conflitos interpessoais.",
@@ -1239,7 +1239,7 @@ daemons = [
         "pathworking": "Uma espada com empunhadura brilhante\nUm castelo antigo, de pedra cinza\nUm salão com armaduras nas paredes e uma mesa no centro\nUma sensação de calma",
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Barbatos",
         "enn": "Eveta fubin Barbatos",
         "description": "O Oitavo Espírito é Barbatos, um Grande Duque poderoso e sábio. Ele chega acompanhado por quatro Reis, que realçam seu poder.\n\nEle conhece todos os segredos da natureza e é capaz de conceder poder sobre os animais, fazendo com que eles obedeçam ao comando do invocador. Ele pode ensinar a arte da caça e revelar tesouros escondidos.\n\nBarbatos é também capaz de prever o futuro e revelar as coisas ocultas e secretas. Ele é capaz de reconciliar amigos e inimigos e pode proteger aqueles que o invocam de seus inimigos.\n\nEle é da ordem das Virtudes, e ainda mantém poder sobre uma parte dela. Governa 30 legiões de espíritos. Com sua grande sabedoria e poder, Barbatos é um espírito altamente respeitado e pode ser um aliado muito útil.",
@@ -1248,7 +1248,7 @@ daemons = [
         "pathworking": "Uma mesa coberta de planos antigos e uma grande bússola\nPelas janelas abertas entra a luz do sol e dá para ver os telhados\nUma jarra de água fresca com dois copos de vidro\nUma sensação de calma",
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Paimon",
         "enn": "Linan tasa jedan Paimon",
         "description": "O Nono Espírito na hierarquia é Paimon, um Grande Rei. Quando invocado, ele aparece sentado em um dromedário com uma coroa gloriosa em sua cabeça. Acompanhando-o, há uma multidão de espíritos. No primeiro encontro Paimon pode ter uma voz poderosa e ressonante, e a comunicação pode ser difícil. O mago deve então pedir para ele se expressar de forma clara. Ele é realmente um anjo e, antes da queda, seu nome era Umbriel.\n\nPaimon é capaz de ensinar todas as Artes e Ciências, bem como outras coisas secretas e misteriosas. Ele tem o poder de revelar a verdade sobre o mundo material (a Terra), sobre o mundo de emoções que a sustenta e define o mundo anterior (as Águas), bem como muitas coisas sobre o mundo mental (os Ventos). Ele pode também responder qualquer outra coisa que você deseje saber.\n\nPaimon também tem a habilidade de conceder Dignidade e confirmá-la. Ele pode amarrar ou tornar qualquer homem sujeito ao mago, se este assim o desejar.\n\nEle pode dar bons familiares que possuem o conhecimento de todas as artes.\n\nPaimon é da Ordem das Potências e governa sobre 200 legiões de espíritos, sendo alguns deles da Ordem dos Anjos e a outra parte das Potências. No entanto, segundo o Ars Goetia, os espíritos subordinados nem sempre estão presentes, a menos que o mago os chame.",
@@ -1257,7 +1257,7 @@ daemons = [
         "pathworking": "Uma caverna iluminada com tochas\nUm tesouro cheio de ouro e pedras preciosas\nUm lago coberto por uma cúpula com diamantes\nUma sensação de força",
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Buer",
         "enn": "Erato on ca Buer anon",
         "description": "O Nono Espírito na hierarquia é Paimon, um Grande Rei. Quando invocado, ele aparece sentado em um dromedário com uma coroa gloriosa em sua cabeça. Acompanhando-o, há uma multidão de espíritos. No primeiro encontro Paimon pode ter uma voz poderosa e ressonante, e a comunicação pode ser difícil. O mago deve então pedir para ele se expressar de forma clara. Ele é realmente um anjo e, antes da queda, seu nome era Umbriel.\n\nPaimon é capaz de ensinar todas as Artes e Ciências, bem como outras coisas secretas e misteriosas. Ele tem o poder de revelar a verdade sobre o mundo material (a Terra), sobre o mundo de emoções que a sustenta e define o mundo anterior (as Águas), bem como muitas coisas sobre o mundo mental (os Ventos). Ele pode também responder qualquer outra coisa que você deseje saber.\n\nPaimon também tem a habilidade de conceder Dignidade e confirmá-la. Ele pode amarrar ou tornar qualquer homem sujeito ao mago, se este assim o desejar.\n\nEle pode dar bons familiares que possuem o conhecimento de todas as artes.\n\nPaimon é da Ordem das Potências e governa sobre 200 legiões de espíritos, sendo alguns deles da Ordem dos Anjos e a outra parte das Potências. No entanto, segundo o Ars Goetia, os espíritos subordinados nem sempre estão presentes, a menos que o mago os chame.",
@@ -1266,7 +1266,7 @@ daemons = [
         "pathworking": "Um jardim cheio de plantas e flores\nUma fonte de água cristalina\nUm gazebo de madeira, com trepadeiras, no centro do jardim\nUma sensação de expectativa",
     },
     {
-        "id": 10,
+        "id": 11,
         "name": "Gusion",
         "enn": "Secore vesa anet Gusion",
         "description": "O Décimo Primeiro Espírito em ordem é Gusion, um Duque poderoso e forte. Quando se manifesta, assume a forma de um Xenopilus, uma criatura estranha e mística, parte homem, parte lobo.\n\nEste espírito é conhecido por sua habilidade em contar todas as coisas, sejam elas passadas, presentes ou futuras.\n\nAlém disso, ele é capaz de fornecer o significado e a resolução para todas as perguntas que o mago possa ter.\n\nGusion tem uma habilidade única de conciliar e reconciliar amizades que foram abaladas. Ele é muito respeitado por sua capacidade de trazer paz e harmonia onde antes havia conflito. Além disso, ele é capaz de conceder honra e dignidade àqueles que merecem.\n\nEste poderoso Duque governa sobre mais de 40 legiões de espíritos, o que o torna muito influente no mundo espiritual. Aqueles que desejam convocá-lo devem estar preparados para enfrentar sua imponente presença, ao mesmo tempo majestosa e intimidadora.",
@@ -1275,7 +1275,7 @@ daemons = [
         "pathworking": "Um cetro de ouro\nUm chicote de couro preto\nUma balança sobre uma mesa\nUma sensação de força",
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Sitri",
         "enn": "Lirach Alora vefa Sitri",
         "description": "O Décimo Segundo Espírito na ordem é Sitri, um Grande Príncipe com habilidades intrigantes. Ele aparece inicialmente com uma cabeça de Leopardo e asas de um Grifo, mas após receber o comando do Mago, assume a forma humana, sendo muito bonito.\n\nEste Espírito tem o poder de inflamar o amor nos homens e mulheres, despertando paixões intensas e desejo sexual. Se o Mago assim o desejar, Sitri pode fazer com que homens e mulheres se mostrem nus, sendo capaz de influenciar tanto a mente quanto o corpo.\n\nSua capacidade de inspirar a luxúria tem sido frequentemente mencionada, e ele é considerado um especialista em assuntos relacionados ao amor. Ele pode fazer as pessoas sentirem-se atraídas uma pela outra, aumentar a sensualidade e desencadear desejos sexuais.\n\nSitri exerce seu comando sobre 60 legiões de espíritos, sendo um aliado valioso para aqueles que desejam alcançar o sucesso em assuntos amorosos e sensuais. Com a ajuda deste Príncipe, o Mago pode encontrar novos amores ou reacender a chama do relacionamento atual.",
@@ -1284,7 +1284,7 @@ daemons = [
         "pathworking": "Uma espada com cabo de ouro e rubis\nUma cama coberta com uma colcha vermelha e dourada\nUm jardim cheio de flores exuberantes\nUma sensação de alegria",
     },
     {
-        "id": 12,
+        "id": 13,
         "name": "Beleth",
         "enn": "Lirach tasa vefa wehl Beleth",
         "description": "O Décimo Terceiro Espírito, conhecido como Beleth (também referido como Bileth ou Bilet), é um rei poderoso e temido na hierarquia dos espíritos. Segundo o Ars Goetia, ele é frequentemente descrito como cavalgando em um cavalo de cor clara, acompanhado por trombetas e outros instrumentos musicais, que ecoam em sua presença.\n\nA primeira aparição de Beleth pode ser intimidante e desconcertante, pois sua fúria é perceptível. O Mago, porém, deve permanecer firme na sua intenção, até ele ficar calmo. No entanto, mesmo mostrando seu poder pessoal, o Mago não pode nunca esquecer que Beleth é um Grande Rei e deve ser tratado com cortesia e respeito, como qualquer outro rei ou príncipe que merece homenagens.\n\nA importância deste Senhor Antigo fica clara quando consideramos que, segundo o Pseudomonarchia Daemonum, já citado antes, o filho de Noé, Ham, foi o primeiro a invocá-lo após o dilúvio e, com a ajuda dele, escreveu um livro sobre matemática. Isto já nos indica que ele pode nos ajudar tanto no estudo de ciências exatas quanto no pensamento lógico.\n\nMas o poder principal de Beleth é o de influenciar e manipular o amor entre homens e mulheres, podendo fazer com que eles se apaixonem profundamente. Ele pode conceder os desejos dos magos e magas que o invocam, trazendo assim, felicidade e satisfação aos seus corações.\n\nDe acordo com a tradição, Beleth pertence à Ordem das Potências e tem o controle de 85 legiões de espíritos, o que indica seu status e grandeza na hierarquia espiritual.",
@@ -1293,7 +1293,7 @@ daemons = [
         "pathworking": "Um cavalo branco\nUm campo verde, com flores vermelhas\nUm círculo de pedras\nUma sensação de firmeza",
     },
     {
-        "id": 13,
+        "id": 14,
         "name": "Beleth",
         "enn": "Caymen vefa Leraje",
         "description": "Leraje, também conhecido como Leraie, é o décimo quarto Espírito da Goétia. Leraje é um Marquês Grande em Poder, que se apresenta como um Arqueiro vestido de verde, carregando um arco e uma aljava. A imagem do arqueiro simboliza sua habilidade em atingir seus objetivos, assim como sua natureza competitiva e guerreira.\n\nLeraje é conhecido por sua capacidade de causar grandes batalhas e competições, sendo um espírito que pode ser invocado para ajudar em disputas e conflitos. Além disso, ele também é capaz de causar feridas profundas que podem se tornar infectadas, uma habilidade que é considerada perigosa e pode ser usada como arma em uma batalha.\n\nAssociado ao signo de Sagitário, Leraje é considerado um espírito de fogo, o que significa que ele é impetuoso, apaixonado e enérgico. Sua energia é considerada dinâmica e transformadora, e pode ser invocada para trazer mudanças rápidas e intensas.\n\nLeraje governa trinta legiões de espíritos, o que significa que ele tem um grande poder e influência sobre outros espíritos e demônios. Seu domínio sobre essas legiões o torna um espírito poderoso e temido, mas também pode ser invocado para ajudar em questões relacionadas à liderança e organização.\n\nGuerreiro, competitivo e impetuoso, Leraje é capaz de causar conflitos e feridas profundas nos alvos determinados pelo mago. Seu domínio sobre trinta legiões de espíritos o torna uma figura poderosa e influente no mundo espiritual, e pode ser invocado para ajudar em disputas, batalhas e questões relacionadas à liderança.",
@@ -1302,7 +1302,7 @@ daemons = [
         "pathworking": "Uma mão empunhando uma faca\nUma mesa com pão e vinho\nUm cômodo fresco, num dia de sol insuportável\nUma sensação de descanso",
     },
     {
-        "id": 14,
+        "id": 15,
         "name": "Eligos",
         "enn": "Jedan on ca Eligos inan",
         "description": "Eligos é o décimo quinto Espírito da Goétia. Ele é um Grande Duque que aparece na forma de um belo cavaleiro, carregando uma lança, uma insígnia e uma serpente. Sua imagem simboliza sua habilidade em desvendar coisas ocultas e conhecer eventos futuros, assim como sua natureza guerreira e protetora.\n\nEligos é conhecido por sua habilidade em descobrir segredos ocultos e prever eventos futuros, especialmente relacionados a guerras e conflitos. Ele é capaz de fornecer informações sobre como as batalhas serão travadas, o que as pessoas podem esperar encontrar e como elas podem se preparar para a vitória. Seu conhecimento das artes da guerra o torna um espírito valioso para aqueles que buscam a vitória em disputas militares.\n\nAlém disso, Eligos é capaz de inspirar o amor e o aprecio dos senhores e das grandes personalidades, uma habilidade que pode ser usada para conquistar a simpatia e a benevolência dos poderosos. Seu domínio sobre o amor o torna um espírito capaz de trazer harmonia e equilíbrio às relações pessoais e interpessoais.\n\nEligos governa sessenta legiões de espíritos, o que significa que ele tem um grande poder e influência sobre outros espíritos e demônios. Seu domínio sobre essas legiões o torna uma figura poderosa e temida no mundo espiritual, mas também pode ser invocado para ajudar em questões relacionadas à liderança e organização.\n\nGuerreiro e protetor, Eligos é capaz de fornecer informações precisas sobre eventos futuros e ajudar na preparação para a vitória em batalhas. Sua habilidade em inspirar o amor dos poderosos o torna um espírito valioso em questões políticas e pessoais. Seu domínio sobre sessenta legiões de espíritos o torna uma figura poderosa e influente no mundo espiritual, capaz de ajudar em questões de liderança e organização.",
@@ -1311,7 +1311,7 @@ daemons = [
         "pathworking": "Uma serpente se arrasta pelo chão\nUm guerreiro observa com atenção\nUma mesa com duas jarras de cerveja\nUma sensação de força",
     },
     {
-        "id": 15,
+        "id": 16,
         "name": "Zepar",
         "enn": "Lyan Ramec catya Zep",
         "description": "Zepar é o décimo sexto espírito da Goetia, listado como um Grande Duque. Ele é descrito como um soldado com roupas e armaduras vermelhas. O seu ofício é fazer com que as mulheres se apaixonem pelos homens e, assim, uni-los no amor. Além disso, ele é conhecido por torná-las estéreis.\n\nSegundo a tradição ocultista, Zepar é invocado pelos magos para ajudá-los a conquistar o amor de uma mulher desejada. Ele pode ser solicitado para ajudar a fortalecer um relacionamento amoroso existente ou para atrair um novo amor.\n\nAlém disso, é importante destacar que Zepar governa 26 legiões de espíritos inferiores. Esses espíritos podem ser convocados pelos magos para ajudá-los em diferentes tarefas, desde a proteção pessoal até a obtenção de riqueza.",
@@ -1320,7 +1320,7 @@ daemons = [
         "pathworking": "Um cavalo negro esperando o cavaleiro\nUm caminho beirado por árvores\nUma mesa com cadeiras, pão e vinho, sob uma grande árvore\nA sensação de ser sedutor",
     },
     {
-        "id": 16,
+        "id": 17,
         "name": "Botis",
         "enn": "Jedan hoesta noc ra Botis",
         "description": "O décimo sétimo espírito da Goetia é Botis, um grande presidente e conde que tem uma aparência um tanto quanto assustadora. Quando se manifesta pela primeira vez, ele assume a forma de uma víbora. No entanto, sob o comando do mago que o invocou, ele pode assumir uma forma humana, com grandes dentes e dois chifres. Em suas mãos, ele carrega uma espada brilhante e afiada, pronta para usar em defesa de seu invocador.\n\nBotis é um espírito muito poderoso e é conhecido por ter o dom de contar todas as coisas passadas e futuras. Ele é um grande aliado para aqueles que buscam orientação sobre o que está por vir, e também para aqueles que desejam entender melhor seu passado.\n\nAlém desse poder, Botis tem uma habilidade única para reconciliar amigos e inimigos, tornando-o um aliado valioso para aqueles que desejam resolver conflitos e curar relacionamentos quebrados.\n\nÉ interessante notar que Botis governa mais de 60 legiões de espíritos, o que indica que ele é um espírito muito respeitado e temido entre seus pares. As habilidades e o poder de proteção de Botis são muito valorizados e sua influência é considerada extremamente poderosa.",
@@ -1329,7 +1329,7 @@ daemons = [
         "pathworking": "Um guerreiro, com armadura, portando uma espada na mão\nUma cidade antiga, com casas brancas\nUm lugar com sombra, sob as palmeiras\nUma sensação de alegria",
     },
     {
-        "id": 17,
+        "id": 18,
         "name": "Bathin",
         "enn": "Dyen Pretore on ca Bathin",
         "description": "Bathin é o décimo oitavo espírito da hierarquia do Ars Goetia e é conhecido como um duque poderoso e forte. Sua aparência é descrita como a de um homem forte, com uma cauda de serpente e montado em um cavalo pálido. Essa imagem é impressionante e muitas vezes evoca medo e respeito em quem o invoca.\n\nEntre suas habilidades e poderes, Bathin é reconhecido por sua extensa compreensão das virtudes das ervas e das pedras preciosas.\n\nSegundo o Ars Goetia, ele tem o poder de transportar repentinamente homens de um país para outro. Mesmo que isso não aconteça fisicamente, essa habilidade o torna um espírito extremamente útil para aqueles que precisam viajar longas distâncias, com rapidez. Ele pode fazer com que a viagem aconteça de forma suave e rápida. Também é muito útil para quem quer refinar a arte da viagem astral.\n\nBathin é também um governante, com o controle de mais de 30 legiões de espíritos. Seus poderes de comando são considerados altamente eficazes e muitas vezes são temidos por aqueles que o servem. No entanto, para aqueles que o invocam com respeito e devoção, Bathin pode oferecer proteção, sabedoria e orientação em seu caminho espiritual.\n\nEmbora não seja tão conhecido, Bathin é um espírito poderoso e respeitado, com habilidades e poderes que são altamente valorizados pelos que buscam seu auxílio. Seu conhecimento das virtudes das ervas e das pedras preciosas e seu poder de transporte o tornam um espírito muito procurado, enquanto sua posição de governante o torna uma figura de autoridade e comando no mundo dos espíritos.",
@@ -1338,7 +1338,7 @@ daemons = [
         "pathworking": "Uma bússola antiga\nA ponte de um barco, com a roda do leme de madeira\nO deck do barco, durante o dia, com o mar agitado\nUma sensação de tensão",
     },
     {
-        "id": 18,
+        "id": 19,
         "name": "Sallos",
         "enn": "Serena Alora Sallos Aken",
         "description": "O décimo nono espírito da lista de espíritos descritos no Ars Goetia é conhecido como Sallos (ou Saleos). Descrito como um Grande e Poderoso Duque, Sallos é um ser espiritual que tem o poder de influenciar os desejos amorosos das pessoas. Ele é capaz de conceder o amor das mulheres aos homens e dos homens às mulheres, sendo considerado um especialista em assuntos do coração.\n\nQuando evocado, Sallos se manifesta na forma de um galante soldado montado em um crocodilo, usando uma coroa ducal na cabeça, mas de maneira pacífica. A sua aparência exótica e impressionante, bem como o seu ar imponente, demonstra o seu poder e autoridade como um dos grandes duques do inferno.\n\nDe acordo com os grimórios antigos, Sallos governa trinta legiões de espíritos e é um dos mais importantes comandantes entre os Shedim. A sua influência é capaz de moldar as emoções e os desejos das pessoas, tornando-o uma entidade muito procurada por aqueles que buscam ajuda nos assuntos amorosos.\n\nSallos é um espírito extremamente poderoso e respeitado, conhecido por governar legiões de outros seres espirituais e ter a capacidade de conceder o amor e influenciar os desejos amorosos das pessoas.",
@@ -1347,7 +1347,7 @@ daemons = [
         "pathworking": "Uma grande catedral, com bancos de madeira escura\nUm enorme órgão, com tubos de metal brilhante\nUm jardim do lado de fora, com bancos de pedra\nA sensação de justiça",
     },
     {
-        "id": 19,
+        "id": 20,
         "name": "Purson",
         "enn": "Ana jecore on ca Purson",
         "description": "O vigésimo espírito da lista de espíritos descritos no 'Ars Goetia' é Purson, um Grande Rei cuja aparência é imponente e majestosa. Ele é descrito como um homem com rosto de leão e carregando uma víbora cruel em sua mão. À medida que ele avança, o som de muitas trombetas pode ser ouvido ao seu redor, anunciando a sua chegada.\n\nPurson é conhecido por possuir grande conhecimento e sabedoria, sendo capaz de descobrir tesouros ocultos e revelar informações sobre o passado, presente e futuro. Ele pode assumir uma forma humana ou etérea e tem a habilidade de responder com veracidade a todas as questões terrenas, secretas e divinas, incluindo aquelas sobre a criação do mundo.\n\nDe acordo com a tradição goética, Purson é capaz de gerar bons espíritos familiares, que são seres espirituais que ajudam os humanos em suas tarefas e objetivos pessoais. Sob seu governo, há vinte e duas legiões de espíritos, que são parte da ordem das Virtudes e parte da ordem dos Tronos.\n\nPurson é um espírito extremamente poderoso e respeitado na tradição ocultista, sendo considerado um dos grandes entre os Shedim. Sua aparência majestosa e sua habilidade de revelar informações ocultas fazem dele uma entidade muito procurada por aqueles que buscam sabedoria e conhecimento em assuntos espirituais e ocultos.",
@@ -1356,7 +1356,7 @@ daemons = [
         "pathworking": "Um cavaleiro em armadura, sobre um cavalo branco\nUma grande mansão\nUm cômodo com poltronas de madeira frente a uma lareira acesa\nUma sensação de força",
     },
     {
-        "id": 20,
+        "id": 21,
         "name": "Marax",
         "enn": "Kaymen Vefa Marax",
         "description": "O vigésimo primeiro espírito da lista de espíritos descritos no 'Ars Goetia' é Marax, um Grande Conde e Presidente. Ele é descrito como um grande touro com rosto humano, e é um Shedim que se especializa em trazer sabedoria aos homens.\n\nMarax pode ajudar aqueles que buscam conhecimento em astronomia e outras ciências liberais. Ele é capaz de compartilhar conhecimentos e segredos ocultos sobre o universo e suas leis. Além disso, ele pode conceder a seus invocadores a habilidade de entender os segredos da natureza, incluindo as virtudes das ervas e pedras preciosas.\n\nSegundo a tradição goética, Marax é capaz de gerar bons familiares, que são seres espirituais que ajudam os humanos em seus esforços e projetos pessoais. Esses familiares podem ajudar seus mestres a se tornarem sábios e conhecedores das artes ocultas, incluindo a magia, a alquimia, a astrologia e outras áreas de estudo espiritual.\n\nSob seu governo, Marax tem 30 legiões de espíritos, que são seres que trabalham sob seu comando para realizar suas tarefas e obedecer às suas ordens. Esses espíritos são habilidosos em ajudar a trazer sabedoria e conhecimento aos humanos, tornando-os mestres em várias ciências e artes.",
@@ -1365,7 +1365,7 @@ daemons = [
         "pathworking": "Uma mesa com instrumentos de alquimia\nUma lareira acesa, com um fogo azul\nUm cômodo na penumbra, aconchegante\nUma sensação de curiosidade",
     },
     {
-        "id": 21,
+        "id": 22,
         "name": "Ipos",
         "enn": "Desa an Ipos Ayer",
         "description": "O vigésimo segundo espírito é Ipos, uma poderosa Condessa e Princesa. Segundo o Ars Goetia, ela é descrita como um anjo com cabeça de leão, pés de ganso e rabo de lebre, mas Johann Weyer dá uma descrição mais interessante: ele disse que Ipos aparece como um anjo ou como um leão malvado e astuto. Eu diria que uma mistura das duas coisas se aproxima mais à realidade desta Shedim.\n\nEla é conhecida por sua grande sabedoria e conhecimento do passado, presente e futuro. De acordo com a tradição goética, Ipos é um espírito capaz de conceder inteligência e coragem aos homens. Ela é habilidosa em ajudar aqueles que buscam conhecimento, tornando-os mais sábios e astutos em suas decisões. Ela também é capaz de ajudar a desenvolver a coragem necessária para enfrentar os desafios da vida com bravura e determinação.\n\nIpos governa 36 legiões de espíritos, que trabalham sob sua supervisão para realizar suas tarefas e obedecer às suas ordens. Esses espíritos são capazes de auxiliar seus invocadores em uma ampla variedade de tarefas, incluindo a obtenção de conhecimento e sabedoria, a realização de tarefas difíceis e a superação de obstáculos.\n\nAlém disso, Ipos é capaz de ajudar a prever o futuro, permitindo que seus invocadores antecipem os desafios que enfrentarão e se preparem adequadamente para enfrentá-los. Ela é considerada um dos espíritos mais sábios e poderosos do reino espiritual, capaz de conceder habilidades e conhecimentos valiosos para aqueles que o invocam.",
@@ -1374,7 +1374,7 @@ daemons = [
         "pathworking": "Uma tormenta no deserto\nUma caverna escura, que protege da tempestade\nUm lago de água fresca dentro da caverna\nUma sensação de poder",
     },
     {
-        "id": 22,
+        "id": 23,
         "name": "Aim",
         "enn": "Ayer avage secore Aim",
         "description": "O Vigésimo Terceiro Espírito é Aim (ou Haborym), um Duque poderoso e imponente que se apresenta na forma de um homem belo, mas com três cabeças distintas. A primeira é de uma serpente, a segunda é de um homem com duas estrelas na testa, e a terceira é a de um bezerro. Ele cavalga em uma serpente, enquanto segura um tição em sua mão, que tem o poder de incendiar cidades, castelos e grandes lugares. Já esta característica dele o faz ideal para ajudar quando estamos querendo causar confusão num grupo de pessoas. Pode ser desde gerar mal-estar até fazer com que 'o circo pegue fogo' mesmo.\n\nAim tem a capacidade de tornar uma pessoa espirituosa, inteligente e comunicativa, de todas as formas possíveis. Com a sua ajuda, podemos nos transformar no centro das atenções em qualquer lugar. Além disso, ele tem a capacidade de dar respostas verdadeiras a perguntas específicas. Ele é um ser extremamente inteligente e sabe muito sobre os mistérios do mundo. Sua natureza ardente e poderosa torna-o útil em situações em que força e coragem são necessárias.\n\nEste duque governa 26 legiões de espíritos inferiores que estão à sua disposição para realizar suas tarefas.",
@@ -1383,7 +1383,7 @@ daemons = [
         "pathworking": "Uma grande fogueira, com chamas laranjas e amarelas\nUm castelo, iluminado pelas labaredas\nA sala de armas do castelo, com uma lareira onde arde um fogo azul\nUma sensação de agitação",
     },
     {
-        "id": 23,
+        "id": 24,
         "name": "Naberius",
         "enn": "Eyan tasa volocur Naberius",
         "description": "O Vigésimo Quarto Espírito é Naberius, um Marquês extremamente valente. Ele costuma se manifestar na forma de uma garça negra, e quando fala, sua voz é rouca. Ele tem um talento especial para tornar os homens astutos em todas as artes e ciências, principalmente na arte da retórica. Isto faz com que a pessoa que o chama termine desenvolvendo astúcia e perspicácia, sabendo como usar o conhecimento ao seu favor, e ganhando a capacidade de persuadir e influenciar aqueles ao seu redor.\n\nAlém disso, Naberius é capaz de restaurar dignidades e honras que foram perdidas, trazendo de volta a reputação e prestígio que uma pessoa possa ter perdido ao longo do tempo. Seu conhecimento é vasto e sua sabedoria é profunda, permitindo que ele forneça informações precisas e úteis sobre diversos assuntos.\n\nNaberius governa 19 legiões de espíritos, cada um sob seu comando. Esses espíritos são poderosos e são capazes de realizar tarefas incríveis, desde a realização de feitiços até a execução de ordens específicas. Eles são leais a Naberius e trabalham incansavelmente para cumprir seus desejos.",
@@ -1392,7 +1392,7 @@ daemons = [
         "pathworking": "A vista desde o alto de uma montanha\nUm céu azul claro, com uma águia voando\nUm lugar com grama para sentar-se e observar a paisagem\nUma sensação de dignidade",
     },
     {
-        "id": 24,
+        "id": 25,
         "name": "Glasya-Labolas",
         "enn": "Elan tepar secore on ca Glasya-Lobolas",
         "description": "O Vigésimo Quinto Espírito é conhecido como Glasya-Labolas, e é considerado um dos mais poderosos Presidentes e Condes dentre todos os espíritos no Ars Goetia. Sua aparência é descrita como sendo a de um cão com asas de grifo, o que lhe confere uma presença intimidadora e imponente.\n\nEste espírito é conhecido por sua habilidade excepcional em facilitar o aprendizado de todas as artes e ciências com grande rapidez, o que o torna um guia valioso para aqueles que buscam conhecimento e sabedoria. Entretanto, é importante destacar que ele também é conhecido por incitar à violência, ao derramamento de sangue e ser o instigador de todos os assassinatos.\n\nAlém disso, Glasya-Labolas é capaz de ensinar coisas passadas, presentes e futuras, o que o torna um aliado poderoso para aqueles que buscam respostas sobre o passado, o presente ou o futuro. Se desejado, ele também pode causar amor entre amigos e inimigos, e conceder invisibilidade (um poder semelhante ao de Baal).\n\nEle exerce o controle sobre 36 legiões de espíritos. É importante ter em conta que Glasya-Labolas é um dos demônios goéticos mais perigosos, e seu poder só deve ser invocado com extrema cautela e respeito. Sua natureza violenta e suas habilidades únicas o tornam um espírito temido, mas também muito respeitado.",
@@ -1401,7 +1401,7 @@ daemons = [
         "pathworking": "A noite escura, com estrelas\nUma árvore enorme, com galhos frondosos na altura da cabeça de um homem\nUma lâmpada acesa, iluminando sob a árvore\nUma sensação de agressividade",
     },
     {
-        "id": 25,
+        "id": 26,
         "name": "Bune",
         "enn": "Wehl melan avage Bune Tasa",
         "description": "O vigésimo sexto espírito da demonologia é Bune, também conhecido como Bim. Este Duque é considerado forte, grande e poderoso, e sua aparência é descrita, no Ars Goetia, como a de um dragão com três cabeças. Sua voz é alta e graciosa, o que produz respeito e admiração.\n\nMas segundo o ocultista Carroll Runyon, o nome Bune está associado à cidade de Buto, que estava dedicada ao culto da deusa Wadget. Ela costumava ser representada, entre outras formas, por uma cobra com asas, uma bela mulher usando uma toca de serpente com asas, ou uraeus (o que daria a impressão de ser uma serpente com 3 cabeças), ou uma mulher com cabeça de serpente. Pela sua capacidade metamórfica, aqui a representamos como uma princesa com um dragão nas suas costas.\n\nBune tem comando sobre os espíritos dos mortos, fazendo com que esses espíritos se reúnam em seus sepulcros ou se desloquem até o lugar que ela indicar, o que a transforma numa aliada espetacular para magos e magas que trabalhem com necromancia. Além disso, ela tem o poder de conceder riquezas a um homem ou mulher, e de torná-lo sábio e eloquente. Se invocada corretamente, Bune é capaz de fornecer respostas verdadeiras às demandas e perguntas de seus invocadores.\n\nBune governa 30 legiões de espíritos, o que significa que ela tem um grande exército sob seu comando e pode ser uma poderosa aliada para aqueles que buscam sua ajuda. Em resumo, Bune é uma Duquesa muito respeitada, principalmente pelas suas capacidades necromânticas, e é capaz de conceder muitos benefícios para aqueles que buscam sua ajuda. No entanto, é importante lembrar que sua natureza é feroz e seu poder é inigualável, pois tem a força de um dragão.",
@@ -1410,7 +1410,7 @@ daemons = [
         "pathworking": "Um cetro de ouro com esmeraldas\nUm chicote de couro\nUm cômodo antigo, com poltronas na beira de uma piscina\nUma sensação de realeza e altivez",
     },
     {
-        "id": 26,
+        "id": 27,
         "name": "Ronove",
         "enn": "Kaymen vefa Ronove",
         "description": "Ronove é o vigésimo sétimo espírito do Ars Goetia, e é considerado um Marquês e Grande Conde. Sua aparência é descrita como a de um monstro, mas não se deixe enganar pela sua aparência aterrorizante, Ronove é um espírito que pode ser extremamente útil para aqueles que o invocam.\n\nUma das habilidades de Ronove é o seu conhecimento da Arte da Retórica, que ele ensina de forma excepcional. Ou seja, pode fazer com que quem o invoca termine tendo uma habilidade muito grande de convencer outras pessoas. Além disso, ele tem o poder de conceder bons servidores aos seus invocadores, o que pode ser muito útil para aqueles que precisam de assistência em suas tarefas diárias.\n\nRonove também é capaz de facilitar o aprendizado de línguas, tornando-o uma escolha popular entre aqueles que procuram se comunicar melhor com pessoas de outras culturas. Além disso, ele tem a habilidade de conseguir favores com amigos ou inimigos, o que pode ser extremamente útil em situações políticas ou comerciais.\n\nEste Marquês tem sob seu comando 19 legiões de espíritos, o que significa que ele tem uma grande quantidade de poder sob seu controle. Ronove é um espírito com muitas habilidades e pode ser útil em uma variedade de situações. Sua capacidade de ensinar a Arte da retórica, conceder bons servidores e facilitar o aprendizado de línguas, bem como conseguir favores com amigos ou inimigos, faz dele uma escolha popular entre aqueles que buscam seus poderes.",
@@ -1419,7 +1419,7 @@ daemons = [
         "pathworking": "Uma grande biblioteca, com prateleiras de madeira escura\nUma mesa com uma bússola\nVárias cadeiras de madeira com assento de veludo vermelho\nUma sensação de sabedoria",
     },
     {
-        "id": 27,
+        "id": 28,
         "name": "Berith",
         "enn": "Hoath redar ganabal Berith",
         "description": "O Vigésimo Oitavo Espírito em Ordem é Berith, um Duque poderoso, grande e terrível. Berith, ou Baal Berith, o 'Senhor da Aliança' como era conhecido antigamente, foi o Elohim de Sechem, no reino de Canaã. Quando aparece, ele assume a forma de um soldado vestindo roupas vermelhas, montado em um cavalo vermelho e usando uma coroa de ouro em sua cabeça.\n\nSua voz é clara e sutil, e ele é capaz de dar respostas verdadeiras sobre o Passado, Presente e Futuro. Ou seja, ele pode nos dar informação sobre o que aconteceu, para entender por que estamos na situação atual, pode analisar essa situação atual e pode nos indicar os possíveis futuros a partir do presente.\n\nBerith é um especialista em finanças e é capaz de ensinar como ter sucesso em qualquer empreendimento financeiro. Ele é conhecido por ter o 'toque de Midas', o que significa que ele pode transformar tudo em ouro. Se alguém estiver procurando por sucesso financeiro, Berith é o espírito a invocar.\n\nAlém disso, Berith é capaz de dar dignidades e confirmá-las. Isso é especialmente útil para aqueles que procuram uma promoção ou algum tipo de reconhecimento, tanto público como privado.\n\nBerith é capaz de comandar 26 legiões de espíritos e é conhecido por ser um Duque Poderoso, Grande e Terrível. Se você precisar de ajuda financeira ou busca por reconhecimento, Berith é um espírito poderoso e capaz de ajudar.",
@@ -1429,6 +1429,15 @@ daemons = [
     },
     {
         "id": 29,
+        "name": "Astaroth",
+        "enn": "STasa Alora Foren Astaroth",
+        "description": "Astaroth é uma das mais poderosas duquesas que compõem a hierarquia dos espíritos do Ars Goetia. Ela ocupa a posição de vigésimo nono espírito e é amplamente reconhecida por sua força e poder. Esse poder vem da sua origem: o nome Astaroth é uma derivação de Astarte, ou seja, estamos em presença de Ishtar, a antiga Senhora do Amor e da Guerra.\n\nAo aparecer, Astaroth assume a forma de um anjo agressivo, montado em uma besta infernal que muitas vezes é descrita como um dragão. Em sua mão direita, ela carrega uma víbora, um símbolo que é frequentemente associado ao conhecimento e à sabedoria.\n\nAlém de sua aparência impressionante, Astaroth é conhecida por ser uma das Senhoras Antigas mais úteis para aqueles que buscam respostas sobre o passado, presente e futuro, o que a torna uma das mais valiosas guias para quem busca orientação em assuntos importantes. Ela tem também o poder de descobrir todos os segredos, o que a transforma numa aliada incrível para obter informações sigilosas ou privilegiadas.\n\nSendo uma antiga senhora do Amor, Astaroth também é capaz de inflamar a paixão no coração da pessoa que o Mago escolher. E sendo a Senhora da Guerra, pode ensinar muito sobre estratégia e como atingir a vitória, em qualquer situação.\n\nAlém disso, ela tem a capacidade de facilitar o aprendizado de qualquer matéria relacionada à área de Humanas, tornando-a uma aliada valiosa para estudantes e pesquisadores.\n\nPara aqueles que desejam invocar Astaroth, é importante saber que ela governa sobre 40 legiões de espíritos. Isso significa que ela é capaz de convocar um grande número de entidades para ajudá-la em sua tarefa de conceder conhecimento e sabedoria aos seus invocadores.\n\nEm resumo, Astaroth é uma senhora poderosa que oferece uma ampla gama de habilidades e conhecimentos aos seus invocadores. Se você está procurando orientação sobre o passado, presente ou futuro, se está procurando o amor, se precisa saber como resolver uma situação difícil, ou se deseja aprimorar seu conhecimento em uma área específica, Astaroth pode ser a guia espiritual perfeita para você.",
+        "planet": "Vênus",
+        "direction": "Norte",
+        "pathworking": "Um caminho cercado por palmeiras\nUm jardim cheio de plantas e flores tropicais\nUma fonte de água clara e cristalina, com peixes coloridos\nUma sensação de força e poder",
+    },
+    {
+        "id": 30,
         "name": "Forneus",
         "enn": "Senan okat ena Forneus ayer",
         "description": "Forneus é um dos poderosos espíritos que compõem a hierarquia da Goetia, ocupando a posição de trigésimo espírito. Ele é descrito como um grande Marquês, que aparece na forma de um monstro marinho, capaz de infundir temor em qualquer um que o veja. Uma das habilidades mais notáveis de Forneus é seu poder de ensinar e tornar os homens incrivelmente sábios na arte da retórica. Ele é capaz de conceder aos seus invocadores a habilidade de falar com confiança e persuasão, tornando-os capazes de convencer outras pessoas e fazer valer seus pontos de vista. Isso os torna eficazes em debates e discursos, podendo levá-los a uma posição de destaque em qualquer ambiente social ou profissional.\n\nAlém disso, Forneus também é conhecido por facilitar o aprendizado e a compreensão de línguas e culturas estrangeiras. Ele pode ajudar seus invocadores a dominar idiomas e conhecer melhor outras culturas, o que pode ser útil em negócios internacionais e viagens para o exterior. Outra habilidade impressionante de Forneus é a de fazer com que alguém seja amado por seus inimigos, bem como por seus amigos. Isso pode ser muito útil em situações de conflito, ajudando a evitar brigas desnecessárias e alcançar acordos pacíficos.\n\nPor fim, Forneus governa sobre 29 legiões de espíritos, sendo parte da Ordem dos Tronos e parte da Ordem dos Anjos. Isso significa que ele é capaz de convocar uma grande quantidade de entidades espirituais para ajudar em suas tarefas e conceder seus poderes e habilidades aos seus invocadores. Em resumo, Forneus é um espírito poderoso e sábio que pode conceder aos seus invocadores habilidades valiosas na arte da retórica, línguas e cultura estrangeira, além de ser capaz de gerar empatia e amor entre amigos e inimigos. Se você está procurando aprimorar suas habilidades de comunicação ou buscando harmonia em relacionamentos pessoais ou profissionais, Forneus pode ser o espírito certo para invocar.",
@@ -1437,16 +1446,16 @@ daemons = [
         "pathworking": "Uma biblioteca antiga\nDuas xícaras com chá quente sobre uma mesa\nUm vaso de flores com uma rosa preta\nUma sensação de calma",
     },
     {
-        "id": 30,
+        "id": 31,
         "name": "Foras",
         "enn": "Kaymen vefa Foras",
         "description": "O Trigésimo Primeiro Espírito é Foras, um Presidente poderoso e impressionante que aparece na forma de um homem forte e imponente. Seus poderes são vastos e variados, incluindo a capacidade de ensinar aos homens como conhecer as virtudes de todas as ervas e pedras preciosas. Além disso, Foras é um mestre das artes da lógica e da ética, oferecendo ensinamentos valiosos sobre esses temas em todas as suas partes.\n\nMas as habilidades de Foras não param por aí. Se desejado, ele pode tornar uma pessoa 'invisível' (ou seja, que outras pessoas não reparem na presença dela), permitindo que vivam por muito tempo e sejam eloquentes. Essa habilidade é extremamente útil em situações de conflito, pois permite à pessoa evitar seus inimigos e passar despercebida. Além disso, a 'invisibilidade' pode ser usada para obter informações valiosas e circular entre outras pessoas sem ser notado.\n\nForas também é capaz de descobrir tesouros e recuperar coisas perdidas. Se você perdeu algo valioso ou deseja encontrar algo que está escondido, invocar Foras pode ser a solução. Ele governa sobre 29 legiões de espíritos, tornando-se um líder poderoso e capaz de realizar feitos incríveis.\n\nSe você deseja aprender as artes da lógica e da ética, obter conhecimento sobre ervas e pedras preciosas, recuperar tesouros perdidos ou simplesmente se tornar invisível e obter vantagens táticas, Foras é o espírito que deve invocar.",
         "planet": "Mercúrio",
         "direction": "Norte",
-        "pathworking": "Uma espada de ferro\nUm barco antigo navegando entre as ondas\nO camarote do capitão, com duas xícaras de café numa mesa\nUma sensação de força"
+        "pathworking": "Uma espada de ferro\nUm barco antigo navegando entre as ondas\nO camarote do capitão, com duas xícaras de café numa mesa\nUma sensação de força",
     },
     {
-        "id": 31,
+        "id": 32,
         "name": "Asmoday",
         "enn": "Ayer avage Aloren Asmoday aken",
         "description": "O Trigésimo Segundo Espírito é conhecido como Asmoday ou Asmodai, e é um poderoso e grande Rei Goético. Sua aparência é impressionante, com três cabeças - uma de touro, uma de homem e outra de carneiro. Além disso, ele tem a cauda de uma serpente e seus pés são como os de um réptil. Asmoday aparece montado em um dragão infernal e empunha uma lança com um estandarte.\n\nAsmoday é a versão moderna do Shedim Asmodeus, que faz várias aparições nos textos bíblicos. Segundo textos cabalísticos antigos, ele é filho do Rei Davi com a Shedim Agrat. Entre as mais conhecidas está a sua atuação como adversário no Livro de Tobias e sua aparição no Talmud, quando substitui Salomão durante um tempo, sem que ninguém perceba. Algumas fontes ligam Asmoday a Aeshma, o antigo Senhor da Ira do panteão persa.\n\nAsmoday é um espírito muito sábio e conhecedor, capaz de ensinar diversas áreas de conhecimento humano. Ele é especialmente habilidoso na Aritmética, Astronomia, Geometria e outros trabalhos manuais. Além disso, ele é capaz de responder com veracidade e precisão a qualquer demanda.\n\nOutro grande poder de Asmoday é sua capacidade de conceder invencibilidade. Isso é especialmente útil para aqueles que enfrentam situações difíceis ou perigosas, pois ele pode oferecer proteção e segurança. Asmoday é também um guardião de tesouros, e é capaz de mostrar onde esses tesouros estão escondidos. Isso é especialmente útil quando se depara com algo que se considera valioso, mas que não se pode tomar posse imediatamente. Com a ajuda de Asmoday, é possível manter esses tesouros seguros e protegidos.\n\nPor fim, Asmoday governa 72 legiões de espíritos inferiores. Sua grande sabedoria e poder são muito respeitados pelos espíritos que ele comanda, e aqueles que invocam seu nome podem esperar obter sua ajuda e orientação em muitas áreas da vida.",
@@ -1455,7 +1464,7 @@ daemons = [
         "pathworking": "Um escudo e uma lança\nUma mesa e dois bancos\nUm deserto de areias douradas, com grandes palmeiras\nUma sensação de alegria",
     },
     {
-        "id": 32,
+        "id": 33,
         "name": "Gaap",
         "enn": "Deyan Anay Tasa Gaap",
         "description": "O trigésimo terceiro espírito é conhecido como Gaap, um grande presidente e um príncipe poderoso entre os espíritos. Este ser místico tem a capacidade de se manifestar quando o sol está em algum dos signos do sul, assumindo uma forma humana. Em suas aparições, ele precede quatro grandes e poderosos reis, como um guia para conduzi-los em seus caminhos.\n\nO ofício de Gaap é tornar as pessoas insensíveis ou ignorantes, mas ele também pode ensinar filosofia para torná-las conhecedoras de diferentes temas. Essa habilidade se aplica a todas as ciências, o que faz dele um espírito de grande sabedoria e conhecimento.\n\nGaap tem o poder de causar amor ou ódio, mas esses sentimentos não são estáveis, já que ele é um Shedim (demônio antigo) de extremos opostos. Uma forma de aplicar esse poder seria fazer com que uma pessoa se apaixonasse loucamente por alguém que não a corresponderá ou que odeie alguém sem motivo aparente.\n\nAlém disso, Gaap tem a capacidade de libertar familiares da custódia de outros magos. Este é um poder muito forte, já que estaríamos retirando servidores do controle de outro mago, o que pode ser perigoso, por vários motivos.\n\nGaap pode também responder com veracidade e precisão sobre as coisas passadas, presentes e futuras. Isso faz dele um espírito de grande utilidade para aqueles que buscam conhecimento e orientação.\n\nEm sua hierarquia, Gaap governa 66 legiões de espíritos e era da Ordem das Potências.",
@@ -1464,7 +1473,7 @@ daemons = [
         "pathworking": "Um tornado avança pelo deserto\nUma caverna, fresca e segura\nUm lago, iluminado só pela luz de duas tochas\nA sensação de ser observado",
     },
     {
-        "id": 33,
+        "id": 34,
         "name": "Furfur",
         "enn": "Ganen menach tasa Furfur",
         "description": "O trigésimo quarto espírito do Ars Goetia é Furfur, uma grande e poderosa condessa que se manifesta na forma de um cervo com uma cauda de fogo. No entanto, se o mago pedir, ela assume a forma de um belo anjo escuro, e fala com uma voz rouca.\n\nEsta Shedim tem o poder de incitar, de forma prazerosa, o amor entre duas pessoas. Além disso, de Furfur se diz que ela é capaz de criar relâmpagos, trovões, explosões e grandes tempestades. Isso, na época atual, pode ser entendido como a habilidade de criar caos nos sentimentos das pessoas, provocando conflitos entre elas. Também pode se referir à habilidade de atacar os dispositivos elétricos ou eletrônicos de alguém. Numa época em que todos usamos tecnologia, atacar essa base é um poder e tanto.\n\nNo entanto, se você busca seu auxílio, ela pode dar respostas verdadeiras tanto para as coisas secretas quanto para as divinas, mas só se isso for solicitado. Em sua hierarquia, Furfur governa 26 legiões de espíritos, o que a torna uma líder forte e respeitada entre seus pares.",
@@ -1473,7 +1482,7 @@ daemons = [
         "pathworking": "Um fogo que devora bosques\nUm rio desbordado, alagando tudo à medida que avança\nUma pedra alta, onde observamos tudo, seguros\nUma sensação de poder",
     },
     {
-        "id": 34,
+        "id": 35,
         "name": "Marchosias",
         "enn": "Es na ayer Marchosias Secore",
         "description": "O trigésimo quinto espírito é Marchosias, um grande e poderoso marquês que se manifesta na forma de um lobo com asas de grifo e uma cauda de serpente, vomitando fogo pela sua boca. No entanto, por ordem do mago, ele pode assumir a forma de um homem.\nMarchosias é um grande lutador, muito forte, e pode ser chamado em situações tensas, como por exemplo numa negociação que precise de muita força, ou para amedrontar inimigos, de forma que desistam da ideia de atacar.\nSe você precisar de proteção, Marchosias pode ser invocado para defendê-lo ou para atacar um determinado alvo. Seu poder é imenso, e ele é um espírito muito respeitado. Marchosias pertence à ordem dos Domínios, o que o torna um ser ainda mais poderoso e influente.\nAo trabalhar com Marchosias, é importante ter em mente que ele é um espírito muito poderoso e agressivo, e deve ser tratado com respeito e reverência. Ele governa 30 legiões de espíritos, o que significa que ele é um líder forte e respeitado entre seus pares.",
@@ -1482,7 +1491,7 @@ daemons = [
         "pathworking": "Um escudo e uma espada, sujos de sangue\nUm guerreiro com armadura completa e uma lança\nO arsenal de um castelo, cheia de instrumentos de guerra\nUma sensação de agressividade",
     },
     {
-        "id": 35,
+        "id": 36,
         "name": "Stolas",
         "enn": "Stolos Ramec viasa on ca",
         "description": "Stolas, também conhecido como Stolos, é o trigésimo sexto Espírito da hierarquia demoníaca. Ele é um príncipe poderoso, dotado de grande sabedoria e capacidade de transformação. Inicialmente, ele se apresenta como um corvo imponente, mas logo assume a forma humana.\nEntre seus dons, Stolas é um mestre na arte da astronomia, capaz de desvendar os segredos dos astros e das constelações. Além disso, ele detém um vasto conhecimento sobre as virtudes ocultas das plantas e das pedras preciosas, podendo ensinar a magia da cura e a utilização desses elementos em rituais de proteção.\nStolas governa 26 legiões de espíritos, exercendo uma influência significativa sobre o mundo espiritual. Sua presença é reverenciada por aqueles que buscam aprofundar seu conhecimento nas artes ocultas e desvendar os mistérios do cosmos.",
@@ -1491,7 +1500,7 @@ daemons = [
         "pathworking": "Um papiro antigo, sobre uma mesa de mármore\nUma enorme bússola de bronze\nUm jardim à noite, iluminado por tochas, sob um céu estrelado\nUma sensação de diversão ou de alegria",
     },
     {
-        "id": 36,
+        "id": 37,
         "name": "Phenex",
         "enn": "Ef enay Phenex ayer",
         "description": "O trigésimo sétimo espírito do Ars Goetia é conhecido como Phenex, também chamado de Pheynix. Este grandioso marquês se apresenta em forma de fênix, com a voz suave de uma criança. Contudo, é necessário que o mago lhe ordene que assuma uma forma humana antes de começar o diálogo. Quando ele assim o faz, revela-se um magnífico conhecedor de todas as ciências maravilhosas, capaz de falar com habilidade e destreza.\nPhenex é um poeta notável e admirável, sempre disposto a atender aos pedidos de seus invocadores. Basicamente, os poderes de Phenex estão na área da persuasão, seja através da palavra, da escrita, da música ou de qualquer tipo de arte. Se pedimos a ajuda deste grande marquês, nossa capacidade de influir sobre as pessoas através da nossa arte (seja ela qual for) aumentará notavelmente.\nEle governa 20 legiões de espíritos e pode ser uma grande ajuda para quem o convoca.",
@@ -1500,7 +1509,7 @@ daemons = [
         "pathworking": "Um grande cristal arredondado\nUm barco navegando entre altas ondas\nUma praia frente a um mar azul, sem ondas, ao meio-dia\nUma sensação de calma",
     },
     {
-        "id": 37,
+        "id": 38,
         "name": "Halphas",
         "enn": "Erato Halphas on ca secore",
         "description": "O trigésimo oitavo espírito é conhecido como Halphas, ou também como Malthous ou Malthas. Este imponente Conde se manifesta na forma de uma pomba, com uma voz rouca e poderosa. De acordo com o Ars Goetia, Halphas tem a habilidade de construir torres e abastecê-las com munições e armas, além de enviar navios de guerra para locais determinados. Essa descrição revela que ele é claramente um Senhor das Armas, um guerreiro que pode ser convocado em situações desafiadoras, e que pode fornecer, ou pelo menos indicar, os instrumentos necessários para ganhar uma luta.\nAlém de suas habilidades bélicas, Halphas é conhecido por governar 26 legiões de espíritos, tornando-o uma poderosa presença na invocação de espíritos. Com sua expertise militar e liderança, ele pode ser uma ajuda valiosa para quem o invoca em momentos de conflito ou dificuldade.",
@@ -1509,7 +1518,7 @@ daemons = [
         "pathworking": "Duas espadas cruzadas\nUma palmeira imensa, cobrindo a luz do sol\nUm rio largo e calmo, na outra beira dá para ver uma cidade\nUma sensação de raiva e desprezo",
     },
     {
-        "id": 38,
+        "id": 39,
         "name": "Malphas",
         "enn": "Lirach tasa Malphas ayer",
         "description": "O trigésimo nono espírito do Ars Goetia é conhecido como Malphas. A princípio, sua forma se assemelha à de um corvo, no entanto, a pedido do mago, ele assume uma forma humana e comunica-se com voz rouca. Essa presidente espiritual é dotada de uma força e poder consideráveis. Segundo o Ars Goetia, ela é capaz de construir casas e torres altas com facilidade. Essa habilidade parece estar mais relacionada ao poder dela de ajudar e facilitar a realização de projetos na parte material.\nAlém de suas habilidades de criação material, Malphas possui a capacidade de revelar ao seu invocador os desejos e pensamentos de seus inimigos, bem como as ações que eles realizaram. Isso é um poder e tanto, porque nos permite conhecer tanto as ações que os nossos inimigos estão realizando, quanto as que realizaram antes. Ou seja, podemos conhecer seus “podres”, o que é uma enorme vantagem estratégica numa situação de confronto.\nEla é capaz de fornecer bons familiares, trazendo consigo uma influência benéfica e protetora.\nÉ importante destacar que, de acordo com o Grimório original, não é recomendável oferecer sacrifícios a Malphas. Esse aviso pode indicar que ela é uma Shedim que valoriza a força em detrimento da subserviência. Portanto, é essencial que o invocador a trate com o devido respeito, mas mantenha uma postura independente e segura.\nMalphas governa sobre 40 legiões de espíritos, indicando que sua presença é poderosa e influente. Ao invocá-la, é preciso estar preparado para lidar com sua força e determinação, mas também para usufruir das suas habilidades e da sua proteção.",
@@ -1518,7 +1527,7 @@ daemons = [
         "pathworking": "Uma taça de ouro com rubis\nUma pena e uma folha em branco\nUma biblioteca antiga\nUma sensação de certeza",
     },
     {
-        "id": 39,
+        "id": 40,
         "name": "Raum",
         "enn": "Furca na alle laris Raum",
         "description": "O quadragésimo espírito do Ars Goetia é conhecido como Raum. Ele é um Grande Conde que se apresenta inicialmente na forma de um corvo, mas, ao comando do mago, assume uma aparência humana.\nSua principal função é roubar tesouros preciosos que pertencem a pessoas que costumamos considerar inacessíveis. Por “tesouros” entendemos algo que é de grande valor para a pessoa. Pode ser algo material, ou imaterial. Contudo, sua habilidade não se limita a isso, uma vez que ele possui a capacidade de destruir cidades inteiras e derrubar dignidades dos homens. Basicamente, Raum é um Shedim especializado, entre outras coisas, em vingança e destruição. Não só é capaz de tirar algo que uma pessoa considera importante, como também é capaz de produzir destruição física e também no nível social.\nAlém disso, o Grande Conde Raum é dotado de um conhecimento incomparável, sendo capaz de contar absolutamente tudo - seja o passado, o presente ou o futuro. Sua habilidade de prever o que está por vir o torna um poderoso aliado para aqueles que desejam conhecer os segredos do universo.\nNão menos importante, ele também pode influenciar as relações interpessoais, capaz de provocar amor entre amigos e inimigos, a depender do objetivo de quem o convoca.\nEle era da Ordem dos Tronos, e atualmente governa 30 legiões de espíritos.",
@@ -1527,7 +1536,7 @@ daemons = [
         "pathworking": "Um corvo preto, empoleirado sobre uma pilha de crânios\nUm castelo em ruínas, coberto por plantas rasteiras\nUma espada, erguida para o céu, gotejando sangue\nUma sensação de vingança",
     },
     {
-        "id": 40,
+        "id": 41,
         "name": "Focalor",
         "enn": "En Jedan on ca Focalor",
         "description": "O Quadragésimo Primeiro Espírito é conhecido por três nomes: Focalor, Forcalor ou Furcalor. Trata-se de um Duque poderoso e forte, que assume a forma de um homem com asas de Grifo.\n\nSeu ofício, porém, não é dos mais nobres. Focalor é um especialista em destruição, capaz de matar homens, afogá-los nas águas e derrubar navios de guerra. Isso se dá em função do seu poder sobre os ventos e os mares, que ele pode manipular de maneira impressionante.\n\nContudo, é importante ressaltar que Focalor não prejudicará nenhuma pessoa ou coisa se assim for ordenado pelo Mago. Ou seja, sua ação é restrita ao comando de um mago, o que o torna uma ferramenta poderosa em mãos certas. Ele é capaz de acabar com a saúde ou os negócios de qualquer pessoa, mas essa habilidade pode ser seletiva, poupando as pessoas ao redor do alvo, desde que isso seja indicado pelo mago.\n\nAo dizer que ele tem poder sobre “os ventos e os mares”, entendemos que, além do poder físico que Focalor possa ter, ele pode influenciar, com grande força, tanto a parte intelectual (ar, vento), quanto a parte emocional (água, mares), causando um profundo prejuízo na vida da pessoa alvo.\n\nFocalor governa 30 legiões de espíritos, o que demonstra a sua posição de liderança entre os Shedim. Seu poder é indiscutível e pode ser uma ferramenta poderosa nas mãos de um mago que deseja conquistar seus objetivos.",
@@ -1536,7 +1545,7 @@ daemons = [
         "pathworking": "Um martelo batendo no metal\n\nUma mão empunhando uma espada\n\nUm espaço aberto, com grama, com árvores no horizonte\n\nUma sensação de alerta",
     },
     {
-        "id": 41,
+        "id": 42,
         "name": "Vepar",
         "enn": "On ca Vepar Ag Na",
         "description": "Vepar, também conhecida como Vephar, é o quadragésimo segundo Espírito da lista dos 72 Espíritos da Goétia. Ela é uma Duquesa poderosa e imponente, com a aparência de uma Sereia.\n\nSeu domínio é sobre as águas e sobre os sentimentos e emoções. Ela tem a capacidade de governar e guiar pessoas em suas jornadas pelos mares intensos da emoção. A pedido do mago, ela pode atormentar a vida emocional de alguém, ou transformá-la num mar de paz e felicidade. Pode fazer com que uma pessoa seja plenamente consciente dos seus poderes na parte emocional, ou pode fazer com que outra pessoa perca completamente a noção dos pontos de referência e limites. Além disso, a pedido do mago, Vepar é capaz de causar tempestades violentas nas vidas das pessoas que ele escolher. Ela também possui o poder de causar a destruição de uma pessoa, contaminando seus pensamentos.\n\nVepar governa 29 legiões de espíritos, demonstrando sua grande influência e poder sobre as águas e tudo o que nelas habita. É importante ter cautela ao lidar com essa Duquesa pois, como toda sereia, o poder e a fascinação que exerce são imensos, e suas reações imprevisíveis, e isso sempre deve ser levado em consideração.",
@@ -1545,7 +1554,7 @@ daemons = [
         "pathworking": "Ondas enormes rompem aos pés da estátua de um guerreiro\n\nUma águia atravessa o céu com nuvens pretas\n\nUm terraço em ruínas, desde o qual dá para ver o mar\n\nUma sensação de poder",
     },
     {
-        "id": 42,
+        "id": 43,
         "name": "Sabnock",
         "enn": "Tasa Sabnock on ca Lirach",
         "description": "De acordo com a tradição esotérica da demonologia, o quadragésimo terceiro Espírito mencionado no Ars Goetia é conhecido como Sabnock, também grafado como Savnok. Este Marquês infernal é reputado por sua imponente presença, poder e força.\n\nAo se materializar, Sabnock assume a forma de um soldado armado, com os traços de um leão. Ele cavalga um majestoso cavalo de cor clara, que reforça ainda mais a aura intimidadora que cerca sua aparência.\n\nSegundo o Ars Goetia, a principal especialidade de Sabnock é a construção de torres, castelos e cidades impenetráveis. Além disso, ele é capaz de prover essas edificações com armaduras e outras proteções necessárias. Isto indica que seu talento para a defesa é tão marcante quanto sua habilidade para o ataque. Ou seja, por um lado, Sabnock é capaz de erguer barreiras e defesas ao redor do mago que o invocou (ou qualquer outra pessoa que lhe seja designada). Essas fortificações têm um alto grau de eficácia, pois são criadas com a energia espiritual do próprio Sabnock. Por outro lado, Sabnock também é capaz de realizar ataques perversos, que podem causar ferimentos psicológicos profundos e duradouros.\n\nSabnock é capaz de conceder bons familiares ao mago, caso seja solicitado. Ele comanda 50 legiões de espíritos e é considerado um dos espíritos mais fortes e poderosos na hierarquia de espíritos do Ars Goetia. Suas habilidades de ataque e defesa o tornam um aliado valioso para o mago que busca proteção ou que se especializa em ataque e defesa.",
@@ -1554,7 +1563,7 @@ daemons = [
         "pathworking": "Uma antiga cidade em ruínas\n\nUma flor cresce entre as pedras\n\nUm grande templo abandonado\n\nUma sensação de tristeza",
     },
     {
-        "id": 43,
+        "id": 44,
         "name": "Shax",
         "enn": "Ayer Avage Shax aken",
         "description": "Shax, também conhecido como Shaz ou Shass, é o quadragésimo quarto espírito da Ars Goetia. Este Grande Marquês é descrito como uma pomba, com uma voz rouca e sutil.\n\nEle é capaz de entorpecer os sentidos de qualquer pessoa indicada pelo mago que o invoca, fazendo-as deixar de ver ou ouvir aquilo que o mago desejar. Esse poder pode ser valioso quando há a necessidade de ocultar informações ou impedir que concorrentes reparem em algo que é importante para nós.\n\nAlém disso, Shax também possui a capacidade de prejudicar temporariamente a base econômica ou material de uma pessoa escolhida pelo mago. No entanto, o efeito desaparecerá com o tempo, e a pessoa recuperará o que foi tirado dela.\n\nOutra habilidade notável de Shax é sua capacidade de descobrir todas as coisas que estão ocultas e não guardadas por espíritos malignos. Em algumas ocasiões, ele também pode fornecer bons familiares.\n\nEste poderoso espírito é capaz de governar 30 legiões de outros espíritos. Sua aparência como uma pomba pode ser enganadora, pois sua influência e habilidades são impressionantes e úteis para aqueles que o invocam.",
@@ -1563,7 +1572,7 @@ daemons = [
         "pathworking": "Uma serpente se enrosca no galho de uma árvore\n\nUm martelo bate sobre uma espada\n\nO porão de uma igreja medieval\n\nUma sensação de angústia",
     },
     {
-        "id": 44,
+        "id": 45,
         "name": "Vine",
         "enn": "Eyesta nas Vine ca laris",
         "description": "Vine, também conhecido como Vinea, é o quadragésimo quinto espírito descrito no livro Ars Goetia. De acordo com as descrições, Vine é um Grande Rei e Conde que se apresenta na forma de um homem com aspecto de leão, montado em um cavalo preto e segurando uma víbora em sua mão. Sua principal função é a de descobrir coisas escondidas, sejam elas outras magias, bruxarias ou informações sobre o passado, presente e futuro.\n\nAlém disso, segundo os manuscritos antigos, Vine tem habilidades surpreendentes que lhe permitem construir torres, derrubar muralhas de pedra e provocar tempestades que tornam as águas turbulentas. Essas habilidades demonstram a capacidade deste espírito de criar poderosas defesas e realizar ataques devastadores.\n\nDe acordo com o Ars Goetia, Vine governa 36 legiões de espíritos.\n\nResumindo, Vine pode ser invocado tanto para ajudar na resolução de problemas relacionados a questões ocultas ou para obter informações valiosas sobre o passado, presente e futuro, quanto para defesa ou ataque. Como podemos ver, estamos perante um Shedim com um amplo espectro de habilidades, ideal para quem trabalha com magia.",
@@ -1572,7 +1581,7 @@ daemons = [
         "pathworking": "Uma cidade antiga, com muralhas\n\nUma rua cheia de pessoas\n\nO interior de uma casa, com planta e com uma fonte\n\nUma sensação de calma",
     },
     {
-        "id": 45,
+        "id": 46,
         "name": "Bifrons",
         "enn": "Avage secore Bifrons remie tasa",
         "description": "Bifrons, conhecido por vezes como Bifrous ou Bifrovs, é um distinto conde que ocupa a posição de 46º na lista dos espíritos da Ars Goetia. Sua aparência é a de um monstro, mas pode transformar-se em um homem quando assim ordenado pelo mago. Seu nome indica que possui duas faces, sendo a atual manifestação de Janus, o antigo deus romano das portas, passagens, princípios e fins.\n\nEste poderoso deus é conhecido por conceder sabedoria em diversas áreas do conhecimento, como Astrologia, Geometria e outras Artes e Ciências. Ademais, Bifrons é um especialista em gemas e madeiras preciosas, e pode instruir sobre suas virtudes com maestria.\n\nSua habilidade em controlar os espíritos dos falecidos o torna um aliado valioso para magos que se dedicam à necromancia ou para aqueles que buscam vingança contra algum falecido.\n\nBifrons é acompanhado por seis legiões de espíritos que prontamente obedecem aos seus comandos.\n\nEste antigo deus é ideal tanto para quem deseja obter conhecimentos técnicos quanto para aqueles que querem ter contato com os seres que moram no Além.",
@@ -1581,7 +1590,7 @@ daemons = [
         "pathworking": "Uma árvore frondosa\n\nUm caminho de pedras\n\nA beira de um lago\n\nUma sensação de alegria",
     },
     {
-        "id": 46,
+        "id": 47,
         "name": "Vual",
         "enn": "As ana nany on ca Uvall",
         "description": "Vual, ou Voval, é o Quadragésimo Sétimo Espírito da hierarquia demoníaca. Ele é conhecido como um grande, poderoso e forte Duque, com habilidades sobrenaturais impressionantes. Quando invocado, Vual aparece inicialmente na forma de um dromedário poderoso, mas, após ser comandado pelo mago, pode se transformar em um ser humano.\n\nUma das principais habilidades de Vual é sua capacidade de obter o amor das mulheres. Além disso, ele é capaz de falar sobre as coisas passadas, presentes e futuras, o que pode ser extremamente útil para aqueles que buscam orientação em suas vidas.\n\nOutra habilidade interessante de Vual é sua capacidade de criar amizade entre amigos e inimigos. Essa habilidade pode ser particularmente útil para aqueles que desejam resolver conflitos ou acabar com brigas.\n\nVual era anteriormente parte da Ordem das Potências, e é capaz de governar 37 Legiões de Espíritos.",
@@ -1590,7 +1599,7 @@ daemons = [
         "pathworking": "Uma fonte com frutas variadas e coloridas\n\nUma sala com decoração oriental, com almofadas no chão\n\nUma fonte de água clara\n\nUma sensação de prazer",
     },
     {
-        "id": 47,
+        "id": 48,
         "name": "Haagenti",
         "enn": "Haaventi on ca Lirach",
         "description": "Haagenti é o Quadragésimo Oitavo Espírito da Goetia. Ele é um presidente que geralmente aparece na forma de um touro poderoso com asas de grifo, mas pode assumir a forma humana sob o comando do mago.\n\nSua principal função é a de tornar os homens sábios e instruí-los em diversos assuntos, além de ser capaz de provocar mudanças positivas no comportamento das pessoas, transformando-as para melhor.\n\nHaagenti é capaz de governar 33 legiões de espíritos e é um grande aliado para aqueles que buscam aprimorar seu conhecimento e desenvolvimento pessoal. Sob sua influência, é possível obter sabedoria em várias áreas e aprender habilidades valiosas que podem ser usadas para melhorar a vida. Além disso, suas transmutações podem ajudar a transformar os aspectos negativos da personalidade de uma pessoa em traços positivos, permitindo que ela alcance seu potencial máximo.",
@@ -1599,7 +1608,7 @@ daemons = [
         "pathworking": "Um prédio sólido e fortificado\n\nUm escudo dourado\n\nUma esplanada cercada por bandeiras\n\nUma sensação de disciplina",
     },
     {
-        "id": 48,
+        "id": 49,
         "name": "Crocell",
         "enn": "Jedan tasa Crocell on ca",
         "description": "O Quadragésimo Nono Espírito da Goetia é Crocell, também conhecido como Crokel. Ela é uma grande e forte Duquesa que geralmente se manifesta na forma de um anjo escuro, e é capaz de falar sobre coisas ocultas de forma mística, transmitindo conhecimento sobre a arte da geometria e as ciências liberais.\n\nEla é uma especialista em criar distrações.\n\nSob o comando do mago, pode criar situações completamente falsas, que as pessoas tomem como verdadeiras, deixando-as desconcertadas e cobrindo assim as ações do mago.\n\nEla melhora a parte emocional das pessoas (aquece as águas) e desperta a sensualidade e a luxúria (descobre os banhos).\n\nAntes de sua queda, Crocell era membro da Ordem das Potências. Hoje em dia, ela governa 48 legiões de espíritos e é uma poderosa aliada para aqueles que buscam conhecimento sobre assuntos ocultos e aprimoramento pessoal. Com sua ajuda, é possível desvendar mistérios e adquirir habilidades valiosas que podem ser usadas para aprimorar a vida.",
@@ -1608,7 +1617,7 @@ daemons = [
         "pathworking": "Uma bandeira agitada pelo vento\n\nUma torre de vigia\n\nO grande salão de um antigo templo\n\nUma sensação de curiosidade",
     },
     {
-        "id": 49,
+        "id": 50,
         "name": "Furcas",
         "enn": "Secore on ca Furcas remie",
         "description": "O Quinquagésimo Espírito da Goetia é conhecido como Furcas, um cavaleiro que se apresenta na forma de um velho cruel com uma longa barba e uma cabeça grisalha. Ele aparece montado em um cavalo de cor clara, empunhando uma arma afiada em sua mão poderosa.\n\nFurcas é um especialista em diversas áreas do conhecimento, incluindo filosofia, astrologia, retórica, lógica, quiromancia e piromancia, ensinando cada uma dessas artes com perfeição e detalhamento. Ele pode facilitar o aprendizado tanto de temas científicos e humanísticos, quanto de temas esotéricos e místicos, sendo um grande aliado para aqueles que buscam aprimoramento em diferentes áreas do conhecimento.\n\nCom seus poderes, Furcas governa 20 legiões de espíritos e pode ajudar aqueles que o invocam a adquirir sabedoria e conhecimento em uma variedade de assuntos. Seu ensinamento é preciso e completo, garantindo que seus discípulos alcancem excelência em suas áreas de estudo. Não hesite em chamar por sua ajuda se estiver buscando um mentor que possa guiá-lo em seu caminho de aprendizado e desenvolvimento pessoal.",
@@ -1617,7 +1626,7 @@ daemons = [
         "pathworking": "Um martelo que bate no metal\n\nUm enorme barco se eleva à nossa frente\n\nUm cais que vai para o mar\n\nUma sensação de satisfação",
     },
     {
-        "id": 50,
+        "id": 51,
         "name": "Balam",
         "enn": "Lirach tasa vefa wehl Balam",
         "description": "O quinquagésimo primeiro Espírito da Goetia é Balam, um rei terrível e poderoso que inspira medo em todos que o invocam. Ele se apresenta com três cabeças: uma de touro, outra de homem e a terceira de carneiro, além de uma cauda de serpente e olhos flamejantes. Montado em um urso furioso e carregando um falcão em seu punho, ele é um ser imponente e temível.\n\nBalam tem uma voz rouca e poderosa, capaz de dar respostas verdadeiras sobre eventos passados, presentes e futuros. Além disso, ele é conhecido por ter o poder da invisibilidade, permitindo que aqueles que o invocam passem despercebidos em determinados locais e diante de determinadas pessoas.\n\nBalam também tem a capacidade de deixar as pessoas espirituosas e inspiradas, enchendo-as de energia e vitalidade.\n\nSeu domínio se estende sobre 40 legiões de espíritos, tornando-o uma presença poderosa e influente no mundo espiritual.\n\nApesar de sua natureza aterradora, Balam pode ser uma fonte valiosa de conhecimento e poder para aqueles que têm a coragem de invocá-lo. Se você está buscando respostas para questões importantes ou precisa de ajuda para se tornar mais forte e mais confiante, não hesite em chamá-lo. Com seu poder e sabedoria, ele pode ajudá-lo a conquistar seus objetivos e atingir seu verdadeiro potencial.",
@@ -1626,7 +1635,7 @@ daemons = [
         "pathworking": "Uma fogueira no meio da noite\n\nAs árvores de um bosque em volta\n\nUm espaço aberto, iluminado pelas chamas\n\nA sensação de ser avaliado",
     },
     {
-        "id": 51,
+        "id": 52,
         "name": "Alloces",
         "enn": "Typan efna Alloces met tasa",
         "description": "O quinquagésimo segundo espírito é Alloces, também conhecido como Alocas. Ele é um Duque poderoso e forte que aparece na forma de um soldado montado em um grande cavalo. Seu rosto é como o de um leão, muito vermelho e com olhos flamejantes, e sua fala é rouca e imponente.\n\nAlloces é especialista em ensinar a arte da astronomia e todas as ciências liberais. Com sua sabedoria e conhecimento, ele é capaz de esclarecer até mesmo os assuntos mais complexos. Além disso, ele é capaz de trazer bons espíritos familiares para aqueles que o convocam, ajudando a estabelecer conexões com outras dimensões.\n\nSob seu comando, 36 legiões de espíritos se curvam. Ele é capaz de invocá-los para auxiliar aqueles que buscam conhecimento e proteção. Com Alloces ao seu lado, você pode contar com um aliado poderoso em suas empreitadas mágicas e espirituais.",
@@ -1635,7 +1644,7 @@ daemons = [
         "pathworking": "Um templo antigo\nUm labirinto feito de plantas\nUm espaço aberto, com uma fonte\nUma sensação de diversão",
     },
     {
-        "id": 52,
+        "id": 53,
         "name": "Camio",
         "enn": "Tasa on ca Caim renich",
         "description": "O Quinquagésimo Terceiro Espírito é Camio, também conhecido como Caim. Este é um poderoso Presidente do mundo espiritual, que tem o hábito de se manifestar inicialmente na forma de um pássaro chamado tordo. Posteriormente, assume a forma de um homem que empunha uma espada afiada em sua mão.\n\nSuas respostas carregam uma forte paixão, acompanhada de ira e fogo ardente. Sua habilidade em questionar e contestar diferentes pontos de vista pode ser muito útil quando se procura encontrar pontos fracos nas ideias ou discursos de adversários, ou quando se deseja identificar falhas em nossas próprias perspectivas.\n\nCamio é especializado em fornecer aos seres humanos uma compreensão mais profunda da natureza e uma melhor comunicação com ela, permitindo-nos entender não só as vozes dos seres vivos, mas também a voz das águas.\n\nEle é capaz de fornecer respostas verdadeiras sobre coisas por vir.\n\nEle pertencia originalmente à ordem dos Anjos. Agora governa mais de 30 legiões de espíritos. Sua presença e sabedoria são altamente valorizadas pelos praticantes da magia e espiritualidade, que o invocam em busca de orientação e sabedoria.",
@@ -1644,7 +1653,7 @@ daemons = [
         "pathworking": "Uma torre elevada, de pedra\nUm exército organizado\nA vista desde uma muralha alta\nUma sensação de disciplina e força",
     },
     {
-        "id": 53,
+        "id": 54,
         "name": "Murmur",
         "enn": "Vefa mena Murmur ayer",
         "description": "Murmur, também conhecido como Murmus ou Murmux, é o quinquagésimo quarto espírito que aparece na forma de um grande duque e conde. Ele monta um grifo, uma criatura mitológica, e usa uma coroa ducal em sua cabeça.\n\nEste espírito é altamente valorizado por sua habilidade em ensinar filosofia com perfeição, oferecendo aos seus aprendizes um conhecimento profundo e abrangente do assunto.\n\nAlém disso, ele possui o poder de convocar as almas falecidas e fazê-las responder às perguntas que lhe são feitas pelo mago. Este é um dom extremamente útil, especialmente quando se trata de questões relacionadas ao futuro ou a eventos passados.\n\nMurmur era parte da ordem dos tronos e, mais tarde, parte da dos anjos. Ele agora governa 30 legiões de espíritos, o que indica sua posição de autoridade e liderança. Sua presença é capaz de trazer clareza e compreensão aos assuntos mais complexos, oferecendo aos seus seguidores uma perspectiva única e valiosa. Com sua ajuda, o conhecimento e a sabedoria se tornam acessíveis a todos que desejam aprender.",
@@ -1653,7 +1662,7 @@ daemons = [
         "pathworking": "As ruínas de uma antiga cidade perdida no deserto\nA lua cheia no céu de verão\nUma praça abandonada, com um obelisco no centro\nA sensação de ser avaliado",
     },
     {
-        "id": 54,
+        "id": 55,
         "name": "Orobas",
         "enn": "Jedan tasa hoet naca Orobas",
         "description": "O quinquagésimo quinto espírito, Orobas, é um poderoso príncipe que se manifesta inicialmente na forma de um majestoso cavalo. No entanto, com o comando do exorcista, ele rapidamente se transforma na imagem de um homem, exibindo sua incrível capacidade de metamorfosear.\n\nOrobas é um espírito altamente habilidoso, conhecido por sua capacidade de revelar todos os segredos do passado, presente e futuro. Além disso, ele tem o poder de conceder honras e privilégios, bem como favores tanto de amigos quanto de inimigos.\n\nEste espírito é também um mestre no que diz respeito à verdadeira natureza da divindade e da criação do mundo, e pode dar respostas esclarecedoras sobre esses assuntos. Orobas é extremamente leal ao mago que o invoca e não permitirá que ele seja tentado por nenhum outro espírito. Isso é um testemunho do seu caráter fiel e confiável.\n\nCom sua autoridade e poder, Orobas governa vinte Legiões de espíritos, oferecendo orientação e liderança a todos os seus súditos. Sua presença traz clareza e sabedoria aos assuntos mais complexos e desafiadores, permitindo que seus seguidores progridam em sua jornada de crescimento espiritual. Com Orobas ao seu lado, o mago pode ter a certeza de que suas perguntas serão respondidas e seus desejos serão realizados.",
@@ -1662,7 +1671,7 @@ daemons = [
         "pathworking": "Uma grande fonte, no centro de uma praça\nMuitas pessoas andam em volta dela\nUma rua estreita, se ninguém nela\nUma sensação de diversão",
     },
     {
-        "id": 55,
+        "id": 56,
         "name": "Gremory",
         "enn": "An tasa shi Gremory on ca",
         "description": "O quinquagésimo sexto espírito é a poderosa e cativante duquesa Gremory, também conhecida como Gamori. A origem de Gremory é um mistério, embora sua aparência única possa nos dar uma pista dela. Isso porque, diferente de outros Daemons, que aparecem com aparências estranhas ou até bizarras, ela se apresenta simplesmente como uma bela e poderosa mulher, montando um grande camelo, como se fosse uma rainha dos tempos antigos. E, de fato, existe um personagem bíblico que se encaixa muito bem com Gremory: A Rainha de Sheba. Isso porque, segundo a Kabbalah, a rainha de Sheba (nunca nos dizem o nome dela) era uma das rainhas dos Shedim. Isso parece ser confirmado pelo Targum Sheni, onde se diz que ela tinha as pernas cobertas de pelo, como os Se'irim, uma das categorias dos Shedim.\n\nGremory é uma especialista em matéria de prosperidade, podendo ajudar o mago tanto em assuntos relacionados ao dinheiro quanto em empreendimentos.\n\nOutra especialidade de Gremory é revelar segredos ocultos, podendo desvendar informações sobre o passado, presente e futuro com grande precisão. Além disso, ela possui a habilidade de conhecer os segredos mais preciosos das pessoas (seus “tesouros”). Com esse poder de revelação, Gremory pode ajudar o mago mostrando os segredos dos seus inimigos.\n\nEsta poderosa duquesa é também uma “expert” em assuntos de amor, sendo talvez por isso que ela é tão procurada. Ela é capaz de ajudar a conquistar o coração de mulheres jovens e velhas. Com seu conhecimento e experiência, Gremory pode guiar seus seguidores para encontrar a verdadeira felicidade nos relacionamentos.\n\nCom o controle de vinte e seis legiões de espíritos, alguns temíveis, e outros altamente sedutores, Gremory é uma líder forte e respeitada, capaz de orientar e guiar seus súditos com sua sabedoria e discernimento. Ela é uma aliada valiosa para aqueles que buscam descobrir a verdade sobre si mesmos e o mundo ao seu redor, oferecendo uma visão única e iluminadora sobre os segredos mais profundos e preciosos, assim como sobre os labirintos do Amor. Com Gremory como guia, o mago pode ter a certeza de que terá a sabedoria e a orientação necessárias para alcançar seus objetivos.",
@@ -1671,7 +1680,7 @@ daemons = [
         "pathworking": "Um cetro de mando, feito em ouro e diamantes\nUm grande exército, bem formado e alinhado\nUm palácio, cheio de cômodos luxuosos",
     },
     {
-        "id": 56,
+        "id": 57,
         "name": "Ose",
         "enn": "Ayer serpente Ose",
         "description": "O quinquagésimo sétimo espírito é conhecido como Ose, Oso ou Voso. Trata-se de um grande presidente que, à primeira vista, assume a forma de um leopardo, mas depois de algum tempo se transforma em um homem.\n\nEle fornece habilidade em todas as ciências liberais (conhecimento não técnico ou científico) e dá respostas corretas em relação às coisas secretas e divinas.\n\nCom sua magia de glamour, ele também é capaz de criar imagens falsas que fazem alguém acreditar que é outra pessoa. Essa pessoa ficará convencida de que a imagem é verdadeira e, portanto, mudará seu comportamento de acordo com ela.\n\nOse é capaz de governar 30 legiões de espíritos e é um mestre em fornecer soluções precisas para problemas complexos. Ele é altamente valorizado por sua capacidade de desvendar mistérios e revelar segredos ocultos. Aqueles que o convocam com respeito e humildade serão agraciados com sua lealdade e dedicação, pois Ose não permitirá que seu convocador seja tentado por nenhum outro espírito.",
@@ -1680,7 +1689,7 @@ daemons = [
         "pathworking": "Uma antiga cidade em ruínas\nUm cômodo surpreendentemente limpo, com um tapete e almofadas no chão\nUma mesa baixa com um braseiro queimando incenso",
     },
     {
-        "id": 57,
+        "id": 58,
         "name": "Amy",
         "enn": "Tu Fubin Amy secore",
         "description": "O quinquagésimo oitavo espírito é Amy, também conhecido como Avnas. Ele é um Grande Presidente das legiões infernais, e sua aparição inicial é como um fogo flamejante, mas após algum tempo ele assume a forma humana.\n\nSua especialidade é a astrologia e todas as ciências liberais, que ele ensina com perfeição e maestria.Além disso, ele pode conceder aos seus invocadores bons familiares, espíritos que ajudam e protegem o mago em suas práticas ocultas.\n\nAmy é também capaz de revelar tesouros escondidos por outros espíritos, o que pode ser muito útil para aqueles que buscam riquezas ou conhecimento oculto.\n\nEle é um governante poderoso, com 36 legiões de espíritos sob seu comando, e é conhecido por sua sabedoria e habilidade em lidar com os segredos do universo. Aqueles que o convocam com respeito podem esperar uma resposta clara e precisa para suas questões mais profundas e complexas.",
@@ -1689,7 +1698,7 @@ daemons = [
         "pathworking": "Um chicote e uma luneta\nUma mesa de madeira, com um lampião sobre ela\nO camarote de um barco de madeira, iluminado pelo lampião",
     },
     {
-        "id": 58,
+        "id": 59,
         "name": "Orias",
         "enn": "Lirach mena Orias Anay na",
         "description": "O quinquagésimo nono espírito é Orias, um magnífico marquês conhecido também como Oriax, cuja aparição é majestosa como a de um guerreiro com características leoninas, montado em um poderoso cavalo preto. Em sua mão direita, ele segura com destreza duas serpentes que sibilam com poder.\n\nOs poderes de Orias transcendem os limites terrenos, estando intrinsecamente ligados ao Cosmos. Ele é o guardião do conhecimento das virtudes das estrelas e das mansões dos planetas (Astrologia), sabedoria que pode ser aplicada na vida cotidiana.\n\nCom sua habilidade inigualável, Orias é capaz de transformar homens, conceder dignidades e distinções, além de confirmá-las. Aqueles que o convocam ou são indicados pelo mago que o invoca são agraciados com favores tanto de amigos como de inimigos, tamanha é a influência e benevolência deste poderoso espírito.\n\nOrias é o governante de trinta legiões de espíritos, que o seguem lealmente em sua grandeza e poder. Sua presença é imponente e sua sabedoria é incomparável, sendo uma fonte inestimável de conhecimento e benefícios para aqueles que buscam sua ajuda.",
@@ -1698,7 +1707,7 @@ daemons = [
         "pathworking": "Um cetro de ouro, com esmeraldas\nUm grande livro, com uma pena sobre ele\nUm escritório com bibliotecas nas paredes e uma lareira\nUma sensação de certeza",
     },
     {
-        "id": 59,
+        "id": 60,
         "name": "Vapula",
         "enn": "Renich secore Vapula typan",
         "description": "Vapula, ou Naphula, é o sexagésimo espírito do Ars Goetia. Trata-se de um Grão-duque de força e poder excepcionais, que se manifesta na forma de um leão com asas de grifo. Vapula é um guia confiável para os que desejam aprimorar suas habilidades e adquirir conhecimentos em diversas áreas do saber.\n\nAlém de ser um mestre nas artes e ofícios, Vapula também é um estudioso da filosofia e de outras ciências, oferecendo orientação precisa e valiosa a quem o invoca. Sua influência e sabedoria são vastas e profundas, permitindo que seus adeptos alcancem novos patamares de excelência em suas atividades.\n\nCom seus poderosos poderes, Vapula governa 36 legiões de espíritos com destreza e habilidade ímpares, garantindo que seus comandados atuem em harmonia e com precisão. Ele é um ser confiável e respeitado, capaz de fornecer orientações e ensinamentos que levam a um aprimoramento significativo em diversos aspectos da vida.",
@@ -1707,7 +1716,7 @@ daemons = [
         "pathworking": "Uma costa marítima, com grandes pedras\nUm farol frente a um mar tempestuoso\nUma sala dentro do farol, com duas poltronas e uma janela que dá para o mar\nUma sensação de segurança",
     },
     {
-        "id": 60,
+        "id": 61,
         "name": "Zagan",
         "enn": "Anay on ca secore Zagan tasa",
         "description": "Zagan, é o sexagésimo primeiro espírito da hierarquia infernal, é um grande rei e presidente que se apresenta inicialmente na forma de um touro alado, dotado de uma majestade indescritível. Com o tempo, porém, ele se transforma em uma figura humana de grande beleza e sabedoria.\n\nZagan é capaz de tornar os homens mais espirituosos, elevando seu espírito e proporcionando-lhes uma visão mais ampla do mundo e de si mesmos. Ele também possui o dom da transmutação, ou seja, a habilidade de transformar situações com grande destreza. Isso é especialmente útil quando nos encontramos diante de uma situação que desejamos mudar, mas sem renunciar aos aspectos positivos dela.\n\nAlém disso, Zagan tem a capacidade de transformar os tolos em sábios, concedendo-lhes um conhecimento profundo e uma sabedoria inestimável.\n\nEle governa 33 legiões de espíritos com habilidade e destreza, garantindo que seus comandados atuem em harmonia e com precisão.\n\nCom Zagan ao seu lado, é possível alcançar um elevado patamar de sabedoria e inteligência, bem como uma compreensão mais profunda dos mistérios da vida e do universo. Ele é um aliado valioso e respeitado, capaz de conceder benefícios e ensinamentos que levam a uma evolução significativa em diversos aspectos da existência.",
@@ -1716,7 +1725,7 @@ daemons = [
         "pathworking": "O motor de um carro\nUm martelo batendo sobre metal\nUma oficina, cheia de maquinário novo e antigo\nUma sensação de diversão",
     },
     {
-        "id": 61,
+        "id": 62,
         "name": "Valac",
         "enn": "Avage Secore on ca Volac",
         "description": "Valac, ou Valak, ou Valu, é o sexagésimo segundo espírito do Ars Goetia, um poderoso e grande Presidente que, segundo o texto original, se apresenta como uma criança com asas de anjo, montada em um dragão, cuja imagem pode impressionar e intimidar os desavisados.\n\nSeu ofício é dar respostas verdadeiras sobre tesouros escondidos, sejam eles objetos físicos de valor inestimável ou informações preciosas que algumas pessoas escondem. Com sua habilidade sobrenatural, Valac é capaz de encontrar esses tesouros ocultos e revelá-los ao mago que o convoca.\n\nAlém disso, Valac possui o dom de indicar onde está o perigo, seja ele físico ou espiritual, auxiliando seus seguidores a evitar situações perigosas e proteger-se de ameaças desconhecidas.\n\nValac é um líder respeitado que governa 38 legiões de espíritos com maestria e disciplina, garantindo que suas ordens sejam cumpridas com precisão e eficácia. Com ele ao lado, seus seguidores podem ter certeza de que obterão respostas verdadeiras e valiosas para questões importantes e, ao mesmo tempo, serão protegidos dos perigos que espreitam em seu caminho.",
@@ -1725,7 +1734,7 @@ daemons = [
         "pathworking": "Uma faca afiada, com cabo de ouro\nUm dragão nos observa, na escuridão\nUma caverna cheia de tesouros\nUma sensação de diversão",
     },
     {
-        "id": 62,
+        "id": 63,
         "name": "Andras",
         "enn": "Entey ama Andras anay",
         "description": "O Sexagésimo Terceiro Espírito é conhecido como Andras, uma Grande Marquesa que se manifesta na forma de um anjo com uma cabeça negra, com as características de um corvo noturno, montado em um poderoso lobo negro e brandindo uma espada brilhante em sua mão.\n\nAndras é conhecida por semear discórdia, conforme descrito no Ars Goetia. É importante destacar que, segundo o Ars Goetia, se o exorcista não estiver atento, ela e seus companheiros podem ser afetados por este Espírito. No entanto, se controlada com sabedoria, Andras pode ser uma poderosa aliada em situações que requerem a semeadura de discórdia, como em batalhas ou competições.\n\nAlém disso, Andras governa sobre 30 legiões de espíritos, dando-lhe um grande poder e influência.\n\nAo trabalhar com Andras é preciso mais cautela e foco do que com outros Daemons, pois suas habilidades caóticas, se não são bem direcionadas, podem afetar tanto o alvo quanto o próprio mago. Mas deixando bem claro quais são as nossas necessidades e desejos, Andras pode se tornar uma aliada preciosa em momentos críticos.",
@@ -1734,7 +1743,7 @@ daemons = [
         "pathworking": "Uma casa no meio da floresta\nUma bela mulher coloca água nas plantas, na frente da casa\nUma sala com duas cadeiras, uma mesa e, sobre ela, duas xícaras cheias\nUma sensação de astúcia",
     },
     {
-        "id": 63,
+        "id": 64,
         "name": "Haures",
         "enn": "Ganic tasa fubin Flauros",
         "description": "O sexagésimo quarto espírito é Haures, também conhecido como Hauras, Havres ou Flauros.\n\nEle é um Grande Duque e sua aparência inicial é a de um leopardo poderoso e forte, mas sob o comando do exorcista, pode assumir forma humana com olhos flamejantes e um semblante terrível.\n\nSua principal habilidade é fornecer respostas verdadeiras sobre tudo, desde o passado e presente até o futuro. Além disso, ele é capaz de falar sobre a criação do mundo e da divindade, assim como sobre a queda dele e de outros espíritos.\n\nHaures pode destruir e queimar os inimigos do mago que o convoca, se assim desejar, e não permitirá que nenhum outro espírito o tente ou o influencie.\n\nEle governa 36 Legiões de Espíritos. Haures é um Shedim ideal tanto para aqueles que desejam conhecimento quanto para aqueles que precisam de proteção.",
@@ -1743,7 +1752,7 @@ daemons = [
         "pathworking": "Uma grande roda que gira\nUm homem que pensa\nUm templo antigo, parcialmente destruído\nUma sensação de tristeza",
     },
     {
-        "id": 64,
+        "id": 65,
         "name": "Andrealphus",
         "enn": "Mena Andrealphus tasa ramec ayer",
         "description": "O 65º Espírito citado no Ars Goetia é Andrealphus, nome pelo qual se apresenta o antigo Senhor Adramelech, ou Baal Adramelech, poderoso deus solar dos Fenícios. Ele aparece agora como um poderoso Marquês. Inicialmente, ele se apresenta na forma de um majestoso pavão, mas depois de um tempo, assume forma humana, bela e perigosa ao mesmo tempo.\n\nEle pode ser convocado para conceder conhecimento na área da geometria, engenharia e astronomia. Ele é capaz de ensinar a arte da geometria com perfeição, tornando seus invocadores extremamente sábios e habilidosos nessa ciência.\n\nAlém disso, Andrealphus é capaz de usar suas habilidades metamórficas para transformar a aparência de uma pessoa, fazendo-a parecer diferente do que realmente é. Isso pode ser muito útil para aqueles que desejam projetar uma imagem diferente de si mesmos. Claro que ele não altera a aparência física da pessoa, mas afeta as mentes daqueles que estão em volta dela, fazendo-os ver algo diferente da realidade.\n\nEle governa trinta legiões de espíritos e é altamente valorizado por aqueles que buscam conhecimento e habilidades em geometria e ciências afins.",
@@ -1752,7 +1761,7 @@ daemons = [
         "pathworking": "Um labirinto feito de cerca viva\nUma grande taça de cristal sobre uma mesa\nUm salão rodeado de espelhos\nA sensação de alguém tirando sarro de nós",
     },
     {
-        "id": 65,
+        "id": 66,
         "name": "Cimeies",
         "enn": "Ayer avage secore Cimejes",
         "description": "O sexagésimo sexto espírito é conhecido como Cimeies, Cimejes ou Kimaris. Ele é um poderoso Marquês que aparece como um guerreiro valente montado em um majestoso cavalo negro. Sua influência se estende sobre todos os espíritos na África.\n\nEle possui a habilidade de ensinar perfeitamente gramática, lógica e retórica.\n\nAlém disso, Cimeies é capaz de desvendar mistérios e revelar tesouros escondidos, tanto objetos físicos valiosos quanto informações preciosas que algumas pessoas mantêm em segredo. Seu conhecimento sobrenatural permite que ele encontre esses tesouros ocultos e entregue a informação ao mago que o evoca.\n\nComandando 20 legiões de espíritos infernais, Cimeies é um aliado poderoso para aqueles que procuram sabedoria e riquezas.",
@@ -1761,7 +1770,7 @@ daemons = [
         "pathworking": "Um farol aceso na noite escura\nUma caverna cheia de tesouros, iluminada por tochas\nUma mesa com uma taça de vinho\nA sensação de sermos bem-vindos",
     },
     {
-        "id": 66,
+        "id": 67,
         "name": "Amdusias",
         "enn": "Denyen valocur avage secore Amdusias",
         "description": "O sexagésimo sétimo espírito é conhecido como Amdusias, ou Amdukias. Trata-se de um grande e poderoso Duque, que aparece inicialmente sob a forma de um majestoso unicórnio. Contudo, a pedido do exorcista, ele pode assumir uma forma humana que reflete toda a sua força e grandeza.\n\nAmdusias possui habilidades sobrenaturais para facilitar o aprendizado da música e aumentar a inspiração de um artista. Com sua ajuda, um músico ou compositor pode aprimorar suas habilidades musicais e criar obras que inspiram e emocionam o público.\n\nAlém disso, Amdusias tem a capacidade de influenciar as vontades das pessoas. Ele pode fazer com que as pessoas concordem com o mago que o convoca e se comportem de acordo com a vontade dele. Essa habilidade pode ser muito útil em situações em que é necessário persuadir ou convencer alguém.\n\nOutra habilidade de Amdusias é a de fornecer excelentes espíritos familiares ao mago que o invoca.\n\nEm seu comando, Amdusias governa 29 legiões de espíritos que estão prontos para cumprir suas ordens e realizar seus desejos.",
@@ -1770,7 +1779,7 @@ daemons = [
         "pathworking": "Uma redoma de vidro, cheia de um líquido brilhante\nUm circuito montado numa placa, sobre uma mesa\nUm grande laboratório, cheio de coisas novas e antigas\nUma sensação de conhecimento",
     },
     {
-        "id": 67,
+        "id": 68,
         "name": "Belial",
         "enn": "Lirach Tasa Vefa Wehl Belial",
         "description": "O sexagésimo oitavo espírito é Belial, um poderoso e majestoso Rei que governa sobre 50 legiões de espíritos. Ele é uma entidade impressionante, que aparece na forma de dois anjos deslumbrantes sentados em uma carruagem flamejante. Sua voz graciosa e sedutora pode atrair até mesmo os mais desconfiados. Belial tem uma reputação de ter sido um dos mais dignos anjos antes de sua queda, mesmo acima de Miguel e outras figuras celestiais. Ele aparece no Antigo Testamento de várias formas, e uma das mais interessantes é a referência aos 'filhos de Belial', o que o coloca imediatamente numa posição de destaque entre os Shedim. Tanto pelas aparições no Antigo Testamento quanto pela descrição dada no Ars Goetia da sua forma física, ele pertence claramente ao terceiro grupo dos Shedim, os Anjos Caídos.\n\nEntre suas habilidades, Belial é capaz de facilitar o contato com pessoas importantes, o que pode ser muito útil para aqueles que buscam avançar em suas carreiras ou influenciar figuras poderosas. Além disso, ele é capaz de conseguir o favor de amigos e inimigos, ajudando aqueles que o convocam a resolver conflitos e alcançar seus objetivos de maneira mais eficaz.\n\nBelial também é conhecido por conceder excelentes familiares, companheiros mágicos que ajudam e protegem o mago em sua jornada. Ao se unir a um familiar concedido por Belial, o mago pode esperar ajuda e orientação em seus empreendimentos mágicos.\n\nEm resumo, Belial é um espírito poderoso e influente, capaz de facilitar conexões importantes, resolver conflitos e conceder companheiros mágicos valiosos.",
@@ -1779,7 +1788,7 @@ daemons = [
         "pathworking": "Um soldado com armadura prateada, com um chicote na mão\nUma muralha com altas torres\nA porta da fortaleza, aberta para nós\nUma sensação de força",
     },
     {
-        "id": 68,
+        "id": 69,
         "name": "Decarabia",
         "enn": "Hoesta noc ra Decarabia secore",
         "description": "O sexagésimo nono Espírito é Decarabia, um Grande Marquês que aparece inicialmente na forma de uma estrela em um pentagrama. No entanto, após a ordem do exorcista, ele assume uma forma humana para atender às necessidades do invocador.\n\nSeu poder reside em sua capacidade de desvendar informações sigilosas, podendo ver coisas que passam despercebidas para as pessoas, assim como as aves que voam alto e enxergam tudo o que se passa na Terra, Decarabia é capaz de vislumbrar o interior dos corações e ações das pessoas e fornecer essas informações ao mago que o convoca. Ele também pode reconhecer e avisar o mago sobre as 'pedras preciosas', ou seja, os elementos únicos e muito importantes na vida de alguém, ou na vida do próprio mago.\n\nAlém disso, Decarabia é hábil em indicar quais elementos da vida do mago são importantes e merecem ser reforçados ou projetados, para que o mago possa seguir o caminho mais adequado em sua jornada. Com sua sabedoria e visão apurada, ele pode ajudar o mago a tomar decisões importantes e alcançar seus objetivos de maneira mais eficaz.\n\nComo um poderoso Marquês, Decarabia governa 30 legiões de espíritos e está sempre disposto a ajudar aqueles que o convocam com sinceridade e respeito.",
@@ -1788,7 +1797,7 @@ daemons = [
         "pathworking": "Uma luz intensa\nA escuridão profunda do céu numa noite sem lua\nUma clareira no bosque, iluminada por uma fogueira\nA sensação de ser observado",
     },
     {
-        "id": 69,
+        "id": 70,
         "name": "Seere",
         "enn": "Jeden et Renich Seere tu tasa",
         "description": "O septuagésimo espírito na hierarquia demoníaca é conhecido por diferentes nomes: Seere, Sear ou Seir. Ele é um Príncipe forte e poderoso, cuja presença é marcada pela beleza singular e uma aura majestosa. Quando se manifesta, Seere cavalga um cavalo alado com desenvoltura e destreza.\n\nDe acordo com o Ars Goetia, a especialidade de Seere é ir e vir, trazendo consigo um poder sobrenatural que lhe permite realizar diversas tarefas em questão de segundos. Seu poder de deslocamento é extraordinário, capaz de percorrer o mundo inteiro em um piscar de olhos. Dessa forma, Seere é um especialista em levar e trazer informação, sendo capaz de descobrir roubos, tesouros escondidos e muitas outras coisas.\n\nSeere é um ser indiferente em sua natureza, disposto a realizar qualquer coisa que seja solicitada pelo mago. Sua habilidade em cruzar barreiras temporais e espaciais o torna um aliado valioso na busca por conhecimento e na realização de tarefas aparentemente impossíveis.\n\nAdemais, Seere governa 26 legiões de espíritos, demonstrando sua habilidade em liderar e comandar uma grande quantidade de seres. Em suas mãos, esses seres são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.\n\nEm resumo, Seere é um Príncipe poderoso, cuja capacidade de deslocamento e conhecimento tornam-no um aliado indispensável para quem busca o conhecimento e o poder. Sua natureza indiferente e habilidade em liderar legiões de espíritos demonstram sua capacidade de atender às mais diversas demandas dos magos que invocam sua presença.",
@@ -1797,7 +1806,7 @@ daemons = [
         "pathworking": "Um rolo de papiro parcialmente aberto\nUma mesa com instrumentos de escrita\nUma biblioteca antiga, com cadeiras de madeira\nUma sensação de curiosidade",
     },
     {
-        "id": 70,
+        "id": 71,
         "name": "Dantalion",
         "enn": "Avage ayer Dantalion on ca",
         "description": "O septuagésimo primeiro espírito da hierarquia demoníaca é Dantalion, um Duque grande e poderoso, cuja presença é marcada por uma aparência singular: um homem com muitos semblantes, todos com rostos de homens e mulheres, segurando um livro em sua mão direita.\n\nDe acordo com o Ars Goetia, Dantalion é um mestre das artes e ciências, capaz de ensinar os mais complexos conhecimentos aos magos que invocam sua presença. Além disso, ele é capaz de dar conselhos secretos, pois conhece os pensamentos de todos e pode mudá-los à vontade.\n\nDentre suas habilidades mágicas, destaca-se sua capacidade de causar amor e de fazer com que a pessoa alvo do trabalho 'veja' o outro em todas as partes, até mesmo em sonhos. Essa influência mágica é potencializada pela capacidade de Dantalion de fixar a imagem da pessoa que está em contato com ele na mente e no coração do alvo, independentemente de onde estiverem no mundo. O efeito final é arrasador.\n\nPor fim, Dantalion governa 36 legiões de espíritos, demonstrando sua habilidade em liderar e comandar uma grande quantidade de seres. Sob sua liderança, esses espíritos são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.\n\nEm resumo, Dantalion é um Duque poderoso e versátil, capaz de ensinar conhecimentos valiosos aos magos e de influenciar poderosamente a vida daqueles que são alvo de seus trabalhos mágicos. Sua habilidade em liderar legiões de espíritos demonstra sua capacidade de controlar e comandar grandes quantidades de seres em nome da realização dos desejos do mago que o invoca.",
@@ -1806,7 +1815,7 @@ daemons = [
         "pathworking": "Uma nave antiga, navegando num mar agitado\nO convés, banhado em água das ondas\nO camarote do capitão, com uma lareira acesa\nUma sensação de segurança",
     },
     {
-        "id": 71,
+        "id": 72,
         "name": "Andromalius",
         "enn": "Tasa fubin Andromalius on ca",
         "description": "Andromalius é o septuagésimo segundo Espírito listado no Ars Goetia, e é conhecido por seu ofício em trazer de volta um ladrão e os bens roubados. Ele se apresenta como um conde grande e poderoso, de boa aparência, e sempre com a presença de uma grande serpente.\n\nAlém de sua habilidade em recuperar bens roubados, Andromalius é capaz de descobrir toda a maldade e negociação desleal, sendo um poderoso aliado para aqueles que buscam a justiça e a verdade. Com sua habilidade mágica, ele pode punir todos os ladrões e outras pessoas más, demonstrando sua capacidade em fazer valer a ordem e a retidão. Mas Andromalius não se limita a trazer justiça e punição. Ele também é capaz de descobrir tesouros que estão escondidos, revelando riquezas que antes eram desconhecidas. Essa habilidade o torna um poderoso aliado para aqueles que buscam riquezas e prosperidade.\n\nEm sua posição como governante de 36 Legiões de Espíritos, Andromalius demonstra sua habilidade em liderar e comandar uma grande quantidade de seres. Sob sua liderança, esses espíritos são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.\n\nEm resumo, Andromalius é um conde grande e poderoso, capaz de trazer de volta bens roubados, descobrir maldades e negociações desleais, punir ladrões e outras pessoas más, descobrir tesouros escondidos e liderar legiões de espíritos. Sua habilidade em fazer valer a justiça e a ordem é um valioso recurso para aqueles que buscam a retidão, enquanto sua habilidade em revelar tesouros desconhecidos o torna um poderoso aliado para aqueles que buscam prosperidade e riqueza.",
