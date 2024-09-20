@@ -1453,7 +1453,7 @@ daemons = [
         "planet": "Sol",
         "direction": "Leste",
         "pathworking": "Um escudo e uma lança\nUma mesa e dois bancos\nUm deserto de areias douradas, com grandes palmeiras\nUma sensação de alegria"
-    }
+    },
     {
         "id": 32,
         "name": "Gaap",
@@ -1471,6 +1471,33 @@ daemons = [
         "planet": "Marte",
         "direction": "Sul",
         "pathworking": "Um fogo que devora bosques\nUm rio desbordado, alagando tudo à medida que avança\nUma pedra alta, onde observamos tudo, seguros\nUma sensação de poder"
+    },
+    {
+        "id": 34,
+        "name": "Marchosias",
+        "enn": "Es na ayer Marchosias Secore",
+        "description": "O trigésimo quinto espírito é Marchosias, um grande e poderoso marquês que se manifesta na forma de um lobo com asas de grifo e uma cauda de serpente, vomitando fogo pela sua boca. No entanto, por ordem do mago, ele pode assumir a forma de um homem.\nMarchosias é um grande lutador, muito forte, e pode ser chamado em situações tensas, como por exemplo numa negociação que precise de muita força, ou para amedrontar inimigos, de forma que desistam da ideia de atacar.\nSe você precisar de proteção, Marchosias pode ser invocado para defendê-lo ou para atacar um determinado alvo. Seu poder é imenso, e ele é um espírito muito respeitado. Marchosias pertence à ordem dos Domínios, o que o torna um ser ainda mais poderoso e influente.\nAo trabalhar com Marchosias, é importante ter em mente que ele é um espírito muito poderoso e agressivo, e deve ser tratado com respeito e reverência. Ele governa 30 legiões de espíritos, o que significa que ele é um líder forte e respeitado entre seus pares.",
+        "planet": "Lua",
+        "direction": "Sul",
+        "pathworking": "Um escudo e uma espada, sujos de sangue\nUm guerreiro com armadura completa e uma lança\nO arsenal de um castelo, cheia de instrumentos de guerra\nUma sensação de agressividade"
+    },
+    {
+        "id": 35,
+        "name": "Stolas",
+        "enn": "Stolos Ramec viasa on ca",
+        "description": "Stolas, também conhecido como Stolos, é o trigésimo sexto Espírito da hierarquia demoníaca. Ele é um príncipe poderoso, dotado de grande sabedoria e capacidade de transformação. Inicialmente, ele se apresenta como um corvo imponente, mas logo assume a forma humana.\nEntre seus dons, Stolas é um mestre na arte da astronomia, capaz de desvendar os segredos dos astros e das constelações. Além disso, ele detém um vasto conhecimento sobre as virtudes ocultas das plantas e das pedras preciosas, podendo ensinar a magia da cura e a utilização desses elementos em rituais de proteção.\nStolas governa 26 legiões de espíritos, exercendo uma influência significativa sobre o mundo espiritual. Sua presença é reverenciada por aqueles que buscam aprofundar seu conhecimento nas artes ocultas e desvendar os mistérios do cosmos.",
+        "planet": "Júpiter",
+        "direction": "Leste",
+        "pathworking": "Um papiro antigo, sobre uma mesa de mármore\nUma enorme bússola de bronze\nUm jardim à noite, iluminado por tochas, sob um céu estrelado\nUma sensação de diversão ou de alegria"
+    },
+    {
+        "id": 36,
+        "name": "Phenex",
+        "enn": "Ef enay Phenex ayer",
+        "description": "O trigésimo sétimo espírito do Ars Goetia é conhecido como Phenex, também chamado de Pheynix. Este grandioso marquês se apresenta em forma de fênix, com a voz suave de uma criança. Contudo, é necessário que o mago lhe ordene que assuma uma forma humana antes de começar o diálogo. Quando ele assim o faz, revela-se um magnífico conhecedor de todas as ciências maravilhosas, capaz de falar com habilidade e destreza.\nPhenex é um poeta notável e admirável, sempre disposto a atender aos pedidos de seus invocadores. Basicamente, os poderes de Phenex estão na área da persuasão, seja através da palavra, da escrita, da música ou de qualquer tipo de arte. Se pedimos a ajuda deste grande marquês, nossa capacidade de influir sobre as pessoas através da nossa arte (seja ela qual for) aumentará notavelmente.\nEle governa 20 legiões de espíritos e pode ser uma grande ajuda para quem o convoca.",
+        "planet": "Lua",
+        "direction": "Leste",
+        "pathworking": "Um grande cristal arredondado\nUm barco navegando entre altas ondas\nUma praia frente a um mar azul, sem ondas, ao meio-dia\nUma sensação de calma"
     }
 ]
 
