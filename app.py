@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+
 app = Flask(__name__)
 
 cards = [
@@ -13,7 +14,7 @@ cards = [
         "free_person": "Gosta pelo prazer de se divertir, mas não quer se preocupar, não faz planos para futuro, grande libido, curiosidade, futuro prazeroso mas sem compromisso.",
         "taken_person": "Inconstância nas atitudes, descompromisso, existe amor mas de um jeito agitado, tem tesão mas tem tendência a distanciamento ou separação, promessas que não são cumpridas, comportamento leviano, irresponsável, sem empatia ou consciência. Dificuldades.",
         "obstacle": "Imaturidade, imprudência, descuido, desordem, bagunça.",
-        "advice": "Ser ousado, flexível, dinâmico, seguir a intuição, não é hora de ligar para a opinião dos outros."
+        "advice": "Ser ousado, flexível, dinâmico, seguir a intuição, não é hora de ligar para a opinião dos outros.",
     },
     {
         "id": 1,
@@ -26,7 +27,7 @@ cards = [
         "free_person": "Flerte, muita sedução, namoro passageiro, gosta mas não faz esforço, até quer algo mais sério, mas tudo depende o quão bom serão os momentos juntos.",
         "taken_person": "Melhoria no relacionamento, reconquista, quer buscar o tempo perdido, tem atitudes inovadoras, quer estar junto, está sempre pronto. Traz novos caminhos no relacionamento, faz planos para o futuro, como ter filhos, casamento, mudança de casa.",
         "obstacle": "Dificuldade em agir, em se posicionar. Dificuldade em tomar a frente, em ter atitude.",
-        "advice": "É o momento de dialogar, não dá para esperar só as forças do destino agir. Precisa recriar, se mexer, buscar possibilidades para se alcançar aquilo que deseja."
+        "advice": "É o momento de dialogar, não dá para esperar só as forças do destino agir. Precisa recriar, se mexer, buscar possibilidades para se alcançar aquilo que deseja.",
     },
     {
         "id": 2,
@@ -39,7 +40,7 @@ cards = [
         "free_person": "Pensa em se relacionar mas não tomará nenhuma atitude. Se estiver solteiro, sem conversar com ninguém, continuará assim. Sente que é amado por outra pessoa. Falta autoestima. Muita conversa e pouca ação.",
         "taken_person": "Não fala o que pensa, não se expressa sexualmente, nada muda na relação, se estiverem bem, assim permanece. Se houver problemas conjugais, irá resultar em ressentimento.",
         "obstacle": "Segredo, silêncio, inércia, demora",
-        "advice": "Analisar tudo com cuidado, não é o momento de falar o que pensa, não há nada de muito errado, mas precisa de calma e atenção. Melhor esperar."
+        "advice": "Analisar tudo com cuidado, não é o momento de falar o que pensa, não há nada de muito errado, mas precisa de calma e atenção. Melhor esperar.",
     },
     {
         "id": 3,
@@ -52,7 +53,7 @@ cards = [
         "free_person": "Deseja namorar, se sente seguro, tem muita atração.",
         "taken_person": "Melhoria no âmbito familiar, amor maduro e fiel com bons planos para o futuro a longo prazo, planos de formar família, ter filhos.",
         "obstacle": "Carência, falta de autoconfiança, falta de afeto. Podendo também retratar uma pessoa.",
-        "advice": "Não perder tempo com pensamentos inúteis, não duvidar, seguir em frente, aproveitar as oportunidades. Dar atenção à beleza, feminilidade, sensualidade, cuidar de si. Nas relações, cuidar dos demais, ser educado e gentil."
+        "advice": "Não perder tempo com pensamentos inúteis, não duvidar, seguir em frente, aproveitar as oportunidades. Dar atenção à beleza, feminilidade, sensualidade, cuidar de si. Nas relações, cuidar dos demais, ser educado e gentil.",
     },
     {
         "id": 4,
@@ -65,7 +66,7 @@ cards = [
         "free_person": "Não deseja namorar, só pensa no aqui e agora, coração fechado, não quer se entregar, sente atração porém individualista.",
         "taken_person": "Deseja um futuro longo juntos, protege, controla. Pode indicar falta de carinho e afeto. Futuro relacionamento conservador.",
         "obstacle": "Rigidez, controle, autoritarismo, inflexibilidade. Pode indicar uma pessoa.",
-        "advice": "Não fraquejar, não se deixar levar por influências, manter sua autoridade, mandar e controlar."
+        "advice": "Não fraquejar, não se deixar levar por influências, manter sua autoridade, mandar e controlar.",
     },
     {
         "id": 5,
@@ -78,7 +79,7 @@ cards = [
         "free_person": "Quer namorar, mas tudo depende das atitudes do consulente, pode não ter atração sexual. Só irá virar namoro se ambos colaborarem nas ações, ao menor sinal de desrespeito, tudo acaba. Não deseja flertar por flertar.",
         "taken_person": "Fidelidade, carinho, atenção, promessas que são cumpridas, casamento. Sexo pode estar pouco atrativo, muito metódico, sem emoção. Relacionamento bem visto pela sociedade.",
         "obstacle": "Crenças, moralidade, influências sociais, burocracia.",
-        "advice": "Não permitir que outras pessoas lhe digam o que fazer, tenha opinião. Agir dentro das regras, leis, cumprir os acordos. Ser fiel e honesto."
+        "advice": "Não permitir que outras pessoas lhe digam o que fazer, tenha opinião. Agir dentro das regras, leis, cumprir os acordos. Ser fiel e honesto.",
     },
     {
         "id": 6,
@@ -91,7 +92,7 @@ cards = [
         "free_person": "Quer namorar, tende a virar amor, mas obstáculos podem aparecer para impedir. Sente uma atração física muito forte. Futuro incerto pois depende da conexão física e pode haver competição com outras pessoas, e até influência negativa familiar. Novidades chegando, podendo ser um novo relacionamento.",
         "taken_person": "Busca melhorias na relação, se questiona pensando em evoluir, ama e está muito feliz, busca casar, construir até uma família. Momento de felicidade na relação. (Se acompanhada com cartas de traição, pode indicar uma infidelidade por existir uma terceira pessoa, analisar o contexto do jogo).",
         "obstacle": "Dúvida, influência de terceiros.",
-        "advice": "Buscar uma conciliação, ser gentil, socializar, não discutir, momento de agir de forma prática aceitando as diferenças."
+        "advice": "Buscar uma conciliação, ser gentil, socializar, não discutir, momento de agir de forma prática aceitando as diferenças.",
     },
     {
         "id": 7,
@@ -104,7 +105,7 @@ cards = [
         "free_person": "Deseja namorar, mas também está atento a outras opções, sente muita atração física, está empolgado com a relação, vê tudo com muita intensidade. Pode começar uma nova relação, porém ficar com dúvida entre outro pretendente.",
         "taken_person": "Quer progredir na relação, busca sempre melhorar, tem muita atração física, se entrega totalmente, ama profundamente, quer casar, construir um futuro. Pode estar planejando/querendo alguma viagem.",
         "obstacle": "Excesso de autoconfiança, dificuldade de fazer escolhas (também podendo indicar viagem, algo distante).",
-        "advice": "Agir imediatamente, seguir em frente, ter autoconfiança. Ser ágil, comunicativo, enérgico, sociável."
+        "advice": "Agir imediatamente, seguir em frente, ter autoconfiança. Ser ágil, comunicativo, enérgico, sociável.",
     },
     {
         "id": 8,
@@ -117,7 +118,7 @@ cards = [
         "free_person": "Pensa em namoro, é sincero, sente carinho e atração física. Pode indicar uma época sem muitas novidades para os solteiros.",
         "taken_person": "Satisfação, carinho, compreensão, paciência. Pode indicar desejo de fazer as pazes, se redimir e perdoar.",
         "obstacle": "Perdoar, compreender, aceitar, ter paciência.",
-        "advice": "Ter coragem, não ter medo, não ouvir opiniões negativas, ter fé e acreditar. Agir com calma, empatia e paciência."
+        "advice": "Ter coragem, não ter medo, não ouvir opiniões negativas, ter fé e acreditar. Agir com calma, empatia e paciência.",
     },
     {
         "id": 9,
@@ -130,7 +131,7 @@ cards = [
         "free_person": "Não nutre sentimentos, planeja ficar sozinho, pode indicar que será apenas amizade, podendo se afastar no futuro.",
         "taken_person": "Maturidade nas ações, fidelidade, busca ser honesto e compreensivo. Casal pode passar por um período de responsabilidades e pouco libido.",
         "obstacle": "Isolamento, exclusão, término, demora.",
-        "advice": "Ter paciência, esperar, dar um tempo, se recolher, se afastar para refletir, buscar o equilíbrio interior."
+        "advice": "Ter paciência, esperar, dar um tempo, se recolher, se afastar para refletir, buscar o equilíbrio interior.",
     },
     {
         "id": 10,
@@ -143,7 +144,7 @@ cards = [
         "free_person": "Não sabe o que sente e o que deseja, inconstante e ansioso, tudo é incerto, possibilidade de surgir outras opções, novo pretendente.",
         "taken_person": "Ideias equivocadas, ansiedade, nervosismo, rixas afetivas. Podendo haver separação em função de alguma mudança no trabalho ou estudos.",
         "obstacle": "Ansiedade, reviravoltas, mudanças inesperadas, reviver situações passadas.",
-        "advice": "Aceitar as mudanças, não ficar parado, não deixar estagnar, ser flexível, tomar cuidado com ansiedade e pensamentos dispersos."
+        "advice": "Aceitar as mudanças, não ficar parado, não deixar estagnar, ser flexível, tomar cuidado com ansiedade e pensamentos dispersos.",
     },
     {
         "id": 11,
@@ -156,7 +157,7 @@ cards = [
         "free_person": "Não pensa em namorar, não nutre sentimentos nem desejos, podendo ser um pouco moralista, julgar o outro.",
         "taken_person": "Problemas na afinidade/comunicação, falta de carinho e atenção, distanciamento, necessário evitar conflitos para não gerar separação. Pode haver pressão na relação.",
         "obstacle": "Cobranças, exigências, frieza, indelicadeza (moralismo), questões judiciais.",
-        "advice": "Agir corretamente, com ética, mantendo um bom comportamento. Atenção às consequências das atitudes e escolhas. Caso esteja passando por um período ruim, entender que pode ser frutos de escolhas passadas."
+        "advice": "Agir corretamente, com ética, mantendo um bom comportamento. Atenção às consequências das atitudes e escolhas. Caso esteja passando por um período ruim, entender que pode ser frutos de escolhas passadas.",
     },
     {
         "id": 12,
@@ -169,7 +170,7 @@ cards = [
         "free_person": "Pensa ou sofre por outra pessoa, dificuldades com o passado, não sente atração física, não quer fazer dar certo.",
         "taken_person": "Problemas com o passado, não consegue superar uma situação, está triste, sem expectativas, ama mas está insatisfeito.",
         "obstacle": "Ilusão, ansiedade, negação, dificuldade de aceitar a realidade.",
-        "advice": "Cuidado com a utopia, é necessário mudar o comportamento, o ideal é se manter calado, distante dos problemas, refletir mais e não tomar nenhuma decisão no momento."
+        "advice": "Cuidado com a utopia, é necessário mudar o comportamento, o ideal é se manter calado, distante dos problemas, refletir mais e não tomar nenhuma decisão no momento.",
     },
     {
         "id": 13,
@@ -182,20 +183,20 @@ cards = [
         "free_person": "Não deseja namorar, não nutre sentimentos, podendo ainda não ter superado o passado. Frieza, distância, indica que a pessoa futuramente pode encontrar um outro pretendente que interesse mais.",
         "taken_person": "Angústia, falta de carinho e atenção, tendência a brigas e afastamento, podendo haver separação temporária por fatores externos (viagem, trabalho, estudo, família).",
         "obstacle": "Encerramento de ciclo, término. Insensibilidade, dificuldade de deixar o passado.",
-        "advice": "Mudar os pensamentos, não ter medo de fazer mudanças, de transformar-se, e se abrir a novos caminhos. Mudanças precisam acontecer."
+        "advice": "Mudar os pensamentos, não ter medo de fazer mudanças, de transformar-se, e se abrir a novos caminhos. Mudanças precisam acontecer.",
     },
     {
         "id": 14,
         "name": "A Temperança",
         "major": True,
-        "description": "Harmonia, equilíbrio, longevidade, paciência, autocontrole, adaptação, flexibilidade, nada se realiza a curto prazo, pois necessita calma, tempo e dedicação. A Temperança simboliza uma combinação harmoniosa de elementos opostos. Ela nos lembra da importância de encontrar um equilíbrio entre diferentes aspectos de nossa vida, como trabalho e lazer, razão e emoção, espiritualidade e materialidade. Simboliza a busca pelo equilíbrio e pela moderação em todas as áreas da vida. A importância de encontrar o ponto intermediário, de evitar extremos. Os vasos que o anjo segura representam uma necessidade de equilibrar as energias e emoções em nossa vida. A simbologia dos pés, um dentro d'água e o outro fora, representa o equilíbrio entre o emocional e o racional, como diz o ditado: \"Um pouco de droga e um pouco de salada\". A Temperança também carrega uma energia de renovação, depois da carta 13 da Morte, a Temperança vem como uma folha em branco, uma chance de adicionar coisas novas a uma nova energia. Também carrega a necessidade de ser flexível, moderado e cauteloso. No lado negativo pode trazer preguiça, enrolação, passividade.",
+        "description": 'Harmonia, equilíbrio, longevidade, paciência, autocontrole, adaptação, flexibilidade, nada se realiza a curto prazo, pois necessita calma, tempo e dedicação. A Temperança simboliza uma combinação harmoniosa de elementos opostos. Ela nos lembra da importância de encontrar um equilíbrio entre diferentes aspectos de nossa vida, como trabalho e lazer, razão e emoção, espiritualidade e materialidade. Simboliza a busca pelo equilíbrio e pela moderação em todas as áreas da vida. A importância de encontrar o ponto intermediário, de evitar extremos. Os vasos que o anjo segura representam uma necessidade de equilibrar as energias e emoções em nossa vida. A simbologia dos pés, um dentro d\'água e o outro fora, representa o equilíbrio entre o emocional e o racional, como diz o ditado: "Um pouco de droga e um pouco de salada". A Temperança também carrega uma energia de renovação, depois da carta 13 da Morte, a Temperança vem como uma folha em branco, uma chance de adicionar coisas novas a uma nova energia. Também carrega a necessidade de ser flexível, moderado e cauteloso. No lado negativo pode trazer preguiça, enrolação, passividade.',
         "work": "Trabalho estável, sem mudanças à vista, cuidado em querer mudanças muito radicais no momento, tudo deve ser mantido como está, caso desejar mudanças, fazer isso aos poucos sem pressa, se planejando e se organizando.",
         "financial": "Orçamento equilibrado, podendo ficar um pouco apertada as finanças, o ideal seria não fazer investimentos, pensar a longo prazo.",
         "love": "Tranquilidade, carinho, amor, podendo haver tédio, preguiça de expressar sentimentos.",
         "free_person": "Não pensa em namorar, pode ficar na amizade, pois não tem atração física, desejo. Confia como amigo, mas não ama como amante.",
         "taken_person": "Tranquilidade, segurança, possui carinho e amor, planeja a longo prazo, mas pode se sentir entediado, os problemas são resolvidos com o tempo, sem muitas mudanças por enquanto. Necessita cuidado para não 'empurrar com a barriga' situações.",
         "obstacle": "Preguiça, demora, falta de atitude, passividade.",
-        "advice": "Ter paciência, não discutir, buscar ser flexível e manter uma boa relação com os demais."
+        "advice": "Ter paciência, não discutir, buscar ser flexível e manter uma boa relação com os demais.",
     },
     {
         "id": 15,
@@ -208,20 +209,20 @@ cards = [
         "free_person": "Joguinho de sedução, deseja ter o controle da relação, gosta, quer se relacionar, mas com tendência a posse, controle e ciúmes. Pode indicar relação sendo construída, mas com tendência a brigas e desconfiança.",
         "taken_person": "Não confia no parceiro, por maiores que sejam as provas de fidelidade, forte paixão, mas com angústia por causa do medo de perder.",
         "obstacle": "Mentira, omissão, medo. Deve-se atentar também à saúde. (Pode indicar enfermidade).",
-        "advice": "Ser egoísta, pensar apenas em si para chegar onde deseja, dar valor e atenção às suas próprias necessidades. Ter audacioso, ambicioso."
+        "advice": "Ser egoísta, pensar apenas em si para chegar onde deseja, dar valor e atenção às suas próprias necessidades. Ter audacioso, ambicioso.",
     },
     {
         "id": 16,
         "name": "A Torre",
         "major": True,
-        "description": "Desconstrução, rompimento, mudança radical e inesperada de circunstâncias podendo causar dor da desilusão, do abandono, da rejeição, perda de status ou de controle. É um alerta de que nem sempre podemos evitar eventos disruptivos ou situações caóticas, e que às vezes é necessário passar por essas experiências para criar um novo começo. Pode indicar a necessidade de abandonar, desconstruir velhos padrões, crenças limitantes ou situações que já não nos servem mais. Se quebrar algo é hora de jogar fora e comprar outro, se brigar com alguém é hora de seguir em frente e não ficar lamentando o passado. Simboliza eventos inesperados, caóticos que fazem a pessoa \"perder o controle\". Embora possa ser um processo doloroso, nos lembra que a destruição pode abrir o caminho para a reconstrução e o crescimento pessoal. Se deu errado, quebrou ou desestabilizou, é porque algo não estava \"firme\". Através da destruição, podemos encontrar a oportunidade de reconstruir nossas vidas em bases mais sólidas e autônomas. A Torre pode simbolizar tanto eventos do dia a dia de forma externa, como experiências internas como: desconstruir a imagem que tinha sobre uma determinada pessoa ou relação.",
+        "description": 'Desconstrução, rompimento, mudança radical e inesperada de circunstâncias podendo causar dor da desilusão, do abandono, da rejeição, perda de status ou de controle. É um alerta de que nem sempre podemos evitar eventos disruptivos ou situações caóticas, e que às vezes é necessário passar por essas experiências para criar um novo começo. Pode indicar a necessidade de abandonar, desconstruir velhos padrões, crenças limitantes ou situações que já não nos servem mais. Se quebrar algo é hora de jogar fora e comprar outro, se brigar com alguém é hora de seguir em frente e não ficar lamentando o passado. Simboliza eventos inesperados, caóticos que fazem a pessoa "perder o controle". Embora possa ser um processo doloroso, nos lembra que a destruição pode abrir o caminho para a reconstrução e o crescimento pessoal. Se deu errado, quebrou ou desestabilizou, é porque algo não estava "firme". Através da destruição, podemos encontrar a oportunidade de reconstruir nossas vidas em bases mais sólidas e autônomas. A Torre pode simbolizar tanto eventos do dia a dia de forma externa, como experiências internas como: desconstruir a imagem que tinha sobre uma determinada pessoa ou relação.',
         "work": "Mudança indesejada, conflitos, rompimentos, contrato ou palavra não cumprida, podendo trazer atrasos ou prejuízos.",
         "financial": "Prejuízo ou perdas inesperadas, acúmulo de dívidas ou atraso em pagamentos, levar calote. Dificuldade de acertar as finanças.",
         "love": "Dificuldades, desacordos, brigas, rompimentos, situação caótica com muitos obstáculos trazendo desilusão, medo do futuro, rancor, decepção, orgulho ferido, vingança, sensação de abandono, sente-se traído.",
         "free_person": "Não pensa em se relacionar, desgosto, ama outra pessoa, pode ter algum trauma que afeta o sexual, tende a gerar traições, fazendo-se afastar, terminar.",
         "taken_person": "Pensa em separação, está decepcionado, sente-se rejeitado, desvalorizado. Pode gerar mágoas e desentendimentos na relação causando uma possível separação. Pode indicar um evento de traição.",
         "obstacle": "Rompimento inesperado, mudança de planos caótica.",
-        "advice": "Mudar urgentemente as atitudes, a forma de pensar, perdoar e romper com aquilo que traz sofrimento, não ter medo do futuro ou de desagradar pessoas."
+        "advice": "Mudar urgentemente as atitudes, a forma de pensar, perdoar e romper com aquilo que traz sofrimento, não ter medo do futuro ou de desagradar pessoas.",
     },
     {
         "id": 17,
@@ -234,7 +235,7 @@ cards = [
         "free_person": "Deseja namorar, tem carinho, se identifica, podendo até nascer um amor verdadeiro. Está aberto a um futuro relacionamento com dedicação e cuidado.",
         "taken_person": "Ideias positivas e otimistas para a relação, se sente seguro, é fiel, tem amor e se sente naturalmente atraído fisicamente. Relacionamento feliz, com amor e reciprocidade.",
         "obstacle": "Excesso de expectativas, sonhar demais.",
-        "advice": "Ter esperanças mesmo diante de situações difíceis, confiar no Universo, buscar amor próprio e autoconfiança."
+        "advice": "Ter esperanças mesmo diante de situações difíceis, confiar no Universo, buscar amor próprio e autoconfiança.",
     },
     {
         "id": 18,
@@ -247,7 +248,7 @@ cards = [
         "free_person": "Falta de autoestima, sente muita atração, mas tem medo de amar, possíveis ilusões, com crises por ciúmes e fantasias.",
         "taken_person": "Confusão mental que atrapalha de enxergar a realidade, ama, quer estar perto porque tem medo de ficar sozinho, ser abandonado. Brigas familiares e ciúmes podem atrapalhar a relação.",
         "obstacle": "Omissão, mentira, segredo. Algo está oculto, podendo gerar apego emocional.",
-        "advice": "Buscar o autoconhecimento, entender mais sobre si, seus medos e frustrações. Evitar conflitos pois não resolverá nada. Ter mais amor próprio."
+        "advice": "Buscar o autoconhecimento, entender mais sobre si, seus medos e frustrações. Evitar conflitos pois não resolverá nada. Ter mais amor próprio.",
     },
     {
         "id": 19,
@@ -260,10 +261,10 @@ cards = [
         "free_person": "Quer namorar, está esperando o momento certo, sente-se alegre, quer amar, quer reciprocidade, grande possibilidade de nascer um amor verdadeiro.",
         "taken_person": "Planeja o amor para a relação, está feliz, satisfeito, período de felicidade e muita conexão.",
         "obstacle": "Excesso de confiança, de positivismo/otimismo.",
-        "advice": "Aceitar ajuda dos outros, ser mais otimista, evitar se isolar, socializar."
+        "advice": "Aceitar ajuda dos outros, ser mais otimista, evitar se isolar, socializar.",
     },
     {
-    "id": 20,
+        "id": 20,
         "name": "O Julgamento",
         "major": True,
         "description": "Refazer, curar, evoluir, transcender. Aceitação, libertação, acerto de contas, acerto com o passado, chance de renovação. Na carta do Julgamento, vemos figuras emergindo de caixões enquanto um anjo toca uma trombeta no céu. Isso representa a ideia de uma nova fase, um despertar para uma consciência mais elevada e a necessidade de avaliar nossas ações, escolhas e direcionamentos na vida. Os personagens estão despidos, trazendo a ideia da libertação, redenção. Simboliza a liberação de julgamentos e culpas, deixar de lado os ressentimentos e nos abrir para a cura e a transformação. O ideal é não se culpar e nem tentar achar um culpado, existem episódios que precisam acontecer por uma questão kármica de evolução. Essa carta representa a oportunidade de recomeçar, de se redimir e de buscar a evolução espiritual.",
@@ -273,7 +274,7 @@ cards = [
         "free_person": "É atencioso, deseja se envolver, pode não dar certo uma relação por caminhos que são diferentes, mudança de casa, de trabalho ou em função de estudos. Em breve conhecerá alguém.",
         "taken_person": "Renovação de afeto, novos pensamentos mais positivos sobre a relação, novos caminhos se apresentando, deseja renovar a relação. Perdão.",
         "obstacle": "Questões de passado. Perdoar, mudar.",
-        "advice": "Perdoar, seguir adiante, não se culpar. Reavaliar as próprias atitudes, não repetir o mesmo erro, usar o passado como exemplo."
+        "advice": "Perdoar, seguir adiante, não se culpar. Reavaliar as próprias atitudes, não repetir o mesmo erro, usar o passado como exemplo.",
     },
     {
         "id": 21,
@@ -286,7 +287,7 @@ cards = [
         "free_person": "Deseja se relacionar mas sem compromissos ou responsabilidades, gosta, é carinhoso, podendo no futuro assumir uma relação.",
         "taken_person": "Questiona a relação para uma melhora, pensa em uma possível separação consensual, tem carinho, é sincero. Está muito confiante do que quer.",
         "obstacle": "Recomeçar, agir de forma madura, consciente.",
-        "advice": "Ser independente, seja na vida amorosa, profissional ou financeira, focar mais em si mesmo, se importar mais com seus próprios objetivos."
+        "advice": "Ser independente, seja na vida amorosa, profissional ou financeira, focar mais em si mesmo, se importar mais com seus próprios objetivos.",
     },
     {
         "id": 22,
@@ -298,7 +299,7 @@ cards = [
         "financial": "Momentos favoráveis, de lucros e caminhos abertos para crescimento.",
         "love": "Alegria, amor, magnetismo, empolgação, felicidade em conversar, deseja começar uma relação. Convite para namorar. Início de relacionamento.",
         "obstacle": "Começar algo. Dialogar, Colocar suas ideias em prática.",
-        "advice": "Seguir em frente com os projetos, buscar novidades. Apostar em um novo começo."
+        "advice": "Seguir em frente com os projetos, buscar novidades. Apostar em um novo começo.",
     },
     {
         "id": 23,
@@ -310,7 +311,7 @@ cards = [
         "financial": "Obstáculos, demora, impasse, mas sem trazer grandes prejuízos. Planos para futuro.",
         "love": "Demora para dar uma resposta, necessidade de buscar apoio de outras pessoas, dualidade, espera.",
         "obstacle": "Demora, atraso, adiamento.",
-        "advice": "Analisar melhor antes de agir, repensar os próprios desejos e atitudes."
+        "advice": "Analisar melhor antes de agir, repensar os próprios desejos e atitudes.",
     },
     {
         "id": 24,
@@ -322,7 +323,7 @@ cards = [
         "financial": "Influência de terceiros de forma positiva para uma melhoria.",
         "love": "Parceria, reciprocidade, perdão, dedicação, solução dos obstáculos. Relacionamento podendo ajudar em outras áreas da vida.",
         "obstacle": "Receber apoio, entrar em acordo.",
-        "advice": "Se organizar e cooperar com o meio social, usar o que se tem ao redor ao seu favor."
+        "advice": "Se organizar e cooperar com o meio social, usar o que se tem ao redor ao seu favor.",
     },
     {
         "id": 25,
@@ -334,7 +335,7 @@ cards = [
         "financial": "Segurança, administra bem o que possui. Sem grandes mudanças. Pode haver um episódio de conquista.",
         "love": "Confiança, sorte, superação, dar um próximo passo no relacionamento, podendo juntar as escovas de dentes. Casamento, contrato.",
         "obstacle": "Acordo, relacionamento/casamento.",
-        "advice": "Ter paciência e ser compreensivo. Ser leal e agir corretamente."
+        "advice": "Ter paciência e ser compreensivo. Ser leal e agir corretamente.",
     },
     {
         "id": 26,
@@ -346,7 +347,7 @@ cards = [
         "financial": "Reorganização. Desentendimento com terceiros.",
         "love": "Conflitos, diferenças, opiniões divergentes, rivalidade.",
         "obstacle": "Brigas, conflitos, esforço.",
-        "advice": "Entrar em um consenso, ter disposição, se posicionar, expor sua opinião mas evitando discussões."
+        "advice": "Entrar em um consenso, ter disposição, se posicionar, expor sua opinião mas evitando discussões.",
     },
     {
         "id": 27,
@@ -358,7 +359,7 @@ cards = [
         "financial": "Recompensa, melhoria financeira através do esforço do passado, conquista.",
         "love": "Quer ser reconhecido, está confiante. Orgulho, no sentido de não querer dar o braço a torcer. Pode acontecer de se sentir realizado por ter conquistado algo na vida amorosa (uma relação, uma pessoa).",
         "obstacle": "Orgulho, rigidez, arrogância.",
-        "advice": "Se manter confiante, analisar melhor seus objetivos. Elogiar, dar crédito."
+        "advice": "Se manter confiante, analisar melhor seus objetivos. Elogiar, dar crédito.",
     },
     {
         "id": 28,
@@ -370,7 +371,7 @@ cards = [
         "financial": "Obstáculos e dificuldades que serão superados.",
         "love": "Adversidades, dificuldades que podem vir do externo ou de terceiros. Pode significar concorrência amorosa. Pode também retratar esforço, perseverança por um objetivo.",
         "obstacle": "Dificuldades, pressão, concorrência.",
-        "advice": "Persistir nos objetivos, não perder tempo, ter determinação."
+        "advice": "Persistir nos objetivos, não perder tempo, ter determinação.",
     },
     {
         "id": 29,
@@ -382,7 +383,7 @@ cards = [
         "financial": "Necessidade de economia para usar nos próximos meses.",
         "love": "Conciliação, finalização em consenso, diálogo para trazer mudanças na relação, renovação. Novas oportunidades.",
         "obstacle": "Mudanças repentinas.",
-        "advice": "Buscar a renovação, novos caminhos, novas soluções."
+        "advice": "Buscar a renovação, novos caminhos, novas soluções.",
     },
     {
         "id": 30,
@@ -394,7 +395,7 @@ cards = [
         "financial": "Desengano, problemas financeiros passageiros que precisam ser enfrentados.",
         "love": "Opressão, medo de se entregar por causa de experiências passadas que foram negativas.",
         "obstacle": "Demora, prorrogação, desafios.",
-        "advice": "Ter responsabilidade nas atitudes, agir com maturidade."
+        "advice": "Ter responsabilidade nas atitudes, agir com maturidade.",
     },
     {
         "id": 31,
@@ -406,7 +407,7 @@ cards = [
         "financial": "Dívidas que se encerram. Melhorias por causa de uma nova fase. Problemas financeiros que podem ser resolvidos, embora cause desgaste.",
         "love": "Pressão, necessidade de impor limites. Recomeçar, reestruturar o amor, necessidade de inovar. Independência.",
         "obstacle": "Finalizar, superar. Situação que pesa, limita, sobrecarrega.",
-        "advice": "Permanecer firme, impor limites."
+        "advice": "Permanecer firme, impor limites.",
     },
     {
         "id": 32,
@@ -418,7 +419,7 @@ cards = [
         "financial": "Início de projetos, novidades, boa perspectiva de ganhos (através de esforço e dedicação).",
         "love": "Conversas, lealdade, dedicação, sinceridade, empolgação, atração física, persistência, início de projetos, convites.",
         "obstacle": "Conversar, ser sincero. Iniciar algo.",
-        "advice": "Ajudar, participar, falar. Colocar em práticas projetos, ter iniciativa."
+        "advice": "Ajudar, participar, falar. Colocar em práticas projetos, ter iniciativa.",
     },
     {
         "id": 33,
@@ -430,7 +431,7 @@ cards = [
         "financial": "Boa sorte nos empreendimentos, ganhos.",
         "love": "Atração física, vontade, persistência, autoconfiança (cuidado com o excesso de autoconfiança), diversão, sensualidade.",
         "obstacle": "Mudar, agir. Se divertir. (Pode representar uma pessoa com as características deste Cavaleiro).",
-        "advice": "Se abrir para o novo, não ter medo de nada. Arriscar, socializar, se divertir."
+        "advice": "Se abrir para o novo, não ter medo de nada. Arriscar, socializar, se divertir.",
     },
     {
         "id": 34,
@@ -442,7 +443,7 @@ cards = [
         "financial": "Caminhos abertos, bom fluxo financeiro.",
         "love": "Paixão, atração física, união feliz e conexão. Autoestima. Visibilidade.",
         "obstacle": "Autoestima, autoconfiança. Arquétipo (pessoa) com as características desta Rainha.",
-        "advice": "Ser sincero, manter a palavra, não perder o foco. Socializar. Inovar. Cuidar da autoestima. Agir com poder."
+        "advice": "Ser sincero, manter a palavra, não perder o foco. Socializar. Inovar. Cuidar da autoestima. Agir com poder.",
     },
     {
         "id": 35,
@@ -454,7 +455,7 @@ cards = [
         "financial": "Prosperidade, caminhos abertos através de bons negócios.",
         "love": "Lealdade, amor, assumir compromissos, ideias para futuro, reconciliação, desejo. Desejo por poder e controle.",
         "obstacle": "Assumir uma responsabilidade, entrar em acordo. Falta de autoconfiança. Pode indicar uma pessoa com as características deste Rei.",
-        "advice": "Seguir em frente, acreditar em si mesmo, nos próprios projetos, ser flexível."
+        "advice": "Seguir em frente, acreditar em si mesmo, nos próprios projetos, ser flexível.",
     },
     {
         "id": 36,
@@ -466,7 +467,7 @@ cards = [
         "financial": "Boas notícias, realizações.",
         "love": "Início ou recomeço de relacionamento. Sentimentos de amor, dedicação, felicidade e romantismo.",
         "obstacle": "Recomeçar, perdoar, amar.",
-        "advice": "Abrir o coração, agradecer e buscar uma convivência com harmonia."
+        "advice": "Abrir o coração, agradecer e buscar uma convivência com harmonia.",
     },
     {
         "id": 37,
@@ -478,7 +479,7 @@ cards = [
         "financial": "Ajuda/envolvimento do parceiro, amigo ou sócio.",
         "love": "Namoro, relação com conexão além do sexual, amor, harmonia.",
         "obstacle": "Lidar com uma relação, amizade ou sociedade.",
-        "advice": "Ser honesto, sincero e colaborar, agir em parceria. Valorizar a união, uma aliança."
+        "advice": "Ser honesto, sincero e colaborar, agir em parceria. Valorizar a união, uma aliança.",
     },
     {
         "id": 38,
@@ -490,7 +491,7 @@ cards = [
         "financial": "Boas notícias, sorte, prosperidade, investimento que deu certo.",
         "love": "Carinho, cumplicidade, prazer, alegria, namoro, casamento, união feliz.",
         "obstacle": "Amizades, pessoas ao redor, sentimentos.",
-        "advice": "Aceitar as oportunidades, ser otimista. Socializar."
+        "advice": "Aceitar as oportunidades, ser otimista. Socializar.",
     },
     {
         "id": 39,
@@ -502,7 +503,7 @@ cards = [
         "financial": "Reclamações, mesmo não havendo nada errado. Não enxerga um futuro melhor e o medo de perder tira a alegria de ganhar.",
         "love": "Desesperança, aborrecimento, desconfiança (não exatamente por sinais de infidelidade, mas por estar com muitos sentimentos negativos).",
         "obstacle": "Reclamação, desânimo.",
-        "advice": "Parar e refletir o que deseja da vida, se as atitudes condizem com o que espera que aconteça."
+        "advice": "Parar e refletir o que deseja da vida, se as atitudes condizem com o que espera que aconteça.",
     },
     {
         "id": 40,
@@ -514,7 +515,7 @@ cards = [
         "financial": "Frustração, não acontece o que foi desejado/planejado, podendo não haver perda financeira, mas sim decepção ou quebra de expectativas emocionais.",
         "love": "Separação (temporária ou definitiva), afastamento, desilusão, arrependimento, revolta ou reclamações (sem muito sentido).",
         "obstacle": "Perda, separação, decepção.",
-        "advice": "Momento de se afastar dos problemas e manter a calma. Não agir no impulso."
+        "advice": "Momento de se afastar dos problemas e manter a calma. Não agir no impulso.",
     },
     {
         "id": 41,
@@ -526,7 +527,7 @@ cards = [
         "financial": "Incertezas, não seria o melhor momento para investir. Precisa se atentar às relações. Pode ter ligação afetiva nas finanças, ajuda de amigo ou parceiro amoroso.",
         "love": "Carinho, boas lembranças, saudades, presentes, podendo existir irresponsabilidades por falta de maturidade e comparações com o passado. Pessoa do passado retornando.",
         "obstacle": "Pessoa do passado, amizade, inocência, saudade.",
-        "advice": "Avançar, seguir em frente. Resolver todas as pendências. Presentear alguém, dar carinho, atenção. Valorizar o passado, as boas lembranças."
+        "advice": "Avançar, seguir em frente. Resolver todas as pendências. Presentear alguém, dar carinho, atenção. Valorizar o passado, as boas lembranças.",
     },
     {
         "id": 42,
@@ -538,7 +539,7 @@ cards = [
         "financial": "Ilusão podendo trazer prejuízos, ambição, desejos por vaidade. O ideal seria não fazer nenhum investimento nesse momento.",
         "love": "Paixão podendo gerar ilusões, deixando a pessoa cega, tomada pelos desejos, expectativas e dúvidas.",
         "obstacle": "Dúvida, expectativas, desejos irreais.",
-        "advice": "Buscar a melhor das opções, ter ambição."
+        "advice": "Buscar a melhor das opções, ter ambição.",
     },
     {
         "id": 43,
@@ -550,7 +551,7 @@ cards = [
         "financial": "Perdas, maus investimentos, desperdício, prejuízos (causados pelas escolhas do próprio consulente).",
         "love": "Perdas emocionais, desilusão, egoísmo, decepção, despedida, afastamento, possibilidade de separação, cansaço emocional por momentos de crise.",
         "obstacle": "Perda, desilusão, decepções passadas.",
-        "advice": "Falar a verdade, mesmo que traga algum prejuízo. Fazer o que é correto. Se afastar, mudar, procurar uma outra opção. Não investir."
+        "advice": "Falar a verdade, mesmo que traga algum prejuízo. Fazer o que é correto. Se afastar, mudar, procurar uma outra opção. Não investir.",
     },
     {
         "id": 44,
@@ -562,7 +563,7 @@ cards = [
         "financial": "Realizações, conquistas, compra de algo com valor sentimental, boas notícias.",
         "love": "Felicidade, prazer, atração física, união, acordo, namoro, noivado.",
         "obstacle": "Desejos, prazer, exageros.",
-        "advice": "Realizar suas vontades. Cumprir com suas promessas a si mesmo. Aproveitar a vida."
+        "advice": "Realizar suas vontades. Cumprir com suas promessas a si mesmo. Aproveitar a vida.",
     },
     {
         "id": 45,
@@ -574,7 +575,7 @@ cards = [
         "financial": "Abundância, pagamento, honrar com os compromissos.",
         "love": "Amor, carinho, atenção, energia de família. Namoro, casamento, associação positiva. Encontrar soluções com calma e amor.",
         "obstacle": "Família, encontrar a paz nas relações. Recomeçar.",
-        "advice": "Ter equilíbrio, buscar um bom relacionamento com o meio onde vive. Ser paciente e buscar a felicidade e o otimismo."
+        "advice": "Ter equilíbrio, buscar um bom relacionamento com o meio onde vive. Ser paciente e buscar a felicidade e o otimismo.",
     },
     {
         "id": 46,
@@ -586,7 +587,7 @@ cards = [
         "financial": "Renovação, expectativas de melhorias. Deve tomar cuidado em gerar muitas expectativas financeiras.",
         "love": "Carinho, atenção, conversa, sinceridade, romantismo, pessoa meiga, querida.",
         "obstacle": "Excesso de expectativas, sonhos inocentes.",
-        "advice": "Ser sincero, honesto e solicito. Puxar assunto, falar, expressar sentimentos."
+        "advice": "Ser sincero, honesto e solicito. Puxar assunto, falar, expressar sentimentos.",
     },
     {
         "id": 47,
@@ -598,7 +599,7 @@ cards = [
         "financial": "Instabilidade, cuidado com ilusões, possibilidades que não são reais. Contrato enganoso, enrolação.",
         "love": "Paixão, desejo, sedução, atração, quer amar e ser amado, está embriagado de desejos, mas não será sempre assim. Emocional aflorado causando ilusões, fantasias.",
         "obstacle": "Desejos. Pessoa com as características deste Cavaleiro.",
-        "advice": "Se entregar aos desejos, realizar as fantasias e vontades. Viver intensamente."
+        "advice": "Se entregar aos desejos, realizar as fantasias e vontades. Viver intensamente.",
     },
     {
         "id": 48,
@@ -610,7 +611,7 @@ cards = [
         "financial": "Atrasos, demora, nada muda, tudo permanece como está.",
         "love": "Amor, afeto, carinho, cuidado, mas não revela tudo que sente ou pensa.",
         "obstacle": "Passividade. Pessoa com as características desta Rainha.",
-        "advice": "Ser paciente, não falar nem fazer nada no momento."
+        "advice": "Ser paciente, não falar nem fazer nada no momento.",
     },
     {
         "id": 49,
@@ -622,7 +623,7 @@ cards = [
         "financial": "Satisfação, realizações financeiras, bons resultados.",
         "love": "Desejo, quer fazer dar certo, se dedica, quer mais fazer pelos outros do que para si mesmo.",
         "obstacle": "Exageros emocionais. Pessoa com características deste Rei.",
-        "advice": "Ter mais amor-próprio, cuidar de si, se manter confiante."
+        "advice": "Ter mais amor-próprio, cuidar de si, se manter confiante.",
     },
     {
         "id": 50,
@@ -634,7 +635,7 @@ cards = [
         "financial": "Prosperidade, ganhos, resultados, segurança, investimento.",
         "love": "Valor, melhorias afetivas, confiança, segurança (pode indicar relação com envolvimento também na vida financeira).",
         "obstacle": "Dinheiro, recebimento.",
-        "advice": "Agir com autoconfiança, buscar ser leal. Investir financeiramente, juntar dinheiro, dar atenção às finanças."
+        "advice": "Agir com autoconfiança, buscar ser leal. Investir financeiramente, juntar dinheiro, dar atenção às finanças.",
     },
     {
         "id": 51,
@@ -646,7 +647,7 @@ cards = [
         "financial": "Pouco dinheiro, necessidade de esperar, não fazer investimento longo (evitar parcelamento e dívidas que possam se arrastar).",
         "love": "Impasse, obstáculos, preocupações desnecessárias, ter que se dividir para dar conta.",
         "obstacle": "Dúvida, demora.",
-        "advice": "Ser flexível, se manter paciente. Esperar."
+        "advice": "Ser flexível, se manter paciente. Esperar.",
     },
     {
         "id": 52,
@@ -658,7 +659,7 @@ cards = [
         "financial": "Abundância, resultados rápidos. Podendo ser também através de uma relação ou parceria.",
         "love": "Confiança, compromisso, período de crescimento, evolução.",
         "obstacle": "Trabalho, compromissos, equipe.",
-        "advice": "Aceitar propostas, fazer parcerias, ser amigável, se manter aberto a acordos."
+        "advice": "Aceitar propostas, fazer parcerias, ser amigável, se manter aberto a acordos.",
     },
     {
         "id": 53,
@@ -670,7 +671,7 @@ cards = [
         "financial": "Escassez, avareza, ganância, controle. Medo de ficar sem dinheiro. Problemas financeiros. Pouco dinheiro circulando.",
         "love": "Apego, medo de perder, possessividade nas atitudes.",
         "obstacle": "Apego, controle.",
-        "advice": "Se manter no controle, administrar e organizar seus projetos e desejos."
+        "advice": "Se manter no controle, administrar e organizar seus projetos e desejos.",
     },
     {
         "id": 54,
@@ -682,7 +683,7 @@ cards = [
         "financial": "Pouco dinheiro circulando, prejuízos, gastos inesperados.",
         "love": "Sensação de incapacidade, sente-se reprovado, abandonado, inseguro, impotente.",
         "obstacle": "Insegurança, problemas financeiros, problemas de saúde.",
-        "advice": "Não investir, esperar, focar na realidade da situação e aguardar."
+        "advice": "Não investir, esperar, focar na realidade da situação e aguardar.",
     },
     {
         "id": 55,
@@ -694,7 +695,7 @@ cards = [
         "financial": "Receber ou ajudar financeiramente.",
         "love": "Quer ajudar, estar próximo. Ajudar financeiramente. Dúvidas pois busca por melhorias.",
         "obstacle": "Receber apoio. Dúvida.",
-        "advice": "Pensar melhor antes de agir, realizar. Se possível ajudar algo ou alguém, fazer filantropia, caridade."
+        "advice": "Pensar melhor antes de agir, realizar. Se possível ajudar algo ou alguém, fazer filantropia, caridade.",
     },
     {
         "id": 56,
@@ -706,19 +707,19 @@ cards = [
         "financial": "Melhorias, ganhos, riquezas, lucro.",
         "love": "Pode haver dúvida entre opções de pretendentes, mas sente-se seguro, sabe que tem boas opções e um caminho feliz.",
         "obstacle": "Dúvida.",
-        "advice": "Insistir nos objetivos, seguir em frente, perseverar."
+        "advice": "Insistir nos objetivos, seguir em frente, perseverar.",
     },
     {
         "id": 57,
         "name": "Oito de Ouros",
         "major": False,
         "suit": "diamonds",
-        "description": "Estudo, dedicação, reforma, descoberta, aprendizado, esforço com resultados a longo prazo, aumento das habilidades profissionais ou acadêmicas. Investir tempo, dinheiro em algo para o futuro. O Oito de Ouros também pode sugerir um período de um ritmo mais intenso de aprendizado e crescimento profissional. Pode indicar a importância de aperfeiçoamento, lapidar seus conhecimentos, estudar algo novo, ter novas habilidades, ou treinamento específico para seguir em sua carreira ou em um projeto em particular. Tudo com resultados mais distantes. O Oito de Ouros traz a energia da reforma, da melhoria, da lapidação, seja internamente ou externamente, como reformar uma casa, consertar algo que está danificado ou precisa de um \"trato\".",
+        "description": 'Estudo, dedicação, reforma, descoberta, aprendizado, esforço com resultados a longo prazo, aumento das habilidades profissionais ou acadêmicas. Investir tempo, dinheiro em algo para o futuro. O Oito de Ouros também pode sugerir um período de um ritmo mais intenso de aprendizado e crescimento profissional. Pode indicar a importância de aperfeiçoamento, lapidar seus conhecimentos, estudar algo novo, ter novas habilidades, ou treinamento específico para seguir em sua carreira ou em um projeto em particular. Tudo com resultados mais distantes. O Oito de Ouros traz a energia da reforma, da melhoria, da lapidação, seja internamente ou externamente, como reformar uma casa, consertar algo que está danificado ou precisa de um "trato".',
         "work": "Dedicação, aprender novas habilidades, intensa atividade profissional, fazer um curso, lapidar seus conhecimentos para ter resultados no futuro.",
         "financial": "Melhoria financeira, juntando dinheiro ou pensando em um sucesso para o futuro.",
         "love": "Descoberta, aprendizagem, fazer uma renovação, reciclar, pensa no futuro e busca melhorias.",
         "obstacle": "Estudar, consertar, se dedicar a um trabalho.",
-        "advice": "Deixar as mudanças acontecerem, se abrir para o novo, pensar no que deseja a longo prazo."
+        "advice": "Deixar as mudanças acontecerem, se abrir para o novo, pensar no que deseja a longo prazo.",
     },
     {
         "id": 58,
@@ -730,7 +731,7 @@ cards = [
         "financial": "Dinheiro inesperado (podendo ser também resultado de um trabalho/esforço), melhoria, ganhos, recompensa, herança.",
         "love": "Sente-se seguro, com a autoestima elevada, mantém sua independência.",
         "obstacle": "Excesso de confiança.",
-        "advice": "Dar valor às suas conquistas, agir com educação e paciência, se mantendo autoconfiante."
+        "advice": "Dar valor às suas conquistas, agir com educação e paciência, se mantendo autoconfiante.",
     },
     {
         "id": 59,
@@ -742,7 +743,7 @@ cards = [
         "financial": "Prosperidade e abundância, boa relação com dinheiro, podendo em alguns casos ter influência da família.",
         "love": "Sentimentos conservadores, familiar, estável, confia e deseja continuar.",
         "obstacle": "Família, valores.",
-        "advice": "Continuar, seguir com os projetos, agir corretamente, dentro das leis ou regras sociais."
+        "advice": "Continuar, seguir com os projetos, agir corretamente, dentro das leis ou regras sociais.",
     },
     {
         "id": 60,
@@ -754,7 +755,7 @@ cards = [
         "financial": "Aumento no fluxo financeiro, aumento de salário, boas oportunidades de compra ou investimentos.",
         "love": "Dedicação, responsabilidade, reconciliação. É confiante e transparece isso, quer fazer o melhor pelo ser amado.",
         "obstacle": "Recomeçar, agir, estudar.",
-        "advice": "Colocar em prática suas ideias, projetos, desejos. Agir imediatamente."
+        "advice": "Colocar em prática suas ideias, projetos, desejos. Agir imediatamente.",
     },
     {
         "id": 61,
@@ -766,7 +767,7 @@ cards = [
         "financial": "Organizar as finanças, não gastar mais que o necessário, se organizar, poupar, economizar pensando no futuro a longo prazo.",
         "love": "Se esforça para ter o que deseja, mas sem criatividade ou romantismo, cumpre o que promete mas com o intuito de manter tudo estável.",
         "obstacle": "Controle, responsabilidades. Pessoa com as características deste Cavaleiro.",
-        "advice": "Seguir em frente com suas ideias, organizando todas as áreas da vida, sendo sistemático e cuidadoso."
+        "advice": "Seguir em frente com suas ideias, organizando todas as áreas da vida, sendo sistemático e cuidadoso.",
     },
     {
         "id": 62,
@@ -778,7 +779,7 @@ cards = [
         "financial": "Abundância, segurança material, chance de ter ainda mais melhorias, consegue se controlar e se organizar.",
         "love": "Fidelidade, dedicação, família, segurança, controle. Sente-se confortável.",
         "obstacle": "Controle. Pessoa com as características desta Rainha.",
-        "advice": "Se manter autoconfiante, manter uma rotina, a vida organizada, preservando a segurança e o conforto."
+        "advice": "Se manter autoconfiante, manter uma rotina, a vida organizada, preservando a segurança e o conforto.",
     },
     {
         "id": 63,
@@ -790,7 +791,7 @@ cards = [
         "financial": "Estabilidade, conquistas, força para gerar ainda mais prosperidade, para prover.",
         "love": "Pode indicar fidelidade, porém com sentimento de controle e possessividade, tende a querer se sentir seguro e confortável, usando do seu poder para isso.",
         "obstacle": "Rigidez, inflexibilidade, controle. Pessoa com características deste Rei.",
-        "advice": "Se manter autoconfiante, não fraquejar, continuar os esforços para obter sucesso. Agir de forma muito correta e seguro de si. Controlar, organizar."
+        "advice": "Se manter autoconfiante, não fraquejar, continuar os esforços para obter sucesso. Agir de forma muito correta e seguro de si. Controlar, organizar.",
     },
     {
         "id": 64,
@@ -802,7 +803,7 @@ cards = [
         "financial": "Conclusões positivas, soluções, recomeço de projeto.",
         "love": "Seriedade, recomeços mesmo diante de tempos difíceis, determinação, racionalidade.",
         "obstacle": "Decisão, atitude, persuasão. Recomeço.",
-        "advice": "Ter garra e confiar em si mesmo para atingir seus objetivos."
+        "advice": "Ter garra e confiar em si mesmo para atingir seus objetivos.",
     },
     {
         "id": 65,
@@ -814,7 +815,7 @@ cards = [
         "financial": "Dúvidas, momentos de tensão e preocupação, podendo causar dívidas por causa de conflitos e dificuldade de fazer acordos.",
         "love": "Discórdia, desconfiança, falsidade, omite algo, egoísmo, dúvida. Fica na defensiva.",
         "obstacle": "Dúvida, rivalidade, desconfiança.",
-        "advice": "Insistir, lutar pelo que acredita."
+        "advice": "Insistir, lutar pelo que acredita.",
     },
     {
         "id": 66,
@@ -826,7 +827,7 @@ cards = [
         "financial": "Desilusão, demora, perda, erro, tristeza.",
         "love": "Sente-se traído, desiludido, impossibilidade de retorno ou reconciliação. Está triste e desapontado.",
         "obstacle": "Separação, traição, sofrimento.",
-        "advice": "Se afastar de tudo que o deixa preocupado ou triste, é o momento de buscar algo novo, seguir em frente, renovar."
+        "advice": "Se afastar de tudo que o deixa preocupado ou triste, é o momento de buscar algo novo, seguir em frente, renovar.",
     },
     {
         "id": 67,
@@ -838,7 +839,7 @@ cards = [
         "financial": "Atrasos, demora, sem ganhos e sem crescimento no momento, necessita poupar.",
         "love": "Afastamento, pouca comunicação, sente-se abandonado, sozinho, necessita se recuperar mentalmente.",
         "obstacle": "Afastamento, repouso, silêncio.",
-        "advice": "Esperar, não forçar, deixar o tempo parar, tirar uns dias para repousar."
+        "advice": "Esperar, não forçar, deixar o tempo parar, tirar uns dias para repousar.",
     },
     {
         "id": 68,
@@ -850,7 +851,7 @@ cards = [
         "financial": "Perigo nos investimentos, perdas, problemas burocráticos, acordos não cumpridos, atrasados, o ideal seria não investir no momento. Gastos por egocentrismo. Pode haver brigas por dinheiro, disputas legais e cobranças.",
         "love": "Egoísmo, insensibilidade, preocupa-se apenas consigo mesmo, não tendo sensibilidade com os demais. Podendo omitir informações.",
         "obstacle": "Insensibilidade, fofoca, intrigas.",
-        "advice": "Não é o momento de expressar opiniões, melhor se manter calado e distante, deixando o tempo passar."
+        "advice": "Não é o momento de expressar opiniões, melhor se manter calado e distante, deixando o tempo passar.",
     },
     {
         "id": 69,
@@ -862,7 +863,7 @@ cards = [
         "financial": "Instabilidade, sem retorno, necessidade de buscar novas opções. Viagem.",
         "love": "Instabilidade emocional, sente-se sem expectativas. Afastamento, necessidade de abandonar o passado e buscar novos caminhos.",
         "obstacle": "Viagem, distância. Desistência.",
-        "advice": "Férias forçadas, precisa relaxar, descansar a mente e o corpo."
+        "advice": "Férias forçadas, precisa relaxar, descansar a mente e o corpo.",
     },
     {
         "id": 70,
@@ -874,7 +875,7 @@ cards = [
         "financial": "Cuidado com bens materiais, furtos, roubos, golpes, propostas duvidosas.",
         "love": "Manipulação, malandragem, quer tirar alguma vantagem, sente-se espertinho e tem esperança de conseguir aquilo que deseja.",
         "obstacle": "Manipulação, esperteza, golpe.",
-        "advice": "Cuidado com a forma que fala ou age com os demais, necessidade de ser esperto, sagaz. Melhor ficar calado."
+        "advice": "Cuidado com a forma que fala ou age com os demais, necessidade de ser esperto, sagaz. Melhor ficar calado.",
     },
     {
         "id": 71,
@@ -886,7 +887,7 @@ cards = [
         "financial": "Pode representar uma sensação de impotência ou falta de liberdade em relação às finanças. Sente-se preso em uma situação financeira difícil, incapaz de encontrar uma solução ou uma saída. Podendo haver prejuízos.",
         "love": "Sente-se traído, reclama da relação, sente-se limitado, inseguro, não enxergando suas próprias atitudes.",
         "obstacle": "Ansiedade, procrastinação, pensamentos acelerados, erros causados pelo próprio consulente.",
-        "advice": "Falar a verdade, fazer o correto, não alimentar o erro. Necessidade de pedir ajuda (ajuda médica se sentir algo na saúde e ajuda terapêutica para a saúde mental)."
+        "advice": "Falar a verdade, fazer o correto, não alimentar o erro. Necessidade de pedir ajuda (ajuda médica se sentir algo na saúde e ajuda terapêutica para a saúde mental).",
     },
     {
         "id": 72,
@@ -898,7 +899,7 @@ cards = [
         "financial": "Preocupações com dinheiro ou dívidas, inquietação e estresse por falta de segurança. Gastos com saúde.",
         "love": "Medo por causa do passado, culpa, remorso, nervosismo, sente-se sozinho mesmo estando próximo de outras pessoas. Culpa-se por tudo.",
         "obstacle": "Ansiedade. Saúde.",
-        "advice": "Necessidade de se afastar dos problemas para refletir seus erros."
+        "advice": "Necessidade de se afastar dos problemas para refletir seus erros.",
     },
     {
         "id": 73,
@@ -910,7 +911,7 @@ cards = [
         "financial": "Perdas, finalizações dolorosas, perdas.",
         "love": "Decepção, dor com o passado gerando mágoas, ansiedade, discórdia, necessidade de terminar um episódio e começar uma nova etapa da vida.",
         "obstacle": "Término, dor passada.",
-        "advice": "Necessidade de mudar o comportamento e pensamentos."
+        "advice": "Necessidade de mudar o comportamento e pensamentos.",
     },
     {
         "id": 74,
@@ -922,7 +923,7 @@ cards = [
         "financial": "Sagacidade para resolver problemas e encontrar soluções rápidas, porém pode passar por um período estressante. Cuidado com propostas duvidosas.",
         "love": "Quer manipular para ter razão, é esperto, frio e sabe usar as palavras ao seu favor.",
         "obstacle": "Omissão, falsidade, fofoca.",
-        "advice": "Pondere as palavras, cuidado ao se relacionar, nem tudo precisa ser dito, seja perspicaz."
+        "advice": "Pondere as palavras, cuidado ao se relacionar, nem tudo precisa ser dito, seja perspicaz.",
     },
     {
         "id": 75,
@@ -934,7 +935,7 @@ cards = [
         "financial": "Possibilidade de melhoria através da sua disposição. Apenas deve-se tomar cuidado com gastos por impulso ou atitudes que podem gerar maus resultados.",
         "love": "Se esforça, quer conquistar, é rápido, ágil, não espera. Pode ser um pouco mais frio, não demonstrando tanto romantismo.",
         "obstacle": "Ter agilidade. Pessoa com as características deste Cavaleiro.",
-        "advice": "Siga em frente com seus planos, não espere. Momento de agir."
+        "advice": "Siga em frente com seus planos, não espere. Momento de agir.",
     },
     {
         "id": 76,
@@ -946,7 +947,7 @@ cards = [
         "financial": "Problemas que precisam ser solucionados, buscando alternativas diferentes.",
         "love": "Frieza, separação, distância física, insensibilidade, raiva, obsessão, não consegue perdoar.",
         "obstacle": "Frieza, distância. Pessoa com as características desta Rainha.",
-        "advice": "Seguir em frente com seus objetivos a qualquer custo."
+        "advice": "Seguir em frente com seus objetivos a qualquer custo.",
     },
     {
         "id": 77,
@@ -958,8 +959,8 @@ cards = [
         "financial": "Segurança, estabilidade. Sem mudanças ou surpresas financeiras.",
         "love": "É frio, distante, fechado, egoísta, insensível. Não deseja se relacionar no momento. Distanciamento, separação momentânea.",
         "obstacle": "Frieza, afastamento, demora. Pessoa com as características deste Rei.",
-        "advice": "Ter foco, faça chuva ou faça sol, insista nos seus objetivos."
-    }
+        "advice": "Ter foco, faça chuva ou faça sol, insista nos seus objetivos.",
+    },
 ]
 
 runes = [
@@ -970,7 +971,7 @@ runes = [
         "magic": "Reforça os poderes psíquicos; serve como canal de transferência ou projeção de poder; captação dos poderes dos astros para a esfera pessoal; promove a evolução pessoal social e o aumento dos bens.",
         "tree": "Sabugueiro",
         "rock": "Cornalina (boa sorte e fertilidade); Turmalina Verde (transferência de energia para a esfera pessoal); Âmbar (vitalidade)",
-        "color": "Vermelho-claro"
+        "color": "Vermelho-claro",
     },
     {
         "id": 1,
@@ -979,7 +980,7 @@ runes = [
         "magic": "Serve para formar e moldar circunstâncias criativamente através da vontade e da inspiração; cura e manutenção da boa saúde física e mental; proporciona situações afortunadas (muito usada como talismã); indução das correntes magnéticas da Terra (as 'Veias do Dragão'); realização da causalidade; conhecimento e compreensão do Self.",
         "tree": "Bétula",
         "rock": "Olho-de-Tigre (traz coragem, confiança e força)",
-        "color": "Verde-escuro"
+        "color": "Verde-escuro",
     },
     {
         "id": 2,
@@ -988,7 +989,7 @@ runes = [
         "magic": "Defesa ativa; destruição dos inimigos; maldição; o despertar da vontade de agir; preparo para a geração em todos os sentidos; magia para o amor; conhecimento da divisão e da unidade de todas as coisas.",
         "tree": "Carvalho",
         "rock": "Ágata (proteção); Hematita (força e coragem para o combate)",
-        "color": "Vermelho-forte"
+        "color": "Vermelho-forte",
     },
     {
         "id": 3,
@@ -997,7 +998,7 @@ runes = [
         "magic": "Aumento dos poderes mágicos ativos e passivos; desenvolvimento das habilidades clarividentes, do dom da palavra magnética e convincente, do poder de sugestão e hipnose; aquisição de conhecimento criativo; inspiração e êxtase; comunicação divina; afastamento da morte e do temor através do conhecimento de Óðinn.",
         "tree": "Freixo",
         "rock": "Lápis-lázuli (estabelece uma ponte entre o humano e o Divino)",
-        "color": "Azul-escuro"
+        "color": "Azul-escuro",
     },
     {
         "id": 4,
@@ -1006,7 +1007,7 @@ runes = [
         "magic": "Fortalece as habilidades rituais e sua experiência; acesso ao aviso interior; aumenta a consciência de processos naturais; atua na combinação de ritmos pessoais (internos) e exteriores; obtenção de justiça de acordo com o direito.",
         "tree": "Carvalho",
         "rock": "Turquesa (indica o melhor caminho rumo a um objetivo); Jacinto (assegura bons relacionamentos sociais/cooperação)",
-        "color": "Vermelho-claro forte"
+        "color": "Vermelho-claro forte",
     },
     {
         "id": 5,
@@ -1015,7 +1016,7 @@ runes = [
         "magic": "Reforço das habilidades em todos os campos; inspiração criativa; maior polarização como instrumento de operações mágicas; operações de regeneração e cura; trabalho para o amor (principalmente sexual).",
         "tree": "Pinheiro",
         "rock": "Ágata de Fogo (ligação com as energias criativas da Terra); Quartzo Fumê (estimula e purifica o chacra base ou raiz)",
-        "color": "Vermelho-claro"
+        "color": "Vermelho-claro",
     },
     {
         "id": 6,
@@ -1024,7 +1025,7 @@ runes = [
         "magic": "Magia sexual; iniciação mágica sexual; união mística; aumento dos poderes mágicos; harmonia entre irmãos e amantes; influência mágica nos mundos humano e Divino; aquisição de sabedoria.",
         "tree": "Freixo ou Olmo",
         "rock": "Esmeralda (equilíbrio dos aspectos físico, mental e emocional); Jade (pureza e serenidade; desenvolve a capacidade de amar)",
-        "color": "Azul-profundo"
+        "color": "Azul-profundo",
     },
     {
         "id": 7,
@@ -1033,7 +1034,7 @@ runes = [
         "magic": "Reforça laços e coesões; invocação de amizade e harmonia; afasta a alienação; felicidade e bem-estar, relacionamento de laços e multiplicidade de relacionamentos de todos os tipos; 'acabamento' em rituais que envolvem runas de significado específico, reforçando-os.",
         "tree": "Freixo",
         "rock": "Topázio (traz alegria); Quartzo Rosa (abre o coração)",
-        "color": "Amarelo"
+        "color": "Amarelo",
     },
     {
         "id": 8,
@@ -1042,7 +1043,7 @@ runes = [
         "magic": "Integração e balanço (= equilíbrio) de poder; experiência e sabedoria mística; proteção.",
         "tree": "Teixo ou Freixo",
         "rock": "Ponta de Quartzo Transparente (concentra a energia em um único ponto; ajuda a focalizar o melhor caminho para romper velhos hábitos ou estabelecer novos)",
-        "color": "Azul-claro"
+        "color": "Azul-claro",
     },
     {
         "id": 9,
@@ -1051,7 +1052,7 @@ runes = [
         "magic": "Superação da angústia; desenvolvimento da vontade mágica; desenvolvimento de poderes espirituais; uso da força da resistência sobre a vontade com propósitos mágicos; inspiração; elimina o ódio e as disputas; ajuda a criar uma necessidade de ordem; proteção; adivinhação.",
         "tree": "Faia",
         "rock": "Obsidiana (mostra ao Ego de modo rude e muitas vezes grosseiro o seu devido lugar e o que precisa para mudar e avançar para o próximo passo de desenvolvimento evolutivo)",
-        "color": "Preto"
+        "color": "Preto",
     },
     {
         "id": 10,
@@ -1060,7 +1061,7 @@ runes = [
         "magic": "Desenvolvimento da concentração e da vontade; contração/redução/parada das forças dinâmicas não desejadas; integração do Ego com o sistema multiversal equilibrado; poder de controle sobre outras criaturas.",
         "tree": "Amieiro",
         "rock": "Gema de Sílica ou Diamante Herkimer (liberam tensões emocionais ou áreas congestionadas)",
-        "color": "Preto"
+        "color": "Preto",
     },
     {
         "id": 11,
@@ -1069,7 +1070,7 @@ runes = [
         "magic": "Fertilidade; criatividade; paz e harmonia; iluminação; realização da natureza cíclica do Multiverso; realização do mistério da circunferência onipresente (= a totalidade de um ciclo); trazer outros conceitos a uma realização material.",
         "tree": "Carvalho",
         "rock": "Ágata Musgosa (sintoniza quem a usa com as forças da natureza, ajudando o metódico a entrar em contato com seu lado intuitivo e o criativo a canalizar suas energias de modo mais prático).",
-        "color": "Azul-claro"
+        "color": "Azul-claro",
     },
     {
         "id": 12,
@@ -1078,7 +1079,7 @@ runes = [
         "magic": "Proteção; defesa; comunicação mística ou religiosa com seres não-humanos; comunicação com outros mundos (principalmente Asgarðr) e as fontes Cósmicas de Urðr, Minir e Hvergelmir; fortalecimento de hamingia (= sorte) e da força vital.",
         "tree": "Teixo",
         "rock": "Turmalina Negra (proteção)",
-        "color": "Ouro"
+        "color": "Ouro",
     },
     {
         "id": 13,
@@ -1087,7 +1088,7 @@ runes = [
         "magic": "Fortalecimento dos centros psíquicos; aumento da vontade espiritual; orientação pelo caminho; iluminação; vitória e sucesso através da vontade própria.",
         "tree": "Zimbro ou Junípero",
         "rock": "Diamante (amplifica a presença da Luz)",
-        "color": "Branco ou Prata"
+        "color": "Branco ou Prata",
     },
     {
         "id": 14,
@@ -1096,7 +1097,7 @@ runes = [
         "magic": "A obtenção da justa vitória e sucesso; desenvolvimento da vontade espiritual; desenvolvimento do poder de auto-sacrifício positivo; desenvolvimento da fé em magia e religião.",
         "tree": "Carvalho",
         "rock": "Rubi (fornece suprimento extra de energia quando o desânimo ameaça o domínio de uma situação); Bloodstone ou Heliotrópio (aumenta a coragem)",
-        "color": "Vermelho Vibrante"
+        "color": "Vermelho Vibrante",
     },
     {
         "id": 15,
@@ -1105,7 +1106,7 @@ runes = [
         "magic": "Renascimento espiritual; fortalecimento dos poderes do segredo; trabalho de encobrimento e proteção; contenção e manutenção de outros poderes; realização da unidade, da harmonia do momento como mãe de todas as coisas; traz idéias à tona no processo criativo.",
         "tree": "Bétula",
         "rock": "Jet ou Azeviche (grande poder de absorção da energia negativa)",
-        "color": "Verde-escuro"
+        "color": "Verde-escuro",
     },
     {
         "id": 16,
@@ -1114,7 +1115,7 @@ runes = [
         "magic": "Simplificação da viagem da alma através dos mundos e projeção da alma em Midgarðr; realização da unidade fundamental do complexo psicossomático; concede fé e lealdade; fonte de conhecimento profético; projeção do poder mágico; rapidez e velocidade em todos os aspectos.",
         "tree": "Carvalho ou Freixo",
         "rock": "Turquesa ou Sardonix (estimula a autoconfiança)",
-        "color": "Branco"
+        "color": "Branco",
     },
     {
         "id": 17,
@@ -1123,7 +1124,7 @@ runes = [
         "magic": "Realização da Estrutura Divina na humanidade; aumento da inteligência, da memória e dos poderes da mente; equilíbrio dos pólos da personalidade; liberação do hugauge – a terceira visão.",
         "tree": "Azevinho",
         "rock": "Ametista (realiza a integração do Eu Inferior com o Eu Superior propiciando a individuação)",
-        "color": "Vermelho-Escuro"
+        "color": "Vermelho-Escuro",
     },
     {
         "id": 18,
@@ -1132,7 +1133,7 @@ runes = [
         "magic": "Orientação em testes iniciatórios difíceis; aumento de vitalidade e força de vida; coleta e reunião de poder mágico amorfo para a formação e estruturação pela vontade; aumento de magnetismo; desenvolvimento da segunda visão.",
         "tree": "Salgueiro",
         "rock": "Malaquita (canaliza as forças superiores para finalidades humanitárias. Para os que se encontram em processo de purificação, age como expurgador e espelho para o subconsciente, refletindo na mente consciente o que requer depuração).",
-        "color": "Verde-Profundo"
+        "color": "Verde-Profundo",
     },
     {
         "id": 19,
@@ -1141,7 +1142,7 @@ runes = [
         "magic": "Armazenamento e contenção de poder para uso ritual; ritos de fertilidade; meditação passiva; centralização da energia e do pensamento; súbita liberação de energia.",
         "tree": "Macieira",
         "rock": "Marfim (afeta a maneira pela qual o indivíduo examina a sua existência, ajudando na concentração, na introspecção e na análise. Devido a sua origem animal, deve ser usado com muito critério – somente se for realmente necessário – ou sua energia se volta contra o mago).",
-        "color": "Amarelo"
+        "color": "Amarelo",
     },
     {
         "id": 20,
@@ -1150,7 +1151,7 @@ runes = [
         "magic": "Atingir o momento místico através da penetração do segredo do Paradoxo Odínico; recepção da inspiração mística.",
         "tree": "Abeto Vermelho",
         "rock": "Fluorita (sintoniza a mente com o espírito, desenvolvendo a compreensão intelectual da verdade, dos conceitos cósmicos da realidade e das leis que regem o universo).",
-        "color": "Azul-Claro"
+        "color": "Azul-Claro",
     },
     {
         "id": 21,
@@ -1159,19 +1160,18 @@ runes = [
         "magic": "Manter a ordem entre companheiros; concentração em interesses comuns em casa, na família e na sociedade; passagem de egocentricidade para clanocentricidade (relativo ao clã); recepção de Poder Divino e sabedoria de gerações passadas; aquisição de riqueza e prosperidade.",
         "tree": "Espinheiro",
         "rock": "Madeira Petrificada (traz memórias e talentos de vidas passadas que servirão para despertar o dragão ancestral do poder)",
-        "color": "Amarelo-Escuro"
+        "color": "Amarelo-Escuro",
     },
     {
         "id": 22,
         "name": "Perth",
-        "power": "Vista como a boca do lobo e também como 'útero cósmico', onde surge tudo que desejamos, sendo a força da vida. É onde podemos buscar as respostas da vida e não permanecermos na dúvida, indecisão. Faz com que tudo se revele dentro de nós. A sombra se ilumina, o segredo é desvendado e a verdade vem à tona. Conseguimos usar dons ocultos que temos e não tínhamos consciência. Pertinente, ajuda a eliminarmos as dúvidas e ver o lado 'correto', pois a mentira não existe com essa runa em ação. Mudanças mais drásticas, liberações e renovações. Ajuda também a encontrarmos pertences perdidos. Saúde: peitos e vagina, pois é 'nascimento'."
+        "power": "Vista como a boca do lobo e também como 'útero cósmico', onde surge tudo que desejamos, sendo a força da vida. É onde podemos buscar as respostas da vida e não permanecermos na dúvida, indecisão. Faz com que tudo se revele dentro de nós. A sombra se ilumina, o segredo é desvendado e a verdade vem à tona. Conseguimos usar dons ocultos que temos e não tínhamos consciência. Pertinente, ajuda a eliminarmos as dúvidas e ver o lado 'correto', pois a mentira não existe com essa runa em ação. Mudanças mais drásticas, liberações e renovações. Ajuda também a encontrarmos pertences perdidos. Saúde: peitos e vagina, pois é 'nascimento'.",
     },
     {
         "id": 23,
         "name": "Algiz",
-        "power": "Pelo seu expansivo formato de abertura, representa a canalização dos deuses para os homens, e vice-versa. Falando muito sobre a proteção divina, ela nos remete à bravura de um alce, o guerreiro com os braços para cima, destemido e pronto para o combate. Sensação de autoridade, valor, bravura, coragem e poder pessoal. Como estabelece uma conexão com o divino, nos auxilia trabalhando nossa premonição, diretamente pela intuição, fazendo com que tenhamos mais atenção e que recebamos insights, protegendo-nos do perigo. Ela estabelece as ondas gamma, facilitando a consciência de estar atenta. Ótima para utilizar no magnetismo à distância, pois evita que interferências negativas se conectem na união. Na saúde, trabalha com a sanidade mental, pois é onde o todo trabalha."
-    }
-
+        "power": "Pelo seu expansivo formato de abertura, representa a canalização dos deuses para os homens, e vice-versa. Falando muito sobre a proteção divina, ela nos remete à bravura de um alce, o guerreiro com os braços para cima, destemido e pronto para o combate. Sensação de autoridade, valor, bravura, coragem e poder pessoal. Como estabelece uma conexão com o divino, nos auxilia trabalhando nossa premonição, diretamente pela intuição, fazendo com que tenhamos mais atenção e que recebamos insights, protegendo-nos do perigo. Ela estabelece as ondas gamma, facilitando a consciência de estar atenta. Ótima para utilizar no magnetismo à distância, pois evita que interferências negativas se conectem na união. Na saúde, trabalha com a sanidade mental, pois é onde o todo trabalha.",
+    },
 ]
 
 daemons = [
@@ -1179,10 +1179,10 @@ daemons = [
         "id": 0,
         "name": "Baal",
         "enn": "Ayer Secore On Ca Ba al",
-        "description": "O Primeiro Espírito Principal é um Rei que governa no Oriente, chamado Bael no Ars Goetia, mas aqui usaremos o nome real dele: Baal. Ele é o representante na Terra do Senhor Enki, e o primeiro entre os deuses antigos. Comanda um exército de 66 legiões de espíritos. Sendo poderoso, porém extremamente discreto, Baal pode usar diferentes formas para se comunicar com aqueles que o procuram. Essas aparências podem variar, estando entre elas a de um gato, um sapo ou, a mais clássica: um homem jovem, com características felinas. Quando se comunica, sua voz é grave e rouca.\n\nSegundo o Ars Goetia, a ele é atribuída a capacidade de tornar indivíduos invisíveis. \"Ficar invisível\" pode ter diferentes significados dependendo do contexto em que é utilizado. Por exemplo, na esfera espiritual ou sobrenatural, \"ficar invisível\" pode se referir à capacidade de Bael de fazer com que um indivíduo se torne imperceptível aos olhos dos outros seres, sejam eles humanos ou espíritos. Isto pode ser algo bem útil, porque a pessoa pode se camuflar ou se esconder fisicamente, tornando-se difícil de ser localizada. Assim a pessoa pode, por exemplo, transitar por lugares onde a sua presença não está permitida, sem chamar a atenção. Ou pode andar em meio a outras pessoas, sem ser percebida, mas vendo e ouvindo tudo, já que, como ninguém vai notar a sua presença, as pessoas vão falar livremente na sua frente.\n\nBaal era conhecido como o Senhor da Fertilidade e das Tormentas. Sendo assim, outra capacidade dele está referida ao bem-estar sexual e à fertilidade, e assim ele pode ser chamado para ajudar, em situações em que esses quesitos estejam com problemas.\n\nFinalmente, a capacidade dele de “controlar o clima” pode ser usada para “criar tormentas” e \"calmarias\" na vida das pessoas. Baal é capaz de criar verdadeiro caos na vida de alguém, fazendo com que essa pessoa se sinta dentro de uma tormenta. Ou pode acalmar a realidade de uma pessoa. Isso é um poder e tanto, já que podemos conturbar a vida de alguém, fazendo-o perder o foco, ou podemos criar passividade, fazendo com que a pessoa perca a “garra” competitiva.\n\nBaal trabalha muito bem com outros Senhores Antigos, mas tem um vínculo especial com dois deles, Agares e Vassago, dos quais falaremos a continuação.",
+        "description": 'O Primeiro Espírito Principal é um Rei que governa no Oriente, chamado Bael no Ars Goetia, mas aqui usaremos o nome real dele: Baal. Ele é o representante na Terra do Senhor Enki, e o primeiro entre os deuses antigos. Comanda um exército de 66 legiões de espíritos. Sendo poderoso, porém extremamente discreto, Baal pode usar diferentes formas para se comunicar com aqueles que o procuram. Essas aparências podem variar, estando entre elas a de um gato, um sapo ou, a mais clássica: um homem jovem, com características felinas. Quando se comunica, sua voz é grave e rouca.\n\nSegundo o Ars Goetia, a ele é atribuída a capacidade de tornar indivíduos invisíveis. "Ficar invisível" pode ter diferentes significados dependendo do contexto em que é utilizado. Por exemplo, na esfera espiritual ou sobrenatural, "ficar invisível" pode se referir à capacidade de Bael de fazer com que um indivíduo se torne imperceptível aos olhos dos outros seres, sejam eles humanos ou espíritos. Isto pode ser algo bem útil, porque a pessoa pode se camuflar ou se esconder fisicamente, tornando-se difícil de ser localizada. Assim a pessoa pode, por exemplo, transitar por lugares onde a sua presença não está permitida, sem chamar a atenção. Ou pode andar em meio a outras pessoas, sem ser percebida, mas vendo e ouvindo tudo, já que, como ninguém vai notar a sua presença, as pessoas vão falar livremente na sua frente.\n\nBaal era conhecido como o Senhor da Fertilidade e das Tormentas. Sendo assim, outra capacidade dele está referida ao bem-estar sexual e à fertilidade, e assim ele pode ser chamado para ajudar, em situações em que esses quesitos estejam com problemas.\n\nFinalmente, a capacidade dele de “controlar o clima” pode ser usada para “criar tormentas” e "calmarias" na vida das pessoas. Baal é capaz de criar verdadeiro caos na vida de alguém, fazendo com que essa pessoa se sinta dentro de uma tormenta. Ou pode acalmar a realidade de uma pessoa. Isso é um poder e tanto, já que podemos conturbar a vida de alguém, fazendo-o perder o foco, ou podemos criar passividade, fazendo com que a pessoa perca a “garra” competitiva.\n\nBaal trabalha muito bem com outros Senhores Antigos, mas tem um vínculo especial com dois deles, Agares e Vassago, dos quais falaremos a continuação.',
         "planet": "Sol",
         "direction": "Sul",
-        "pathworking": "O deserto\nO interior de um templo antigo\nUma fonte de água fresca\nA sensação de Segurança"
+        "pathworking": "O deserto\nO interior de um templo antigo\nUma fonte de água fresca\nA sensação de Segurança",
     },
     {
         "id": 1,
@@ -1191,16 +1191,16 @@ daemons = [
         "description": "O Duque Agreas, também conhecido como Agares, é o Segundo Espírito e está subordinado ao poder do Oriente. Quando se manifesta, assume a forma de um homem de meia-idade, atraente, montado em um dragão e segurando um açor em sua mão, apesar do qual, a sua aparência é tranquila.\n\nAgares é descrito como tendo a habilidade de dar um impulso poderoso àqueles que estão estagnados ou parados, concedendo-lhes a energia necessária para que possam avançar em suas metas e objetivos. Sua influência também se estende àqueles que fugiram, permitindo que ele possa ajudar no retorno de indivíduos que, por algum motivo, tenham ido embora.\n\nAlém de sua capacidade de motivar e encorajar, Agares possui outra habilidade surpreendente: ele é capaz de facilitar o aprendizado de qualquer língua ou idioma existente. Isso não está limitado só a parte do aprendizado de idiomas, já que com sua vasta compreensão das linguagens e do mundo, Agares é capaz de conceder aos indivíduos a capacidade de se comunicar e se entender com pessoas de outras culturas e nacionalidades, que poderiam ter sido inacessíveis de outra forma. Essa habilidade é valiosa para aqueles que viajam para o exterior, estudantes de línguas ou profissionais que precisam se comunicar e entender a cultura de pessoas de outras nacionalidades.\n\nAqueles que invocam Agares também podem contar com seu poder para destruir dignidades espirituais e temporais e até mesmo causar destruição (o que no texto é chamado de “terremotos”). No entanto, essa influência pode ser perigosa e deve ser utilizada com cuidado e responsabilidade, pelos possíveis retornos que pode ter.\n\nAnteriormente, fazia parte da Ordem das Virtudes. Agora governa 31 legiões de espíritos, o que o torna um líder poderoso e influente dentro da hierarquia dos senhores antigos, tanto pelo número de subordinados quanto pela sua origem angelical.",
         "planet": "Vênus",
         "direction": "Norte",
-        "pathworking": "Um cavalo correndo\nUm raio caindo\nUma caverna com diamantes nas paredes\nA sensação de Segurança"
+        "pathworking": "Um cavalo correndo\nUm raio caindo\nUma caverna com diamantes nas paredes\nA sensação de Segurança",
     },
     {
         "id": 2,
         "name": "Vassago",
         "enn": "Keyan vefa jedan tasa Vassago",
-        "description": "O Terceiro Espírito, chamado Vassago, é descrito como uma Princesa poderosa que compartilha da mesma natureza de Agares, ou seja, ela também responde ao Senhor do Oriente. Sua personalidade é gentil e benevolente, e sua habilidade é declarar tanto as coisas passadas quanto as futuras, além de ser capaz de descobrir todas as coisas ocultas ou perdidas. Vassago é mencionada no Livro do Ofício dos Espíritos como Usagoo, aparecendo como um anjo, \"justo e verdadeiro em tudo o que faz\".\n\nVassago é conhecida por sua capacidade de desvendar segredos e mistérios, e muitos invocam sua ajuda para encontrar objetos perdidos, descobrir a verdade por trás de uma situação ou mesmo para prever o futuro. Seus poderes são particularmente úteis para aqueles que desejam explorar a sabedoria antiga ou investigar questões ocultas e esotéricas.\n\nPorém, temos que lembrar que, além de suas habilidades divinatórias e sua forma gentil, Vassago é uma líder forte e governa 26 legiões de espíritos. Aqueles que procuram sua ajuda devem fazê-lo com respeito.\n\nVassago é considerada um espírito extremamente útil para tanto para aqueles que desejam se aprofundar nos mistérios da vida e do universo, como para os que buscam respostas para questões específicas. Seus poderes divinatórios e sua habilidade para descobrir coisas ocultas ou perdidas podem ajudar a esclarecer muitos mistérios e oferecer respostas valiosas para aqueles que a invocam com sinceridade e respeito.",
+        "description": 'O Terceiro Espírito, chamado Vassago, é descrito como uma Princesa poderosa que compartilha da mesma natureza de Agares, ou seja, ela também responde ao Senhor do Oriente. Sua personalidade é gentil e benevolente, e sua habilidade é declarar tanto as coisas passadas quanto as futuras, além de ser capaz de descobrir todas as coisas ocultas ou perdidas. Vassago é mencionada no Livro do Ofício dos Espíritos como Usagoo, aparecendo como um anjo, "justo e verdadeiro em tudo o que faz".\n\nVassago é conhecida por sua capacidade de desvendar segredos e mistérios, e muitos invocam sua ajuda para encontrar objetos perdidos, descobrir a verdade por trás de uma situação ou mesmo para prever o futuro. Seus poderes são particularmente úteis para aqueles que desejam explorar a sabedoria antiga ou investigar questões ocultas e esotéricas.\n\nPorém, temos que lembrar que, além de suas habilidades divinatórias e sua forma gentil, Vassago é uma líder forte e governa 26 legiões de espíritos. Aqueles que procuram sua ajuda devem fazê-lo com respeito.\n\nVassago é considerada um espírito extremamente útil para tanto para aqueles que desejam se aprofundar nos mistérios da vida e do universo, como para os que buscam respostas para questões específicas. Seus poderes divinatórios e sua habilidade para descobrir coisas ocultas ou perdidas podem ajudar a esclarecer muitos mistérios e oferecer respostas valiosas para aqueles que a invocam com sinceridade e respeito.',
         "planet": "Júpiter",
         "direction": "Oeste",
-        "pathworking": "A beira de um mar calmo, sem ondas\nUm cavalo negro observando\nA noite estrelada\nA sensação de estar sendo avaliado/observado"
+        "pathworking": "A beira de um mar calmo, sem ondas\nUm cavalo negro observando\nA noite estrelada\nA sensação de estar sendo avaliado/observado",
     },
     {
         "id": 3,
@@ -1209,7 +1209,7 @@ daemons = [
         "description": "Samigina é o Quarto Espírito, um Grande Marquês. Ele é conhecido por aparecer em duas formas: inicialmente, como um pequeno cavalo ou asno, e, em seguida, transformando-se em uma forma humana, a pedido do invocador. Sua voz é rouca e imponente.\n\nSamigina governa mais de 30 legiões de inferiores, sendo um líder forte e poderoso. Seu poder é especialmente útil para aqueles que desejam explorar as artes liberais e as ciências. Como um espírito experiente e sábio, ele tem a capacidade de ensinar todas as ciências liberais, tornando-se um guia valioso para aqueles que procuram aprender.\n\nAlém disso, Samigina tem a capacidade de lidar com as almas das pessoas que morreram em pecado, uma habilidade única e poderosa que pode trazer alívio para aqueles que sofrem pela perda de um ente querido. Sua capacidade de ajudar as almas a encontrar a paz e a redenção é altamente valorizada entre aqueles que o invocam.\n\nEmbora seja um espírito poderoso, Samigina também é gentil e benevolente, buscando sempre ajudar aqueles que o invocam com sinceridade e respeito. Aqueles que desejam invocar Samigina devem fazê-lo com a mente clara e a intenção pura, para que possam receber suas bênçãos e orientação em seu caminho.\n\nEm resumo, Samigina é capaz de ensinar todas as ciências liberais e lidar com as almas das pessoas que morreram em pecado. Sua presença pode trazer conforto e orientação para aqueles que buscam sua ajuda, tornando-se um valioso guia em suas jornadas.",
         "planet": "Lua",
         "direction": "Oeste",
-        "pathworking": "Um lago sob a luz do luar\nUma casa, com as janelas iluminadas por luz amarela\nUma lareira acesa, com duas cadeiras frente a ela\nUma sensação de tranquilidade"
+        "pathworking": "Um lago sob a luz do luar\nUma casa, com as janelas iluminadas por luz amarela\nUma lareira acesa, com duas cadeiras frente a ela\nUma sensação de tranquilidade",
     },
     {
         "id": 4,
@@ -1218,7 +1218,7 @@ daemons = [
         "description": "Marbas é o quinto Espírito, um Grande Presidente. Quando invocado, ele aparece inicialmente na forma de um grande leão, mas, a pedido do invocador, pode assumir uma forma humana. Sua aparência é majestosa e intimidadora, refletindo seu poder e autoridade.\n\nMarbas é conhecido por sua habilidade em responder a questões sobre coisas ocultas ou secretas, revelando informações que muitas vezes são desconhecidas. Além disso, ele tem a habilidade de causar doenças e, paradoxalmente, também tem a capacidade de curá-las, sendo um espírito ambivalente que pode ser tanto benéfico quanto maléfico.\n\nAlém disso, Marbas é um espírito altamente habilidoso nas artes mecânicas, dando aos seus invocadores um grande conhecimento e sabedoria em tais áreas. Ele pode ensinar técnicas avançadas e habilidades que podem ajudar a aprimorar a engenharia e outras áreas técnicas.\n\nUma habilidade única de Marbas é a capacidade de transformar homens em outras formas, uma capacidade poderosa que pode ser usada para uma variedade de fins. Ele pode conceder a habilidade de se transformar em outras criaturas, ou mesmo em objetos, abrindo uma ampla gama de possibilidades para seus invocadores. Temos que entender aqui que Marbas não vai mudar o corpo físico da pessoa que o invoca, mas a forma como os outros a veem. Ele pode fazer com que uma pessoa tímida projete a energia de um tigre, e assim seja sentida por aqueles que a rodeiam, impondo medo e respeito. De igual forma pode fazer com que uma pessoa perigosa pareça inofensiva e pacífica.\n\nMarbas governa 36 legiões de espíritos, o que o torna um líder poderoso. Ele é altamente respeitado e sua presença pode trazer grande proteção e orientação para aqueles que o invocam.",
         "planet": "Mercúrio",
         "direction": "Leste",
-        "pathworking": "As ruínas de uma cidade no deserto\nPalmeiras que se agitam com o vento\nUm obelisco de pedra dourada, numa praça abandonada\nA sensação de estar alerta"
+        "pathworking": "As ruínas de uma cidade no deserto\nPalmeiras que se agitam com o vento\nUm obelisco de pedra dourada, numa praça abandonada\nA sensação de estar alerta",
     },
     {
         "id": 5,
@@ -1227,7 +1227,7 @@ daemons = [
         "description": "O sexto Espírito é Valefor, um Duque Grande e Poderoso que aparece como uma mistura de um leão com um burro. Ele é de natureza alegre e bondosa, e tem a habilidade de incitar paixões e desejos, especialmente em relação ao amor e à luxúria. Ele é capaz de fazer com que as pessoas se apaixonem, mesmo que isso pareça impossível, e é especialmente hábil em influenciar aqueles que estão distantes.\n\nValefar é um espírito altamente habilidoso em todas as formas de arte, incluindo música, dança e poesia, e pode ensinar a seus invocadores as técnicas avançadas nessas áreas. Ele também tem a habilidade de criar músicas e poemas em tempo real, trazendo à vida performances únicas e impressionantes.\n\nAlém disso, Valefar é um espírito muito versátil, capaz de ajudar em muitas tarefas diferentes. Ele é um mestre em lidar com o comércio, e pode ajudar em assuntos relacionados a finanças e negócios. Ele também tem conhecimento em artes mágicas, como a invocação de espíritos e a criação de amuletos e talismãs.\n\nValefar governa 10 legiões de espíritos, o que o torna um líder influente na hierarquia demoníaca. Sua personalidade alegre e habilidades versáteis fazem dele um espírito altamente valorizado por aqueles que o invocam.",
         "planet": "Vênus",
         "direction": "Norte",
-        "pathworking": "Uma praia no entardecer\nUma bela mulher passa caminhando e se perde na distância\nAs ondas rompem suavemente na areia dourada\nUma sensação de alegria"
+        "pathworking": "Uma praia no entardecer\nUma bela mulher passa caminhando e se perde na distância\nAs ondas rompem suavemente na areia dourada\nUma sensação de alegria",
     },
     {
         "id": 6,
@@ -1236,7 +1236,7 @@ daemons = [
         "description": "O Sétimo Espírito é conhecido como Amon, um Marquês poderoso e extremamente severo. Sua aparição é aterrorizante, na forma de um lobo com cauda de serpente, cuja boca é capaz de exalar chamas ardentes. No entanto, sob o comando do Mago, ele pode assumir outras formas, como a de um Homem com grandes e afiados dentes de cão, ou simplesmente um homem com cabeça de corvo.\n\nAmon é capaz de revelar todas as coisas passadas e futuras, fornecendo informações precisas e detalhadas sobre qualquer questão. Ele é especialista em solucionar desentendimentos e reconciliar amizades rompidas.\n\nAmon governa sobre 40 legiões de espíritos, demonstrando sua liderança forte e habilidades para organizar e comandar outras entidades espirituais.\n\nAmon pode ser um aliado extremamente poderoso, tanto pelo seu conhecimento profundo sobre o passado, presente e futuro, assim como pela sua capacidade de resolver conflitos interpessoais.",
         "planet": "Lua",
         "direction": "Oeste",
-        "pathworking": "Uma espada com empunhadura brilhante\nUm castelo antigo, de pedra cinza\nUm salão com armaduras nas paredes e uma mesa no centro\nUma sensação de calma"
+        "pathworking": "Uma espada com empunhadura brilhante\nUm castelo antigo, de pedra cinza\nUm salão com armaduras nas paredes e uma mesa no centro\nUma sensação de calma",
     },
     {
         "id": 7,
@@ -1245,7 +1245,7 @@ daemons = [
         "description": "O Oitavo Espírito é Barbatos, um Grande Duque poderoso e sábio. Ele chega acompanhado por quatro Reis, que realçam seu poder.\n\nEle conhece todos os segredos da natureza e é capaz de conceder poder sobre os animais, fazendo com que eles obedeçam ao comando do invocador. Ele pode ensinar a arte da caça e revelar tesouros escondidos.\n\nBarbatos é também capaz de prever o futuro e revelar as coisas ocultas e secretas. Ele é capaz de reconciliar amigos e inimigos e pode proteger aqueles que o invocam de seus inimigos.\n\nEle é da ordem das Virtudes, e ainda mantém poder sobre uma parte dela. Governa 30 legiões de espíritos. Com sua grande sabedoria e poder, Barbatos é um espírito altamente respeitado e pode ser um aliado muito útil.",
         "planet": "Vênus",
         "direction": "Sul",
-        "pathworking": "Uma mesa coberta de planos antigos e uma grande bússola\nPelas janelas abertas entra a luz do sol e dá para ver os telhados\nUma jarra de água fresca com dois copos de vidro\nUma sensação de calma"
+        "pathworking": "Uma mesa coberta de planos antigos e uma grande bússola\nPelas janelas abertas entra a luz do sol e dá para ver os telhados\nUma jarra de água fresca com dois copos de vidro\nUma sensação de calma",
     },
     {
         "id": 8,
@@ -1254,7 +1254,7 @@ daemons = [
         "description": "O Nono Espírito na hierarquia é Paimon, um Grande Rei. Quando invocado, ele aparece sentado em um dromedário com uma coroa gloriosa em sua cabeça. Acompanhando-o, há uma multidão de espíritos. No primeiro encontro Paimon pode ter uma voz poderosa e ressonante, e a comunicação pode ser difícil. O mago deve então pedir para ele se expressar de forma clara. Ele é realmente um anjo e, antes da queda, seu nome era Umbriel.\n\nPaimon é capaz de ensinar todas as Artes e Ciências, bem como outras coisas secretas e misteriosas. Ele tem o poder de revelar a verdade sobre o mundo material (a Terra), sobre o mundo de emoções que a sustenta e define o mundo anterior (as Águas), bem como muitas coisas sobre o mundo mental (os Ventos). Ele pode também responder qualquer outra coisa que você deseje saber.\n\nPaimon também tem a habilidade de conceder Dignidade e confirmá-la. Ele pode amarrar ou tornar qualquer homem sujeito ao mago, se este assim o desejar.\n\nEle pode dar bons familiares que possuem o conhecimento de todas as artes.\n\nPaimon é da Ordem das Potências e governa sobre 200 legiões de espíritos, sendo alguns deles da Ordem dos Anjos e a outra parte das Potências. No entanto, segundo o Ars Goetia, os espíritos subordinados nem sempre estão presentes, a menos que o mago os chame.",
         "planet": "Sol/Saturno",
         "direction": "Leste",
-        "pathworking": "Uma caverna iluminada com tochas\nUm tesouro cheio de ouro e pedras preciosas\nUm lago coberto por uma cúpula com diamantes\nUma sensação de força"
+        "pathworking": "Uma caverna iluminada com tochas\nUm tesouro cheio de ouro e pedras preciosas\nUm lago coberto por uma cúpula com diamantes\nUma sensação de força",
     },
     {
         "id": 9,
@@ -1263,7 +1263,7 @@ daemons = [
         "description": "O Nono Espírito na hierarquia é Paimon, um Grande Rei. Quando invocado, ele aparece sentado em um dromedário com uma coroa gloriosa em sua cabeça. Acompanhando-o, há uma multidão de espíritos. No primeiro encontro Paimon pode ter uma voz poderosa e ressonante, e a comunicação pode ser difícil. O mago deve então pedir para ele se expressar de forma clara. Ele é realmente um anjo e, antes da queda, seu nome era Umbriel.\n\nPaimon é capaz de ensinar todas as Artes e Ciências, bem como outras coisas secretas e misteriosas. Ele tem o poder de revelar a verdade sobre o mundo material (a Terra), sobre o mundo de emoções que a sustenta e define o mundo anterior (as Águas), bem como muitas coisas sobre o mundo mental (os Ventos). Ele pode também responder qualquer outra coisa que você deseje saber.\n\nPaimon também tem a habilidade de conceder Dignidade e confirmá-la. Ele pode amarrar ou tornar qualquer homem sujeito ao mago, se este assim o desejar.\n\nEle pode dar bons familiares que possuem o conhecimento de todas as artes.\n\nPaimon é da Ordem das Potências e governa sobre 200 legiões de espíritos, sendo alguns deles da Ordem dos Anjos e a outra parte das Potências. No entanto, segundo o Ars Goetia, os espíritos subordinados nem sempre estão presentes, a menos que o mago os chame.",
         "planet": "Mercúrio",
         "direction": "Sul",
-        "pathworking": "Um jardim cheio de plantas e flores\nUma fonte de água cristalina\nUm gazebo de madeira, com trepadeiras, no centro do jardim\nUma sensação de expectativa"
+        "pathworking": "Um jardim cheio de plantas e flores\nUma fonte de água cristalina\nUm gazebo de madeira, com trepadeiras, no centro do jardim\nUma sensação de expectativa",
     },
     {
         "id": 10,
@@ -1272,7 +1272,7 @@ daemons = [
         "description": "O Décimo Primeiro Espírito em ordem é Gusion, um Duque poderoso e forte. Quando se manifesta, assume a forma de um Xenopilus, uma criatura estranha e mística, parte homem, parte lobo.\n\nEste espírito é conhecido por sua habilidade em contar todas as coisas, sejam elas passadas, presentes ou futuras.\n\nAlém disso, ele é capaz de fornecer o significado e a resolução para todas as perguntas que o mago possa ter.\n\nGusion tem uma habilidade única de conciliar e reconciliar amizades que foram abaladas. Ele é muito respeitado por sua capacidade de trazer paz e harmonia onde antes havia conflito. Além disso, ele é capaz de conceder honra e dignidade àqueles que merecem.\n\nEste poderoso Duque governa sobre mais de 40 legiões de espíritos, o que o torna muito influente no mundo espiritual. Aqueles que desejam convocá-lo devem estar preparados para enfrentar sua imponente presença, ao mesmo tempo majestosa e intimidadora.",
         "planet": "Mercúrio",
         "direction": "Sul",
-        "pathworking": "Um cetro de ouro\nUm chicote de couro preto\nUma balança sobre uma mesa\nUma sensação de força"
+        "pathworking": "Um cetro de ouro\nUm chicote de couro preto\nUma balança sobre uma mesa\nUma sensação de força",
     },
     {
         "id": 11,
@@ -1281,7 +1281,7 @@ daemons = [
         "description": "O Décimo Segundo Espírito na ordem é Sitri, um Grande Príncipe com habilidades intrigantes. Ele aparece inicialmente com uma cabeça de Leopardo e asas de um Grifo, mas após receber o comando do Mago, assume a forma humana, sendo muito bonito.\n\nEste Espírito tem o poder de inflamar o amor nos homens e mulheres, despertando paixões intensas e desejo sexual. Se o Mago assim o desejar, Sitri pode fazer com que homens e mulheres se mostrem nus, sendo capaz de influenciar tanto a mente quanto o corpo.\n\nSua capacidade de inspirar a luxúria tem sido frequentemente mencionada, e ele é considerado um especialista em assuntos relacionados ao amor. Ele pode fazer as pessoas sentirem-se atraídas uma pela outra, aumentar a sensualidade e desencadear desejos sexuais.\n\nSitri exerce seu comando sobre 60 legiões de espíritos, sendo um aliado valioso para aqueles que desejam alcançar o sucesso em assuntos amorosos e sensuais. Com a ajuda deste Príncipe, o Mago pode encontrar novos amores ou reacender a chama do relacionamento atual.",
         "planet": "Júpiter",
         "direction": "Norte",
-        "pathworking": "Uma espada com cabo de ouro e rubis\nUma cama coberta com uma colcha vermelha e dourada\nUm jardim cheio de flores exuberantes\nUma sensação de alegria"
+        "pathworking": "Uma espada com cabo de ouro e rubis\nUma cama coberta com uma colcha vermelha e dourada\nUm jardim cheio de flores exuberantes\nUma sensação de alegria",
     },
     {
         "id": 12,
@@ -1290,16 +1290,16 @@ daemons = [
         "description": "O Décimo Terceiro Espírito, conhecido como Beleth (também referido como Bileth ou Bilet), é um rei poderoso e temido na hierarquia dos espíritos. Segundo o Ars Goetia, ele é frequentemente descrito como cavalgando em um cavalo de cor clara, acompanhado por trombetas e outros instrumentos musicais, que ecoam em sua presença.\n\nA primeira aparição de Beleth pode ser intimidante e desconcertante, pois sua fúria é perceptível. O Mago, porém, deve permanecer firme na sua intenção, até ele ficar calmo. No entanto, mesmo mostrando seu poder pessoal, o Mago não pode nunca esquecer que Beleth é um Grande Rei e deve ser tratado com cortesia e respeito, como qualquer outro rei ou príncipe que merece homenagens.\n\nA importância deste Senhor Antigo fica clara quando consideramos que, segundo o Pseudomonarchia Daemonum, já citado antes, o filho de Noé, Ham, foi o primeiro a invocá-lo após o dilúvio e, com a ajuda dele, escreveu um livro sobre matemática. Isto já nos indica que ele pode nos ajudar tanto no estudo de ciências exatas quanto no pensamento lógico.\n\nMas o poder principal de Beleth é o de influenciar e manipular o amor entre homens e mulheres, podendo fazer com que eles se apaixonem profundamente. Ele pode conceder os desejos dos magos e magas que o invocam, trazendo assim, felicidade e satisfação aos seus corações.\n\nDe acordo com a tradição, Beleth pertence à Ordem das Potências e tem o controle de 85 legiões de espíritos, o que indica seu status e grandeza na hierarquia espiritual.",
         "planet": "Sol",
         "direction": "Norte",
-        "pathworking": "Um cavalo branco\nUm campo verde, com flores vermelhas\nUm círculo de pedras\nUma sensação de firmeza"
+        "pathworking": "Um cavalo branco\nUm campo verde, com flores vermelhas\nUm círculo de pedras\nUma sensação de firmeza",
     },
-        {
+    {
         "id": 13,
         "name": "Beleth",
         "enn": "Caymen vefa Leraje",
         "description": "Leraje, também conhecido como Leraie, é o décimo quarto Espírito da Goétia. Leraje é um Marquês Grande em Poder, que se apresenta como um Arqueiro vestido de verde, carregando um arco e uma aljava. A imagem do arqueiro simboliza sua habilidade em atingir seus objetivos, assim como sua natureza competitiva e guerreira.\n\nLeraje é conhecido por sua capacidade de causar grandes batalhas e competições, sendo um espírito que pode ser invocado para ajudar em disputas e conflitos. Além disso, ele também é capaz de causar feridas profundas que podem se tornar infectadas, uma habilidade que é considerada perigosa e pode ser usada como arma em uma batalha.\n\nAssociado ao signo de Sagitário, Leraje é considerado um espírito de fogo, o que significa que ele é impetuoso, apaixonado e enérgico. Sua energia é considerada dinâmica e transformadora, e pode ser invocada para trazer mudanças rápidas e intensas.\n\nLeraje governa trinta legiões de espíritos, o que significa que ele tem um grande poder e influência sobre outros espíritos e demônios. Seu domínio sobre essas legiões o torna um espírito poderoso e temido, mas também pode ser invocado para ajudar em questões relacionadas à liderança e organização.\n\nGuerreiro, competitivo e impetuoso, Leraje é capaz de causar conflitos e feridas profundas nos alvos determinados pelo mago. Seu domínio sobre trinta legiões de espíritos o torna uma figura poderosa e influente no mundo espiritual, e pode ser invocado para ajudar em disputas, batalhas e questões relacionadas à liderança.",
         "planet": "Lua",
         "direction": "Sul",
-        "pathworking": "Uma mão empunhando uma faca\nUma mesa com pão e vinho\nUm cômodo fresco, num dia de sol insuportável\nUma sensação de descanso"
+        "pathworking": "Uma mão empunhando uma faca\nUma mesa com pão e vinho\nUm cômodo fresco, num dia de sol insuportável\nUma sensação de descanso",
     },
     {
         "id": 14,
@@ -1308,7 +1308,7 @@ daemons = [
         "description": "Eligos é o décimo quinto Espírito da Goétia. Ele é um Grande Duque que aparece na forma de um belo cavaleiro, carregando uma lança, uma insígnia e uma serpente. Sua imagem simboliza sua habilidade em desvendar coisas ocultas e conhecer eventos futuros, assim como sua natureza guerreira e protetora.\n\nEligos é conhecido por sua habilidade em descobrir segredos ocultos e prever eventos futuros, especialmente relacionados a guerras e conflitos. Ele é capaz de fornecer informações sobre como as batalhas serão travadas, o que as pessoas podem esperar encontrar e como elas podem se preparar para a vitória. Seu conhecimento das artes da guerra o torna um espírito valioso para aqueles que buscam a vitória em disputas militares.\n\nAlém disso, Eligos é capaz de inspirar o amor e o aprecio dos senhores e das grandes personalidades, uma habilidade que pode ser usada para conquistar a simpatia e a benevolência dos poderosos. Seu domínio sobre o amor o torna um espírito capaz de trazer harmonia e equilíbrio às relações pessoais e interpessoais.\n\nEligos governa sessenta legiões de espíritos, o que significa que ele tem um grande poder e influência sobre outros espíritos e demônios. Seu domínio sobre essas legiões o torna uma figura poderosa e temida no mundo espiritual, mas também pode ser invocado para ajudar em questões relacionadas à liderança e organização.\n\nGuerreiro e protetor, Eligos é capaz de fornecer informações precisas sobre eventos futuros e ajudar na preparação para a vitória em batalhas. Sua habilidade em inspirar o amor dos poderosos o torna um espírito valioso em questões políticas e pessoais. Seu domínio sobre sessenta legiões de espíritos o torna uma figura poderosa e influente no mundo espiritual, capaz de ajudar em questões de liderança e organização.",
         "planet": "Vênus",
         "direction": "Oeste",
-        "pathworking": "Uma serpente se arrasta pelo chão\nUm guerreiro observa com atenção\nUma mesa com duas jarras de cerveja\nUma sensação de força"
+        "pathworking": "Uma serpente se arrasta pelo chão\nUm guerreiro observa com atenção\nUma mesa com duas jarras de cerveja\nUma sensação de força",
     },
     {
         "id": 15,
@@ -1317,7 +1317,7 @@ daemons = [
         "description": "Zepar é o décimo sexto espírito da Goetia, listado como um Grande Duque. Ele é descrito como um soldado com roupas e armaduras vermelhas. O seu ofício é fazer com que as mulheres se apaixonem pelos homens e, assim, uni-los no amor. Além disso, ele é conhecido por torná-las estéreis.\n\nSegundo a tradição ocultista, Zepar é invocado pelos magos para ajudá-los a conquistar o amor de uma mulher desejada. Ele pode ser solicitado para ajudar a fortalecer um relacionamento amoroso existente ou para atrair um novo amor.\n\nAlém disso, é importante destacar que Zepar governa 26 legiões de espíritos inferiores. Esses espíritos podem ser convocados pelos magos para ajudá-los em diferentes tarefas, desde a proteção pessoal até a obtenção de riqueza.",
         "planet": "Vênus",
         "direction": "Norte",
-        "pathworking": "Um cavalo negro esperando o cavaleiro\nUm caminho beirado por árvores\nUma mesa com cadeiras, pão e vinho, sob uma grande árvore\nA sensação de ser sedutor"
+        "pathworking": "Um cavalo negro esperando o cavaleiro\nUm caminho beirado por árvores\nUma mesa com cadeiras, pão e vinho, sob uma grande árvore\nA sensação de ser sedutor",
     },
     {
         "id": 16,
@@ -1326,7 +1326,7 @@ daemons = [
         "description": "O décimo sétimo espírito da Goetia é Botis, um grande presidente e conde que tem uma aparência um tanto quanto assustadora. Quando se manifesta pela primeira vez, ele assume a forma de uma víbora. No entanto, sob o comando do mago que o invocou, ele pode assumir uma forma humana, com grandes dentes e dois chifres. Em suas mãos, ele carrega uma espada brilhante e afiada, pronta para usar em defesa de seu invocador.\n\nBotis é um espírito muito poderoso e é conhecido por ter o dom de contar todas as coisas passadas e futuras. Ele é um grande aliado para aqueles que buscam orientação sobre o que está por vir, e também para aqueles que desejam entender melhor seu passado.\n\nAlém desse poder, Botis tem uma habilidade única para reconciliar amigos e inimigos, tornando-o um aliado valioso para aqueles que desejam resolver conflitos e curar relacionamentos quebrados.\n\nÉ interessante notar que Botis governa mais de 60 legiões de espíritos, o que indica que ele é um espírito muito respeitado e temido entre seus pares. As habilidades e o poder de proteção de Botis são muito valorizados e sua influência é considerada extremamente poderosa.",
         "planet": "Mercúrio/Marte",
         "direction": "Oeste",
-        "pathworking": "Um guerreiro, com armadura, portando uma espada na mão\nUma cidade antiga, com casas brancas\nUm lugar com sombra, sob as palmeiras\nUma sensação de alegria"
+        "pathworking": "Um guerreiro, com armadura, portando uma espada na mão\nUma cidade antiga, com casas brancas\nUm lugar com sombra, sob as palmeiras\nUma sensação de alegria",
     },
     {
         "id": 17,
@@ -1335,7 +1335,7 @@ daemons = [
         "description": "Bathin é o décimo oitavo espírito da hierarquia do Ars Goetia e é conhecido como um duque poderoso e forte. Sua aparência é descrita como a de um homem forte, com uma cauda de serpente e montado em um cavalo pálido. Essa imagem é impressionante e muitas vezes evoca medo e respeito em quem o invoca.\n\nEntre suas habilidades e poderes, Bathin é reconhecido por sua extensa compreensão das virtudes das ervas e das pedras preciosas.\n\nSegundo o Ars Goetia, ele tem o poder de transportar repentinamente homens de um país para outro. Mesmo que isso não aconteça fisicamente, essa habilidade o torna um espírito extremamente útil para aqueles que precisam viajar longas distâncias, com rapidez. Ele pode fazer com que a viagem aconteça de forma suave e rápida. Também é muito útil para quem quer refinar a arte da viagem astral.\n\nBathin é também um governante, com o controle de mais de 30 legiões de espíritos. Seus poderes de comando são considerados altamente eficazes e muitas vezes são temidos por aqueles que o servem. No entanto, para aqueles que o invocam com respeito e devoção, Bathin pode oferecer proteção, sabedoria e orientação em seu caminho espiritual.\n\nEmbora não seja tão conhecido, Bathin é um espírito poderoso e respeitado, com habilidades e poderes que são altamente valorizados pelos que buscam seu auxílio. Seu conhecimento das virtudes das ervas e das pedras preciosas e seu poder de transporte o tornam um espírito muito procurado, enquanto sua posição de governante o torna uma figura de autoridade e comando no mundo dos espíritos.",
         "planet": "Vênus",
         "direction": "Norte",
-        "pathworking": "Uma bússola antiga\nA ponte de um barco, com a roda do leme de madeira\nO deck do barco, durante o dia, com o mar agitado\nUma sensação de tensão"
+        "pathworking": "Uma bússola antiga\nA ponte de um barco, com a roda do leme de madeira\nO deck do barco, durante o dia, com o mar agitado\nUma sensação de tensão",
     },
     {
         "id": 18,
@@ -1344,7 +1344,7 @@ daemons = [
         "description": "O décimo nono espírito da lista de espíritos descritos no Ars Goetia é conhecido como Sallos (ou Saleos). Descrito como um Grande e Poderoso Duque, Sallos é um ser espiritual que tem o poder de influenciar os desejos amorosos das pessoas. Ele é capaz de conceder o amor das mulheres aos homens e dos homens às mulheres, sendo considerado um especialista em assuntos do coração.\n\nQuando evocado, Sallos se manifesta na forma de um galante soldado montado em um crocodilo, usando uma coroa ducal na cabeça, mas de maneira pacífica. A sua aparência exótica e impressionante, bem como o seu ar imponente, demonstra o seu poder e autoridade como um dos grandes duques do inferno.\n\nDe acordo com os grimórios antigos, Sallos governa trinta legiões de espíritos e é um dos mais importantes comandantes entre os Shedim. A sua influência é capaz de moldar as emoções e os desejos das pessoas, tornando-o uma entidade muito procurada por aqueles que buscam ajuda nos assuntos amorosos.\n\nSallos é um espírito extremamente poderoso e respeitado, conhecido por governar legiões de outros seres espirituais e ter a capacidade de conceder o amor e influenciar os desejos amorosos das pessoas.",
         "planet": "Vênus",
         "direction": "Norte",
-        "pathworking": "Uma grande catedral, com bancos de madeira escura\nUm enorme órgão, com tubos de metal brilhante\nUm jardim do lado de fora, com bancos de pedra\nA sensação de justiça"
+        "pathworking": "Uma grande catedral, com bancos de madeira escura\nUm enorme órgão, com tubos de metal brilhante\nUm jardim do lado de fora, com bancos de pedra\nA sensação de justiça",
     },
     {
         "id": 19,
@@ -1353,7 +1353,7 @@ daemons = [
         "description": "O vigésimo espírito da lista de espíritos descritos no 'Ars Goetia' é Purson, um Grande Rei cuja aparência é imponente e majestosa. Ele é descrito como um homem com rosto de leão e carregando uma víbora cruel em sua mão. À medida que ele avança, o som de muitas trombetas pode ser ouvido ao seu redor, anunciando a sua chegada.\n\nPurson é conhecido por possuir grande conhecimento e sabedoria, sendo capaz de descobrir tesouros ocultos e revelar informações sobre o passado, presente e futuro. Ele pode assumir uma forma humana ou etérea e tem a habilidade de responder com veracidade a todas as questões terrenas, secretas e divinas, incluindo aquelas sobre a criação do mundo.\n\nDe acordo com a tradição goética, Purson é capaz de gerar bons espíritos familiares, que são seres espirituais que ajudam os humanos em suas tarefas e objetivos pessoais. Sob seu governo, há vinte e duas legiões de espíritos, que são parte da ordem das Virtudes e parte da ordem dos Tronos.\n\nPurson é um espírito extremamente poderoso e respeitado na tradição ocultista, sendo considerado um dos grandes entre os Shedim. Sua aparência majestosa e sua habilidade de revelar informações ocultas fazem dele uma entidade muito procurada por aqueles que buscam sabedoria e conhecimento em assuntos espirituais e ocultos.",
         "planet": "Sol",
         "direction": "Norte",
-        "pathworking": "Um cavaleiro em armadura, sobre um cavalo branco\nUma grande mansão\nUm cômodo com poltronas de madeira frente a uma lareira acesa\nUma sensação de força"
+        "pathworking": "Um cavaleiro em armadura, sobre um cavalo branco\nUma grande mansão\nUm cômodo com poltronas de madeira frente a uma lareira acesa\nUma sensação de força",
     },
     {
         "id": 20,
@@ -1362,7 +1362,7 @@ daemons = [
         "description": "O vigésimo primeiro espírito da lista de espíritos descritos no 'Ars Goetia' é Marax, um Grande Conde e Presidente. Ele é descrito como um grande touro com rosto humano, e é um Shedim que se especializa em trazer sabedoria aos homens.\n\nMarax pode ajudar aqueles que buscam conhecimento em astronomia e outras ciências liberais. Ele é capaz de compartilhar conhecimentos e segredos ocultos sobre o universo e suas leis. Além disso, ele pode conceder a seus invocadores a habilidade de entender os segredos da natureza, incluindo as virtudes das ervas e pedras preciosas.\n\nSegundo a tradição goética, Marax é capaz de gerar bons familiares, que são seres espirituais que ajudam os humanos em seus esforços e projetos pessoais. Esses familiares podem ajudar seus mestres a se tornarem sábios e conhecedores das artes ocultas, incluindo a magia, a alquimia, a astrologia e outras áreas de estudo espiritual.\n\nSob seu governo, Marax tem 30 legiões de espíritos, que são seres que trabalham sob seu comando para realizar suas tarefas e obedecer às suas ordens. Esses espíritos são habilidosos em ajudar a trazer sabedoria e conhecimento aos humanos, tornando-os mestres em várias ciências e artes.",
         "planet": "Mercúrio/Marte",
         "direction": "Norte",
-        "pathworking": "Uma mesa com instrumentos de alquimia\nUma lareira acesa, com um fogo azul\nUm cômodo na penumbra, aconchegante\nUma sensação de curiosidade"
+        "pathworking": "Uma mesa com instrumentos de alquimia\nUma lareira acesa, com um fogo azul\nUm cômodo na penumbra, aconchegante\nUma sensação de curiosidade",
     },
     {
         "id": 21,
@@ -1371,7 +1371,7 @@ daemons = [
         "description": "O vigésimo segundo espírito é Ipos, uma poderosa Condessa e Princesa. Segundo o Ars Goetia, ela é descrita como um anjo com cabeça de leão, pés de ganso e rabo de lebre, mas Johann Weyer dá uma descrição mais interessante: ele disse que Ipos aparece como um anjo ou como um leão malvado e astuto. Eu diria que uma mistura das duas coisas se aproxima mais à realidade desta Shedim.\n\nEla é conhecida por sua grande sabedoria e conhecimento do passado, presente e futuro. De acordo com a tradição goética, Ipos é um espírito capaz de conceder inteligência e coragem aos homens. Ela é habilidosa em ajudar aqueles que buscam conhecimento, tornando-os mais sábios e astutos em suas decisões. Ela também é capaz de ajudar a desenvolver a coragem necessária para enfrentar os desafios da vida com bravura e determinação.\n\nIpos governa 36 legiões de espíritos, que trabalham sob sua supervisão para realizar suas tarefas e obedecer às suas ordens. Esses espíritos são capazes de auxiliar seus invocadores em uma ampla variedade de tarefas, incluindo a obtenção de conhecimento e sabedoria, a realização de tarefas difíceis e a superação de obstáculos.\n\nAlém disso, Ipos é capaz de ajudar a prever o futuro, permitindo que seus invocadores antecipem os desafios que enfrentarão e se preparem adequadamente para enfrentá-los. Ela é considerada um dos espíritos mais sábios e poderosos do reino espiritual, capaz de conceder habilidades e conhecimentos valiosos para aqueles que o invocam.",
         "planet": "Marte",
         "direction": "Oeste",
-        "pathworking": "Uma tormenta no deserto\nUma caverna escura, que protege da tempestade\nUm lago de água fresca dentro da caverna\nUma sensação de poder"
+        "pathworking": "Uma tormenta no deserto\nUma caverna escura, que protege da tempestade\nUm lago de água fresca dentro da caverna\nUma sensação de poder",
     },
     {
         "id": 22,
@@ -1380,7 +1380,7 @@ daemons = [
         "description": "O Vigésimo Terceiro Espírito é Aim (ou Haborym), um Duque poderoso e imponente que se apresenta na forma de um homem belo, mas com três cabeças distintas. A primeira é de uma serpente, a segunda é de um homem com duas estrelas na testa, e a terceira é a de um bezerro. Ele cavalga em uma serpente, enquanto segura um tição em sua mão, que tem o poder de incendiar cidades, castelos e grandes lugares. Já esta característica dele o faz ideal para ajudar quando estamos querendo causar confusão num grupo de pessoas. Pode ser desde gerar mal-estar até fazer com que 'o circo pegue fogo' mesmo.\n\nAim tem a capacidade de tornar uma pessoa espirituosa, inteligente e comunicativa, de todas as formas possíveis. Com a sua ajuda, podemos nos transformar no centro das atenções em qualquer lugar. Além disso, ele tem a capacidade de dar respostas verdadeiras a perguntas específicas. Ele é um ser extremamente inteligente e sabe muito sobre os mistérios do mundo. Sua natureza ardente e poderosa torna-o útil em situações em que força e coragem são necessárias.\n\nEste duque governa 26 legiões de espíritos inferiores que estão à sua disposição para realizar suas tarefas.",
         "planet": "Vênus",
         "direction": "Sul",
-        "pathworking": "Uma grande fogueira, com chamas laranjas e amarelas\nUm castelo, iluminado pelas labaredas\nA sala de armas do castelo, com uma lareira onde arde um fogo azul\nUma sensação de agitação"
+        "pathworking": "Uma grande fogueira, com chamas laranjas e amarelas\nUm castelo, iluminado pelas labaredas\nA sala de armas do castelo, com uma lareira onde arde um fogo azul\nUma sensação de agitação",
     },
     {
         "id": 23,
@@ -1389,7 +1389,7 @@ daemons = [
         "description": "O Vigésimo Quarto Espírito é Naberius, um Marquês extremamente valente. Ele costuma se manifestar na forma de uma garça negra, e quando fala, sua voz é rouca. Ele tem um talento especial para tornar os homens astutos em todas as artes e ciências, principalmente na arte da retórica. Isto faz com que a pessoa que o chama termine desenvolvendo astúcia e perspicácia, sabendo como usar o conhecimento ao seu favor, e ganhando a capacidade de persuadir e influenciar aqueles ao seu redor.\n\nAlém disso, Naberius é capaz de restaurar dignidades e honras que foram perdidas, trazendo de volta a reputação e prestígio que uma pessoa possa ter perdido ao longo do tempo. Seu conhecimento é vasto e sua sabedoria é profunda, permitindo que ele forneça informações precisas e úteis sobre diversos assuntos.\n\nNaberius governa 19 legiões de espíritos, cada um sob seu comando. Esses espíritos são poderosos e são capazes de realizar tarefas incríveis, desde a realização de feitiços até a execução de ordens específicas. Eles são leais a Naberius e trabalham incansavelmente para cumprir seus desejos.",
         "planet": "Lua",
         "direction": "Leste",
-        "pathworking": "A vista desde o alto de uma montanha\nUm céu azul claro, com uma águia voando\nUm lugar com grama para sentar-se e observar a paisagem\nUma sensação de dignidade"
+        "pathworking": "A vista desde o alto de uma montanha\nUm céu azul claro, com uma águia voando\nUm lugar com grama para sentar-se e observar a paisagem\nUma sensação de dignidade",
     },
     {
         "id": 24,
@@ -1398,7 +1398,7 @@ daemons = [
         "description": "O Vigésimo Quinto Espírito é conhecido como Glasya-Labolas, e é considerado um dos mais poderosos Presidentes e Condes dentre todos os espíritos no Ars Goetia. Sua aparência é descrita como sendo a de um cão com asas de grifo, o que lhe confere uma presença intimidadora e imponente.\n\nEste espírito é conhecido por sua habilidade excepcional em facilitar o aprendizado de todas as artes e ciências com grande rapidez, o que o torna um guia valioso para aqueles que buscam conhecimento e sabedoria. Entretanto, é importante destacar que ele também é conhecido por incitar à violência, ao derramamento de sangue e ser o instigador de todos os assassinatos.\n\nAlém disso, Glasya-Labolas é capaz de ensinar coisas passadas, presentes e futuras, o que o torna um aliado poderoso para aqueles que buscam respostas sobre o passado, o presente ou o futuro. Se desejado, ele também pode causar amor entre amigos e inimigos, e conceder invisibilidade (um poder semelhante ao de Baal).\n\nEle exerce o controle sobre 36 legiões de espíritos. É importante ter em conta que Glasya-Labolas é um dos demônios goéticos mais perigosos, e seu poder só deve ser invocado com extrema cautela e respeito. Sua natureza violenta e suas habilidades únicas o tornam um espírito temido, mas também muito respeitado.",
         "planet": "Mercúrio/Marte",
         "direction": "Sul",
-        "pathworking": "A noite escura, com estrelas\nUma árvore enorme, com galhos frondosos na altura da cabeça de um homem\nUma lâmpada acesa, iluminando sob a árvore\nUma sensação de agressividade"
+        "pathworking": "A noite escura, com estrelas\nUma árvore enorme, com galhos frondosos na altura da cabeça de um homem\nUma lâmpada acesa, iluminando sob a árvore\nUma sensação de agressividade",
     },
     {
         "id": 25,
@@ -1406,17 +1406,17 @@ daemons = [
         "enn": "Wehl melan avage Bune Tasa",
         "description": "O vigésimo sexto espírito da demonologia é Bune, também conhecido como Bim. Este Duque é considerado forte, grande e poderoso, e sua aparência é descrita, no Ars Goetia, como a de um dragão com três cabeças. Sua voz é alta e graciosa, o que produz respeito e admiração.\n\nMas segundo o ocultista Carroll Runyon, o nome Bune está associado à cidade de Buto, que estava dedicada ao culto da deusa Wadget. Ela costumava ser representada, entre outras formas, por uma cobra com asas, uma bela mulher usando uma toca de serpente com asas, ou uraeus (o que daria a impressão de ser uma serpente com 3 cabeças), ou uma mulher com cabeça de serpente. Pela sua capacidade metamórfica, aqui a representamos como uma princesa com um dragão nas suas costas.\n\nBune tem comando sobre os espíritos dos mortos, fazendo com que esses espíritos se reúnam em seus sepulcros ou se desloquem até o lugar que ela indicar, o que a transforma numa aliada espetacular para magos e magas que trabalhem com necromancia. Além disso, ela tem o poder de conceder riquezas a um homem ou mulher, e de torná-lo sábio e eloquente. Se invocada corretamente, Bune é capaz de fornecer respostas verdadeiras às demandas e perguntas de seus invocadores.\n\nBune governa 30 legiões de espíritos, o que significa que ela tem um grande exército sob seu comando e pode ser uma poderosa aliada para aqueles que buscam sua ajuda. Em resumo, Bune é uma Duquesa muito respeitada, principalmente pelas suas capacidades necromânticas, e é capaz de conceder muitos benefícios para aqueles que buscam sua ajuda. No entanto, é importante lembrar que sua natureza é feroz e seu poder é inigualável, pois tem a força de um dragão.",
         "planet": "Vênus",
-        "direction": "Terra",
-        "pathworking": "Um cetro de ouro com esmeraldas\nUm chicote de couro\nUm cômodo antigo, com poltronas na beira de uma piscina\nUma sensação de realeza e altivez"
+        "direction": "Norte",
+        "pathworking": "Um cetro de ouro com esmeraldas\nUm chicote de couro\nUm cômodo antigo, com poltronas na beira de uma piscina\nUma sensação de realeza e altivez",
     },
     {
         "id": 26,
         "name": "Ronove",
-        "enn": "Wehl melan avage Bune Tasa",
+        "enn": "Kaymen vefa Ronove",
         "description": "Ronove é o vigésimo sétimo espírito do Ars Goetia, e é considerado um Marquês e Grande Conde. Sua aparência é descrita como a de um monstro, mas não se deixe enganar pela sua aparência aterrorizante, Ronove é um espírito que pode ser extremamente útil para aqueles que o invocam.\n\nUma das habilidades de Ronove é o seu conhecimento da Arte da Retórica, que ele ensina de forma excepcional. Ou seja, pode fazer com que quem o invoca termine tendo uma habilidade muito grande de convencer outras pessoas. Além disso, ele tem o poder de conceder bons servidores aos seus invocadores, o que pode ser muito útil para aqueles que precisam de assistência em suas tarefas diárias.\n\nRonove também é capaz de facilitar o aprendizado de línguas, tornando-o uma escolha popular entre aqueles que procuram se comunicar melhor com pessoas de outras culturas. Além disso, ele tem a habilidade de conseguir favores com amigos ou inimigos, o que pode ser extremamente útil em situações políticas ou comerciais.\n\nEste Marquês tem sob seu comando 19 legiões de espíritos, o que significa que ele tem uma grande quantidade de poder sob seu controle. Ronove é um espírito com muitas habilidades e pode ser útil em uma variedade de situações. Sua capacidade de ensinar a Arte da retórica, conceder bons servidores e facilitar o aprendizado de línguas, bem como conseguir favores com amigos ou inimigos, faz dele uma escolha popular entre aqueles que buscam seus poderes.",
-        "planet": "Vênus",
-        "direction": "Terra",
-        "pathworking": "Uma grande biblioteca, com prateleiras de madeira escura\nUma mesa com uma bússola\nVárias cadeiras de madeira com assento de veludo vermelho\nUma sensação de sabedoria"
+        "planet": "Lua/Marte",
+        "direction": "Leste",
+        "pathworking": "Uma grande biblioteca, com prateleiras de madeira escura\nUma mesa com uma bússola\nVárias cadeiras de madeira com assento de veludo vermelho\nUma sensação de sabedoria",
     },
     {
         "id": 27,
@@ -1425,7 +1425,7 @@ daemons = [
         "description": "O Vigésimo Oitavo Espírito em Ordem é Berith, um Duque poderoso, grande e terrível. Berith, ou Baal Berith, o 'Senhor da Aliança' como era conhecido antigamente, foi o Elohim de Sechem, no reino de Canaã. Quando aparece, ele assume a forma de um soldado vestindo roupas vermelhas, montado em um cavalo vermelho e usando uma coroa de ouro em sua cabeça.\n\nSua voz é clara e sutil, e ele é capaz de dar respostas verdadeiras sobre o Passado, Presente e Futuro. Ou seja, ele pode nos dar informação sobre o que aconteceu, para entender por que estamos na situação atual, pode analisar essa situação atual e pode nos indicar os possíveis futuros a partir do presente.\n\nBerith é um especialista em finanças e é capaz de ensinar como ter sucesso em qualquer empreendimento financeiro. Ele é conhecido por ter o 'toque de Midas', o que significa que ele pode transformar tudo em ouro. Se alguém estiver procurando por sucesso financeiro, Berith é o espírito a invocar.\n\nAlém disso, Berith é capaz de dar dignidades e confirmá-las. Isso é especialmente útil para aqueles que procuram uma promoção ou algum tipo de reconhecimento, tanto público como privado.\n\nBerith é capaz de comandar 26 legiões de espíritos e é conhecido por ser um Duque Poderoso, Grande e Terrível. Se você precisar de ajuda financeira ou busca por reconhecimento, Berith é um espírito poderoso e capaz de ajudar.",
         "planet": "Vênus",
         "direction": "Sul",
-        "pathworking": "Uma caverna cheia de objetos de ouro\nUma mesa com uma jarra com água e um copo\nUma fala com cabo dourado\nA sensação de ser esperto"
+        "pathworking": "Uma caverna cheia de objetos de ouro\nUma mesa com uma jarra com água e um copo\nUma fala com cabo dourado\nA sensação de ser esperto",
     },
     {
         "id": 29,
@@ -1434,7 +1434,7 @@ daemons = [
         "description": "Forneus é um dos poderosos espíritos que compõem a hierarquia da Goetia, ocupando a posição de trigésimo espírito. Ele é descrito como um grande Marquês, que aparece na forma de um monstro marinho, capaz de infundir temor em qualquer um que o veja. Uma das habilidades mais notáveis de Forneus é seu poder de ensinar e tornar os homens incrivelmente sábios na arte da retórica. Ele é capaz de conceder aos seus invocadores a habilidade de falar com confiança e persuasão, tornando-os capazes de convencer outras pessoas e fazer valer seus pontos de vista. Isso os torna eficazes em debates e discursos, podendo levá-los a uma posição de destaque em qualquer ambiente social ou profissional.\n\nAlém disso, Forneus também é conhecido por facilitar o aprendizado e a compreensão de línguas e culturas estrangeiras. Ele pode ajudar seus invocadores a dominar idiomas e conhecer melhor outras culturas, o que pode ser útil em negócios internacionais e viagens para o exterior. Outra habilidade impressionante de Forneus é a de fazer com que alguém seja amado por seus inimigos, bem como por seus amigos. Isso pode ser muito útil em situações de conflito, ajudando a evitar brigas desnecessárias e alcançar acordos pacíficos.\n\nPor fim, Forneus governa sobre 29 legiões de espíritos, sendo parte da Ordem dos Tronos e parte da Ordem dos Anjos. Isso significa que ele é capaz de convocar uma grande quantidade de entidades espirituais para ajudar em suas tarefas e conceder seus poderes e habilidades aos seus invocadores. Em resumo, Forneus é um espírito poderoso e sábio que pode conceder aos seus invocadores habilidades valiosas na arte da retórica, línguas e cultura estrangeira, além de ser capaz de gerar empatia e amor entre amigos e inimigos. Se você está procurando aprimorar suas habilidades de comunicação ou buscando harmonia em relacionamentos pessoais ou profissionais, Forneus pode ser o espírito certo para invocar.",
         "planet": "Lua",
         "direction": "Oeste",
-        "pathworking": "Uma biblioteca antiga\nDuas xícaras com chá quente sobre uma mesa\nUm vaso de flores com uma rosa preta\nUma sensação de calma"
+        "pathworking": "Uma biblioteca antiga\nDuas xícaras com chá quente sobre uma mesa\nUm vaso de flores com uma rosa preta\nUma sensação de calma",
     },
     {
         "id": 30,
@@ -1452,7 +1452,7 @@ daemons = [
         "description": "O Trigésimo Segundo Espírito é conhecido como Asmoday ou Asmodai, e é um poderoso e grande Rei Goético. Sua aparência é impressionante, com três cabeças - uma de touro, uma de homem e outra de carneiro. Além disso, ele tem a cauda de uma serpente e seus pés são como os de um réptil. Asmoday aparece montado em um dragão infernal e empunha uma lança com um estandarte.\n\nAsmoday é a versão moderna do Shedim Asmodeus, que faz várias aparições nos textos bíblicos. Segundo textos cabalísticos antigos, ele é filho do Rei Davi com a Shedim Agrat. Entre as mais conhecidas está a sua atuação como adversário no Livro de Tobias e sua aparição no Talmud, quando substitui Salomão durante um tempo, sem que ninguém perceba. Algumas fontes ligam Asmoday a Aeshma, o antigo Senhor da Ira do panteão persa.\n\nAsmoday é um espírito muito sábio e conhecedor, capaz de ensinar diversas áreas de conhecimento humano. Ele é especialmente habilidoso na Aritmética, Astronomia, Geometria e outros trabalhos manuais. Além disso, ele é capaz de responder com veracidade e precisão a qualquer demanda.\n\nOutro grande poder de Asmoday é sua capacidade de conceder invencibilidade. Isso é especialmente útil para aqueles que enfrentam situações difíceis ou perigosas, pois ele pode oferecer proteção e segurança. Asmoday é também um guardião de tesouros, e é capaz de mostrar onde esses tesouros estão escondidos. Isso é especialmente útil quando se depara com algo que se considera valioso, mas que não se pode tomar posse imediatamente. Com a ajuda de Asmoday, é possível manter esses tesouros seguros e protegidos.\n\nPor fim, Asmoday governa 72 legiões de espíritos inferiores. Sua grande sabedoria e poder são muito respeitados pelos espíritos que ele comanda, e aqueles que invocam seu nome podem esperar obter sua ajuda e orientação em muitas áreas da vida.",
         "planet": "Sol",
         "direction": "Leste",
-        "pathworking": "Um escudo e uma lança\nUma mesa e dois bancos\nUm deserto de areias douradas, com grandes palmeiras\nUma sensação de alegria"
+        "pathworking": "Um escudo e uma lança\nUma mesa e dois bancos\nUm deserto de areias douradas, com grandes palmeiras\nUma sensação de alegria",
     },
     {
         "id": 32,
@@ -1461,7 +1461,7 @@ daemons = [
         "description": "O trigésimo terceiro espírito é conhecido como Gaap, um grande presidente e um príncipe poderoso entre os espíritos. Este ser místico tem a capacidade de se manifestar quando o sol está em algum dos signos do sul, assumindo uma forma humana. Em suas aparições, ele precede quatro grandes e poderosos reis, como um guia para conduzi-los em seus caminhos.\n\nO ofício de Gaap é tornar as pessoas insensíveis ou ignorantes, mas ele também pode ensinar filosofia para torná-las conhecedoras de diferentes temas. Essa habilidade se aplica a todas as ciências, o que faz dele um espírito de grande sabedoria e conhecimento.\n\nGaap tem o poder de causar amor ou ódio, mas esses sentimentos não são estáveis, já que ele é um Shedim (demônio antigo) de extremos opostos. Uma forma de aplicar esse poder seria fazer com que uma pessoa se apaixonasse loucamente por alguém que não a corresponderá ou que odeie alguém sem motivo aparente.\n\nAlém disso, Gaap tem a capacidade de libertar familiares da custódia de outros magos. Este é um poder muito forte, já que estaríamos retirando servidores do controle de outro mago, o que pode ser perigoso, por vários motivos.\n\nGaap pode também responder com veracidade e precisão sobre as coisas passadas, presentes e futuras. Isso faz dele um espírito de grande utilidade para aqueles que buscam conhecimento e orientação.\n\nEm sua hierarquia, Gaap governa 66 legiões de espíritos e era da Ordem das Potências.",
         "planet": "Mercúrio/Júpiter",
         "direction": "Leste",
-        "pathworking": "Um tornado avança pelo deserto\nUma caverna, fresca e segura\nUm lago, iluminado só pela luz de duas tochas\nA sensação de ser observado"
+        "pathworking": "Um tornado avança pelo deserto\nUma caverna, fresca e segura\nUm lago, iluminado só pela luz de duas tochas\nA sensação de ser observado",
     },
     {
         "id": 33,
@@ -1470,7 +1470,7 @@ daemons = [
         "description": "O trigésimo quarto espírito do Ars Goetia é Furfur, uma grande e poderosa condessa que se manifesta na forma de um cervo com uma cauda de fogo. No entanto, se o mago pedir, ela assume a forma de um belo anjo escuro, e fala com uma voz rouca.\n\nEsta Shedim tem o poder de incitar, de forma prazerosa, o amor entre duas pessoas. Além disso, de Furfur se diz que ela é capaz de criar relâmpagos, trovões, explosões e grandes tempestades. Isso, na época atual, pode ser entendido como a habilidade de criar caos nos sentimentos das pessoas, provocando conflitos entre elas. Também pode se referir à habilidade de atacar os dispositivos elétricos ou eletrônicos de alguém. Numa época em que todos usamos tecnologia, atacar essa base é um poder e tanto.\n\nNo entanto, se você busca seu auxílio, ela pode dar respostas verdadeiras tanto para as coisas secretas quanto para as divinas, mas só se isso for solicitado. Em sua hierarquia, Furfur governa 26 legiões de espíritos, o que a torna uma líder forte e respeitada entre seus pares.",
         "planet": "Marte",
         "direction": "Sul",
-        "pathworking": "Um fogo que devora bosques\nUm rio desbordado, alagando tudo à medida que avança\nUma pedra alta, onde observamos tudo, seguros\nUma sensação de poder"
+        "pathworking": "Um fogo que devora bosques\nUm rio desbordado, alagando tudo à medida que avança\nUma pedra alta, onde observamos tudo, seguros\nUma sensação de poder",
     },
     {
         "id": 34,
@@ -1479,7 +1479,7 @@ daemons = [
         "description": "O trigésimo quinto espírito é Marchosias, um grande e poderoso marquês que se manifesta na forma de um lobo com asas de grifo e uma cauda de serpente, vomitando fogo pela sua boca. No entanto, por ordem do mago, ele pode assumir a forma de um homem.\nMarchosias é um grande lutador, muito forte, e pode ser chamado em situações tensas, como por exemplo numa negociação que precise de muita força, ou para amedrontar inimigos, de forma que desistam da ideia de atacar.\nSe você precisar de proteção, Marchosias pode ser invocado para defendê-lo ou para atacar um determinado alvo. Seu poder é imenso, e ele é um espírito muito respeitado. Marchosias pertence à ordem dos Domínios, o que o torna um ser ainda mais poderoso e influente.\nAo trabalhar com Marchosias, é importante ter em mente que ele é um espírito muito poderoso e agressivo, e deve ser tratado com respeito e reverência. Ele governa 30 legiões de espíritos, o que significa que ele é um líder forte e respeitado entre seus pares.",
         "planet": "Lua",
         "direction": "Sul",
-        "pathworking": "Um escudo e uma espada, sujos de sangue\nUm guerreiro com armadura completa e uma lança\nO arsenal de um castelo, cheia de instrumentos de guerra\nUma sensação de agressividade"
+        "pathworking": "Um escudo e uma espada, sujos de sangue\nUm guerreiro com armadura completa e uma lança\nO arsenal de um castelo, cheia de instrumentos de guerra\nUma sensação de agressividade",
     },
     {
         "id": 35,
@@ -1488,7 +1488,7 @@ daemons = [
         "description": "Stolas, também conhecido como Stolos, é o trigésimo sexto Espírito da hierarquia demoníaca. Ele é um príncipe poderoso, dotado de grande sabedoria e capacidade de transformação. Inicialmente, ele se apresenta como um corvo imponente, mas logo assume a forma humana.\nEntre seus dons, Stolas é um mestre na arte da astronomia, capaz de desvendar os segredos dos astros e das constelações. Além disso, ele detém um vasto conhecimento sobre as virtudes ocultas das plantas e das pedras preciosas, podendo ensinar a magia da cura e a utilização desses elementos em rituais de proteção.\nStolas governa 26 legiões de espíritos, exercendo uma influência significativa sobre o mundo espiritual. Sua presença é reverenciada por aqueles que buscam aprofundar seu conhecimento nas artes ocultas e desvendar os mistérios do cosmos.",
         "planet": "Júpiter",
         "direction": "Leste",
-        "pathworking": "Um papiro antigo, sobre uma mesa de mármore\nUma enorme bússola de bronze\nUm jardim à noite, iluminado por tochas, sob um céu estrelado\nUma sensação de diversão ou de alegria"
+        "pathworking": "Um papiro antigo, sobre uma mesa de mármore\nUma enorme bússola de bronze\nUm jardim à noite, iluminado por tochas, sob um céu estrelado\nUma sensação de diversão ou de alegria",
     },
     {
         "id": 36,
@@ -1497,7 +1497,7 @@ daemons = [
         "description": "O trigésimo sétimo espírito do Ars Goetia é conhecido como Phenex, também chamado de Pheynix. Este grandioso marquês se apresenta em forma de fênix, com a voz suave de uma criança. Contudo, é necessário que o mago lhe ordene que assuma uma forma humana antes de começar o diálogo. Quando ele assim o faz, revela-se um magnífico conhecedor de todas as ciências maravilhosas, capaz de falar com habilidade e destreza.\nPhenex é um poeta notável e admirável, sempre disposto a atender aos pedidos de seus invocadores. Basicamente, os poderes de Phenex estão na área da persuasão, seja através da palavra, da escrita, da música ou de qualquer tipo de arte. Se pedimos a ajuda deste grande marquês, nossa capacidade de influir sobre as pessoas através da nossa arte (seja ela qual for) aumentará notavelmente.\nEle governa 20 legiões de espíritos e pode ser uma grande ajuda para quem o convoca.",
         "planet": "Lua",
         "direction": "Leste",
-        "pathworking": "Um grande cristal arredondado\nUm barco navegando entre altas ondas\nUma praia frente a um mar azul, sem ondas, ao meio-dia\nUma sensação de calma"
+        "pathworking": "Um grande cristal arredondado\nUm barco navegando entre altas ondas\nUma praia frente a um mar azul, sem ondas, ao meio-dia\nUma sensação de calma",
     },
     {
         "id": 37,
@@ -1506,7 +1506,7 @@ daemons = [
         "description": "O trigésimo oitavo espírito é conhecido como Halphas, ou também como Malthous ou Malthas. Este imponente Conde se manifesta na forma de uma pomba, com uma voz rouca e poderosa. De acordo com o Ars Goetia, Halphas tem a habilidade de construir torres e abastecê-las com munições e armas, além de enviar navios de guerra para locais determinados. Essa descrição revela que ele é claramente um Senhor das Armas, um guerreiro que pode ser convocado em situações desafiadoras, e que pode fornecer, ou pelo menos indicar, os instrumentos necessários para ganhar uma luta.\nAlém de suas habilidades bélicas, Halphas é conhecido por governar 26 legiões de espíritos, tornando-o uma poderosa presença na invocação de espíritos. Com sua expertise militar e liderança, ele pode ser uma ajuda valiosa para quem o invoca em momentos de conflito ou dificuldade.",
         "planet": "Marte",
         "direction": "Sul",
-        "pathworking": "Duas espadas cruzadas\nUma palmeira imensa, cobrindo a luz do sol\nUm rio largo e calmo, na outra beira dá para ver uma cidade\nUma sensação de raiva e desprezo"
+        "pathworking": "Duas espadas cruzadas\nUma palmeira imensa, cobrindo a luz do sol\nUm rio largo e calmo, na outra beira dá para ver uma cidade\nUma sensação de raiva e desprezo",
     },
     {
         "id": 38,
@@ -1515,7 +1515,7 @@ daemons = [
         "description": "O trigésimo nono espírito do Ars Goetia é conhecido como Malphas. A princípio, sua forma se assemelha à de um corvo, no entanto, a pedido do mago, ele assume uma forma humana e comunica-se com voz rouca. Essa presidente espiritual é dotada de uma força e poder consideráveis. Segundo o Ars Goetia, ela é capaz de construir casas e torres altas com facilidade. Essa habilidade parece estar mais relacionada ao poder dela de ajudar e facilitar a realização de projetos na parte material.\nAlém de suas habilidades de criação material, Malphas possui a capacidade de revelar ao seu invocador os desejos e pensamentos de seus inimigos, bem como as ações que eles realizaram. Isso é um poder e tanto, porque nos permite conhecer tanto as ações que os nossos inimigos estão realizando, quanto as que realizaram antes. Ou seja, podemos conhecer seus “podres”, o que é uma enorme vantagem estratégica numa situação de confronto.\nEla é capaz de fornecer bons familiares, trazendo consigo uma influência benéfica e protetora.\nÉ importante destacar que, de acordo com o Grimório original, não é recomendável oferecer sacrifícios a Malphas. Esse aviso pode indicar que ela é uma Shedim que valoriza a força em detrimento da subserviência. Portanto, é essencial que o invocador a trate com o devido respeito, mas mantenha uma postura independente e segura.\nMalphas governa sobre 40 legiões de espíritos, indicando que sua presença é poderosa e influente. Ao invocá-la, é preciso estar preparado para lidar com sua força e determinação, mas também para usufruir das suas habilidades e da sua proteção.",
         "planet": "Mercúrio",
         "direction": "Leste",
-        "pathworking": "Uma taça de ouro com rubis\nUma pena e uma folha em branco\nUma biblioteca antiga\nUma sensação de certeza"
+        "pathworking": "Uma taça de ouro com rubis\nUma pena e uma folha em branco\nUma biblioteca antiga\nUma sensação de certeza",
     },
     {
         "id": 39,
@@ -1524,305 +1524,296 @@ daemons = [
         "description": "O quadragésimo espírito do Ars Goetia é conhecido como Raum. Ele é um Grande Conde que se apresenta inicialmente na forma de um corvo, mas, ao comando do mago, assume uma aparência humana.\nSua principal função é roubar tesouros preciosos que pertencem a pessoas que costumamos considerar inacessíveis. Por “tesouros” entendemos algo que é de grande valor para a pessoa. Pode ser algo material, ou imaterial. Contudo, sua habilidade não se limita a isso, uma vez que ele possui a capacidade de destruir cidades inteiras e derrubar dignidades dos homens. Basicamente, Raum é um Shedim especializado, entre outras coisas, em vingança e destruição. Não só é capaz de tirar algo que uma pessoa considera importante, como também é capaz de produzir destruição física e também no nível social.\nAlém disso, o Grande Conde Raum é dotado de um conhecimento incomparável, sendo capaz de contar absolutamente tudo - seja o passado, o presente ou o futuro. Sua habilidade de prever o que está por vir o torna um poderoso aliado para aqueles que desejam conhecer os segredos do universo.\nNão menos importante, ele também pode influenciar as relações interpessoais, capaz de provocar amor entre amigos e inimigos, a depender do objetivo de quem o convoca.\nEle era da Ordem dos Tronos, e atualmente governa 30 legiões de espíritos.",
         "planet": "Marte",
         "direction": "Sul",
-        "pathworking": "Um corvo preto\nUm castelo antigo, visto de fora\nUm salão medieval, com uma longa mesa e cadeiras, frente a uma lareira\nUma sensação de medo"
+        "pathworking": "Um corvo preto, empoleirado sobre uma pilha de crânios\nUm castelo em ruínas, coberto por plantas rasteiras\nUma espada, erguida para o céu, gotejando sangue\nUma sensação de vingança",
     },
     {
         "id": 40,
         "name": "Focalor",
         "enn": "En Jedan on ca Focalor",
-        "description": "O Quadragésimo Primeiro Espírito é conhecido por três nomes: Focalor, Forcalor ou Furcalor. Trata-se de um Duque poderoso e forte, que assume a forma de um homem com asas de Grifo.\nSeu ofício, porém, não é dos mais nobres. Focalor é um especialista em destruição, capaz de matar homens, afogá-los nas águas e derrubar navios de guerra. Isso se dá em função do seu poder sobre os ventos e os mares, que ele pode manipular de maneira impressionante.\nContudo, é importante ressaltar que Focalor não prejudicará nenhuma pessoa ou coisa se assim for ordenado pelo Mago. Ou seja, sua ação é restrita ao comando de um mago, o que o torna uma ferramenta poderosa em mãos certas. Ele é capaz de acabar com a saúde ou os negócios de qualquer pessoa, mas essa habilidade pode ser seletiva, poupando as pessoas ao redor do alvo, desde que isso seja indicado pelo mago.\nAo dizer que ele tem poder sobre “os ventos e os mares”, entendemos que, além do poder físico que Focalor possa ter, ele pode influenciar, com grande força, tanto a parte intelectual (ar, vento), quanto a parte emocional (água, mares), causando um profundo prejuízo na vida da pessoa alvo.\nFocalor governa 30 legiões de espíritos, o que demonstra a sua posição de liderança entre os Shedim. Seu poder é indiscutível e pode ser uma ferramenta poderosa nas mãos de um mago que deseja conquistar seus objetivos.",
+        "description": "O Quadragésimo Primeiro Espírito é conhecido por três nomes: Focalor, Forcalor ou Furcalor. Trata-se de um Duque poderoso e forte, que assume a forma de um homem com asas de Grifo.\n\nSeu ofício, porém, não é dos mais nobres. Focalor é um especialista em destruição, capaz de matar homens, afogá-los nas águas e derrubar navios de guerra. Isso se dá em função do seu poder sobre os ventos e os mares, que ele pode manipular de maneira impressionante.\n\nContudo, é importante ressaltar que Focalor não prejudicará nenhuma pessoa ou coisa se assim for ordenado pelo Mago. Ou seja, sua ação é restrita ao comando de um mago, o que o torna uma ferramenta poderosa em mãos certas. Ele é capaz de acabar com a saúde ou os negócios de qualquer pessoa, mas essa habilidade pode ser seletiva, poupando as pessoas ao redor do alvo, desde que isso seja indicado pelo mago.\n\nAo dizer que ele tem poder sobre “os ventos e os mares”, entendemos que, além do poder físico que Focalor possa ter, ele pode influenciar, com grande força, tanto a parte intelectual (ar, vento), quanto a parte emocional (água, mares), causando um profundo prejuízo na vida da pessoa alvo.\n\nFocalor governa 30 legiões de espíritos, o que demonstra a sua posição de liderança entre os Shedim. Seu poder é indiscutível e pode ser uma ferramenta poderosa nas mãos de um mago que deseja conquistar seus objetivos.",
         "planet": "Vênus",
         "direction": "Oeste",
-        "pathworking": "Um martelo batendo no metal\nUma mão empunhando uma espada\nUm espaço aberto, com grama, com árvores no horizonte\nUma sensação de alerta"
+        "pathworking": "Um martelo batendo no metal\n\nUma mão empunhando uma espada\n\nUm espaço aberto, com grama, com árvores no horizonte\n\nUma sensação de alerta",
     },
     {
         "id": 41,
         "name": "Vepar",
         "enn": "On ca Vepar Ag Na",
-        "description": "Vepar, também conhecida como Vephar, é o quadragésimo segundo Espírito da lista dos 72 Espíritos da Goétia. Ela é uma Duquesa poderosa e imponente, com a aparência de uma Sereia.\nSeu domínio é sobre as águas e sobre os sentimentos e emoções. Ela tem a capacidade de governar e guiar pessoas em suas jornadas pelos mares intensos da emoção. A pedido do mago, ela pode atormentar a vida emocional de alguém, ou transformá-la num mar de paz e felicidade. Pode fazer com que uma pessoa seja plenamente consciente dos seus poderes na parte emocional, ou pode fazer com que outra pessoa perca completamente a noção dos pontos de referência e limites. Além disso, a pedido do mago, Vepar é capaz de causar tempestades violentas nas vidas das pessoas que ele escolher. Ela também possui o poder de causar a destruição de uma pessoa, contaminando seus pensamentos.\nVepar governa 29 legiões de espíritos, demonstrando sua grande influência e poder sobre as águas e tudo o que nelas habita. É importante ter cautela ao lidar com essa Duquesa pois, como toda sereia, o poder e a fascinação que exerce são imensos, e suas reações imprevisíveis, e isso sempre deve ser levado em consideração.",
+        "description": "Vepar, também conhecida como Vephar, é o quadragésimo segundo Espírito da lista dos 72 Espíritos da Goétia. Ela é uma Duquesa poderosa e imponente, com a aparência de uma Sereia.\n\nSeu domínio é sobre as águas e sobre os sentimentos e emoções. Ela tem a capacidade de governar e guiar pessoas em suas jornadas pelos mares intensos da emoção. A pedido do mago, ela pode atormentar a vida emocional de alguém, ou transformá-la num mar de paz e felicidade. Pode fazer com que uma pessoa seja plenamente consciente dos seus poderes na parte emocional, ou pode fazer com que outra pessoa perca completamente a noção dos pontos de referência e limites. Além disso, a pedido do mago, Vepar é capaz de causar tempestades violentas nas vidas das pessoas que ele escolher. Ela também possui o poder de causar a destruição de uma pessoa, contaminando seus pensamentos.\n\nVepar governa 29 legiões de espíritos, demonstrando sua grande influência e poder sobre as águas e tudo o que nelas habita. É importante ter cautela ao lidar com essa Duquesa pois, como toda sereia, o poder e a fascinação que exerce são imensos, e suas reações imprevisíveis, e isso sempre deve ser levado em consideração.",
         "planet": "Vênus",
         "direction": "Oeste",
-        "pathworking": "Ondas enormes rompem aos pés da estátua de um guerreiro\nUma águia atravessa o céu com nuvens pretas\nUm terraço em ruínas, desde o qual dá para ver o mar\nUma sensação de poder"
+        "pathworking": "Ondas enormes rompem aos pés da estátua de um guerreiro\n\nUma águia atravessa o céu com nuvens pretas\n\nUm terraço em ruínas, desde o qual dá para ver o mar\n\nUma sensação de poder",
     },
     {
         "id": 42,
         "name": "Sabnock",
         "enn": "Tasa Sabnock on ca Lirach",
-        "description": "De acordo com a tradição esotérica da demonologia, o quadragésimo terceiro Espírito mencionado no Ars Goetia é conhecido como Sabnock, também grafado como Savnok. Este Marquês infernal é reputado por sua imponente presença, poder e força.\nAo se materializar, Sabnock assume a forma de um soldado armado, com os traços de um leão. Ele cavalga um majestoso cavalo de cor clara, que reforça ainda mais a aura intimidadora que cerca sua aparência.\nSegundo o Ars Goetia, a principal especialidade de Sabnock é a construção de torres, castelos e cidades impenetráveis. Além disso, ele é capaz de prover essas edificações com armaduras e outras proteções necessárias. Isto indica que seu talento para a defesa é tão marcante quanto sua habilidade para o ataque. Ou seja, por um lado, Sabnock é capaz de erguer barreiras e defesas ao redor do mago que o invocou (ou qualquer outra pessoa que lhe seja designada). Essas fortificações têm um alto grau de eficácia, pois são criadas com a energia espiritual do próprio Sabnock. Por outro lado, Sabnock também é capaz de realizar ataques perversos, que podem causar ferimentos psicológicos profundos e duradouros.\nSabnock é capaz de conceder bons familiares ao mago, caso seja solicitado. Ele comanda 50 legiões de espíritos e é considerado um dos espíritos mais fortes e poderosos na hierarquia de espíritos do Ars Goetia. Suas habilidades de ataque e defesa o tornam um aliado valioso para o mago que busca proteção ou que se especializa em ataque e defesa.",
+        "description": "De acordo com a tradição esotérica da demonologia, o quadragésimo terceiro Espírito mencionado no Ars Goetia é conhecido como Sabnock, também grafado como Savnok. Este Marquês infernal é reputado por sua imponente presença, poder e força.\n\nAo se materializar, Sabnock assume a forma de um soldado armado, com os traços de um leão. Ele cavalga um majestoso cavalo de cor clara, que reforça ainda mais a aura intimidadora que cerca sua aparência.\n\nSegundo o Ars Goetia, a principal especialidade de Sabnock é a construção de torres, castelos e cidades impenetráveis. Além disso, ele é capaz de prover essas edificações com armaduras e outras proteções necessárias. Isto indica que seu talento para a defesa é tão marcante quanto sua habilidade para o ataque. Ou seja, por um lado, Sabnock é capaz de erguer barreiras e defesas ao redor do mago que o invocou (ou qualquer outra pessoa que lhe seja designada). Essas fortificações têm um alto grau de eficácia, pois são criadas com a energia espiritual do próprio Sabnock. Por outro lado, Sabnock também é capaz de realizar ataques perversos, que podem causar ferimentos psicológicos profundos e duradouros.\n\nSabnock é capaz de conceder bons familiares ao mago, caso seja solicitado. Ele comanda 50 legiões de espíritos e é considerado um dos espíritos mais fortes e poderosos na hierarquia de espíritos do Ars Goetia. Suas habilidades de ataque e defesa o tornam um aliado valioso para o mago que busca proteção ou que se especializa em ataque e defesa.",
         "planet": "Lua",
         "direction": "Sul",
-        "pathworking": "Uma antiga cidade em ruínas\nUma flor cresce entre as pedras\nUm grande templo abandonado\nUma sensação de tristeza"
+        "pathworking": "Uma antiga cidade em ruínas\n\nUma flor cresce entre as pedras\n\nUm grande templo abandonado\n\nUma sensação de tristeza",
     },
     {
         "id": 43,
         "name": "Shax",
         "enn": "Ayer Avage Shax aken",
-        "description": "Shax, também conhecido como Shaz ou Shass, é o quadragésimo quarto espírito da Ars Goetia. Este Grande Marquês é descrito como uma pomba, com uma voz rouca e sutil.\nEle é capaz de entorpecer os sentidos de qualquer pessoa indicada pelo mago que o invoca, fazendo-as deixar de ver ou ouvir aquilo que o mago desejar. Esse poder pode ser valioso quando há a necessidade de ocultar informações ou impedir que concorrentes reparem em algo que é importante para nós.\nAlém disso, Shax também possui a capacidade de prejudicar temporariamente a base econômica ou material de uma pessoa escolhida pelo mago. No entanto, o efeito desaparecerá com o tempo, e a pessoa recuperará o que foi tirado dela.\nOutra habilidade notável de Shax é sua capacidade de descobrir todas as coisas que estão ocultas e não guardadas por espíritos malignos. Em algumas ocasiões, ele também pode fornecer bons familiares.\nEste poderoso espírito é capaz de governar 30 legiões de outros espíritos. Sua aparência como uma pomba pode ser enganadora, pois sua influência e habilidades são impressionantes e úteis para aqueles que o invocam.",
+        "description": "Shax, também conhecido como Shaz ou Shass, é o quadragésimo quarto espírito da Ars Goetia. Este Grande Marquês é descrito como uma pomba, com uma voz rouca e sutil.\n\nEle é capaz de entorpecer os sentidos de qualquer pessoa indicada pelo mago que o invoca, fazendo-as deixar de ver ou ouvir aquilo que o mago desejar. Esse poder pode ser valioso quando há a necessidade de ocultar informações ou impedir que concorrentes reparem em algo que é importante para nós.\n\nAlém disso, Shax também possui a capacidade de prejudicar temporariamente a base econômica ou material de uma pessoa escolhida pelo mago. No entanto, o efeito desaparecerá com o tempo, e a pessoa recuperará o que foi tirado dela.\n\nOutra habilidade notável de Shax é sua capacidade de descobrir todas as coisas que estão ocultas e não guardadas por espíritos malignos. Em algumas ocasiões, ele também pode fornecer bons familiares.\n\nEste poderoso espírito é capaz de governar 30 legiões de outros espíritos. Sua aparência como uma pomba pode ser enganadora, pois sua influência e habilidades são impressionantes e úteis para aqueles que o invocam.",
         "planet": "Lua",
         "direction": "Leste",
-        "pathworking": "Uma serpente se enrosca no galho de uma árvore\nUm martelo bate sobre uma espada\nO porão de uma igreja medieval\nUma sensação de angústia"
+        "pathworking": "Uma serpente se enrosca no galho de uma árvore\n\nUm martelo bate sobre uma espada\n\nO porão de uma igreja medieval\n\nUma sensação de angústia",
     },
     {
         "id": 44,
         "name": "Vine",
         "enn": "Eyesta nas Vine ca laris",
-        "description": "Vine, também conhecido como Vinea, é o quadragésimo quinto espírito descrito no livro Ars Goetia. De acordo com as descrições, Vine é um Grande Rei e Conde que se apresenta na forma de um homem com aspecto de leão, montado em um cavalo preto e segurando uma víbora em sua mão. Sua principal função é a de descobrir coisas escondidas, sejam elas outras magias, bruxarias ou informações sobre o passado, presente e futuro.\nAlém disso, segundo os manuscritos antigos, Vine tem habilidades surpreendentes que lhe permitem construir torres, derrubar muralhas de pedra e provocar tempestades que tornam as águas turbulentas. Essas habilidades demonstram a capacidade deste espírito de criar poderosas defesas e realizar ataques devastadores.\nDe acordo com o Ars Goetia, Vine governa 36 legiões de espíritos.\nResumindo, Vine pode ser invocado tanto para ajudar na resolução de problemas relacionados a questões ocultas ou para obter informações valiosas sobre o passado, presente e futuro, quanto para defesa ou ataque. Como podemos ver, estamos perante um Shedim com um amplo espectro de habilidades, ideal para quem trabalha com magia.",
+        "description": "Vine, também conhecido como Vinea, é o quadragésimo quinto espírito descrito no livro Ars Goetia. De acordo com as descrições, Vine é um Grande Rei e Conde que se apresenta na forma de um homem com aspecto de leão, montado em um cavalo preto e segurando uma víbora em sua mão. Sua principal função é a de descobrir coisas escondidas, sejam elas outras magias, bruxarias ou informações sobre o passado, presente e futuro.\n\nAlém disso, segundo os manuscritos antigos, Vine tem habilidades surpreendentes que lhe permitem construir torres, derrubar muralhas de pedra e provocar tempestades que tornam as águas turbulentas. Essas habilidades demonstram a capacidade deste espírito de criar poderosas defesas e realizar ataques devastadores.\n\nDe acordo com o Ars Goetia, Vine governa 36 legiões de espíritos.\n\nResumindo, Vine pode ser invocado tanto para ajudar na resolução de problemas relacionados a questões ocultas ou para obter informações valiosas sobre o passado, presente e futuro, quanto para defesa ou ataque. Como podemos ver, estamos perante um Shedim com um amplo espectro de habilidades, ideal para quem trabalha com magia.",
         "planet": "Sol/Marte",
         "direction": "Oeste",
-        "pathworking": "Uma cidade antiga, com muralhas\nUma rua cheia de pessoas\nO interior de uma casa, com planta e com uma fonte\nUma sensação de calma"
+        "pathworking": "Uma cidade antiga, com muralhas\n\nUma rua cheia de pessoas\n\nO interior de uma casa, com planta e com uma fonte\n\nUma sensação de calma",
     },
     {
         "id": 45,
         "name": "Bifrons",
         "enn": "Avage secore Bifrons remie tasa",
-        "description": "Bifrons, conhecido por vezes como Bifrous ou Bifrovs, é um distinto conde que ocupa a posição de 46º na lista dos espíritos da Ars Goetia. Sua aparência é a de um monstro, mas pode transformar-se em um homem quando assim ordenado pelo mago. Seu nome indica que possui duas faces, sendo a atual manifestação de Janus, o antigo deus romano das portas, passagens, princípios e fins.\nEste poderoso deus é conhecido por conceder sabedoria em diversas áreas do conhecimento, como Astrologia, Geometria e outras Artes e Ciências. Ademais, Bifrons é um especialista em gemas e madeiras preciosas, e pode instruir sobre suas virtudes com maestria.\nSua habilidade em controlar os espíritos dos falecidos o torna um aliado valioso para magos que se dedicam à necromancia ou para aqueles que buscam vingança contra algum falecido.\nBifrons é acompanhado por seis legiões de espíritos que prontamente obedecem aos seus comandos.\nEste antigo deus é ideal tanto para quem deseja obter conhecimentos técnicos quanto para aqueles que querem ter contato com os seres que moram no Além.",
+        "description": "Bifrons, conhecido por vezes como Bifrous ou Bifrovs, é um distinto conde que ocupa a posição de 46º na lista dos espíritos da Ars Goetia. Sua aparência é a de um monstro, mas pode transformar-se em um homem quando assim ordenado pelo mago. Seu nome indica que possui duas faces, sendo a atual manifestação de Janus, o antigo deus romano das portas, passagens, princípios e fins.\n\nEste poderoso deus é conhecido por conceder sabedoria em diversas áreas do conhecimento, como Astrologia, Geometria e outras Artes e Ciências. Ademais, Bifrons é um especialista em gemas e madeiras preciosas, e pode instruir sobre suas virtudes com maestria.\n\nSua habilidade em controlar os espíritos dos falecidos o torna um aliado valioso para magos que se dedicam à necromancia ou para aqueles que buscam vingança contra algum falecido.\n\nBifrons é acompanhado por seis legiões de espíritos que prontamente obedecem aos seus comandos.\n\nEste antigo deus é ideal tanto para quem deseja obter conhecimentos técnicos quanto para aqueles que querem ter contato com os seres que moram no Além.",
         "planet": "Marte",
         "direction": "Norte",
-        "pathworking": "Uma árvore frondosa\nUm caminho de pedras\nA beira de um lago\nUma sensação de alegria"
+        "pathworking": "Uma árvore frondosa\n\nUm caminho de pedras\n\nA beira de um lago\n\nUma sensação de alegria",
     },
     {
         "id": 46,
         "name": "Vual",
         "enn": "As ana nany on ca Uvall",
-        "description": "Vual, ou Voval, é o Quadragésimo Sétimo Espírito da hierarquia demoníaca. Ele é conhecido como um grande, poderoso e forte Duque, com habilidades sobrenaturais impressionantes. Quando invocado, Vual aparece inicialmente na forma de um dromedário poderoso, mas, após ser comandado pelo mago, pode se transformar em um ser humano.\nUma das principais habilidades de Vual é sua capacidade de obter o amor das mulheres. Além disso, ele é capaz de falar sobre as coisas passadas, presentes e futuras, o que pode ser extremamente útil para aqueles que buscam orientação em suas vidas.\nOutra habilidade interessante de Vual é sua capacidade de criar amizade entre amigos e inimigos. Essa habilidade pode ser particularmente útil para aqueles que desejam resolver conflitos ou acabar com brigas.\nVual era anteriormente parte da Ordem das Potências, e é capaz de governar 37 Legiões de Espíritos.",
+        "description": "Vual, ou Voval, é o Quadragésimo Sétimo Espírito da hierarquia demoníaca. Ele é conhecido como um grande, poderoso e forte Duque, com habilidades sobrenaturais impressionantes. Quando invocado, Vual aparece inicialmente na forma de um dromedário poderoso, mas, após ser comandado pelo mago, pode se transformar em um ser humano.\n\nUma das principais habilidades de Vual é sua capacidade de obter o amor das mulheres. Além disso, ele é capaz de falar sobre as coisas passadas, presentes e futuras, o que pode ser extremamente útil para aqueles que buscam orientação em suas vidas.\n\nOutra habilidade interessante de Vual é sua capacidade de criar amizade entre amigos e inimigos. Essa habilidade pode ser particularmente útil para aqueles que desejam resolver conflitos ou acabar com brigas.\n\nVual era anteriormente parte da Ordem das Potências, e é capaz de governar 37 Legiões de Espíritos.",
         "planet": "Vênus",
         "direction": "Oeste",
-        "pathworking": "Uma fonte com frutas variadas e coloridas\nUma sala com decoração oriental, com almofadas no chão\nUma fonte de água clara\nUma sensação de prazer"
-    },
-    {
-        "id": 46,
-        "name": "Vual",
-        "enn": "As ana nany on ca Uvall",
-        "description": "Vual, ou Voval, é o Quadragésimo Sétimo Espírito da hierarquia demoníaca. Ele é conhecido como um grande, poderoso e forte Duque, com habilidades sobrenaturais impressionantes. Quando invocado, Vual aparece inicialmente na forma de um dromedário poderoso, mas, após ser comandado pelo mago, pode se transformar em um ser humano.\nUma das principais habilidades de Vual é sua capacidade de obter o amor das mulheres. Além disso, ele é capaz de falar sobre as coisas passadas, presentes e futuras, o que pode ser extremamente útil para aqueles que buscam orientação em suas vidas.\nOutra habilidade interessante de Vual é sua capacidade de criar amizade entre amigos e inimigos. Essa habilidade pode ser particularmente útil para aqueles que desejam resolver conflitos ou acabar com brigas.\nVual era anteriormente parte da Ordem das Potências, e é capaz de governar 37 Legiões de Espíritos.",
-        "planet": "Vênus",
-        "direction": "Oeste",
-        "pathworking": "Uma fonte com frutas variadas e coloridas\nUma sala com decoração oriental, com almofadas no chão\nUma fonte de água clara\nUma sensação de prazer"
+        "pathworking": "Uma fonte com frutas variadas e coloridas\n\nUma sala com decoração oriental, com almofadas no chão\n\nUma fonte de água clara\n\nUma sensação de prazer",
     },
     {
         "id": 47,
         "name": "Haagenti",
         "enn": "Haaventi on ca Lirach",
-        "description": "Haagenti é o Quadragésimo Oitavo Espírito da Goetia. Ele é um presidente que geralmente aparece na forma de um touro poderoso com asas de grifo, mas pode assumir a forma humana sob o comando do mago.\nSua principal função é a de tornar os homens sábios e instruí-los em diversos assuntos, além de ser capaz de provocar mudanças positivas no comportamento das pessoas, transformando-as para melhor.\nHaagenti é capaz de governar 33 legiões de espíritos e é um grande aliado para aqueles que buscam aprimorar seu conhecimento e desenvolvimento pessoal. Sob sua influência, é possível obter sabedoria em várias áreas e aprender habilidades valiosas que podem ser usadas para melhorar a vida. Além disso, suas transmu tações podem ajudar a transformar os aspectos negativos da personalidade de uma pessoa em traços positivos, permitindo que ela alcance seu potencial máximo.",
+        "description": "Haagenti é o Quadragésimo Oitavo Espírito da Goetia. Ele é um presidente que geralmente aparece na forma de um touro poderoso com asas de grifo, mas pode assumir a forma humana sob o comando do mago.\n\nSua principal função é a de tornar os homens sábios e instruí-los em diversos assuntos, além de ser capaz de provocar mudanças positivas no comportamento das pessoas, transformando-as para melhor.\n\nHaagenti é capaz de governar 33 legiões de espíritos e é um grande aliado para aqueles que buscam aprimorar seu conhecimento e desenvolvimento pessoal. Sob sua influência, é possível obter sabedoria em várias áreas e aprender habilidades valiosas que podem ser usadas para melhorar a vida. Além disso, suas transmutações podem ajudar a transformar os aspectos negativos da personalidade de uma pessoa em traços positivos, permitindo que ela alcance seu potencial máximo.",
         "planet": "Mercúrio",
         "direction": "Norte",
-        "pathworking": "Um prédio sólido e fortificado\nUm escudo dourado\nUma esplanada cercada por bandeiras\nUma sensação de disciplina"
+        "pathworking": "Um prédio sólido e fortificado\n\nUm escudo dourado\n\nUma esplanada cercada por bandeiras\n\nUma sensação de disciplina",
     },
     {
         "id": 48,
         "name": "Crocell",
         "enn": "Jedan tasa Crocell on ca",
-        "description": "O Quadragésimo Nono Espírito da Goetia é Crocell, também conhecido como Crokel. Ela é uma grande e forte Duquesa que geralmente se manifesta na forma de um anjo escuro, e é capaz de falar sobre coisas ocultas de forma mística, transmitindo conhecimento sobre a arte da geometria e as ciências liberais.\nEla é uma especialista em criar distrações.\nSob o comando do mago, pode criar situações completamente falsas, que as pessoas tomem como verdadeiras, deixando-as desconcertadas e cobrindo assim as ações do mago.\nEla melhora a parte emocional das pessoas (aquece as águas) e desperta a sensualidade e a luxúria (descobre os banhos).\nAntes de sua queda, Crocell era membro da Ordem das Potências. Hoje em dia, ela governa 48 legiões de espíritos e é uma poderosa aliada para aqueles que buscam conhecimento sobre assuntos ocultos e aprimoramento pessoal. Com sua ajuda, é possível desvendar mistérios e adquirir habilidades valiosas que podem ser usadas para aprimorar a vida.",
+        "description": "O Quadragésimo Nono Espírito da Goetia é Crocell, também conhecido como Crokel. Ela é uma grande e forte Duquesa que geralmente se manifesta na forma de um anjo escuro, e é capaz de falar sobre coisas ocultas de forma mística, transmitindo conhecimento sobre a arte da geometria e as ciências liberais.\n\nEla é uma especialista em criar distrações.\n\nSob o comando do mago, pode criar situações completamente falsas, que as pessoas tomem como verdadeiras, deixando-as desconcertadas e cobrindo assim as ações do mago.\n\nEla melhora a parte emocional das pessoas (aquece as águas) e desperta a sensualidade e a luxúria (descobre os banhos).\n\nAntes de sua queda, Crocell era membro da Ordem das Potências. Hoje em dia, ela governa 48 legiões de espíritos e é uma poderosa aliada para aqueles que buscam conhecimento sobre assuntos ocultos e aprimoramento pessoal. Com sua ajuda, é possível desvendar mistérios e adquirir habilidades valiosas que podem ser usadas para aprimorar a vida.",
         "planet": "Vênus",
         "direction": "Oeste",
-        "pathworking": "Uma bandeira agitada pelo vento\nUma torre de vigia\nO grande salão de um antigo templo\nUma sensação de curiosidade"
+        "pathworking": "Uma bandeira agitada pelo vento\n\nUma torre de vigia\n\nO grande salão de um antigo templo\n\nUma sensação de curiosidade",
     },
     {
         "id": 49,
         "name": "Furcas",
         "enn": "Secore on ca Furcas remie",
-        "description": "O Quinquagésimo Espírito da Goetia é conhecido como Furcas, um cavaleiro que se apresenta na forma de um velho cruel com uma longa barba e uma cabeça grisalha. Ele aparece montado em um cavalo de cor clara, empunhando uma arma afiada em sua mão poderosa.\nFurcas é um especialista em diversas áreas do conhecimento, incluindo filosofia, astrologia, retórica, lógica, quiromancia e piromancia, ensinando cada uma dessas artes com perfeição e detalhamento. Ele pode facilitar o aprendizado tanto de temas científicos e humanísticos, quanto de temas esotéricos e místicos, sendo um grande aliado para aqueles que buscam aprimoramento em diferentes áreas do conhecimento.\nCom seus poderes, Furcas governa 20 legiões de espíritos e pode ajudar aqueles que o invocam a adquirir sabedoria e conhecimento em uma variedade de assuntos. Seu ensinamento é preciso e completo, garantindo que seus discípulos alcancem excelência em suas áreas de estudo. Não hesite em chamar por sua ajuda se estiver buscando um mentor que possa guiá-lo em seu caminho de aprendizado e desenvolvimento pessoal.",
+        "description": "O Quinquagésimo Espírito da Goetia é conhecido como Furcas, um cavaleiro que se apresenta na forma de um velho cruel com uma longa barba e uma cabeça grisalha. Ele aparece montado em um cavalo de cor clara, empunhando uma arma afiada em sua mão poderosa.\n\nFurcas é um especialista em diversas áreas do conhecimento, incluindo filosofia, astrologia, retórica, lógica, quiromancia e piromancia, ensinando cada uma dessas artes com perfeição e detalhamento. Ele pode facilitar o aprendizado tanto de temas científicos e humanísticos, quanto de temas esotéricos e místicos, sendo um grande aliado para aqueles que buscam aprimoramento em diferentes áreas do conhecimento.\n\nCom seus poderes, Furcas governa 20 legiões de espíritos e pode ajudar aqueles que o invocam a adquirir sabedoria e conhecimento em uma variedade de assuntos. Seu ensinamento é preciso e completo, garantindo que seus discípulos alcancem excelência em suas áreas de estudo. Não hesite em chamar por sua ajuda se estiver buscando um mentor que possa guiá-lo em seu caminho de aprendizado e desenvolvimento pessoal.",
         "planet": "Saturno",
         "direction": "Leste",
-        "pathworking": "Um martelo que bate no metal\nUm enorme barco se eleva à nossa frente\nUm cais que vai para o mar\nUma sensação de satisfação"
+        "pathworking": "Um martelo que bate no metal\n\nUm enorme barco se eleva à nossa frente\n\nUm cais que vai para o mar\n\nUma sensação de satisfação",
     },
     {
         "id": 50,
         "name": "Balam",
         "enn": "Lirach tasa vefa wehl Balam",
-        "description": "O quinquagésimo primeiro Espírito da Goetia é Balam, um rei terrível e poderoso que inspira medo em todos que o invocam. Ele se apresenta com três cabeças: uma de touro, outra de homem e a terceira de carneiro, além de uma cauda de serpente e olhos flamejantes. Montado em um urso furioso e carregando um falcão em seu punho, ele é um ser imponente e temível.\nBalam tem uma voz rouca e poderosa, capaz de dar respostas verdadeiras sobre eventos passados, presentes e futuros. Além disso, ele é conhecido por ter o poder da invisibilidade, permitindo que aqueles que o invocam passem despercebidos em determinados locais e diante de determinadas pessoas.\nBalam também tem a capacidade de deixar as pessoas espirituosas e inspiradas, enchendo-as de energia e vitalidade.\nSeu domínio se estende sobre 40 legiões de espíritos, tornando-o uma presença poderosa e influente no mundo espiritual.\nApesar de sua natureza aterradora, Balam pode ser uma fonte valiosa de conhecimento e poder para aqueles que têm a coragem de invocá-lo. Se você está buscando respostas para questões importantes ou precisa de ajuda para se tornar mais forte e mais confiante, não hesite em chamá-lo. Com seu poder e sabedoria, ele pode ajudá-lo a conquistar seus objetivos e atingir seu verdadeiro potencial.",
+        "description": "O quinquagésimo primeiro Espírito da Goetia é Balam, um rei terrível e poderoso que inspira medo em todos que o invocam. Ele se apresenta com três cabeças: uma de touro, outra de homem e a terceira de carneiro, além de uma cauda de serpente e olhos flamejantes. Montado em um urso furioso e carregando um falcão em seu punho, ele é um ser imponente e temível.\n\nBalam tem uma voz rouca e poderosa, capaz de dar respostas verdadeiras sobre eventos passados, presentes e futuros. Além disso, ele é conhecido por ter o poder da invisibilidade, permitindo que aqueles que o invocam passem despercebidos em determinados locais e diante de determinadas pessoas.\n\nBalam também tem a capacidade de deixar as pessoas espirituosas e inspiradas, enchendo-as de energia e vitalidade.\n\nSeu domínio se estende sobre 40 legiões de espíritos, tornando-o uma presença poderosa e influente no mundo espiritual.\n\nApesar de sua natureza aterradora, Balam pode ser uma fonte valiosa de conhecimento e poder para aqueles que têm a coragem de invocá-lo. Se você está buscando respostas para questões importantes ou precisa de ajuda para se tornar mais forte e mais confiante, não hesite em chamá-lo. Com seu poder e sabedoria, ele pode ajudá-lo a conquistar seus objetivos e atingir seu verdadeiro potencial.",
         "planet": "Sol",
         "direction": "Norte",
-        "pathworking": "Uma fogueira no meio da noite\nAs árvores de um bosque em volta\nUm espaço aberto, iluminado pelas chamas\nA sensação de ser avaliado"
+        "pathworking": "Uma fogueira no meio da noite\n\nAs árvores de um bosque em volta\n\nUm espaço aberto, iluminado pelas chamas\n\nA sensação de ser avaliado",
     },
     {
         "id": 51,
         "name": "Alloces",
         "enn": "Typan efna Alloces met tasa",
-        "description": "O quinquagésimo segundo espírito é Alloces, também conhecido como Alocas. Ele é um Duque poderoso e forte que aparece na forma de um soldado montado em um grande cavalo. Seu rosto é como o de um leão, muito vermelho e com olhos flamejantes, e sua fala é rouca e imponente.\nAlloces é especialista em ensinar a arte da astronomia e todas as ciências liberais. Com sua sabedoria e conhecimento, ele é capaz de esclarecer até mesmo os assuntos mais complexos. Além disso, ele é capaz de trazer bons espíritos familiares para aqueles que o convocam, ajudando a estabelecer conexões com outras dimensões.\nSob seu comando, 36 legiões de espíritos se curvam. Ele é capaz de invocá-los para auxiliar aqueles que buscam conhecimento e proteção. Com Alloces ao seu lado, você pode contar com um aliado poderoso em suas empreitadas mágicas e espirituais.",
+        "description": "O quinquagésimo segundo espírito é Alloces, também conhecido como Alocas. Ele é um Duque poderoso e forte que aparece na forma de um soldado montado em um grande cavalo. Seu rosto é como o de um leão, muito vermelho e com olhos flamejantes, e sua fala é rouca e imponente.\n\nAlloces é especialista em ensinar a arte da astronomia e todas as ciências liberais. Com sua sabedoria e conhecimento, ele é capaz de esclarecer até mesmo os assuntos mais complexos. Além disso, ele é capaz de trazer bons espíritos familiares para aqueles que o convocam, ajudando a estabelecer conexões com outras dimensões.\n\nSob seu comando, 36 legiões de espíritos se curvam. Ele é capaz de invocá-los para auxiliar aqueles que buscam conhecimento e proteção. Com Alloces ao seu lado, você pode contar com um aliado poderoso em suas empreitadas mágicas e espirituais.",
         "planet": "Vênus",
         "direction": "Sul",
-        "pathworking": "Um templo antigo\nUm labirinto feito de plantas\nUm espaço aberto, com uma fonte\nUma sensação de diversão"
+        "pathworking": "Um templo antigo\nUm labirinto feito de plantas\nUm espaço aberto, com uma fonte\nUma sensação de diversão",
     },
     {
         "id": 52,
         "name": "Camio",
         "enn": "Tasa on ca Caim renich",
-        "description": "O Quinquagésimo Terceiro Espírito é Camio, também conhecido como Caim. Este é um poderoso Presidente do mundo espiritual, que tem o hábito de se manifestar inicialmente na forma de um pássaro chamado tordo. Posteriormente, assume a forma de um homem que empunha uma espada afiada em sua mão. Suas respostas carregam uma forte paixão, acompanhada de ira e fogo ardente. Sua habilidade em questionar e contestar diferentes pontos de vista pode ser muito útil quando se procura encontrar pontos fracos nas ideias ou discursos de adversários, ou quando se deseja identificar falhas em nossas próprias perspectivas. Camio é especializado em fornecer aos seres humanos uma compreensão mais profunda da natureza e uma melhor comunicação com ela, permitindo-nos entender não só as vozes dos seres vivos, mas também a voz das águas. Ele é capaz de fornecer respostas verdadeiras sobre coisas por vir. Ele pertencia originalmente à ordem dos Anjos. Agora governa mais de 30 legiões de espíritos. Sua presença e sabedoria são altamente valorizadas pelos praticantes da magia e espiritualidade, que o invocam em busca de orientação e sabedoria.",
+        "description": "O Quinquagésimo Terceiro Espírito é Camio, também conhecido como Caim. Este é um poderoso Presidente do mundo espiritual, que tem o hábito de se manifestar inicialmente na forma de um pássaro chamado tordo. Posteriormente, assume a forma de um homem que empunha uma espada afiada em sua mão.\n\nSuas respostas carregam uma forte paixão, acompanhada de ira e fogo ardente. Sua habilidade em questionar e contestar diferentes pontos de vista pode ser muito útil quando se procura encontrar pontos fracos nas ideias ou discursos de adversários, ou quando se deseja identificar falhas em nossas próprias perspectivas.\n\nCamio é especializado em fornecer aos seres humanos uma compreensão mais profunda da natureza e uma melhor comunicação com ela, permitindo-nos entender não só as vozes dos seres vivos, mas também a voz das águas.\n\nEle é capaz de fornecer respostas verdadeiras sobre coisas por vir.\n\nEle pertencia originalmente à ordem dos Anjos. Agora governa mais de 30 legiões de espíritos. Sua presença e sabedoria são altamente valorizadas pelos praticantes da magia e espiritualidade, que o invocam em busca de orientação e sabedoria.",
         "planet": "Mercúrio",
         "direction": "Leste",
-        "pathworking": "Uma torre elevada, de pedra\nUm exército organizado\nA vista desde uma muralha alta\nUma sensação de disciplina e força"
+        "pathworking": "Uma torre elevada, de pedra\nUm exército organizado\nA vista desde uma muralha alta\nUma sensação de disciplina e força",
     },
     {
         "id": 53,
         "name": "Murmur",
         "enn": "Vefa mena Murmur ayer",
-        "description": "Murmur, também conhecido como Murmus ou Murmux, é o quinquagésimo quarto espírito que aparece na forma de um grande duque e conde. Ele monta um grifo, uma criatura mitológica, e usa uma coroa ducal em sua cabeça. Este espírito é altamente valorizado por sua habilidade em ensinar filosofia com perfeição, oferecendo aos seus aprendizes um conhecimento profundo e abrangente do assunto. Além disso, ele possui o poder de convocar as almas falecidas e fazê-las responder às perguntas que lhe são feitas pelo mago. Este é um dom extremamente útil, especialmente quando se trata de questões relacionadas ao futuro ou a eventos passados. Murmur era parte da ordem dos tronos e, mais tarde, parte da dos anjos. Ele agora governa 30 legiões de espíritos, o que indica sua posição de autoridade e liderança. Sua presença é capaz de trazer clareza e compreensão aos assuntos mais complexos, oferecendo aos seus seguidores uma perspectiva única e valiosa. Com sua ajuda, o conhecimento e a sabedoria se tornam acessíveis a todos que desejam aprender.",
+        "description": "Murmur, também conhecido como Murmus ou Murmux, é o quinquagésimo quarto espírito que aparece na forma de um grande duque e conde. Ele monta um grifo, uma criatura mitológica, e usa uma coroa ducal em sua cabeça.\n\nEste espírito é altamente valorizado por sua habilidade em ensinar filosofia com perfeição, oferecendo aos seus aprendizes um conhecimento profundo e abrangente do assunto.\n\nAlém disso, ele possui o poder de convocar as almas falecidas e fazê-las responder às perguntas que lhe são feitas pelo mago. Este é um dom extremamente útil, especialmente quando se trata de questões relacionadas ao futuro ou a eventos passados.\n\nMurmur era parte da ordem dos tronos e, mais tarde, parte da dos anjos. Ele agora governa 30 legiões de espíritos, o que indica sua posição de autoridade e liderança. Sua presença é capaz de trazer clareza e compreensão aos assuntos mais complexos, oferecendo aos seus seguidores uma perspectiva única e valiosa. Com sua ajuda, o conhecimento e a sabedoria se tornam acessíveis a todos que desejam aprender.",
         "planet": "Vênus/Marte",
         "direction": "Oeste",
-        "pathworking": "As ruínas de uma antiga cidade perdida no deserto\nA lua cheia no céu de verão\nUma praça abandonada, com um obelisco no centro\nA sensação de ser avaliado"
+        "pathworking": "As ruínas de uma antiga cidade perdida no deserto\nA lua cheia no céu de verão\nUma praça abandonada, com um obelisco no centro\nA sensação de ser avaliado",
     },
     {
         "id": 54,
         "name": "Orobas",
         "enn": "Jedan tasa hoet naca Orobas",
-        "description": "O quinquagésimo quinto espírito, Orobas, é um poderoso príncipe que se manifesta inicialmente na forma de um majestoso cavalo. No entanto, com o comando do exorcista, ele rapidamente se transforma na imagem de um homem, exibindo sua incrível capacidade de metamorfosear. Orobas é um espírito altamente habilidoso, conhecido por sua capacidade de revelar todos os segredos do passado, presente e futuro. Além disso, ele tem o poder de conceder honras e privilégios, bem como favores tanto de amigos quanto de inimigos. Este espírito é também um mestre no que diz respeito à verdadeira natureza da divindade e da criação do mundo, e pode dar respostas esclarecedoras sobre esses assuntos. Orobas é extremamente leal ao mago que o invoca e não permitirá que ele seja tentado por nenhum outro espírito. Isso é um testemunho do seu caráter fiel e confiável. Com sua autoridade e poder, Orobas governa vinte Legiões de espíritos, oferecendo orientação e liderança a todos os seus súditos. Sua presença traz clareza e sabedoria aos assuntos mais complexos e desafiadores, permitindo que seus seguidores progridam em sua jornada de crescimento espiritual. Com Orobas ao seu lado, o mago pode ter a certeza de que suas perguntas serão respondidas e seus desejos serão realizados.",
+        "description": "O quinquagésimo quinto espírito, Orobas, é um poderoso príncipe que se manifesta inicialmente na forma de um majestoso cavalo. No entanto, com o comando do exorcista, ele rapidamente se transforma na imagem de um homem, exibindo sua incrível capacidade de metamorfosear.\n\nOrobas é um espírito altamente habilidoso, conhecido por sua capacidade de revelar todos os segredos do passado, presente e futuro. Além disso, ele tem o poder de conceder honras e privilégios, bem como favores tanto de amigos quanto de inimigos.\n\nEste espírito é também um mestre no que diz respeito à verdadeira natureza da divindade e da criação do mundo, e pode dar respostas esclarecedoras sobre esses assuntos. Orobas é extremamente leal ao mago que o invoca e não permitirá que ele seja tentado por nenhum outro espírito. Isso é um testemunho do seu caráter fiel e confiável.\n\nCom sua autoridade e poder, Orobas governa vinte Legiões de espíritos, oferecendo orientação e liderança a todos os seus súditos. Sua presença traz clareza e sabedoria aos assuntos mais complexos e desafiadores, permitindo que seus seguidores progridam em sua jornada de crescimento espiritual. Com Orobas ao seu lado, o mago pode ter a certeza de que suas perguntas serão respondidas e seus desejos serão realizados.",
         "planet": "Júpiter",
         "direction": "Oeste",
-        "pathworking": "Uma grande fonte, no centro de uma praça\nMuitas pessoas andam em volta dela\nUma rua estreita, se ninguém nela\nUma sensação de diversão"
+        "pathworking": "Uma grande fonte, no centro de uma praça\nMuitas pessoas andam em volta dela\nUma rua estreita, se ninguém nela\nUma sensação de diversão",
     },
     {
         "id": 55,
         "name": "Gremory",
         "enn": "An tasa shi Gremory on ca",
-        "description": "O quinquagésimo sexto espírito é a poderosa e cativante duquesa Gremory, também conhecida como Gamori. A origem de Gremory é um mistério, embora sua aparência única possa nos dar uma pista dela. Isso porque, diferente de outros Daemons, que aparecem com aparências estranhas ou até bizarras, ela se apresenta simplesmente como uma bela e poderosa mulher, montando um grande camelo, como se fosse uma rainha dos tempos antigos. E, de fato, existe um personagem bíblico que se encaixa muito bem com Gremory: A Rainha de Sheba. Isso porque, segundo a Kabbalah, a rainha de Sheba (nunca nos dizem o nome dela) era uma das rainhas dos Shedim. Isso parece ser confirmado pelo Targum Sheni, onde se diz que ela tinha as pernas cobertas de pelo, como os Se'irim, uma das categorias dos Shedim. Gremory é uma especialista em matéria de prosperidade, podendo ajudar o mago tanto em assuntos relacionados ao dinheiro quanto em empreendimentos. Outra especialidade de Gremory é revelar segredos ocultos, podendo desvendar informações sobre o passado, presente e futuro com grande precisão. Além disso, ela possui a habilidade de conhecer os segredos mais preciosos das pessoas (seus “tesouros”). Com esse poder de revelação, Gremory pode ajudar o mago mostrando os segredos dos seus inimigos. Esta poderosa duquesa é também uma “expert” em assuntos de amor, sendo talvez por isso que ela é tão procurada. Ela é capaz de ajudar a conquistar o coração de mulheres jovens e velhas. Com seu conhecimento e experiência, Gremory pode guiar seus seguidores para encontrar a verdadeira felicidade nos relacionamentos. Com o controle de vinte e seis legiões de espíritos, alguns temíveis, e outros altamente sedutores, Gremory é uma líder forte e respeitada, capaz de orientar e guiar seus súditos com sua sabedoria e discernimento. Ela é uma aliada valiosa para aqueles que buscam descobrir a verdade sobre si mesmos e o mundo ao seu redor, oferecendo uma visão única e iluminadora sobre os segredos mais profundos e preciosos, assim como sobre os labirintos do Amor. Com Gremory como guia, o mago pode ter a certeza de que terá a sabedoria e a orientação necessárias para alcançar seus objetivos.",
+        "description": "O quinquagésimo sexto espírito é a poderosa e cativante duquesa Gremory, também conhecida como Gamori. A origem de Gremory é um mistério, embora sua aparência única possa nos dar uma pista dela. Isso porque, diferente de outros Daemons, que aparecem com aparências estranhas ou até bizarras, ela se apresenta simplesmente como uma bela e poderosa mulher, montando um grande camelo, como se fosse uma rainha dos tempos antigos. E, de fato, existe um personagem bíblico que se encaixa muito bem com Gremory: A Rainha de Sheba. Isso porque, segundo a Kabbalah, a rainha de Sheba (nunca nos dizem o nome dela) era uma das rainhas dos Shedim. Isso parece ser confirmado pelo Targum Sheni, onde se diz que ela tinha as pernas cobertas de pelo, como os Se'irim, uma das categorias dos Shedim.\n\nGremory é uma especialista em matéria de prosperidade, podendo ajudar o mago tanto em assuntos relacionados ao dinheiro quanto em empreendimentos.\n\nOutra especialidade de Gremory é revelar segredos ocultos, podendo desvendar informações sobre o passado, presente e futuro com grande precisão. Além disso, ela possui a habilidade de conhecer os segredos mais preciosos das pessoas (seus “tesouros”). Com esse poder de revelação, Gremory pode ajudar o mago mostrando os segredos dos seus inimigos.\n\nEsta poderosa duquesa é também uma “expert” em assuntos de amor, sendo talvez por isso que ela é tão procurada. Ela é capaz de ajudar a conquistar o coração de mulheres jovens e velhas. Com seu conhecimento e experiência, Gremory pode guiar seus seguidores para encontrar a verdadeira felicidade nos relacionamentos.\n\nCom o controle de vinte e seis legiões de espíritos, alguns temíveis, e outros altamente sedutores, Gremory é uma líder forte e respeitada, capaz de orientar e guiar seus súditos com sua sabedoria e discernimento. Ela é uma aliada valiosa para aqueles que buscam descobrir a verdade sobre si mesmos e o mundo ao seu redor, oferecendo uma visão única e iluminadora sobre os segredos mais profundos e preciosos, assim como sobre os labirintos do Amor. Com Gremory como guia, o mago pode ter a certeza de que terá a sabedoria e a orientação necessárias para alcançar seus objetivos.",
         "planet": "Vênus",
         "direction": "Oeste",
-        "pathworking": "Um cetro de mando, feito em ouro e diamantes\nUm grande exército, bem formado e alinhado\nUm palácio, cheio de cômodos luxuosos"
+        "pathworking": "Um cetro de mando, feito em ouro e diamantes\nUm grande exército, bem formado e alinhado\nUm palácio, cheio de cômodos luxuosos",
     },
     {
         "id": 56,
         "name": "Ose",
         "enn": "Ayer serpente Ose",
-        "description": "O quinquagésimo sétimo espírito é conhecido como Ose, Oso ou Voso. Trata-se de um grande presidente que, à primeira vista, assume a forma de um leopardo, mas depois de algum tempo se transforma em um homem. Ele fornece habilidade em todas as ciências liberais (conhecimento não técnico ou científico) e dá respostas corretas em relação às coisas secretas e divinas. Com sua magia de glamour, ele também é capaz de criar imagens falsas que fazem alguém acreditar que é outra pessoa. Essa pessoa ficará convencida de que a imagem é verdadeira e, portanto, mudará seu comportamento de acordo com ela. Ose é capaz de governar 30 legiões de espíritos e é um mestre em fornecer soluções precisas para problemas complexos. Ele é altamente valorizado por sua capacidade de desvendar mistérios e revelar segredos ocultos. Aqueles que o convocam com respeito e humildade serão agraciados com sua lealdade e dedicação, pois Ose não permitirá que seu convocador seja tentado por nenhum outro espírito.",
+        "description": "O quinquagésimo sétimo espírito é conhecido como Ose, Oso ou Voso. Trata-se de um grande presidente que, à primeira vista, assume a forma de um leopardo, mas depois de algum tempo se transforma em um homem.\n\nEle fornece habilidade em todas as ciências liberais (conhecimento não técnico ou científico) e dá respostas corretas em relação às coisas secretas e divinas.\n\nCom sua magia de glamour, ele também é capaz de criar imagens falsas que fazem alguém acreditar que é outra pessoa. Essa pessoa ficará convencida de que a imagem é verdadeira e, portanto, mudará seu comportamento de acordo com ela.\n\nOse é capaz de governar 30 legiões de espíritos e é um mestre em fornecer soluções precisas para problemas complexos. Ele é altamente valorizado por sua capacidade de desvendar mistérios e revelar segredos ocultos. Aqueles que o convocam com respeito e humildade serão agraciados com sua lealdade e dedicação, pois Ose não permitirá que seu convocador seja tentado por nenhum outro espírito.",
         "planet": "Mercúrio",
         "direction": "Leste",
-        "pathworking": "Uma antiga cidade em ruínas\nUm cômodo surpreendentemente limpo, com um tapete e almofadas no chão\nUma mesa baixa com um braseiro queimando incenso"
+        "pathworking": "Uma antiga cidade em ruínas\nUm cômodo surpreendentemente limpo, com um tapete e almofadas no chão\nUma mesa baixa com um braseiro queimando incenso",
     },
     {
         "id": 57,
         "name": "Amy",
         "enn": "Tu Fubin Amy secore",
-        "description": "O quinquagésimo oitavo espírito é Amy, também conhecido como Avnas. Ele é um Grande Presidente das legiões infernais, e sua aparição inicial é como um fogo flamejante, mas após algum tempo ele assume a forma humana. Sua especialidade é a astrologia e todas as ciências liberais, que ele ensina com perfeição e maestria. Além disso, ele pode conceder aos seus invocadores bons familiares, espíritos que ajudam e protegem o mago em suas práticas ocultas. Amy é também capaz de revelar tesouros escondidos por outros espíritos, o que pode ser muito útil para aqueles que buscam riquezas ou conhecimento oculto. Ele é um governante poderoso, com 36 legiões de espíritos sob seu comando, e é conhecido por sua sabedoria e habilidade em lidar com os segredos do universo. Aqueles que o convocam com respeito podem esperar uma resposta clara e precisa para suas questões mais profundas e complexas.",
+        "description": "O quinquagésimo oitavo espírito é Amy, também conhecido como Avnas. Ele é um Grande Presidente das legiões infernais, e sua aparição inicial é como um fogo flamejante, mas após algum tempo ele assume a forma humana.\n\nSua especialidade é a astrologia e todas as ciências liberais, que ele ensina com perfeição e maestria.Além disso, ele pode conceder aos seus invocadores bons familiares, espíritos que ajudam e protegem o mago em suas práticas ocultas.\n\nAmy é também capaz de revelar tesouros escondidos por outros espíritos, o que pode ser muito útil para aqueles que buscam riquezas ou conhecimento oculto.\n\nEle é um governante poderoso, com 36 legiões de espíritos sob seu comando, e é conhecido por sua sabedoria e habilidade em lidar com os segredos do universo. Aqueles que o convocam com respeito podem esperar uma resposta clara e precisa para suas questões mais profundas e complexas.",
         "planet": "Mercúrio",
         "direction": "Sul",
-        "pathworking": "Um chicote e uma luneta\nUma mesa de madeira, com um lampião sobre ela\nO camarote de um barco de madeira, iluminado pelo lampião"
+        "pathworking": "Um chicote e uma luneta\nUma mesa de madeira, com um lampião sobre ela\nO camarote de um barco de madeira, iluminado pelo lampião",
     },
     {
         "id": 58,
         "name": "Orias",
         "enn": "Lirach mena Orias Anay na",
-        "description": "O quinquagésimo nono espírito é Orias, um magnífico marquês conhecido também como Oriax, cuja aparição é majestosa como a de um guerreiro com características leoninas, montado em um poderoso cavalo preto. Em sua mão direita, ele segura com destreza duas serpentes que sibilam com poder. Os poderes de Orias transcendem os limites terrenos, estando intrinsecamente ligados ao Cosmos. Ele é o guardião do conhecimento das virtudes das estrelas e das mansões dos planetas (Astrologia), sabedoria que pode ser aplicada na vida cotidiana. Com sua habilidade inigualável, Orias é capaz de transformar homens, conceder dignidades e distinções, além de confirmá-las. Aqueles que o convocam ou são indicados pelo mago que o invoca são agraciados com favores tanto de amigos como de inimigos, tamanha é a influência e benevolência deste poderoso espírito. Orias é o governante de trinta legiões de espíritos, que o seguem lealmente em sua grandeza e poder. Sua presença é imponente e sua sabedoria é incomparável, sendo uma fonte inestimável de conhecimento e benefícios para aqueles que buscam sua ajuda.",
+        "description": "O quinquagésimo nono espírito é Orias, um magnífico marquês conhecido também como Oriax, cuja aparição é majestosa como a de um guerreiro com características leoninas, montado em um poderoso cavalo preto. Em sua mão direita, ele segura com destreza duas serpentes que sibilam com poder.\n\nOs poderes de Orias transcendem os limites terrenos, estando intrinsecamente ligados ao Cosmos. Ele é o guardião do conhecimento das virtudes das estrelas e das mansões dos planetas (Astrologia), sabedoria que pode ser aplicada na vida cotidiana.\n\nCom sua habilidade inigualável, Orias é capaz de transformar homens, conceder dignidades e distinções, além de confirmá-las. Aqueles que o convocam ou são indicados pelo mago que o invoca são agraciados com favores tanto de amigos como de inimigos, tamanha é a influência e benevolência deste poderoso espírito.\n\nOrias é o governante de trinta legiões de espíritos, que o seguem lealmente em sua grandeza e poder. Sua presença é imponente e sua sabedoria é incomparável, sendo uma fonte inestimável de conhecimento e benefícios para aqueles que buscam sua ajuda.",
         "planet": "Lua",
         "direction": "Leste",
-        "pathworking": "Um cetro de ouro, com esmeraldas\nUm grande livro, com uma pena sobre ele\nUm escritório com bibliotecas nas paredes e uma lareira\nUma sensação de certeza"
+        "pathworking": "Um cetro de ouro, com esmeraldas\nUm grande livro, com uma pena sobre ele\nUm escritório com bibliotecas nas paredes e uma lareira\nUma sensação de certeza",
     },
     {
         "id": 59,
         "name": "Vapula",
         "enn": "Renich secore Vapula typan",
-        "description": "Vapula, ou Naphula, é o sexagésimo espírito do Ars Goetia. Trata-se de um Grão-duque de força e poder excepcionais, que se manifesta na forma de um leão com asas de grifo. Vapula é um guia confiável para os que desejam aprimorar suas habilidades e adquirir conhecimentos em diversas áreas do saber. Além de ser um mestre nas artes e ofícios, Vapula também é um estudioso da filosofia e de outras ciências, oferecendo orientação precisa e valiosa a quem o invoca. Sua influência e sabedoria são vastas e profundas, permitindo que seus adeptos alcancem novos patamares de excelência em suas atividades. Com seus poderosos poderes, Vapula governa 36 legiões de espíritos com destreza e habilidade ímpares, garantindo que seus comandados atuem em harmonia e com precisão. Ele é um ser confiável e respeitado, capaz de fornecer orientações e ensinamentos que levam a um aprimoramento significativo em diversos aspectos da vida.",
+        "description": "Vapula, ou Naphula, é o sexagésimo espírito do Ars Goetia. Trata-se de um Grão-duque de força e poder excepcionais, que se manifesta na forma de um leão com asas de grifo. Vapula é um guia confiável para os que desejam aprimorar suas habilidades e adquirir conhecimentos em diversas áreas do saber.\n\nAlém de ser um mestre nas artes e ofícios, Vapula também é um estudioso da filosofia e de outras ciências, oferecendo orientação precisa e valiosa a quem o invoca. Sua influência e sabedoria são vastas e profundas, permitindo que seus adeptos alcancem novos patamares de excelência em suas atividades.\n\nCom seus poderosos poderes, Vapula governa 36 legiões de espíritos com destreza e habilidade ímpares, garantindo que seus comandados atuem em harmonia e com precisão. Ele é um ser confiável e respeitado, capaz de fornecer orientações e ensinamentos que levam a um aprimoramento significativo em diversos aspectos da vida.",
         "planet": "Vênus",
         "direction": "Leste",
-        "pathworking": "Uma costa marítima, com grandes pedras\nUm farol frente a um mar tempestuoso\nUma sala dentro do farol, com duas poltronas e uma janela que dá para o mar\nUma sensação de segurança"
+        "pathworking": "Uma costa marítima, com grandes pedras\nUm farol frente a um mar tempestuoso\nUma sala dentro do farol, com duas poltronas e uma janela que dá para o mar\nUma sensação de segurança",
     },
     {
         "id": 60,
         "name": "Zagan",
         "enn": "Anay on ca secore Zagan tasa",
-        "description": "Zagan, é o sexagésimo primeiro espírito da hierarquia infernal, é um grande rei e presidente que se apresenta inicialmente na forma de um touro alado, dotado de uma majestade indescritível. Com o tempo, porém, ele se transforma em uma figura humana de grande beleza e sabedoria. Zagan é capaz de tornar os homens mais espirituosos, elevando seu espírito e proporcionando-lhes uma visão mais ampla do mundo e de si mesmos. Ele também possui o dom da transmutação, ou seja, a habilidade de transformar situações com grande destreza. Isso é especialmente útil quando nos encontramos diante de uma situação que desejamos mudar, mas sem renunciar aos aspectos positivos dela. Além disso, Zagan tem a capacidade de transformar os tolos em sábios, concedendo-lhes um conhecimento profundo e uma sabedoria inestimável. Ele governa 33 legiões de espíritos com habilidade e destreza, garantindo que seus comandados atuem em harmonia e com precisão. Com Zagan ao seu lado, é possível alcançar um elevado patamar de sabedoria e inteligência, bem como uma compreensão mais profunda dos mistérios da vida e do universo. Ele é um aliado valioso e respeitado, capaz de conceder benefícios e ensinamentos que levam a uma evolução significativa em diversos aspectos da existência.",
+        "description": "Zagan, é o sexagésimo primeiro espírito da hierarquia infernal, é um grande rei e presidente que se apresenta inicialmente na forma de um touro alado, dotado de uma majestade indescritível. Com o tempo, porém, ele se transforma em uma figura humana de grande beleza e sabedoria.\n\nZagan é capaz de tornar os homens mais espirituosos, elevando seu espírito e proporcionando-lhes uma visão mais ampla do mundo e de si mesmos. Ele também possui o dom da transmutação, ou seja, a habilidade de transformar situações com grande destreza. Isso é especialmente útil quando nos encontramos diante de uma situação que desejamos mudar, mas sem renunciar aos aspectos positivos dela.\n\nAlém disso, Zagan tem a capacidade de transformar os tolos em sábios, concedendo-lhes um conhecimento profundo e uma sabedoria inestimável.\n\nEle governa 33 legiões de espíritos com habilidade e destreza, garantindo que seus comandados atuem em harmonia e com precisão.\n\nCom Zagan ao seu lado, é possível alcançar um elevado patamar de sabedoria e inteligência, bem como uma compreensão mais profunda dos mistérios da vida e do universo. Ele é um aliado valioso e respeitado, capaz de conceder benefícios e ensinamentos que levam a uma evolução significativa em diversos aspectos da existência.",
         "planet": "Sol/Mercúrio",
         "direction": "Terra",
-        "pathworking": "O motor de um carro\nUm martelo batendo sobre metal\nUma oficina, cheia de maquinário novo e antigo\nUma sensação de diversão"
+        "pathworking": "O motor de um carro\nUm martelo batendo sobre metal\nUma oficina, cheia de maquinário novo e antigo\nUma sensação de diversão",
     },
     {
         "id": 61,
         "name": "Valac",
         "enn": "Avage Secore on ca Volac",
-        "description": "Valac, ou Valak, ou Valu, é o sexagésimo segundo espírito do Ars Goetia, um poderoso e grande Presidente que, segundo o texto original, se apresenta como uma criança com asas de anjo, montada em um dragão, cuja imagem pode impressionar e intimidar os desavisados. Seu ofício é dar respostas verdadeiras sobre tesouros escondidos, sejam eles objetos físicos de valor inestimável ou informações preciosas que algumas pessoas escondem. Com sua habilidade sobrenatural, Valac é capaz de encontrar esses tesouros ocultos e revelá-los ao mago que o convoca. Além disso, Valac possui o dom de indicar onde está o perigo, seja ele físico ou espiritual, auxiliando seus seguidores a evitar situações perigosas e proteger-se de ameaças desconhecidas. Valac é um líder respeitado que governa 38 legiões de espíritos com maestria e disciplina, garantindo que suas ordens sejam cumpridas com precisão e eficácia. Com ele ao lado, seus seguidores podem ter certeza de que obterão respostas verdadeiras e valiosas para questões importantes e, ao mesmo tempo, serão protegidos dos perigos que espreitam em seu caminho.",
+        "description": "Valac, ou Valak, ou Valu, é o sexagésimo segundo espírito do Ars Goetia, um poderoso e grande Presidente que, segundo o texto original, se apresenta como uma criança com asas de anjo, montada em um dragão, cuja imagem pode impressionar e intimidar os desavisados.\n\nSeu ofício é dar respostas verdadeiras sobre tesouros escondidos, sejam eles objetos físicos de valor inestimável ou informações preciosas que algumas pessoas escondem. Com sua habilidade sobrenatural, Valac é capaz de encontrar esses tesouros ocultos e revelá-los ao mago que o convoca.\n\nAlém disso, Valac possui o dom de indicar onde está o perigo, seja ele físico ou espiritual, auxiliando seus seguidores a evitar situações perigosas e proteger-se de ameaças desconhecidas.\n\nValac é um líder respeitado que governa 38 legiões de espíritos com maestria e disciplina, garantindo que suas ordens sejam cumpridas com precisão e eficácia. Com ele ao lado, seus seguidores podem ter certeza de que obterão respostas verdadeiras e valiosas para questões importantes e, ao mesmo tempo, serão protegidos dos perigos que espreitam em seu caminho.",
         "planet": "Mercúrio",
         "direction": "Norte",
-        "pathworking": "Uma faca afiada, com cabo de ouro\nUm dragão nos observa, na escuridão\nUma caverna cheia de tesouros\nUma sensação de diversão"
+        "pathworking": "Uma faca afiada, com cabo de ouro\nUm dragão nos observa, na escuridão\nUma caverna cheia de tesouros\nUma sensação de diversão",
     },
     {
         "id": 62,
         "name": "Andras",
         "enn": "Entey ama Andras anay",
-        "description": "O Sexagésimo Terceiro Espírito é conhecido como Andras, uma Grande Marquesa que se manifesta na forma de um anjo com uma cabeça negra, com as características de um corvo noturno, montado em um poderoso lobo negro e brandindo uma espada brilhante em sua mão. Andras é conhecida por semear discórdia, conforme descrito no Ars Goetia. É importante destacar que, segundo o Ars Goetia, se o exorcista não estiver atento, ela e seus companheiros podem ser afetados por este Espírito. No entanto, se controlada com sabedoria, Andras pode ser uma poderosa aliada em situações que requerem a semeadura de discórdia, como em batalhas ou competições. Além disso, Andras governa sobre 30 legiões de espíritos, dando-lhe um grande poder e influência. Ao trabalhar com Andras é preciso mais cautela e foco do que com outros Daemons, pois suas habilidades caóticas, se não são bem direcionadas, podem afetar tanto o alvo quanto o próprio mago. Mas deixando bem claro quais são as nossas necessidades e desejos, Andras pode se tornar uma aliada preciosa em momentos críticos.",
+        "description": "O Sexagésimo Terceiro Espírito é conhecido como Andras, uma Grande Marquesa que se manifesta na forma de um anjo com uma cabeça negra, com as características de um corvo noturno, montado em um poderoso lobo negro e brandindo uma espada brilhante em sua mão.\n\nAndras é conhecida por semear discórdia, conforme descrito no Ars Goetia. É importante destacar que, segundo o Ars Goetia, se o exorcista não estiver atento, ela e seus companheiros podem ser afetados por este Espírito. No entanto, se controlada com sabedoria, Andras pode ser uma poderosa aliada em situações que requerem a semeadura de discórdia, como em batalhas ou competições.\n\nAlém disso, Andras governa sobre 30 legiões de espíritos, dando-lhe um grande poder e influência.\n\nAo trabalhar com Andras é preciso mais cautela e foco do que com outros Daemons, pois suas habilidades caóticas, se não são bem direcionadas, podem afetar tanto o alvo quanto o próprio mago. Mas deixando bem claro quais são as nossas necessidades e desejos, Andras pode se tornar uma aliada preciosa em momentos críticos.",
         "planet": "Lua",
         "direction": "Sul",
-        "pathworking": "Uma casa no meio da floresta\nUma bela mulher coloca água nas plantas, na frente da casa\nUma sala com duas cadeiras, uma mesa e, sobre ela, duas xícaras cheias\nUma sensação de astúcia"
+        "pathworking": "Uma casa no meio da floresta\nUma bela mulher coloca água nas plantas, na frente da casa\nUma sala com duas cadeiras, uma mesa e, sobre ela, duas xícaras cheias\nUma sensação de astúcia",
     },
     {
         "id": 63,
         "name": "Haures",
         "enn": "Ganic tasa fubin Flauros",
-        "description": "O sexagésimo quarto espírito é Haures, também conhecido como Hauras, Havres ou Flauros. Ele é um Grande Duque e sua aparência inicial é a de um leopardo poderoso e forte, mas sob o comando do exorcista, pode assumir forma humana com olhos flamejantes e um semblante terrível. Sua principal habilidade é fornecer respostas verdadeiras sobre tudo, desde o passado e presente até o futuro. Além disso, ele é capaz de falar sobre a criação do mundo e da divindade, assim como sobre a queda dele e de outros espíritos. Haures pode destruir e queimar os inimigos do mago que o convoca, se assim desejar, e não permitirá que nenhum outro espírito o tente ou o influencie. Ele governa 36 Legiões de Espíritos. Haures é um Shedim ideal tanto para aqueles que desejam conhecimento quanto para aqueles que precisam de proteção.",
+        "description": "O sexagésimo quarto espírito é Haures, também conhecido como Hauras, Havres ou Flauros.\n\nEle é um Grande Duque e sua aparência inicial é a de um leopardo poderoso e forte, mas sob o comando do exorcista, pode assumir forma humana com olhos flamejantes e um semblante terrível.\n\nSua principal habilidade é fornecer respostas verdadeiras sobre tudo, desde o passado e presente até o futuro. Além disso, ele é capaz de falar sobre a criação do mundo e da divindade, assim como sobre a queda dele e de outros espíritos.\n\nHaures pode destruir e queimar os inimigos do mago que o convoca, se assim desejar, e não permitirá que nenhum outro espírito o tente ou o influencie.\n\nEle governa 36 Legiões de Espíritos. Haures é um Shedim ideal tanto para aqueles que desejam conhecimento quanto para aqueles que precisam de proteção.",
         "planet": "Vênus",
         "direction": "Sul",
-        "pathworking": "Uma grande roda que gira\nUm homem que pensa\nUm templo antigo, parcialmente destruído\nUma sensação de tristeza"
+        "pathworking": "Uma grande roda que gira\nUm homem que pensa\nUm templo antigo, parcialmente destruído\nUma sensação de tristeza",
     },
     {
         "id": 64,
         "name": "Andrealphus",
         "enn": "Mena Andrealphus tasa ramec ayer",
-        "description": "O 65º Espírito citado no Ars Goetia é Andrealphus, nome pelo qual se apresenta o antigo Senhor Adramelech, ou Baal Adramelech, poderoso deus solar dos Fenícios. Ele aparece agora como um poderoso Marquês. Inicialmente, ele se apresenta na forma de um majestoso pavão, mas depois de um tempo, assume forma humana, bela e perigosa ao mesmo tempo. Ele pode ser convocado para conceder conhecimento na área da geometria, engenharia e astronomia. Ele é capaz de ensinar a arte da geometria com perfeição, tornando seus invocadores extremamente sábios e habilidosos nessa ciência. Além disso, Andrealphus é capaz de usar suas habilidades metamórficas para transformar a aparência de uma pessoa, fazendo-a parecer diferente do que realmente é. Isso pode ser muito útil para aqueles que desejam projetar uma imagem diferente de si mesmos. Claro que ele não altera a aparência física da pessoa, mas afeta as mentes daqueles que estão em volta dela, fazendo-os ver algo diferente da realidade. Ele governa trinta legiões de espíritos e é altamente valorizado por aqueles que buscam conhecimento e habilidades em geometria e ciências afins.",
+        "description": "O 65º Espírito citado no Ars Goetia é Andrealphus, nome pelo qual se apresenta o antigo Senhor Adramelech, ou Baal Adramelech, poderoso deus solar dos Fenícios. Ele aparece agora como um poderoso Marquês. Inicialmente, ele se apresenta na forma de um majestoso pavão, mas depois de um tempo, assume forma humana, bela e perigosa ao mesmo tempo.\n\nEle pode ser convocado para conceder conhecimento na área da geometria, engenharia e astronomia. Ele é capaz de ensinar a arte da geometria com perfeição, tornando seus invocadores extremamente sábios e habilidosos nessa ciência.\n\nAlém disso, Andrealphus é capaz de usar suas habilidades metamórficas para transformar a aparência de uma pessoa, fazendo-a parecer diferente do que realmente é. Isso pode ser muito útil para aqueles que desejam projetar uma imagem diferente de si mesmos. Claro que ele não altera a aparência física da pessoa, mas afeta as mentes daqueles que estão em volta dela, fazendo-os ver algo diferente da realidade.\n\nEle governa trinta legiões de espíritos e é altamente valorizado por aqueles que buscam conhecimento e habilidades em geometria e ciências afins.",
         "planet": "Lua",
         "direction": "Leste",
-        "pathworking": "Um labirinto feito de cerca viva\nUma grande taça de cristal sobre uma mesa\nUm salão rodeado de espelhos\nA sensação de alguém tirando sarro de nós"
+        "pathworking": "Um labirinto feito de cerca viva\nUma grande taça de cristal sobre uma mesa\nUm salão rodeado de espelhos\nA sensação de alguém tirando sarro de nós",
     },
     {
         "id": 65,
         "name": "Cimeies",
         "enn": "Ayer avage secore Cimejes",
-        "description": "O sexagésimo sexto espírito é conhecido como Cimeies, Cimejes ou Kimaris. Ele é um poderoso Marquês que aparece como um guerreiro valente montado em um majestoso cavalo negro. Sua influência se estende sobre todos os espíritos na África. Ele possui a habilidade de ensinar perfeitamente gramática, lógica e retórica. Além disso, Cimeies é capaz de desvendar mistérios e revelar tesouros escondidos, tanto objetos físicos valiosos quanto informações preciosas que algumas pessoas mantêm em segredo. Seu conhecimento sobrenatural permite que ele encontre esses tesouros ocultos e entregue a informação ao mago que o evoca. Comandando 20 legiões de espíritos infernais, Cimeies é um aliado poderoso para aqueles que procuram sabedoria e riquezas.",
+        "description": "O sexagésimo sexto espírito é conhecido como Cimeies, Cimejes ou Kimaris. Ele é um poderoso Marquês que aparece como um guerreiro valente montado em um majestoso cavalo negro. Sua influência se estende sobre todos os espíritos na África.\n\nEle possui a habilidade de ensinar perfeitamente gramática, lógica e retórica.\n\nAlém disso, Cimeies é capaz de desvendar mistérios e revelar tesouros escondidos, tanto objetos físicos valiosos quanto informações preciosas que algumas pessoas mantêm em segredo. Seu conhecimento sobrenatural permite que ele encontre esses tesouros ocultos e entregue a informação ao mago que o evoca.\n\nComandando 20 legiões de espíritos infernais, Cimeies é um aliado poderoso para aqueles que procuram sabedoria e riquezas.",
         "planet": "Lua",
         "direction": "Norte",
-        "pathworking": "Um farol aceso na noite escura\nUma caverna cheia de tesouros, iluminada por tochas\nUma mesa com uma taça de vinho\nA sensação de sermos bem-vindos"
+        "pathworking": "Um farol aceso na noite escura\nUma caverna cheia de tesouros, iluminada por tochas\nUma mesa com uma taça de vinho\nA sensação de sermos bem-vindos",
     },
     {
         "id": 66,
         "name": "Amdusias",
         "enn": "Denyen valocur avage secore Amdusias",
-        "description": "O sexagésimo sétimo espírito é conhecido como Amdusias, ou Amdukias. Trata-se de um grande e poderoso Duque, que aparece inicialmente sob a forma de um majestoso unicórnio. Contudo, a pedido do exorcista, ele pode assumir uma forma humana que reflete toda a sua força e grandeza. Amdusias possui habilidades sobrenaturais para facilitar o aprendizado da música e aumentar a inspiração de um artista. Com sua ajuda, um músico ou compositor pode aprimorar suas habilidades musicais e criar obras que inspiram e emocionam o público. Além disso, Amdusias tem a capacidade de influenciar as vontades das pessoas. Ele pode fazer com que as pessoas concordem com o mago que o convoca e se comportem de acordo com a vontade dele. Essa habilidade pode ser muito útil em situações em que é necessário persuadir ou convencer alguém. Outra habilidade de Amdusias é a de fornecer excelentes espíritos familiares ao mago que o invoca. Em seu comando, Amdusias governa 29 legiões de espíritos que estão prontos para cumprir suas ordens e realizar seus desejos.",
+        "description": "O sexagésimo sétimo espírito é conhecido como Amdusias, ou Amdukias. Trata-se de um grande e poderoso Duque, que aparece inicialmente sob a forma de um majestoso unicórnio. Contudo, a pedido do exorcista, ele pode assumir uma forma humana que reflete toda a sua força e grandeza.\n\nAmdusias possui habilidades sobrenaturais para facilitar o aprendizado da música e aumentar a inspiração de um artista. Com sua ajuda, um músico ou compositor pode aprimorar suas habilidades musicais e criar obras que inspiram e emocionam o público.\n\nAlém disso, Amdusias tem a capacidade de influenciar as vontades das pessoas. Ele pode fazer com que as pessoas concordem com o mago que o convoca e se comportem de acordo com a vontade dele. Essa habilidade pode ser muito útil em situações em que é necessário persuadir ou convencer alguém.\n\nOutra habilidade de Amdusias é a de fornecer excelentes espíritos familiares ao mago que o invoca.\n\nEm seu comando, Amdusias governa 29 legiões de espíritos que estão prontos para cumprir suas ordens e realizar seus desejos.",
         "planet": "Lua",
         "direction": "Norte",
-        "pathworking": "Uma redoma de vidro, cheia de um líquido brilhante\nUm circuito montado numa placa, sobre uma mesa\nUm grande laboratório, cheio de coisas novas e antigas\nUma sensação de conhecimento"
+        "pathworking": "Uma redoma de vidro, cheia de um líquido brilhante\nUm circuito montado numa placa, sobre uma mesa\nUm grande laboratório, cheio de coisas novas e antigas\nUma sensação de conhecimento",
     },
     {
         "id": 67,
         "name": "Belial",
         "enn": "Lirach Tasa Vefa Wehl Belial",
-        "description": "O sexagésimo oitavo espírito é Belial, um poderoso e majestoso Rei que governa sobre 50 legiões de espíritos. Ele é uma entidade impressionante, que aparece na forma de dois anjos deslumbrantes sentados em uma carruagem flamejante. Sua voz graciosa e sedutora pode atrair até mesmo os mais desconfiados. Belial tem uma reputação de ter sido um dos mais dignos anjos antes de sua queda, mesmo acima de Miguel e outras figuras celestiais. Ele aparece no Antigo Testamento de várias formas, e uma das mais interessantes é a referência aos 'filhos de Belial', o que o coloca imediatamente numa posição de destaque entre os Shedim. Tanto pelas aparições no Antigo Testamento quanto pela descrição dada no Ars Goetia da sua forma física, ele pertence claramente ao terceiro grupo dos Shedim, os Anjos Caídos. Entre suas habilidades, Belial é capaz de facilitar o contato com pessoas importantes, o que pode ser muito útil para aqueles que buscam avançar em suas carreiras ou influenciar figuras poderosas. Além disso, ele é capaz de conseguir o favor de amigos e inimigos, ajudando aqueles que o convocam a resolver conflitos e alcançar seus objetivos de maneira mais eficaz. Belial também é conhecido por conceder excelentes familiares, companheiros mágicos que ajudam e protegem o mago em sua jornada. Ao se unir a um familiar concedido por Belial, o mago pode esperar ajuda e orientação em seus empreendimentos mágicos.",
+        "description": "O sexagésimo oitavo espírito é Belial, um poderoso e majestoso Rei que governa sobre 50 legiões de espíritos. Ele é uma entidade impressionante, que aparece na forma de dois anjos deslumbrantes sentados em uma carruagem flamejante. Sua voz graciosa e sedutora pode atrair até mesmo os mais desconfiados. Belial tem uma reputação de ter sido um dos mais dignos anjos antes de sua queda, mesmo acima de Miguel e outras figuras celestiais. Ele aparece no Antigo Testamento de várias formas, e uma das mais interessantes é a referência aos 'filhos de Belial', o que o coloca imediatamente numa posição de destaque entre os Shedim. Tanto pelas aparições no Antigo Testamento quanto pela descrição dada no Ars Goetia da sua forma física, ele pertence claramente ao terceiro grupo dos Shedim, os Anjos Caídos.\n\nEntre suas habilidades, Belial é capaz de facilitar o contato com pessoas importantes, o que pode ser muito útil para aqueles que buscam avançar em suas carreiras ou influenciar figuras poderosas. Além disso, ele é capaz de conseguir o favor de amigos e inimigos, ajudando aqueles que o convocam a resolver conflitos e alcançar seus objetivos de maneira mais eficaz.\n\nBelial também é conhecido por conceder excelentes familiares, companheiros mágicos que ajudam e protegem o mago em sua jornada. Ao se unir a um familiar concedido por Belial, o mago pode esperar ajuda e orientação em seus empreendimentos mágicos.\n\nEm resumo, Belial é um espírito poderoso e influente, capaz de facilitar conexões importantes, resolver conflitos e conceder companheiros mágicos valiosos.",
         "planet": "Sol",
         "direction": "Sul",
-        "pathworking": "Um soldado com armadura prateada, com um chicote na mão\nUma muralha com altas torres\nA porta da fortaleza, aberta para nós\nUma sensação de força"
+        "pathworking": "Um soldado com armadura prateada, com um chicote na mão\nUma muralha com altas torres\nA porta da fortaleza, aberta para nós\nUma sensação de força",
     },
     {
         "id": 68,
         "name": "Decarabia",
         "enn": "Hoesta noc ra Decarabia secore",
-        "description": "O sexagésimo nono Espírito é Decarabia, um Grande Marquês que aparece inicialmente na forma de uma estrela em um pentagrama. No entanto, após a ordem do exorcista, ele assume uma forma humana para atender às necessidades do invocador. Seu poder reside em sua capacidade de desvendar informações sigilosas, podendo ver coisas que passam despercebidas para as pessoas, assim como as aves que voam alto e enxergam tudo o que se passa na Terra, Decarabia é capaz de vislumbrar o interior dos corações e ações das pessoas e fornecer essas informações ao mago que o convoca. Ele também pode reconhecer e avisar o mago sobre as 'pedras preciosas', ou seja, os elementos únicos e muito importantes na vida de alguém, ou na vida do próprio mago. Além disso, Decarabia é hábil em indicar quais elementos da vida do mago são importantes e merecem ser reforçados ou projetados, para que o mago possa seguir o caminho mais adequado em sua jornada. Com sua sabedoria e visão apurada, ele pode ajudar o mago a tomar decisões importantes e alcançar seus objetivos de maneira mais eficaz.",
+        "description": "O sexagésimo nono Espírito é Decarabia, um Grande Marquês que aparece inicialmente na forma de uma estrela em um pentagrama. No entanto, após a ordem do exorcista, ele assume uma forma humana para atender às necessidades do invocador.\n\nSeu poder reside em sua capacidade de desvendar informações sigilosas, podendo ver coisas que passam despercebidas para as pessoas, assim como as aves que voam alto e enxergam tudo o que se passa na Terra, Decarabia é capaz de vislumbrar o interior dos corações e ações das pessoas e fornecer essas informações ao mago que o convoca. Ele também pode reconhecer e avisar o mago sobre as 'pedras preciosas', ou seja, os elementos únicos e muito importantes na vida de alguém, ou na vida do próprio mago.\n\nAlém disso, Decarabia é hábil em indicar quais elementos da vida do mago são importantes e merecem ser reforçados ou projetados, para que o mago possa seguir o caminho mais adequado em sua jornada. Com sua sabedoria e visão apurada, ele pode ajudar o mago a tomar decisões importantes e alcançar seus objetivos de maneira mais eficaz.\n\nComo um poderoso Marquês, Decarabia governa 30 legiões de espíritos e está sempre disposto a ajudar aqueles que o convocam com sinceridade e respeito.",
         "planet": "Lua",
         "direction": "Leste",
-        "pathworking": "Uma luz intensa\nA escuridão profunda do céu numa noite sem lua\nUma clareira no bosque, iluminada por uma fogueira\nA sensação de ser observado"
+        "pathworking": "Uma luz intensa\nA escuridão profunda do céu numa noite sem lua\nUma clareira no bosque, iluminada por uma fogueira\nA sensação de ser observado",
     },
     {
         "id": 69,
         "name": "Seere",
         "enn": "Jeden et Renich Seere tu tasa",
-        "description": "O septuagésimo espírito na hierarquia demoníaca é conhecido por diferentes nomes: Seere, Sear ou Seir. Ele é um Príncipe forte e poderoso, cuja presença é marcada pela beleza singular e uma aura majestosa. Quando se manifesta, Seere cavalga um cavalo alado com desenvoltura e destreza. De acordo com o Ars Goetia, a especialidade de Seere é ir e vir, trazendo consigo um poder sobrenatural que lhe permite realizar diversas tarefas em questão de segundos. Seu poder de deslocamento é extraordinário, capaz de percorrer o mundo inteiro em um piscar de olhos. Dessa forma, Seere é um especialista em levar e trazer informação, sendo capaz de descobrir roubos, tesouros escondidos e muitas outras coisas. Seere é um ser indiferente em sua natureza, disposto a realizar qualquer coisa que seja solicitada pelo mago. Sua habilidade em cruzar barreiras temporais e espaciais o torna um aliado valioso na busca por conhecimento e na realização de tarefas aparentemente impossíveis. Ademais, Seere governa 26 legiões de espíritos, demonstrando sua habilidade em liderar e comandar uma grande quantidade de seres. Em suas mãos, esses seres são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.",
+        "description": "O septuagésimo espírito na hierarquia demoníaca é conhecido por diferentes nomes: Seere, Sear ou Seir. Ele é um Príncipe forte e poderoso, cuja presença é marcada pela beleza singular e uma aura majestosa. Quando se manifesta, Seere cavalga um cavalo alado com desenvoltura e destreza.\n\nDe acordo com o Ars Goetia, a especialidade de Seere é ir e vir, trazendo consigo um poder sobrenatural que lhe permite realizar diversas tarefas em questão de segundos. Seu poder de deslocamento é extraordinário, capaz de percorrer o mundo inteiro em um piscar de olhos. Dessa forma, Seere é um especialista em levar e trazer informação, sendo capaz de descobrir roubos, tesouros escondidos e muitas outras coisas.\n\nSeere é um ser indiferente em sua natureza, disposto a realizar qualquer coisa que seja solicitada pelo mago. Sua habilidade em cruzar barreiras temporais e espaciais o torna um aliado valioso na busca por conhecimento e na realização de tarefas aparentemente impossíveis.\n\nAdemais, Seere governa 26 legiões de espíritos, demonstrando sua habilidade em liderar e comandar uma grande quantidade de seres. Em suas mãos, esses seres são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.\n\nEm resumo, Seere é um Príncipe poderoso, cuja capacidade de deslocamento e conhecimento tornam-no um aliado indispensável para quem busca o conhecimento e o poder. Sua natureza indiferente e habilidade em liderar legiões de espíritos demonstram sua capacidade de atender às mais diversas demandas dos magos que invocam sua presença.",
         "planet": "Júpiter",
         "direction": "Leste",
-        "pathworking": "Um rolo de papiro parcialmente aberto\nUma mesa com instrumentos de escrita\nUma biblioteca antiga, com cadeiras de madeira\nUma sensação de curiosidade"
+        "pathworking": "Um rolo de papiro parcialmente aberto\nUma mesa com instrumentos de escrita\nUma biblioteca antiga, com cadeiras de madeira\nUma sensação de curiosidade",
     },
     {
         "id": 70,
         "name": "Dantalion",
         "enn": "Avage ayer Dantalion on ca",
-        "description": "O septuagésimo primeiro espírito da hierarquia demoníaca é Dantalion, um Duque grande e poderoso, cuja presença é marcada por uma aparência singular: um homem com muitos semblantes, todos com rostos de homens e mulheres, segurando um livro em sua mão direita. De acordo com o Ars Goetia, Dantalion é um mestre das artes e ciências, capaz de ensinar os mais complexos conhecimentos aos magos que invocam sua presença. Além disso, ele é capaz de dar conselhos secretos, pois conhece os pensamentos de todos e pode mudá-los à vontade. Dentre suas habilidades mágicas, destaca-se sua capacidade de causar amor e de fazer com que a pessoa alvo do trabalho 'veja' o outro em todas as partes, até mesmo em sonhos. Essa influência mágica é potencializada pela capacidade de Dantalion de fixar a imagem da pessoa que está em contato com ele na mente e no coração do alvo, independentemente de onde estiverem no mundo. O efeito final é arrasador. Por fim, Dantalion governa 36 legiões de espíritos, demonstrando sua habilidade em liderar e comandar uma grande quantidade de seres. Sob sua liderança, esses espíritos são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.",
+        "description": "O septuagésimo primeiro espírito da hierarquia demoníaca é Dantalion, um Duque grande e poderoso, cuja presença é marcada por uma aparência singular: um homem com muitos semblantes, todos com rostos de homens e mulheres, segurando um livro em sua mão direita.\n\nDe acordo com o Ars Goetia, Dantalion é um mestre das artes e ciências, capaz de ensinar os mais complexos conhecimentos aos magos que invocam sua presença. Além disso, ele é capaz de dar conselhos secretos, pois conhece os pensamentos de todos e pode mudá-los à vontade.\n\nDentre suas habilidades mágicas, destaca-se sua capacidade de causar amor e de fazer com que a pessoa alvo do trabalho 'veja' o outro em todas as partes, até mesmo em sonhos. Essa influência mágica é potencializada pela capacidade de Dantalion de fixar a imagem da pessoa que está em contato com ele na mente e no coração do alvo, independentemente de onde estiverem no mundo. O efeito final é arrasador.\n\nPor fim, Dantalion governa 36 legiões de espíritos, demonstrando sua habilidade em liderar e comandar uma grande quantidade de seres. Sob sua liderança, esses espíritos são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.\n\nEm resumo, Dantalion é um Duque poderoso e versátil, capaz de ensinar conhecimentos valiosos aos magos e de influenciar poderosamente a vida daqueles que são alvo de seus trabalhos mágicos. Sua habilidade em liderar legiões de espíritos demonstra sua capacidade de controlar e comandar grandes quantidades de seres em nome da realização dos desejos do mago que o invoca.",
         "planet": "Vênus",
         "direction": "Oeste",
-        "pathworking": "Uma nave antiga, navegando num mar agitado\nO convés, banhado em água das ondas\nO camarote do capitão, com uma lareira acesa\nUma sensação de segurança"
+        "pathworking": "Uma nave antiga, navegando num mar agitado\nO convés, banhado em água das ondas\nO camarote do capitão, com uma lareira acesa\nUma sensação de segurança",
     },
     {
         "id": 71,
         "name": "Andromalius",
         "enn": "Tasa fubin Andromalius on ca",
-        "description": "Andromalius é o septuagésimo segundo Espírito listado no Ars Goetia, e é conhecido por seu ofício em trazer de volta um ladrão e os bens roubados. Ele se apresenta como um conde grande e poderoso, de boa aparência, e sempre com a presença de uma grande serpente. Além de sua habilidade em recuperar bens roubados, Andromalius é capaz de descobrir toda a maldade e negociação desleal, sendo um poderoso aliado para aqueles que buscam a justiça e a verdade. Com sua habilidade mágica, ele pode punir todos os ladrões e outras pessoas más, demonstrando sua capacidade em fazer valer a ordem e a retidão. Mas Andromalius não se limita a trazer justiça e punição. Ele também é capaz de descobrir tesouros que estão escondidos, revelando riquezas que antes eram desconhecidas. Essa habilidade o torna um poderoso aliado para aqueles que buscam riquezas e prosperidade. Em sua posição como governante de 36 Legiões de Espíritos, Andromalius demonstra sua habilidade em liderar e comandar uma grande quantidade de seres. Sob sua liderança, esses espíritos são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.",
+        "description": "Andromalius é o septuagésimo segundo Espírito listado no Ars Goetia, e é conhecido por seu ofício em trazer de volta um ladrão e os bens roubados. Ele se apresenta como um conde grande e poderoso, de boa aparência, e sempre com a presença de uma grande serpente.\n\nAlém de sua habilidade em recuperar bens roubados, Andromalius é capaz de descobrir toda a maldade e negociação desleal, sendo um poderoso aliado para aqueles que buscam a justiça e a verdade. Com sua habilidade mágica, ele pode punir todos os ladrões e outras pessoas más, demonstrando sua capacidade em fazer valer a ordem e a retidão. Mas Andromalius não se limita a trazer justiça e punição. Ele também é capaz de descobrir tesouros que estão escondidos, revelando riquezas que antes eram desconhecidas. Essa habilidade o torna um poderoso aliado para aqueles que buscam riquezas e prosperidade.\n\nEm sua posição como governante de 36 Legiões de Espíritos, Andromalius demonstra sua habilidade em liderar e comandar uma grande quantidade de seres. Sob sua liderança, esses espíritos são controlados e colocados a serviço do mago, sendo utilizados em diversas atividades mágicas.\n\nEm resumo, Andromalius é um conde grande e poderoso, capaz de trazer de volta bens roubados, descobrir maldades e negociações desleais, punir ladrões e outras pessoas más, descobrir tesouros escondidos e liderar legiões de espíritos. Sua habilidade em fazer valer a justiça e a ordem é um valioso recurso para aqueles que buscam a retidão, enquanto sua habilidade em revelar tesouros desconhecidos o torna um poderoso aliado para aqueles que buscam prosperidade e riqueza.",
         "planet": "Marte",
         "direction": "Sul",
-        "pathworking": "Uma espada com cabo de prata\nUma caverna cheia de tesouros empoeirados\nUma mesa, sobre ela um grimório antigo, cheio de segredos\nUma sensação de sabedoria"
-    }
+        "pathworking": "Uma espada com cabo de prata\nUma caverna cheia de tesouros empoeirados\nUma mesa, sobre ela um grimório antigo, cheio de segredos\nUma sensação de sabedoria",
+    },
 ]
 
 sangoma = {
@@ -1833,31 +1824,31 @@ sangoma = {
         },
         {
             "name": "Botão",
-            "description": "Todo tipo de relação, seja de negócios, amizades, se estiver junto da aliança é relação muito forte"
+            "description": "Todo tipo de relação, seja de negócios, amizades, se estiver junto da aliança é relação muito forte",
         },
         {
             "name": "Crucifixo",
-            "description": "Espiritualidade, caminhos, impedimentos na vida, sofrimentos, tudo depende de qual parte que cai ou qual osso tá junto"
+            "description": "Espiritualidade, caminhos, impedimentos na vida, sofrimentos, tudo depende de qual parte que cai ou qual osso tá junto",
         },
         {
             "name": "Concha",
-            "description": "Estado emocional, relações amorosas, mas na pessoa em si, não o casal"
+            "description": "Estado emocional, relações amorosas, mas na pessoa em si, não o casal",
         },
         {
             "name": "Chave",
-            "description": "Projetos, negócios, casas, carro, tudo que tange o comércio, caminhos, possiblidade, oportunidades"
+            "description": "Projetos, negócios, casas, carro, tudo que tange o comércio, caminhos, possiblidade, oportunidades",
         },
         {
             "name": "Moeda",
-            "description": "Prosperidade, negócios, comércio, dívidas que precisam ser pagas (se cai moeda, crucifixo e caveira, é dívida pra espírito)"
+            "description": "Prosperidade, negócios, comércio, dívidas que precisam ser pagas (se cai moeda, crucifixo e caveira, é dívida pra espírito)",
         },
         {
             "name": "Dado",
-            "description": "Mundo dos prazeres, noitadas, bares, da sorte. Tem também o simbolismo numerológico. Pode falar de tempo"
+            "description": "Mundo dos prazeres, noitadas, bares, da sorte. Tem também o simbolismo numerológico. Pode falar de tempo",
         },
         {
             "name": "Fícula da sorte",
-            "description": "Família, estrutura, boa sorte, riquezas, heranças, tudo o que cai sobre os ombros de uma pessoa"
+            "description": "Família, estrutura, boa sorte, riquezas, heranças, tudo o que cai sobre os ombros de uma pessoa",
         },
         {
             "name": "4 búzios",
@@ -1869,7 +1860,7 @@ sangoma = {
         },
         {
             "name": "Dente de cavalo",
-            "description": "Soberania, proteção, liberdade financeira"
+            "description": "Soberania, proteção, liberdade financeira",
         },
     ],
     "buzios": [
@@ -1880,7 +1871,7 @@ sangoma = {
         {
             "name": "3 abertos e 1 fechado",
             "description": "Não"
-        },
+            },
         {
             "name": "2 abertos e 2 fechados",
             "description": "Sim"
@@ -1891,36 +1882,41 @@ sangoma = {
         },
         {
             "name": "4 fechados",
-            "description": "Perigo, negativo ou algo que Exú quer dizer como alerta"
-        }
-    ]
+            "description": "Perigo, negativo ou algo que Exú quer dizer como alerta",
+        },
+    ],
 }
 
 
-@app.route('/', methods=['GET'])
+@app.route("/", methods=["GET"])
 def get_all_cards():
     return jsonify(cards)
 
-@app.route('/runes', methods=['GET'])
+
+@app.route("/runes", methods=["GET"])
 def get_all_runes():
     return jsonify(runes)
 
-@app.route('/daemons', methods=['GET'])
+
+@app.route("/daemons", methods=["GET"])
 def get_all_daemons():
     return jsonify(daemons)
 
-@app.route('/sangoma', methods=['GET'])
+
+@app.route("/sangoma", methods=["GET"])
 def get_all_bones():
     return jsonify(sangoma)
 
-@app.route('/get_card/<int:card_id>', methods=['GET'])
+
+@app.route("/get_card/<int:card_id>", methods=["GET"])
 def get_card(card_id):
     card = next((c for c in cards if c["id"] == card_id), None)
-    
+
     if card:
         return jsonify(card)
     else:
         return jsonify({"error": "Card not found"}), 404
+
 
 if __name__ == "__main__":
     app.run(debug=True)
