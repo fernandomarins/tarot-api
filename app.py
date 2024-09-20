@@ -1290,8 +1290,98 @@ daemons = [
         "description": "O Décimo Terceiro Espírito, conhecido como Beleth (também referido como Bileth ou Bilet), é um rei poderoso e temido na hierarquia dos espíritos. Segundo o Ars Goetia, ele é frequentemente descrito como cavalgando em um cavalo de cor clara, acompanhado por trombetas e outros instrumentos musicais, que ecoam em sua presença.\n\nA primeira aparição de Beleth pode ser intimidante e desconcertante, pois sua fúria é perceptível. O Mago, porém, deve permanecer firme na sua intenção, até ele ficar calmo. No entanto, mesmo mostrando seu poder pessoal, o Mago não pode nunca esquecer que Beleth é um Grande Rei e deve ser tratado com cortesia e respeito, como qualquer outro rei ou príncipe que merece homenagens.\n\nA importância deste Senhor Antigo fica clara quando consideramos que, segundo o Pseudomonarchia Daemonum, já citado antes, o filho de Noé, Ham, foi o primeiro a invocá-lo após o dilúvio e, com a ajuda dele, escreveu um livro sobre matemática. Isto já nos indica que ele pode nos ajudar tanto no estudo de ciências exatas quanto no pensamento lógico.\n\nMas o poder principal de Beleth é o de influenciar e manipular o amor entre homens e mulheres, podendo fazer com que eles se apaixonem profundamente. Ele pode conceder os desejos dos magos e magas que o invocam, trazendo assim, felicidade e satisfação aos seus corações.\n\nDe acordo com a tradição, Beleth pertence à Ordem das Potências e tem o controle de 85 legiões de espíritos, o que indica seu status e grandeza na hierarquia espiritual.",
         "planet": "Sol",
         "direction": "Norte",
-        "pathworking": "Uma espada com cabo de ouro e rubis\nUma cama coberta com uma colcha vermelha e dourada\nUm jardim cheio de flores exuberantes\nUma sensação de alegria"
+        "pathworking": "Um cavalo branco\nUm campo verde, com flores vermelhas\nUm círculo de pedras\nUma sensação de firmeza"
     },
+        {
+        "id": 13,
+        "name": "Beleth",
+        "enn": "Caymen vefa Leraje",
+        "description": "Leraje, também conhecido como Leraie, é o décimo quarto Espírito da Goétia. Leraje é um Marquês Grande em Poder, que se apresenta como um Arqueiro vestido de verde, carregando um arco e uma aljava. A imagem do arqueiro simboliza sua habilidade em atingir seus objetivos, assim como sua natureza competitiva e guerreira.\n\nLeraje é conhecido por sua capacidade de causar grandes batalhas e competições, sendo um espírito que pode ser invocado para ajudar em disputas e conflitos. Além disso, ele também é capaz de causar feridas profundas que podem se tornar infectadas, uma habilidade que é considerada perigosa e pode ser usada como arma em uma batalha.\n\nAssociado ao signo de Sagitário, Leraje é considerado um espírito de fogo, o que significa que ele é impetuoso, apaixonado e enérgico. Sua energia é considerada dinâmica e transformadora, e pode ser invocada para trazer mudanças rápidas e intensas.\n\nLeraje governa trinta legiões de espíritos, o que significa que ele tem um grande poder e influência sobre outros espíritos e demônios. Seu domínio sobre essas legiões o torna um espírito poderoso e temido, mas também pode ser invocado para ajudar em questões relacionadas à liderança e organização.\n\nGuerreiro, competitivo e impetuoso, Leraje é capaz de causar conflitos e feridas profundas nos alvos determinados pelo mago. Seu domínio sobre trinta legiões de espíritos o torna uma figura poderosa e influente no mundo espiritual, e pode ser invocado para ajudar em disputas, batalhas e questões relacionadas à liderança.",
+        "planet": "Lua",
+        "direction": "Sul",
+        "pathworking": "Uma mão empunhando uma faca\nUma mesa com pão e vinho\nUm cômodo fresco, num dia de sol insuportável\nUma sensação de descanso"
+    },
+    {
+        "id": 14,
+        "name": "Eligos",
+        "enn": "Jedan on ca Eligos inan",
+        "description": "Eligos é o décimo quinto Espírito da Goétia. Ele é um Grande Duque que aparece na forma de um belo cavaleiro, carregando uma lança, uma insígnia e uma serpente. Sua imagem simboliza sua habilidade em desvendar coisas ocultas e conhecer eventos futuros, assim como sua natureza guerreira e protetora.\n\nEligos é conhecido por sua habilidade em descobrir segredos ocultos e prever eventos futuros, especialmente relacionados a guerras e conflitos. Ele é capaz de fornecer informações sobre como as batalhas serão travadas, o que as pessoas podem esperar encontrar e como elas podem se preparar para a vitória. Seu conhecimento das artes da guerra o torna um espírito valioso para aqueles que buscam a vitória em disputas militares.\n\nAlém disso, Eligos é capaz de inspirar o amor e o aprecio dos senhores e das grandes personalidades, uma habilidade que pode ser usada para conquistar a simpatia e a benevolência dos poderosos. Seu domínio sobre o amor o torna um espírito capaz de trazer harmonia e equilíbrio às relações pessoais e interpessoais.\n\nEligos governa sessenta legiões de espíritos, o que significa que ele tem um grande poder e influência sobre outros espíritos e demônios. Seu domínio sobre essas legiões o torna uma figura poderosa e temida no mundo espiritual, mas também pode ser invocado para ajudar em questões relacionadas à liderança e organização.\n\nGuerreiro e protetor, Eligos é capaz de fornecer informações precisas sobre eventos futuros e ajudar na preparação para a vitória em batalhas. Sua habilidade em inspirar o amor dos poderosos o torna um espírito valioso em questões políticas e pessoais. Seu domínio sobre sessenta legiões de espíritos o torna uma figura poderosa e influente no mundo espiritual, capaz de ajudar em questões de liderança e organização.",
+        "planet": "Vênus",
+        "direction": "Oeste",
+        "pathworking": "Uma serpente se arrasta pelo chão\nUm guerreiro observa com atenção\nUma mesa com duas jarras de cerveja\nUma sensação de força"
+    },
+    {
+        "id": 15,
+        "name": "Zepar",
+        "enn": "Lyan Ramec catya Zep",
+        "description": "Zepar é o décimo sexto espírito da Goetia, listado como um Grande Duque. Ele é descrito como um soldado com roupas e armaduras vermelhas. O seu ofício é fazer com que as mulheres se apaixonem pelos homens e, assim, uni-los no amor. Além disso, ele é conhecido por torná-las estéreis.\n\nSegundo a tradição ocultista, Zepar é invocado pelos magos para ajudá-los a conquistar o amor de uma mulher desejada. Ele pode ser solicitado para ajudar a fortalecer um relacionamento amoroso existente ou para atrair um novo amor.\n\nAlém disso, é importante destacar que Zepar governa 26 legiões de espíritos inferiores. Esses espíritos podem ser convocados pelos magos para ajudá-los em diferentes tarefas, desde a proteção pessoal até a obtenção de riqueza.",
+        "planet": "Vênus",
+        "direction": "Norte",
+        "pathworking": "Um cavalo negro esperando o cavaleiro\nUm caminho beirado por árvores\nUma mesa com cadeiras, pão e vinho, sob uma grande árvore\nA sensação de ser sedutor"
+    },
+    {
+        "id": 16,
+        "name": "Botis",
+        "enn": "Jedan hoesta noc ra Botis",
+        "description": "O décimo sétimo espírito da Goetia é Botis, um grande presidente e conde que tem uma aparência um tanto quanto assustadora. Quando se manifesta pela primeira vez, ele assume a forma de uma víbora. No entanto, sob o comando do mago que o invocou, ele pode assumir uma forma humana, com grandes dentes e dois chifres. Em suas mãos, ele carrega uma espada brilhante e afiada, pronta para usar em defesa de seu invocador.\n\nBotis é um espírito muito poderoso e é conhecido por ter o dom de contar todas as coisas passadas e futuras. Ele é um grande aliado para aqueles que buscam orientação sobre o que está por vir, e também para aqueles que desejam entender melhor seu passado.\n\nAlém desse poder, Botis tem uma habilidade única para reconciliar amigos e inimigos, tornando-o um aliado valioso para aqueles que desejam resolver conflitos e curar relacionamentos quebrados.\n\nÉ interessante notar que Botis governa mais de 60 legiões de espíritos, o que indica que ele é um espírito muito respeitado e temido entre seus pares. As habilidades e o poder de proteção de Botis são muito valorizados e sua influência é considerada extremamente poderosa.",
+        "planet": "Mercúrio/Marte",
+        "direction": "Oeste",
+        "pathworking": "Um guerreiro, com armadura, portando uma espada na mão\nUma cidade antiga, com casas brancas\nUm lugar com sombra, sob as palmeiras\nUma sensação de alegria"
+    },
+    {
+        "id": 17,
+        "name": "Bathin",
+        "enn": "Dyen Pretore on ca Bathin",
+        "description": "Bathin é o décimo oitavo espírito da hierarquia do Ars Goetia e é conhecido como um duque poderoso e forte. Sua aparência é descrita como a de um homem forte, com uma cauda de serpente e montado em um cavalo pálido. Essa imagem é impressionante e muitas vezes evoca medo e respeito em quem o invoca.\n\nEntre suas habilidades e poderes, Bathin é reconhecido por sua extensa compreensão das virtudes das ervas e das pedras preciosas.\n\nSegundo o Ars Goetia, ele tem o poder de transportar repentinamente homens de um país para outro. Mesmo que isso não aconteça fisicamente, essa habilidade o torna um espírito extremamente útil para aqueles que precisam viajar longas distâncias, com rapidez. Ele pode fazer com que a viagem aconteça de forma suave e rápida. Também é muito útil para quem quer refinar a arte da viagem astral.\n\nBathin é também um governante, com o controle de mais de 30 legiões de espíritos. Seus poderes de comando são considerados altamente eficazes e muitas vezes são temidos por aqueles que o servem. No entanto, para aqueles que o invocam com respeito e devoção, Bathin pode oferecer proteção, sabedoria e orientação em seu caminho espiritual.\n\nEmbora não seja tão conhecido, Bathin é um espírito poderoso e respeitado, com habilidades e poderes que são altamente valorizados pelos que buscam seu auxílio. Seu conhecimento das virtudes das ervas e das pedras preciosas e seu poder de transporte o tornam um espírito muito procurado, enquanto sua posição de governante o torna uma figura de autoridade e comando no mundo dos espíritos.",
+        "planet": "Vênus",
+        "direction": "Norte",
+        "pathworking": "Uma bússola antiga\nA ponte de um barco, com a roda do leme de madeira\nO deck do barco, durante o dia, com o mar agitado\nUma sensação de tensão"
+    },
+    {
+        "id": 18,
+        "name": "Sallos",
+        "enn": "Serena Alora Sallos Aken",
+        "description": "O décimo nono espírito da lista de espíritos descritos no Ars Goetia é conhecido como Sallos (ou Saleos). Descrito como um Grande e Poderoso Duque, Sallos é um ser espiritual que tem o poder de influenciar os desejos amorosos das pessoas. Ele é capaz de conceder o amor das mulheres aos homens e dos homens às mulheres, sendo considerado um especialista em assuntos do coração.\n\nQuando evocado, Sallos se manifesta na forma de um galante soldado montado em um crocodilo, usando uma coroa ducal na cabeça, mas de maneira pacífica. A sua aparência exótica e impressionante, bem como o seu ar imponente, demonstra o seu poder e autoridade como um dos grandes duques do inferno.\n\nDe acordo com os grimórios antigos, Sallos governa trinta legiões de espíritos e é um dos mais importantes comandantes entre os Shedim. A sua influência é capaz de moldar as emoções e os desejos das pessoas, tornando-o uma entidade muito procurada por aqueles que buscam ajuda nos assuntos amorosos.\n\nSallos é um espírito extremamente poderoso e respeitado, conhecido por governar legiões de outros seres espirituais e ter a capacidade de conceder o amor e influenciar os desejos amorosos das pessoas.",
+        "planet": "Vênus",
+        "direction": "Norte",
+        "pathworking": "Uma grande catedral, com bancos de madeira escura\nUm enorme órgão, com tubos de metal brilhante\nUm jardim do lado de fora, com bancos de pedra\nA sensação de justiça"
+    },
+    {
+        "id": 19,
+        "name": "Purson",
+        "enn": "Ana jecore on ca Purson",
+        "description": "O vigésimo espírito da lista de espíritos descritos no 'Ars Goetia' é Purson, um Grande Rei cuja aparência é imponente e majestosa. Ele é descrito como um homem com rosto de leão e carregando uma víbora cruel em sua mão. À medida que ele avança, o som de muitas trombetas pode ser ouvido ao seu redor, anunciando a sua chegada.\n\nPurson é conhecido por possuir grande conhecimento e sabedoria, sendo capaz de descobrir tesouros ocultos e revelar informações sobre o passado, presente e futuro. Ele pode assumir uma forma humana ou etérea e tem a habilidade de responder com veracidade a todas as questões terrenas, secretas e divinas, incluindo aquelas sobre a criação do mundo.\n\nDe acordo com a tradição goética, Purson é capaz de gerar bons espíritos familiares, que são seres espirituais que ajudam os humanos em suas tarefas e objetivos pessoais. Sob seu governo, há vinte e duas legiões de espíritos, que são parte da ordem das Virtudes e parte da ordem dos Tronos.\n\nPurson é um espírito extremamente poderoso e respeitado na tradição ocultista, sendo considerado um dos grandes entre os Shedim. Sua aparência majestosa e sua habilidade de revelar informações ocultas fazem dele uma entidade muito procurada por aqueles que buscam sabedoria e conhecimento em assuntos espirituais e ocultos.",
+        "planet": "Sol",
+        "direction": "Norte",
+        "pathworking": "Um cavaleiro em armadura, sobre um cavalo branco\nUma grande mansão\nUm cômodo com poltronas de madeira frente a uma lareira acesa\nUma sensação de força"
+    },
+    {
+        "id": 20,
+        "name": "Marax",
+        "enn": "Kaymen Vefa Marax",
+        "description": "O vigésimo primeiro espírito da lista de espíritos descritos no 'Ars Goetia' é Marax, um Grande Conde e Presidente. Ele é descrito como um grande touro com rosto humano, e é um Shedim que se especializa em trazer sabedoria aos homens.\n\nMarax pode ajudar aqueles que buscam conhecimento em astronomia e outras ciências liberais. Ele é capaz de compartilhar conhecimentos e segredos ocultos sobre o universo e suas leis. Além disso, ele pode conceder a seus invocadores a habilidade de entender os segredos da natureza, incluindo as virtudes das ervas e pedras preciosas.\n\nSegundo a tradição goética, Marax é capaz de gerar bons familiares, que são seres espirituais que ajudam os humanos em seus esforços e projetos pessoais. Esses familiares podem ajudar seus mestres a se tornarem sábios e conhecedores das artes ocultas, incluindo a magia, a alquimia, a astrologia e outras áreas de estudo espiritual.\n\nSob seu governo, Marax tem 30 legiões de espíritos, que são seres que trabalham sob seu comando para realizar suas tarefas e obedecer às suas ordens. Esses espíritos são habilidosos em ajudar a trazer sabedoria e conhecimento aos humanos, tornando-os mestres em várias ciências e artes.",
+        "planet": "Mercúrio/Marte",
+        "direction": "Norte",
+        "pathworking": "Uma mesa com instrumentos de alquimia\nUma lareira acesa, com um fogo azul\nUm cômodo na penumbra, aconchegante\nUma sensação de curiosidade"
+    },
+    {
+        "id": 21,
+        "name": "Ipos",
+        "enn": "Desa an Ipos Ayer",
+        "description": "O vigésimo segundo espírito é Ipos, uma poderosa Condessa e Princesa. Segundo o Ars Goetia, ela é descrita como um anjo com cabeça de leão, pés de ganso e rabo de lebre, mas Johann Weyer dá uma descrição mais interessante: ele disse que Ipos aparece como um anjo ou como um leão malvado e astuto. Eu diria que uma mistura das duas coisas se aproxima mais à realidade desta Shedim.\n\nEla é conhecida por sua grande sabedoria e conhecimento do passado, presente e futuro. De acordo com a tradição goética, Ipos é um espírito capaz de conceder inteligência e coragem aos homens. Ela é habilidosa em ajudar aqueles que buscam conhecimento, tornando-os mais sábios e astutos em suas decisões. Ela também é capaz de ajudar a desenvolver a coragem necessária para enfrentar os desafios da vida com bravura e determinação.\n\nIpos governa 36 legiões de espíritos, que trabalham sob sua supervisão para realizar suas tarefas e obedecer às suas ordens. Esses espíritos são capazes de auxiliar seus invocadores em uma ampla variedade de tarefas, incluindo a obtenção de conhecimento e sabedoria, a realização de tarefas difíceis e a superação de obstáculos.\n\nAlém disso, Ipos é capaz de ajudar a prever o futuro, permitindo que seus invocadores antecipem os desafios que enfrentarão e se preparem adequadamente para enfrentá-los. Ela é considerada um dos espíritos mais sábios e poderosos do reino espiritual, capaz de conceder habilidades e conhecimentos valiosos para aqueles que o invocam.",
+        "planet": "Marte",
+        "direction": "Oeste",
+        "pathworking": "Uma tormenta no deserto\nUma caverna escura, que protege da tempestade\nUm lago de água fresca dentro da caverna\nUma sensação de poder"
+    },
+    {
+        "id": 22,
+        "name": "Aim",
+        "enn": "Ayer avage secore Aim",
+        "description": "O Vigésimo Terceiro Espírito é Aim (ou Haborym), um Duque poderoso e imponente que se apresenta na forma de um homem belo, mas com três cabeças distintas. A primeira é de uma serpente, a segunda é de um homem com duas estrelas na testa, e a terceira é a de um bezerro. Ele cavalga em uma serpente, enquanto segura um tição em sua mão, que tem o poder de incendiar cidades, castelos e grandes lugares. Já esta característica dele o faz ideal para ajudar quando estamos querendo causar confusão num grupo de pessoas. Pode ser desde gerar mal-estar até fazer com que 'o circo pegue fogo' mesmo.\n\nAim tem a capacidade de tornar uma pessoa espirituosa, inteligente e comunicativa, de todas as formas possíveis. Com a sua ajuda, podemos nos transformar no centro das atenções em qualquer lugar. Além disso, ele tem a capacidade de dar respostas verdadeiras a perguntas específicas. Ele é um ser extremamente inteligente e sabe muito sobre os mistérios do mundo. Sua natureza ardente e poderosa torna-o útil em situações em que força e coragem são necessárias.\n\nEste duque governa 26 legiões de espíritos inferiores que estão à sua disposição para realizar suas tarefas.",
+        "planet": "Vênus",
+        "direction": "Sul",
+        "pathworking": "Uma grande fogueira, com chamas laranjas e amarelas\nUm castelo, iluminado pelas labaredas\nA sala de armas do castelo, com uma lareira onde arde um fogo azul\nUma sensação de agitação"
+    }
 ]
 
 @app.route('/', methods=['GET'])
