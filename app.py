@@ -1183,6 +1183,20 @@ daemons = [
         "planet": "Sol",
         "direction": "Sul",
         "pathworking": "O deserto\nO interior de um templo antigo\nUma fonte de água fresca\nA sensação de Segurança",
+        "houses": [
+            "1ª Casa de Si mesmo: Para aumentar a baixa auto-estima.\nPara desenvolver uma atitude de confiança.",
+            "2ª Casa de Possessões: Para alcançar clareza financeira.\nPara perceber o verdadeiro valor das coisas que possuímos.",
+            "3ª Casa das Comunicações: Para entender a mensagem do outro claramente.\nPara proteger contra ser enganado ou enganado.",
+            "4ª Casa do Lar: Para criar compreensão e aceitação em uma família.",
+            "5ª Casa da Criatividade: Fazer com que um amante em potencial veja apenas aspectos seus que são desejáveis para ele.\nPara descobrir sua sombra interior para que possa ser curada.\nIr e vir sem ser notado (isso não dá invisibilidade completa, mas coloca uma sombra ao redor da sua aura, por assim dizer, para que você se destaque menos e seja menos memorável para aqueles que o vêem. Você também não fica na memória das pessoas como vividamente).",
+            "6ª Casa de Serviço e Saúde: Para trazer estabilidade em tempos de confusão no trabalho.",
+            "7ª Casa de Casamento e Parceria: Para revelar infidelidade.\nPara esconder um caso.\nPara ver o lado sombrio de um potencial de longo prazo.",
+            "8ª Casa da Morte e Novos Começos: Para descobrir partes indesejadas de si mesmo, como maus hábitos ou pensamentos destrutivos, e mudá-los.",
+            "9ª Casa de Exploração Mental: Para revelar verdades ocultas.\nPara revelar o verdadeiro valor de um ensino espiritual.",
+            "10ª Casa da Carreira: Para ter uma visão clara da sua carreira atual e mudar o curso para um mais desejado.",
+            "11ª Casa de Esperanças, Desejos e Amigos: Para ocultar segredos de grupo.\nPara revelar os segredos de uma organização para enfraquecê-los.\nPara descobrir aqueles que procuram miná-lo.",
+            "12ª Casa do Subconsciente, Sonhos e Segredos: Para criar estados profundos e frutíferos de meditação em que muito é revelado."
+        ]
     },
     {
         "id": 2,
