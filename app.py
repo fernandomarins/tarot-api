@@ -1423,13 +1423,13 @@ daemons = [
         "direction": "Norte",
         "pathworking": "Uma espada com cabo de ouro e rubis\nUma cama coberta com uma colcha vermelha e dourada\nUm jardim cheio de flores exuberantes\nUma sensação de alegria",
         "houses": [
-            "1ª Casa de Si mesmo:\nPara trazer força para cumprir todas as tarefas exigidas de nós. Para trazer autoconfiança que os outros admiram.\n\n",
+            "1ª Casa de Si mesmo:\nPara trazer força para cumprir todas as tarefas exigidas de nós.\nPara trazer autoconfiança que os outros admiram.\n\n",
             "2ª Casa de Possessões:\nPara proteger nossas finanças e bens pessoais contra perda e roubo.\n\n",
             "3ª Casa das Comunicações:\nPara trazer grande facilidade na comunicação com outras pessoas. Para permitir o entendimento mútuo nas negociações.\n\n",
-            "4ª Casa do Lar:\nPara trazer equilíbrio e harmonia entre os membros da família. Para facilitar a comunicação em casa quando estiver tenso.\n\n",
-            "5ª Casa da Criatividade:\nPara aquecer um relacionamento romântico com a paixão quando as chamas do amor esfriarem. Para permitir a autoexpressão livre e confiante.\n\n",
+            "4ª Casa do Lar:\nPara trazer equilíbrio e harmonia entre os membros da família.\nPara facilitar a comunicação em casa quando estiver tenso.\n\n",
+            "5ª Casa da Criatividade:\nPara aquecer um relacionamento romântico com a paixão quando as chamas do amor esfriarem.\nPara permitir a autoexpressão livre e confiante.\n\n",
             "6ª Casa de Serviço e Saúde:\nTrazer força para trabalhar de forma consistente e focada na realização de nossos objetivos.\n\n",
-            "7ª Casa de Casamento e Parceria:\nPara trazer harmonia através da intimidade sexual com um parceiro. Para encorajar o desejo sexual.\n\n",
+            "7ª Casa de Casamento e Parceria:\nPara trazer harmonia através da intimidade sexual com um parceiro.\nPara encorajar o desejo sexual.\n\n",
             "8ª Casa da Morte e Novos Começos:\nPara encorajar aqueles que emprestam dinheiro a emprestar livremente.\n\n",
             "9ª Casa de Exploração Mental:\nPara trazer clareza quanto ao nosso rumo na vida.\n\n",
             "10ª Casa da Carreira:\nPara trazer uma direção e perspectiva de carreira.\n\n",
@@ -1446,7 +1446,7 @@ daemons = [
         "direction": "Norte",
         "pathworking": "Um cavalo branco\nUm campo verde, com flores vermelhas\nUm círculo de pedras\nUma sensação de firmeza",
         "houses": [
-            "1ª Casa de Si mesmo:\nPara liberar nossa auto-expressão quando nos sentimos tímidos ou inibidos. Para superar aqueles que procuram nos impedir de alcançar nossos objetivos.\n\n",
+            "1ª Casa de Si mesmo:\nPara liberar nossa auto-expressão quando nos sentimos tímidos ou inibidos.\nPara superar aqueles que procuram nos impedir de alcançar nossos objetivos.\n\n",
             "2ª Casa de Possessões:\nPara permitir que alguém economize e gaste dinheiro de forma adequada para evitar gastos excessivos.\n\n",
             "3ª Casa das Comunicações:\nPara permitir a verdadeira auto-expressão na presença de outras pessoas.\n\n",
             "4ª Casa do Lar:\nPara trazer harmonia entre amigos e família.\n\n",
@@ -1455,9 +1455,9 @@ daemons = [
             "7ª Casa de Casamento e Parceria:\nPara trazer harmonia a um casamento desequilibrado, para que os parceiros concordem e vivam em paz.\n\n",
             "8ª Casa da Morte e Novos Começos:\nPara encorajar os outros a serem mais tolerantes e generosos com você financeiramente.\n\n",
             "9ª Casa de Exploração Mental:\nTraga clareza e sabedoria em relação à direção de sua vida.\n\n",
-            "10ª Casa da Carreira:\nPara encontrar alívio quando sobrecarregado com responsabilidades no local de trabalho. Para encorajar os empregadores a considerá-lo forte, diligente e capaz de obter favores.\n\n",
-            "11ª Casa de Esperanças, Desejos e Amigos:\nPara encorajar outras pessoas a valorizar seus talentos criativos. Para fazer com que os outros lhe prestem atenção e considerem.\n\n",
-            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara permanecer focado e ter a mente clara quando outros tentam desviá-lo do caminho. Para lidar com problemas que voltam para nos assombrar do passado."
+            "10ª Casa da Carreira:\nPara encontrar alívio quando sobrecarregado com responsabilidades no local de trabalho.\nPara encorajar os empregadores a considerá-lo forte, diligente e capaz de obter favores.\n\n",
+            "11ª Casa de Esperanças, Desejos e Amigos:\nPara encorajar outras pessoas a valorizar seus talentos criativos.\nPara fazer com que os outros lhe prestem atenção e considerem.\n\n",
+            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara permanecer focado e ter a mente clara quando outros tentam desviá-lo do caminho.\nPara lidar com problemas que voltam para nos assombrar do passado."
         ]
     },
     {
@@ -1472,13 +1472,13 @@ daemons = [
             "1ª Casa de Si mesmo:\nPara trazer grande autoconfiança.\nPara encontrar alívio para os sentimentos de vergonha.\nPara aumentar a popularidade entre amigos e associados.\n\n",
             "2ª Casa de Possessões:\nPara estimular a satisfação com o que possuímos em nossa vida.\n\n",
             "3ª Casa das Comunicações:\nPara restabelecer a comunicação quando as barreiras parecem bloqueá-la.\n\n",
-            "4ª Casa do Lar:\nPara encorajar o apoio familiar e a harmonia. Para aliviar uma situação familiar tensa.\n\n",
-            "5ª Casa da Criatividade:\nPara encorajar a expressão fácil de sentimentos românticos sem vergonha ou timidez. Para se abrir e se sentir livre quando a auto-expressão parecer bloqueada.\n\n",
-            "6ª Casa de Serviço e Saúde:\nPara encorajar conexões e relacionamentos mais fortes com colegas de trabalho. Para trazer alegria para os dias de trabalho mundanos.\n\n",
+            "4ª Casa do Lar:\nPara encorajar o apoio familiar e a harmonia.\nPara aliviar uma situação familiar tensa.\n\n",
+            "5ª Casa da Criatividade:\nPara encorajar a expressão fácil de sentimentos românticos sem vergonha ou timidez.\nPara se abrir e se sentir livre quando a auto-expressão parecer bloqueada.\n\n",
+            "6ª Casa de Serviço e Saúde:\nPara encorajar conexões e relacionamentos mais fortes com colegas de trabalho.\nPara trazer alegria para os dias de trabalho mundanos.\n\n",
             "7ª Casa de Casamento e Parceria:\nPara restaurar os sentimentos congelados em um casamento ou relacionamento de longo prazo para que o amor possa florescer novamente.\n\n",
             "8ª Casa da Morte e Novos Começos:\nPara encorajar empréstimos generosos de finanças em nosso favor.\n\n",
             "9ª Casa de Exploração Mental:\nPara aliviar o tormento mental causado por pensamentos e emoções negativas.\n\n",
-            "10ª Casa da Carreira:\nPara aumentar a popularidade no local de trabalho. Para trazer alívio quando as responsabilidades se tornam insuportáveis.\n\n",
+            "10ª Casa da Carreira:\nPara aumentar a popularidade no local de trabalho.\nPara trazer alívio quando as responsabilidades se tornam insuportáveis.\n\n",
             "11ª Casa de Esperanças, Desejos e Amigos:\nPara descobrir quem são seus verdadeiros amigos e se livrar daqueles que não são.\n\n",
             "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara quebrar um período de solidão e acolher novas amizades."
         ]
@@ -1772,15 +1772,15 @@ daemons = [
             "1ª Casa de Si mesmo:\nTer consideração e compreensão para com os outros. Para se proteger contra acidentes.\n\n",
             "2ª Casa de Possessões:\nPara evitar gastos excessivos.\n\n",
             "3ª Casa das Comunicações:\nPara dar forças para enfrentar uma agenda agitada.\n\n",
-            "4ª Casa do Lar:\nPara trazer paz durante um momento estressante e caótico. Para uma transição suave para uma nova casa.\n\n",
+            "4ª Casa do Lar:\nPara trazer paz durante um momento estressante e caótico.\nPara uma transição suave para uma nova casa.\n\n",
             "5ª Casa da Criatividade:\nPara acender a paixão romântica em um relacionamento existente. Para trazer um novo relacionamento romântico para sua vida.\n\n",
-            "6ª Casa de Serviço e Saúde:\nDar-se bem com os colegas de trabalho. Para fazer as pazes com os superiores no trabalho.\n\n",
+            "6ª Casa de Serviço e Saúde:\nDar-se bem com os colegas de trabalho.\nPara fazer as pazes com os superiores no trabalho.\n\n",
             "7ª Casa de Casamento e Parceria:\nPara resolver mal-entendidos com um parceiro atual e trazer entendimento mútuo.\n\n",
             "8ª Casa da Morte e Novos Começos:\nPara garantir que aqueles que nos procuram por nosso dinheiro não ultrapassem seus limites.\n\n",
             "9ª Casa de Exploração Mental:\nPara ajudar alguém a ser vitorioso durante um processo ou julgamento no tribunal.\n\n",
             "10ª Casa da Carreira:\nPara permitir que as ambições de uma carreira sejam realizadas com sucesso.\n\n",
-            "11ª Casa de Esperanças, Desejos e Amigos:\nPara trazer proteção quando alguém está cercado de polêmica. Traz a intuição para reconhecer bons e maus conselhos que recebemos de outros.\n\n",
-            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara trazer silêncio a uma controvérsia. Para trazer contentamento com as circunstâncias atuais para permitir que coisas maiores fluam em sua vida."
+            "11ª Casa de Esperanças, Desejos e Amigos:\nPara trazer proteção quando alguém está cercado de polêmica.\nTraz a intuição para reconhecer bons e maus conselhos que recebemos de outros.\n\n",
+            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara trazer silêncio a uma controvérsia.\nPara trazer contentamento com as circunstâncias atuais para permitir que coisas maiores fluam em sua vida."
         ]
     },
     {
@@ -1794,14 +1794,14 @@ daemons = [
         "houses": [
             "1ª Casa de Si mesmo:\nPara acalmar a raiva e a irritação em si mesmo ou nos outros. Para desenvolver autoconfiança. Para trazer paz aos sentimentos de ansiedade. Para trazer força, energia e disciplina para o exercício.\n\n",
             "2ª Casa de Possessões:\nPara capacitar alguém a tomar decisões financeiras sábias.\n\n",
-            "3ª Casa das Comunicações:\nPara trazer paz às discussões. Para trazer segurança e proteção contra acidentes durante a viagem.\n\n",
+            "3ª Casa das Comunicações:\nPara trazer paz às discussões.\nPara trazer segurança e proteção contra acidentes durante a viagem.\n\n",
             "4ª Casa do Lar:\nPara superar a adversidade por meio de ações decisivas. Para trazer paz durante uma época caótica.\n\n",
-            "5ª Casa da Criatividade:\nPara se expressar de forma clara, concisa e com sabedoria. Para ser vitorioso sobre aqueles que são injustos e enganosos.\n\n",
-            "6ª Casa de Serviço e Saúde:\nFazer muito em pouco tempo. Traga a sabedoria para tomar decisões importantes na carreira.\n\n",
+            "5ª Casa da Criatividade:\nPara se expressar de forma clara, concisa e com sabedoria.\nPara ser vitorioso sobre aqueles que são injustos e enganosos.\n\n",
+            "6ª Casa de Serviço e Saúde:\nFazer muito em pouco tempo.\nTraga a sabedoria para tomar decisões importantes na carreira.\n\n",
             "7ª Casa de Casamento e Parceria:\nPara causar uma ruptura quando o relacionamento de alguém está problemático ou obsoleto (isso tem o efeito de encerrar o relacionamento ou ele passará por uma transformação positiva).\n\n",
             "8ª Casa da Morte e Novos Começos:\nPara trazer estabilidade financeira durante tempos perigosos e instáveis.\n\n",
-            "9ª Casa de Exploração Mental:\nPara permitir discussões sobre tópicos delicados ou difíceis de uma maneira racional e clara. Para encorajar a compreensão mútua para encerrar um debate.\n\n",
-            "10ª Casa da Carreira:\nPara trazer uma promoção no trabalho. Para descobrir uma nova carreira mais satisfatória.\n\n",
+            "9ª Casa de Exploração Mental:\nPara permitir discussões sobre tópicos delicados ou difíceis de uma maneira racional e clara.\nPara encorajar a compreensão mútua para encerrar um debate.\n\n",
+            "10ª Casa da Carreira:\nPara trazer uma promoção no trabalho.\nPara descobrir uma nova carreira mais satisfatória.\n\n",
             "11ª Casa de Esperanças, Desejos e Amigos:\nPara trazer força e sucesso às suas ambições de adquirir tudo o que deseja.\n\n",
             "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara se proteger contra aqueles que procuram enganá-lo. Para ver através das mentiras."
         ]
@@ -1815,17 +1815,17 @@ daemons = [
         "direction": "Norte",
         "pathworking": "Um caminho cercado por palmeiras\nUm jardim cheio de plantas e flores tropicais\nUma fonte de água clara e cristalina, com peixes coloridos\nUma sensação de força e poder",
         "houses": [
-            "1ª Casa de Si mesmo:\nPara encorajar outras pessoas a seguirem seus planos sem reclamar. Para trazer uma atmosfera de cooperação e harmonia em um grupo.\n\n",
+            "1ª Casa de Si mesmo:\nPara encorajar outras pessoas a seguirem seus planos sem reclamar.\nPara trazer uma atmosfera de cooperação e harmonia em um grupo.\n\n",
             "2ª Casa de Possessões:\nPara proteger os pertences de alguém de serem danificados. Para se proteger contra despesas excessivas.\n\n",
             "3ª Casa das Comunicações:\nPara permitir uma comunicação suave e harmoniosa com os outros. Para falar o que pensa sem causar ofensa.\n\n",
             "4ª Casa do Lar:\nPara trazer sabedoria para tomar uma decisão importante.\n\n",
-            "5ª Casa da Criatividade:\nPara ser vitorioso na competição. Para desenvolver grande força, força de vontade e determinação para cumprir seus objetivos.\n\n",
+            "5ª Casa da Criatividade:\nPara ser vitorioso na competição.\nPara desenvolver grande força, força de vontade e determinação para cumprir seus objetivos.\n\n",
             "6ª Casa de Serviço e Saúde:\nPara dar força para suportar o trabalho árduo.\n\n",
             "7ª Casa de Casamento e Parceria:\nPara trazer harmonia aos relacionamentos de longo prazo.\n\n",
-            "8ª Casa da Morte e Novos Começos:\nPara encorajar outros a emprestar livremente. Para trazer sabedoria sobre decisões financeiras importantes.\n\n",
+            "8ª Casa da Morte e Novos Começos:\nPara encorajar outros a emprestar livremente.\nPara trazer sabedoria sobre decisões financeiras importantes.\n\n",
             "9ª Casa de Exploração Mental:\nPara trazer coragem para permanecer firme quando a integridade ou crenças de alguém forem desafiadas.\n\n",
-            "10ª Casa da Carreira:\nPara conseguir uma promoção a uma posição de liderança e autoridade na carreira. Para fazer com que outros apóiem e respeitem sua autoridade.\n\n",
-            "11ª Casa de Esperanças, Desejos e Amigos:\nPara trazer paz e harmonia social. Para ver quem pode ou não ser confiável.\n\n",
+            "10ª Casa da Carreira:\nPara conseguir uma promoção a uma posição de liderança e autoridade na carreira.\nPara fazer com que outros apóiem e respeitem sua autoridade.\n\n",
+            "11ª Casa de Esperanças, Desejos e Amigos:\nPara trazer paz e harmonia social.\nPara ver quem pode ou não ser confiável.\n\n",
             "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara entender a melhor ação a ser tomada quando confrontado com uma situação problemática."
         ]
     },
@@ -1865,14 +1865,14 @@ daemons = [
             "2ª Casa de Possessões:\nPara trazer estabilidade e sabedoria para as próprias decisões financeiras e gestão.\n\n",
             "3ª Casa das Comunicações:\nPara trazer uma solução pacífica para as discussões.\n\n",
             "4ª Casa do Lar:\nPara restaurar a paz ao lar durante tempos difíceis.\n\n",
-            "5ª Casa da Criatividade:\nPara se expressar de forma clara e eficaz. Para trazer paz às discussões com nosso amante.\n\n",
+            "5ª Casa da Criatividade:\nPara se expressar de forma clara e eficaz.\nPara trazer paz às discussões com nosso amante.\n\n",
             "6ª Casa de Serviço e Saúde:\nPara trazer paz e ordem em tempos de ansiedade ou caos no trabalho.\n\n",
             "7ª Casa de Casamento e Parceria:\nPara trazer harmonia e compreensão mútua em um relacionamento durante as discussões.\n\n",
             "8ª Casa da Morte e Novos Começos:\nPara descobrir talentos ocultos.\n\n",
-            "9ª Casa de Exploração Mental:\nPara trazer paz às discussões. Para permitir resultados frutíferos para debates.\n\n",
-            "10ª Casa da Carreira:\nPara proteger a reputação de alguém no trabalho. Para se defender com eloquência quando desafiado.\n\n",
+            "9ª Casa de Exploração Mental:\nPara trazer paz às discussões.\nPara permitir resultados frutíferos para debates.\n\n",
+            "10ª Casa da Carreira:\nPara proteger a reputação de alguém no trabalho.\nPara se defender com eloquência quando desafiado.\n\n",
             "11ª Casa de Esperanças, Desejos e Amigos:\nPara expandir o círculo social e fazer novos amigos.\n\n",
-            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara trazer sabedoria para tomar uma decisão importante. Para entender as verdadeiras intenções por trás das palavras e ações dos outros."
+            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara trazer sabedoria para tomar uma decisão importante.\nPara entender as verdadeiras intenções por trás das palavras e ações dos outros."
         ]
     },
     {
@@ -1884,18 +1884,18 @@ daemons = [
         "direction": "Leste",
         "pathworking": "Um escudo e uma lança\nUma mesa e dois bancos\nUm deserto de areias douradas, com grandes palmeiras\nUma sensação de alegria",
         "houses": [
-            "1ª Casa de Si mesmo:\nTrazer sabedoria para tomar decisões importantes em relação à vida pessoal. Para trazer sabedoria para agir adequadamente em qualquer situação.\n\n",
-            "2ª Casa de Possessões:\nPara se proteger contra perdas financeiras. Administrar as finanças e o orçamento para permitir o cumprimento de metas.\n\n",
-            "3ª Casa das Comunicações:\nPara superar os maus hábitos. Ver os outros e as situações como realmente são, para permitir que decisões responsáveis e apropriadas sejam tomadas.\n\n",
+            "1ª Casa de Si mesmo:\nTrazer sabedoria para tomar decisões importantes em relação à vida pessoal.\nPara trazer sabedoria para agir adequadamente em qualquer situação.\n\n",
+            "2ª Casa de Possessões:\nPara se proteger contra perdas financeiras.\nAdministrar as finanças e o orçamento para permitir o cumprimento de metas.\n\n",
+            "3ª Casa das Comunicações:\nPara superar os maus hábitos. \ner os outros e as situações como realmente são, para permitir que decisões responsáveis e apropriadas sejam tomadas.\n\n",
             "4ª Casa do Lar:\nPara ver uma saída de circunstâncias difíceis ou esmagadoras, um novo começo pode ser feito.\n\n",
-            "5ª Casa da Criatividade:\nPara acabar com o ciúme na vida romântica. Para trazer sabedoria para fazer investimentos sábios. Para trazer paz às situações da vida romântica.\n\n",
+            "5ª Casa da Criatividade:\nPara acabar com o ciúme na vida romântica.\nPara trazer sabedoria para fazer investimentos sábios. Para trazer paz às situações da vida romântica.\n\n",
             "6ª Casa de Serviço e Saúde:\nPara manter uma boa saúde e força durante os momentos de estresse.\n\n",
-            "7ª Casa de Casamento e Parceria:\nPara trazer paz ao casamento. Para criar espaço em um relacionamento para resolver desentendimentos.\n\n",
+            "7ª Casa de Casamento e Parceria:\nPara trazer paz ao casamento.\nPara criar espaço em um relacionamento para resolver desentendimentos.\n\n",
             "8ª Casa da Morte e Novos Começos:\nPara trazer harmonia às finanças.\n\n",
             "9ª Casa de Exploração Mental:\nPara defender os próprios pensamentos, crenças e obras de arte contra os críticos.\n\n",
-            "10ª Casa da Carreira:\nPara encontrar um equilíbrio entre a carreira e a vida pessoal. Para vencer a competição por uma promoção cobiçada. Para encorajar os superiores a serem tolerantes com você.\n\n",
+            "10ª Casa da Carreira:\nPara encontrar um equilíbrio entre a carreira e a vida pessoal.\nPara vencer a competição por uma promoção cobiçada.\nPara encorajar os superiores a serem tolerantes com você.\n\n",
             "11ª Casa de Esperanças, Desejos e Amigos:\nPara trazer harmonia ao relacionamento com amigos e conhecidos.\n\n",
-            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara trazer paz às emoções. Para trazer paz de espírito. Para liberar o passado."
+            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara trazer paz às emoções.\nPara trazer paz de espírito. Para liberar o passado."
         ]
     },
     {
@@ -1929,6 +1929,20 @@ daemons = [
         "planet": "Marte",
         "direction": "Sul",
         "pathworking": "Um fogo que devora bosques\nUm rio desbordado, alagando tudo à medida que avança\nUma pedra alta, onde observamos tudo, seguros\nUma sensação de poder",
+        "houses": [
+            "1ª Casa de Si mesmo:\nPara trazer clareza ao caminho de vida.\nPara se defender quando a autoridade é questionada.\nPara se conectar com outras pessoas quando se sente sozinho.\n\n",
+            "2ª Casa de Possessões:\nPara trazer resolução para problemas financeiros.\nPara ajuda na resolução de dívidas.\n\n",
+            "3ª Casa das Comunicações:\nPara trazer segurança e facilidade durante a viagem.\nPara trazer força quando as responsabilidades pesam sobre você.\n\n",
+            "4ª Casa do Lar:\nEncontrar uma forma de conciliar lazer com responsabilidade.\n\n",
+            "5ª Casa da Criatividade:\nPara trazer fortuna para investimentos financeiros.\nPara trazer calor e sentimentos genuínos de volta a um relacionamento que se tornou obsoleto e rotineiro.\n\n",
+            "6ª Casa de Serviço e Saúde:\nPara enfrentar o escrutínio no local de trabalho e sair por cima.\n\n",
+            "7ª Casa de Casamento e Parceria:\nPara ver as falhas em um relacionamento atual com o propósito de corrigi-las.\nPara obter a cooperação de outros.\n\n",
+            "8ª Casa da Morte e Novos Começos:\nPara permitir que seu dinheiro vá mais longe.\n\n",
+            "9ª Casa de Exploração Mental:\nSer cético, mas manter a mente aberta.\nPara permanecer firme quando a fé é testada.\n\n",
+            "10ª Casa da Carreira:\nPara fazer com que sua autoridade seja reconhecida e respeitada.\n\n",
+            "11ª Casa de Esperanças, Desejos e Amigos:\nPara superar aqueles que o defendem o caminho da realização de seus objetivos.\n\n",
+            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara acabar com a procrastinação.\nPara suportar o peso da responsabilidade sem diminuir o ritmo."
+        ]
     },
     {
         "id": 35,
@@ -1938,6 +1952,20 @@ daemons = [
         "planet": "Lua",
         "direction": "Sul",
         "pathworking": "Um escudo e uma espada, sujos de sangue\nUm guerreiro com armadura completa e uma lança\nO arsenal de um castelo, cheia de instrumentos de guerra\nUma sensação de agressividade",
+        "houses": [
+            "1ª Casa de Si mesmo:\nPara causar uma boa impressão nos outros com naturalidade e facilidade.\nPara evitar a criação de inimigos enquanto realiza seus objetivos.\n\n",
+            "2ª Casa de Possessões:\nPara trazer sabedoria para investir com sabedoria.\n\n",
+            "3ª Casa das Comunicações:\nPara garantir que os problemas sejam resolvidos rapidamente e não se transformem em um grande problema.\n\n",
+            "4ª Casa do Lar:\nPara melhorar o relacionamento com os pais.\n\n",
+            "5ª Casa da Criatividade:\nPara trazer boa sorte.\nPara trazer paz e segurança aos relacionamentos românticos.\nPara trazer fortuna para investimentos.\n\n",
+            "6ª Casa de Serviço e Saúde:\nPara manter a força e disciplina durante uma dieta.\nPara trazer boa sorte para a vida profissional.\nPara trazer harmonia ao relacionamento com nossos gerentes e empregadores.\n\n",
+            "7ª Casa de Casamento e Parceria:\nPara trazer igualdade e harmonia para um relacionamento.\n\n",
+            "8ª Casa da Morte e Novos Começos:\nTrazer o foco e o impulso para realizar as ambições de alguém.\n\n",
+            "9ª Casa de Exploração Mental:\nPara superar e alcançar a vitória durante as lutas pelo poder.\n\n",
+            "10ª Casa da Carreira:\nPara facilitar o avanço na carreira.\n\n",
+            "11ª Casa de Esperanças, Desejos e Amigos:\nPara atrair um mentor que pode trazer sucesso para seus objetivos.\n\n",
+            "12ª Casa do Subconsciente, Sonhos e Segredos:\nPara permitir um período de descanso, recuperação e relaxamento.\n"
+        ]
     },
     {
         "id": 36,
