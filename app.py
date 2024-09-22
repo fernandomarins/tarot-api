@@ -3,6 +3,7 @@ from tarot import cards
 from rune import runes
 from daemon import daemons
 from sangoma import sangoma
+from alphabet import alphabet
 
 app = Flask(__name__)
 
@@ -25,16 +26,9 @@ def get_all_daemons():
 def get_all_bones():
     return jsonify(sangoma)
 
-
-@app.route("/get_card/<int:card_id>", methods=["GET"])
-def get_card(card_id):
-    card = next((c for c in cards if c["id"] == card_id), None)
-
-    if card:
-        return jsonify(card)
-    else:
-        return jsonify({"error": "Card not found"}), 404
-
+@app.route("/alphabet", methods=["GET"])
+def get_all_bones():
+    return jsonify(alphabet)
 
 if __name__ == "__main__":
     app.run(debug=True)
