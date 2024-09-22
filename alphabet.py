@@ -1,5 +1,5 @@
 alphabet = [
-    {"letter": "A", "name": "ACE", "value": 6, "pronunciation": "AH", "meaning": "Forçar\nCriar uma ponte\nriar"},
+    {"letter": "A", "name": "ACE", "value": 6, "pronunciation": "AH", "meaning": "Forçar\nCriar uma ponte\nCriar"},
     {"letter": "B", "name": "BA", "value": 4, "pronunciation": "BAH", "meaning": "Segurar\nConter\nRedesenhar\nLevar Tempo\nDemorar\nCorrigir e aperfeiçoar"},
     {"letter": "C", "name": "CESE", "value": 6, "pronunciation": "CUH", "meaning": "Lutar\nOuvir"},
     {"letter": "D", "name": "DE (DEE)", "value": 7, "pronunciation": "DAH", "meaning": "Deixar como está\bMostrar apoio"},
