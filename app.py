@@ -11,7 +11,6 @@ app = Flask(__name__)
 def get_all_cards():
     return jsonify(cards)
 
-
 @app.route("/runes", methods=["GET"])
 def get_all_runes():
     return jsonify(runes)
@@ -21,13 +20,12 @@ def get_all_runes():
 def get_all_daemons():
     return jsonify(daemons)
 
-
 @app.route("/sangoma", methods=["GET"])
 def get_all_bones():
     return jsonify(sangoma)
 
 @app.route("/alphabet", methods=["GET"])
-def get_all_bones():
+def get_all_letters():
     return jsonify(alphabet)
 
 if __name__ == "__main__":
