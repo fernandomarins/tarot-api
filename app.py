@@ -31,7 +31,7 @@ def get_all_letters():
 
 @app.route("/astrology", methods=["GET"])
 def get_astrology():
-    return jsonify(alphabet)
+    return jsonify(astrology)
 
 if __name__ == "__main__":
     app.run(debug=True)
