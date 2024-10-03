@@ -6,6 +6,7 @@ from sangoma import sangoma
 from alphabet import alphabet
 from astrology import astrology
 from hoodoo import hoodoo
+from herbs import herbs
 
 app = Flask(__name__)
 
@@ -37,6 +38,10 @@ def get_astrology():
 @app.route("/hoodoo", methods=["GET"])
 def get_hoodoo():
     return jsonify(hoodoo)
+    
+@app.route("/herbs", methods=["GET"])
+def get_herbs():
+    return jsonify(herbs)
 
 if __name__ == "__main__":
     app.run(debug=True)
