@@ -5,6 +5,7 @@ from daemon import daemons
 from sangoma import sangoma
 from alphabet import alphabet
 from astrology import astrology
+from hoodoo import hoodoo
 
 app = Flask(__name__)
 
@@ -32,6 +33,10 @@ def get_all_letters():
 @app.route("/astrology", methods=["GET"])
 def get_astrology():
     return jsonify(astrology)
+
+@app.route("/hoodoo", methods=["GET"])
+def get_hoodoo():
+    return jsonify(hoodoo)
 
 if __name__ == "__main__":
     app.run(debug=True)
