@@ -38,7 +38,7 @@ hoodoo = {
                            }
                            ],
              "use": "Para banir qualquer coisa indesejada em sua vida.",
-             "oil_type": "limpeza"
+             "category_type": "limpeza"
              }
              ,
              {
@@ -62,7 +62,7 @@ hoodoo = {
                            }
                            ],
              "use": "Para se proteger de energias e pessoas negativas.",
-                          "oil_type": "proteção"
+                          "category_type": "proteção"
              },
              {
              "name": "Uncrossing",
@@ -85,7 +85,7 @@ hoodoo = {
                            }
                            ],
              "use": "Para remover cruzamentos e azarações.",
-                          "oil_type": "limpeza"
+                          "category_type": "limpeza"
              },
              {
   "name": "Reverso",
@@ -108,7 +108,7 @@ hoodoo = {
     }
   ],
   "use": "Para mandar de volta todo e qualquer ato feito ou lançado sobre você ou por um alvo. Tudo o que foi enviado, é mandado de volta na mesma energia.",
-               "oil_type": "limpeza"
+               "category_type": "limpeza"
 },
 {
   "name": "Van Van",
@@ -128,7 +128,7 @@ hoodoo = {
     }
   ],
   "use": "Para atrair sorte, dinheiro e afastar a negatividade. É muito conhecido entre os conjures Hoodoo como óleo coringa para emergências.",
-               "oil_type": "sorte"
+               "category_type": "sorte"
 },
 {
   "name": "Fast Luck",
@@ -145,7 +145,7 @@ hoodoo = {
     }
   ],
   "use": "Sorte rápida.",
-               "oil_type": "sorte"
+               "category_type": "sorte"
 },
 {
   "name": "Chuva de Ouro",
@@ -177,7 +177,7 @@ hoodoo = {
     }
   ],
   "use": "Para atração de dinheiro.",
-               "oil_type": "prosperidade"
+               "category_type": "prosperidade"
 },
 {
   "name": "Corta e Limpa",
@@ -197,7 +197,7 @@ hoodoo = {
     }
   ],
   "use": "Para cortar e limpar o alvo de energias e pessoas.",
-               "oil_type": "limpeza"
+               "category_type": "limpeza"
 },
 {
   "name": "High John Conqueror",
@@ -220,7 +220,7 @@ hoodoo = {
     }
   ],
   "use": "Para vencer e ter sucesso nos objetivos.",
-               "oil_type": "sucesso"
+               "category_type": "sucesso"
 },
 {
   "name": "Blockbuster",
@@ -240,7 +240,7 @@ hoodoo = {
     }
   ],
   "use": "Para quebrar barreiras energéticas e abrir oportunidades.",
-               "oil_type": "quebrar barreiras"
+               "category_type": "quebrar barreiras"
 },
 {
   "name": "Come to me",
@@ -263,7 +263,7 @@ hoodoo = {
     }
   ],
   "use": "Atrativo sexual. Atrai olhares para si ou para o alvo.",
-               "oil_type": "amor"
+               "category_type": "amor"
 },
 {
   "name": "Shi Shi",
@@ -283,7 +283,7 @@ hoodoo = {
     }
   ],
   "use": "Atrai dinheiro e supera a pobreza.",
-               "oil_type": "prosperidade"
+               "category_type": "prosperidade"
 }
 
              ]
