@@ -16,7 +16,7 @@ hoodoo = {
                            }
                            ],
              "procedure": "Este é um feitiço muito versátil que pode ser usado para banir pessoas, coisas que você precisar. Você vai escrever o nome (inimigo) em uma vela preta, vista com óleo de banimento. Alguns conjures escolhem escrever o nome de cabeça para baixo e de trás para a frente. A escolha, no entanto, é sua. Pegue os alfinetes e introduza-os através da vela entre cada letra do nome. Se você puder obter qualquer link pessoal, envolva-os em uma petição por escrito colocada sob a vela. À medida que a vela diminuir a cada letra do nome, faça sua oração para que ele saia. Você pode dizer algo como:\n\n\"Senhor, como você fez o cego ver, deixe (fulano) ver que ele não pertence mais aqui; como você fez o coxo andar, deixe-o sair de minha vida para sempre; ao curar os enfermos, cure as feridas que (fulano) infligiu sobre mim e minha família, etc.…\"\n\nComo você pode ver, você pode adaptar o texto de sua oração às suas necessidades específicas.\n\nQuando a vela queimar, prenda os alfinetes na petição, despache tudo em um rio, cachoeira e vá embora sem olhar para trás.",
-                          "category_type": "limpeza"
+             "category_type": "limpeza"
              },
              {
              "name": "Óleo de banimento",
@@ -64,6 +64,58 @@ hoodoo = {
                            ],
              "use": "Para se proteger de energias e pessoas negativas.",
              "category_type": "proteção"
+             },
+             {
+             "name": "Óleo Come To Me",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Alcaçuz"
+                           },
+                           {
+                           "name": "Catnip"
+                           },
+                           {
+                           "name": "Damiana"
+                           },
+                           {
+                           "name": "Louro"
+                           },
+                           {
+                           "name": "Ylang Ylang ou Sândalo"
+                           },
+                           {
+                           "name": "Óleo de semente de uva"
+                           }
+                           ],
+             "use": "Para atrair alguém.",
+                          "category_type": "amor"
+             },
+             {
+             "name": "Óleo Coroa de Sucesso",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Casca de Laranja"
+                           },
+                           {
+                           "name": "Pimenta da Jamaica"
+                           },
+                           {
+                           "name": "Glitter Dourado ou ouro"
+                           },
+                           {
+                           "name": "Gengibre"
+                           },
+                           {
+                           "name": "Cravo da Índia"
+                           },
+                           {
+                           "name": "Óleo de Milho"
+                           }
+                           ],
+             "use": "Para atrair sucesso e realizar conquistas.",
+                          "category_type": "sucesso"
              },
              {
              "name": "Uncrossing",
