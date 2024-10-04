@@ -3,7 +3,7 @@ hoodoo = {
     "items":[
              {
              "name": "Banimento da vela preta",
-             "type": "limpeza",
+             "type": "feitiço",
              "materials": [
                            {
                            "name":"1 vela preta"
@@ -15,7 +15,8 @@ hoodoo = {
                            "name": "Óleo de banimento",
                            }
                            ],
-             "procedure": "Este é um feitiço muito versátil que pode ser usado para banir pessoas, coisas que você precisar. Você vai escrever o nome (inimigo) em uma vela preta, vista com óleo de banimento. Alguns conjures escolhem escrever o nome de cabeça para baixo e de trás para a frente. A escolha, no entanto, é sua. Pegue os alfinetes e introduza-os através da vela entre cada letra do nome. Se você puder obter qualquer link pessoal, envolva-os em uma petição por escrito colocada sob a vela. À medida que a vela diminuir a cada letra do nome, faça sua oração para que ele saia. Você pode dizer algo como:\n\n\"Senhor, como você fez o cego ver, deixe (fulano) ver que ele não pertence mais aqui; como você fez o coxo andar, deixe-o sair de minha vida para sempre; ao curar os enfermos, cure as feridas que (fulano) infligiu sobre mim e minha família, etc.…\"\n\nComo você pode ver, você pode adaptar o texto de sua oração às suas necessidades específicas.\n\nQuando a vela queimar, prenda os alfinetes na petição, despache tudo em um rio, cachoeira e vá embora sem olhar para trás."
+             "procedure": "Este é um feitiço muito versátil que pode ser usado para banir pessoas, coisas que você precisar. Você vai escrever o nome (inimigo) em uma vela preta, vista com óleo de banimento. Alguns conjures escolhem escrever o nome de cabeça para baixo e de trás para a frente. A escolha, no entanto, é sua. Pegue os alfinetes e introduza-os através da vela entre cada letra do nome. Se você puder obter qualquer link pessoal, envolva-os em uma petição por escrito colocada sob a vela. À medida que a vela diminuir a cada letra do nome, faça sua oração para que ele saia. Você pode dizer algo como:\n\n\"Senhor, como você fez o cego ver, deixe (fulano) ver que ele não pertence mais aqui; como você fez o coxo andar, deixe-o sair de minha vida para sempre; ao curar os enfermos, cure as feridas que (fulano) infligiu sobre mim e minha família, etc.…\"\n\nComo você pode ver, você pode adaptar o texto de sua oração às suas necessidades específicas.\n\nQuando a vela queimar, prenda os alfinetes na petição, despache tudo em um rio, cachoeira e vá embora sem olhar para trás.",
+                          "category_type": "limpeza"
              },
              {
              "name": "Óleo de banimento",
@@ -285,8 +286,8 @@ hoodoo = {
              "use": "Atrai dinheiro e supera a pobreza.",
              "category_type": "prosperidade"
              },
-                          {
-             "name": "Jar para o amor",
+             {
+             "name": "Amor",
              "type": "jar",
              "materials": [
                            {
@@ -304,12 +305,76 @@ hoodoo = {
                            {
                            "name": "1 cristal de quartzo rosa – para atrair energias venusianas"
                            },
-                                                      {
+                           {
                            "name": "Link da pessoa (foto, cabelo, unha, sêmen ou sangue menstrual)"
                            }
                            ],
              "procedure": "Acenda uma vela de 7 dias vestida com óleo de amor, como \"follow me boy\" ou \"follow me girl\".",
              "category_type": "amor"
+             },
+             {
+             "name": "\"Hot Foot\", para o inimigo sumir (não faz mal)",
+             "type": "jar",
+             "materials": [
+                           {
+                           "name": "Poeira de cemitério – para ligar o reino fantasma e criar um servidor"
+                           },
+                           {
+                           "name": "Enxofre – para secar os caminhos"
+                           },
+                           {
+                           "name": "Pimenta da Jamaica – para esquentar o feitiço"
+                           },
+                           {
+                           "name": "Pimenta Preta – para esquentar os caminhos"
+                           },
+                           {
+                           "name": "Pimenta Caiena – para esquentar as palavras"
+                           },
+                           {
+                           "name": "Areia magnética – para afastar a pessoa dos seus caminhos"
+                           },
+                           {
+                           "name": "Link – para interligar o feitiço"
+                           },
+                           {
+                           "name": "Óleo de rícino, mineral ou vinagre de maçã"
+                           }
+                           ],
+             "procedure": "Conjure o feitiço com os Salmos 104 ou 109 e uma vela preta vestida com vinagre de maçã ou azeite de dendê.",
+             "category_type": "azaração"
+             },
+             {
+             "name": "Proteção",
+             "type": "jar",
+             "materials": [
+                           {
+                           "name": "13 pregos de ferro – para proteção"
+                           },
+                           {
+                           "name": "Amônia – para limpeza"
+                           },
+                           {
+                           "name": "Sal grosso – para exorcizar"
+                           },
+                           {
+                           "name": "Sal negro – para ataque e defesa"
+                           },
+                           {
+                           "name": "Cânfora – para manter a vibração"
+                           },
+                           {
+                           "name": "Link – para conectar o alvo ao feitiço"
+                           },
+                           {
+                           "name": "Cacos de vidro – para quebrar más intenções"
+                           },
+                           {
+                           "name": "Óleo de rícino, mineral ou vinagre de maçã"
+                           }
+                           ],
+             "procedure": "Garanta que o frasco esteja completamente escuro. Alimente o jar com uma vela vermelha vestida com óleo firewall.",
+             "category_type": "proteção"
              }
              
              ]
