@@ -62,7 +62,7 @@ hoodoo = {
                            }
                            ],
              "use": "Para se proteger de energias e pessoas negativas.",
-                          "category_type": "proteção"
+             "category_type": "proteção"
              },
              {
              "name": "Uncrossing",
@@ -85,206 +85,232 @@ hoodoo = {
                            }
                            ],
              "use": "Para remover cruzamentos e azarações.",
-                          "category_type": "limpeza"
+             "category_type": "limpeza"
              },
              {
-  "name": "Reverso",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Capim limão"
-    },
-    {
-      "name": "Sal grosso"
-    },
-    {
-      "name": "Sálvia"
-    },
-    {
-      "name": "Eucalipto"
-    },
-    {
-      "name": "Óleo de girassol"
-    }
-  ],
-  "use": "Para mandar de volta todo e qualquer ato feito ou lançado sobre você ou por um alvo. Tudo o que foi enviado, é mandado de volta na mesma energia.",
-               "category_type": "limpeza"
-},
-{
-  "name": "Van Van",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Citronela"
-    },
-    {
-      "name": "Verbena"
-    },
-    {
-      "name": "Capim limão"
-    },
-    {
-      "name": "Óleo mineral"
-    }
-  ],
-  "use": "Para atrair sorte, dinheiro e afastar a negatividade. É muito conhecido entre os conjures Hoodoo como óleo coringa para emergências.",
-               "category_type": "sorte"
-},
-{
-  "name": "Fast Luck",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Canela em pau"
-    },
-    {
-      "name": "Pirita"
-    },
-    {
-      "name": "Óleo mineral"
-    }
-  ],
-  "use": "Sorte rápida.",
-               "category_type": "sorte"
-},
-{
-  "name": "Chuva de Ouro",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Feno grego"
-    },
-    {
-      "name": "Confrei"
-    },
-    {
-      "name": "Sassafrás"
-    },
-    {
-      "name": "Pirita"
-    },
-    {
-      "name": "Moeda corrente ou dolar"
-    },
-    {
-      "name": "Imã"
-    },
-    {
-      "name": "Purpurina dourada ou ouro em folhas"
-    },
-    {
-      "name": "Azeite de Oliva ou Girassol"
-    }
-  ],
-  "use": "Para atração de dinheiro.",
-               "category_type": "prosperidade"
-},
-{
-  "name": "Corta e Limpa",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Arruda"
-    },
-    {
-      "name": "Sálvia"
-    },
-    {
-      "name": "Casca de limão"
-    },
-    {
-      "name": "Óleo de Girassol"
-    }
-  ],
-  "use": "Para cortar e limpar o alvo de energias e pessoas.",
-               "category_type": "limpeza"
-},
-{
-  "name": "High John Conqueror",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Zimbro"
-    },
-    {
-      "name": "Jalapa"
-    },
-    {
-      "name": "Folha de louro"
-    },
-    {
-      "name": "Gengibre"
-    },
-    {
-      "name": "Óleo de Amêndoa doce"
-    }
-  ],
-  "use": "Para vencer e ter sucesso nos objetivos.",
-               "category_type": "sucesso"
-},
-{
-  "name": "Blockbuster",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Anil"
-    },
-    {
-      "name": "Cânfora"
-    },
-    {
-      "name": "Menta"
-    },
-    {
-      "name": "Mirra"
-    }
-  ],
-  "use": "Para quebrar barreiras energéticas e abrir oportunidades.",
-               "category_type": "quebrar barreiras"
-},
-{
-  "name": "Come to me",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Imãs"
-    },
-    {
-      "name": "Pétalas de rosas vermelhas"
-    },
-    {
-      "name": "Damiana"
-    },
-    {
-      "name": "Canela"
-    },
-    {
-      "name": "Cravo da Índia"
-    }
-  ],
-  "use": "Atrativo sexual. Atrai olhares para si ou para o alvo.",
-               "category_type": "amor"
-},
-{
-  "name": "Shi Shi",
-  "type": "óleo",
-  "materials": [
-    {
-      "name": "Cravo da Índia"
-    },
-    {
-      "name": "Gengibre"
-    },
-    {
-      "name": "Louro"
-    },
-    {
-      "name": "Angélica"
-    }
-  ],
-  "use": "Atrai dinheiro e supera a pobreza.",
-               "category_type": "prosperidade"
-}
-
+             "name": "Reverso",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Capim limão"
+                           },
+                           {
+                           "name": "Sal grosso"
+                           },
+                           {
+                           "name": "Sálvia"
+                           },
+                           {
+                           "name": "Eucalipto"
+                           },
+                           {
+                           "name": "Óleo de girassol"
+                           }
+                           ],
+             "use": "Para mandar de volta todo e qualquer ato feito ou lançado sobre você ou por um alvo. Tudo o que foi enviado, é mandado de volta na mesma energia.",
+             "category_type": "limpeza"
+             },
+             {
+             "name": "Van Van",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Citronela"
+                           },
+                           {
+                           "name": "Verbena"
+                           },
+                           {
+                           "name": "Capim limão"
+                           },
+                           {
+                           "name": "Óleo mineral"
+                           }
+                           ],
+             "use": "Para atrair sorte, dinheiro e afastar a negatividade. É muito conhecido entre os conjures Hoodoo como óleo coringa para emergências.",
+             "category_type": "sorte"
+             },
+             {
+             "name": "Fast Luck",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Canela em pau"
+                           },
+                           {
+                           "name": "Pirita"
+                           },
+                           {
+                           "name": "Óleo mineral"
+                           }
+                           ],
+             "use": "Sorte rápida.",
+             "category_type": "sorte"
+             },
+             {
+             "name": "Chuva de Ouro",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Feno grego"
+                           },
+                           {
+                           "name": "Confrei"
+                           },
+                           {
+                           "name": "Sassafrás"
+                           },
+                           {
+                           "name": "Pirita"
+                           },
+                           {
+                           "name": "Moeda corrente ou dolar"
+                           },
+                           {
+                           "name": "Imã"
+                           },
+                           {
+                           "name": "Purpurina dourada ou ouro em folhas"
+                           },
+                           {
+                           "name": "Azeite de Oliva ou Girassol"
+                           }
+                           ],
+             "use": "Para atração de dinheiro.",
+             "category_type": "prosperidade"
+             },
+             {
+             "name": "Corta e Limpa",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Arruda"
+                           },
+                           {
+                           "name": "Sálvia"
+                           },
+                           {
+                           "name": "Casca de limão"
+                           },
+                           {
+                           "name": "Óleo de Girassol"
+                           }
+                           ],
+             "use": "Para cortar e limpar o alvo de energias e pessoas.",
+             "category_type": "limpeza"
+             },
+             {
+             "name": "High John Conqueror",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Zimbro"
+                           },
+                           {
+                           "name": "Jalapa"
+                           },
+                           {
+                           "name": "Folha de louro"
+                           },
+                           {
+                           "name": "Gengibre"
+                           },
+                           {
+                           "name": "Óleo de Amêndoa doce"
+                           }
+                           ],
+             "use": "Para vencer e ter sucesso nos objetivos.",
+             "category_type": "sucesso"
+             },
+             {
+             "name": "Blockbuster",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Anil"
+                           },
+                           {
+                           "name": "Cânfora"
+                           },
+                           {
+                           "name": "Menta"
+                           },
+                           {
+                           "name": "Mirra"
+                           }
+                           ],
+             "use": "Para quebrar barreiras energéticas e abrir oportunidades.",
+             "category_type": "quebrar barreiras"
+             },
+             {
+             "name": "Come to me",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Imãs"
+                           },
+                           {
+                           "name": "Pétalas de rosas vermelhas"
+                           },
+                           {
+                           "name": "Damiana"
+                           },
+                           {
+                           "name": "Canela"
+                           },
+                           {
+                           "name": "Cravo da Índia"
+                           }
+                           ],
+             "use": "Atrativo sexual. Atrai olhares para si ou para o alvo.",
+             "category_type": "amor"
+             },
+             {
+             "name": "Shi Shi",
+             "type": "óleo",
+             "materials": [
+                           {
+                           "name": "Cravo da Índia"
+                           },
+                           {
+                           "name": "Gengibre"
+                           },
+                           {
+                           "name": "Louro"
+                           },
+                           {
+                           "name": "Angélica"
+                           }
+                           ],
+             "use": "Atrai dinheiro e supera a pobreza.",
+             "category_type": "prosperidade"
+             },
+                          {
+             "name": "Jar para o amor",
+             "type": "jar",
+             "materials": [
+                           {
+                           "name": "Mel ou Groselha – para adoçar"
+                           },
+                           {
+                           "name": "Rosas vermelhas frescas – para aflorar os sentimentos"
+                           },
+                           {
+                           "name": "Canela – atrativo sexual, estimulante"
+                           },
+                           {
+                           "name": "Cardamomo – afrodisíaco"
+                           },
+                           {
+                           "name": "1 cristal de quartzo rosa – para atrair energias venusianas"
+                           },
+                                                      {
+                           "name": "Link da pessoa (foto, cabelo, unha, sêmen ou sangue menstrual)"
+                           }
+                           ],
+             "procedure": "Acenda uma vela de 7 dias vestida com óleo de amor, como \"follow me boy\" ou \"follow me girl\".",
+             "category_type": "amor"
+             }
+             
              ]
 }
