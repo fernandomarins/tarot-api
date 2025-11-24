@@ -61,11 +61,11 @@ sangoma = {
         },
         {
             "name": "1 aberto e 3 fechados",
-            "description": "Sim, mas falta algo"
+            "description": "Não"
         },
         {
             "name": "4 fechados",
-            "description": "Perigo, negativo ou algo que Exú quer dizer como alerta",
+            "description": "Não mesmo!",
         },
     ],
 }
